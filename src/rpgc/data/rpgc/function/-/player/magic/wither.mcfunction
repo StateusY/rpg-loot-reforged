@@ -1,0 +1,13 @@
+advancement revoke @s only rpgc:wither
+scoreboard players set .armor_pen rpgc.temp 999999999
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":0}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:1}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":1}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:12}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":2}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:14}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":3}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:16}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":4}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:18}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":5}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:2}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":6}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:22}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":7}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:24}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":8}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:26}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":9}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:28}]}
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"effects":{"minecraft:wither":{"amplifier":10}}}} run return run function rpgc:damage {damage:[{type:'wither',amount:3}]}

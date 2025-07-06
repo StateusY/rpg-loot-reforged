@@ -1,0 +1,28 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": -1
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "rpgc:bar/edge.png",
+            "height": 8,
+            "ascent": 8,
+            "chars": [
+                "[]"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "rpgc:bar/highlight.png",
+            "height": 8,
+            "ascent": 8,
+            "chars": [
+                "|"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{damage:[{type:'physical',amount:1000}],bow:{draw:20,velocity:10,inaccuracy:1}}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:bow": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

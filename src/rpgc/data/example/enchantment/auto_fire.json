@@ -1,0 +1,39 @@
+{
+    "description": "Auto Fire",
+    "supported_items": "minecraft:bow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "rpgc:-/bow/shoot"
+          },
+          "requirements": {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "rpgc.draw_percent",
+              "scale": 1
+            },
+            "range": 100
+          }
+        }
+      ]
+    }
+  }
+  

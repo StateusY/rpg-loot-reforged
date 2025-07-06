@@ -1,0 +1,1 @@
+execute if score #loaded constant matches 1 run return 1

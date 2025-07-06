@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Scrappy Wooden Sword"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "🗡️1",
+                "🕛1.2",
+                "🤚3"
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

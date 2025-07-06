@@ -1,0 +1,1 @@
+execute store result score @s rpgc.fall run data get entity @s FallDistance 10

@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{damage:[{type:'fire',amount:1}],draw:20,velocity:20,inaccuracy:30,projectiles:50,events:[{type:'flight',run:'particle minecraft:flame ~ ~ ~ 0 0 0 1 5 force'},{type:'flight',run:'particle minecraft:raid_omen ~ ~ ~ 0 0 0 1 5 force'},{type:'impact',run:'summon creeper ~ ~ ~ {NoGravity:1b,Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:100b,Fuse:100,ignited:1b}'}]}"
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "rpgc:bow": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

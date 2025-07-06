@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 1,
+                    "saturation": 1,
+                    "can_always_eat": true,
+                    "eat_seconds": 1,
+                    "using_converts_to": {
+                      "id": "minecraft:stick",
+                      "components": {
+                        "minecraft:food": {
+                          "nutrition": 1,
+                          "saturation": 1,
+                          "can_always_eat": true,
+                          "eat_seconds": 1,
+                          "using_converts_to": {
+                            "id": "minecraft:stick"
+                          }
+                        },
+                        "minecraft:max_damage": 16,
+                        "minecraft:damage": 1
+                      }
+                    }
+                  },
+                  "minecraft:max_damage": 16
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,93 @@
+{
+  "description": "",
+  "supported_items": "minecraft:barrier",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rpgc:-/mob/core/5tick"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "periodic_tick": 5
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rpgc:-/mob/core/tick"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rpgc:-/mob/fall/falling"
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{FallDistance:0}"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "fall_distance": {
+                    "min": 3,
+                    "max": 9999
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rpgc:-/combat/hit/attacker"
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rpgc:-/combat/hit/target"
+        }
+      }
+    ],
+    "minecraft:prevent_equipment_drop": {}
+  }
+}

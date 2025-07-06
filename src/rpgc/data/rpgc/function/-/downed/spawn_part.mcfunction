@@ -1,0 +1,3 @@
+$execute summon item_display run data merge entity @s {Tags:["rpgc.player_part","rpgc.new"],item_display:"thirdperson_righthand",view_range:0.6f,transformation:$(transformation)}
+$loot replace entity @n[type=item_display,tag=rpgc.player_part,tag=rpgc.new] contents loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:player_head","functions":[{"function":"minecraft:fill_player_head","entity":"this"},{"function":"minecraft:set_components","components":{"minecraft:item_model":"rpgc:player"}},{"function":"minecraft:set_custom_model_data","floats":{"values":[$(type)],"mode":"replace_all"}}]}]}]}
+$execute as @n[type=item_display,tag=rpgc.player_part,tag=rpgc.new] run function rpgc:-/downed/spawn_part_ {mount:"$(mount)"}

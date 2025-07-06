@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "model": {
+      "type": "minecraft:head",
+      "kind": "player"
+    },
+    "base": "rpgc:player/right_leg"
+  }
+}

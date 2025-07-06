@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "tags": [
+                {
+                  "id": "rpgc:magic",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "rewards": {
+      "function": "rpgc:-/player/magic/magic"
+    }
+  }

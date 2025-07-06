@@ -1,0 +1,1 @@
+$data modify storage rpgc:temp cmd append value {$(death)}

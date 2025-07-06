@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": -10,
+        "[": -91,
+        ",": -2,
+        "]": 8
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgc:hud/hearts.png",
+      "height": 9,
+      "ascent": -6351,
+      "chars": [
+        "0123456789"
+      ]
+    }
+  ]
+}

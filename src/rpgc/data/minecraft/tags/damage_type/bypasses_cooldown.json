@@ -1,0 +1,9 @@
+{
+    "values": [
+      "player_attack",
+      "mob_attack",
+      "#minecraft:is_projectile",
+      "rpgc:hit"
+    ]
+  }
+  

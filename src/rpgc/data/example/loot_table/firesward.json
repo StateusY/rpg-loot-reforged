@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{damage:[{type:'fire',amount:1}],events:[{type:kill,run:'particle minecraft:explosion'},{type:death,run:'say died'},{type:hit,run:'say stab'},{type:hurt,run:'say owi'}]}"
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "rpgc:weapon": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

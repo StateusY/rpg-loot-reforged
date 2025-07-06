@@ -1,0 +1,2 @@
+$data merge entity @s {HandItems:[{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"$(tag)"},"minecraft:enchantments":{levels:{"rpgc:summon":1}}}},{}]}
+function rpgc:-/mob/summon/spawn

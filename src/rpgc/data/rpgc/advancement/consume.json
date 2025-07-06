@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item"
+      }
+    },
+    "rewards": {
+      "function": "rpgc:-/player/food/consume"
+    }
+  }
+  

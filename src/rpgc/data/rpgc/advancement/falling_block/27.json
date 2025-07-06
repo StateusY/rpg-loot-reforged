@@ -1,0 +1,1 @@
+{"criteria":{"requirement":{"trigger":"minecraft:entity_hurt_player","conditions":{"damage":{"dealt":27,"source_entity":{"type":"minecraft:falling_block"}}}}},"rewards":{"function":"rpgc:-/player/falling_block/27"}}
