@@ -25,7 +25,7 @@ As I attempt to take up the mantle of updating michael9r9r's rpg_loot datapack, 
 ### 1. Not Broken
 To even dream of making this functional enough to put out, it must not be a gauntlet of pain to get it working on your minecraft world only for it to break.
 
-This step requires identifing and fixing all bugs that are currently in rpg_loot and rpgc. As bugs are discovered, they can be found in the "bugs.md" file.
+This step requires identifing and fixing all bugs that are currently in rpg_loot and rpgc. As bugs are discovered, they can be found in the [bugs.md](https://github.com/StateusY/rpg-loot-fork/blob/main/bugs.md) file.
 
 ### 2. Not Old
 This maybe momumental maybe not step is to update rpg_loot and rpgc up to the newest version, which is 1.21.7 (at the time of writing)
