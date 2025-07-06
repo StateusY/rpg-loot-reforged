@@ -1,0 +1,11 @@
+tag @s remove rpg_loot.gale_tick
+scoreboard players set $strength player_motion.api.launch 4000
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":true,"backward":false,"left":false,"right":false}}}} rotated ~ -5 run function player_motion:api/launch_looking
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":false,"backward":true,"left":false,"right":false}}}} rotated ~180 -5 run function player_motion:api/launch_looking
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":false,"backward":false,"left":true,"right":false}}}} rotated ~-90 -5 run function player_motion:api/launch_looking
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":false,"backward":false,"left":false,"right":true}}}} rotated ~90 -5 run function player_motion:api/launch_looking
+
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":true,"backward":false,"left":true,"right":false}}}} rotated ~-45 -5 run function player_motion:api/launch_looking
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":true,"backward":false,"left":false,"right":true}}}} rotated ~45 -5 run function player_motion:api/launch_looking
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":false,"backward":true,"left":true,"right":false}}}} rotated ~-135 -5 run function player_motion:api/launch_looking
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"forward":false,"backward":true,"left":false,"right":true}}}} rotated ~135 -5 run function player_motion:api/launch_looking

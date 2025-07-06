@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "tag": "unknown",
+            "item_model": "minecraft:iron_sword",
+            "contents": {"item":"minecraft:iron_sword",
+            "damage": [{"min": 8.4,"max":10,"type": "physical"}],
+            "attributes": [{ "min": 10, "max": 15, "type": "crit.chance", "operation": "add"}],
+            "lore": [{ "text": "A decently forged metalic sword", "color": "gray", "italic": false}],
+            "name": [{"color":"blue","text":"Rare Iron Sword"}]
+            }
+          },
+          "minecraft:max_damage": 800
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:attack_speed",
+            "id": "sword",
+            "amount": {"min": -2.4,"max": -2.5
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "rpgc:weapon": 1
+        }
+      }
+    ]
+  }

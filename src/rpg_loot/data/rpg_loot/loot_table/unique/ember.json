@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rpg_loot:unidentified_item"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": "\"Unknown Item\"",
+        "minecraft:item_model": "rpg_loot:unknown",
+        "minecraft:custom_data": {
+          "tag": "unknown",
+          "item_model": "minecraft:bow",
+          "contents": {
+            "item": "minecraft:bow",
+            "damage": [{"amount":15,"type": "fire"} ],
+            "attributes": [{"min": 10,"max": 15,"type": "fire.res","operation": "add"}],
+            "events": [{"type": "click","run": "function rpg_loot:items/ember/tick"},{"type": "hit","run": "function rpg_loot:items/ember/impact"},{"type": "impact","run": "function rpg_loot:items/ember/impact"},{"type": "shoot","run": "function rpg_loot:items/ember/shoot"},{"type": "flight","run": "function rpg_loot:items/ember/flight"},{"type": "swap","run": "function rpg_loot:items/ember/shoot"}],
+            "lore": [{"text": "Draw for 2 seconds to fire an arrow that explodes into a fireball","color": "gray","italic": false},{"text": "Can be over drawn for an extra second to turn into soul fire","color": "gray","italic": false}],
+            "name": [{"bold": true,"color": "#FF3C00","italic": false,"text": "E"},{"color": "#DB5000","text": "m"},{"color": "#F07102","text": "b"},{"color": "#FF8800","text": "e"},{"color": "#D97300","text": "r"}],
+            "bow": {"draw": 40,"velocity": 20}
+          }
+        },
+        "minecraft:enchantment_glint_override": false
+      }
+    },
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "rpgc:bow": 1
+      }
+    }
+  ]
+}

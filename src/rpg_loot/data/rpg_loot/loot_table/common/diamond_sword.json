@@ -1,0 +1,58 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "tag": "unknown",
+            "item_model": "minecraft:diamond_sword",
+            "contents": {"item":"minecraft:diamond_sword",
+            "damage": [{"min": 6,"max":7,"type":"physical"}],
+            "lore": [{ "text": "A sword made of crude gemstones", "color": "gray", "italic": false}],
+            "name": [{"color":"gray","text":"Common Diamond Sword"}]
+            }
+          },
+          "minecraft:max_damage": 100
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {"min": -0.5,"max": 0
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "attribute": "minecraft:attack_speed",
+            "id": "sword",
+            "amount": {"min": -2.4,"max": -2.6
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "rpgc:weapon": 1
+        }
+      }
+    ]
+  }

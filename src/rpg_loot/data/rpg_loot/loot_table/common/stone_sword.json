@@ -1,0 +1,58 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "tag": "unknown",
+            "item_model": "minecraft:stone_sword",
+            "contents": {"item":"minecraft:stone_sword",
+            "damage": [{"min": 4,"max":5,"type": "physical"}],
+            "lore": [{ "text": "A sword made from sticks and stones", "color": "gray", "italic": false}],
+            "name": [{"color":"gray","text":"Common Stone Sword"}]
+            }
+          },
+          "minecraft:max_damage": 70
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {"min": -0.5,"max": 0
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "attribute": "minecraft:attack_speed",
+            "id": "sword",
+            "amount": {"min": -2.4,"max": -2.6
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "rpgc:weapon": 1
+        }
+      }
+    ]
+  }

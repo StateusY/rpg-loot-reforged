@@ -1,0 +1,6 @@
+{
+    "values": [
+        "rpg_loot:load",
+	"player_motion:internal/technical/load"
+    ]
+}

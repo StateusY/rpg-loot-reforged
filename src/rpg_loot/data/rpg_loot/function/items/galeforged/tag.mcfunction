@@ -1,0 +1,2 @@
+
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"minecraft:player","input":{"jump":true}},"flags":{"is_swimming":false,"is_flying":false}}} run tag @s add rpg_loot.gale_tick

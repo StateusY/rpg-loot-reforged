@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "tag": "unknown",
+            "item_model": "minecraft:netherite_sword",
+            "contents": {"item":"minecraft:netherite_sword",
+            "damage": [{"min":10.2,"max":11.7,"type":"physical"},{"min":1.6,"max":3.3,"type":"fire"}],
+            "lore": [{ "text": "A ancient relic still burning to the touch", "color": "gray", "italic": false}],
+            "name": [{"color":"blue","text":"Rare Netherite Sword"}]
+            }
+          },
+          "minecraft:max_damage": 480
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:attack_speed",
+            "id": "sword",
+            "amount": {"min": -2.4,"max": -2.6
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "rpgc:weapon": 1
+        }
+      }
+    ]
+  }

@@ -1,0 +1,60 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:item_name": "\"Unknown Item\"",
+          "minecraft:item_model": "rpg_loot:unknown",
+          "minecraft:custom_data": {
+            "tag":"unknown",
+            "item_model": "minecraft:chest",
+            "contents": {
+              "item": "minecraft:diamond",
+              "attributes": [
+                { "amount": -0.5, "type": "max_hp", "operation": "mul" },
+                { "min": 10, "max": 20, "type": "armor", "operation": "add" }
+              ],
+              "name": "'attribute test'"
+            }
+          }
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {
+              "min": -1,
+              "max": 1
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "attribute": "minecraft:attack_speed",
+            "id": "sword",
+            "amount": {
+              "min": -1,
+              "max": 1
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false
+      }
+    ]
+  }

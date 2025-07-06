@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "tag": "unknown",
+            "item_model": "minecraft:iron_chestplate",
+            "contents": {
+              "item": "minecraft:iron_chestplate",
+              "attributes": [{"amount":0.25,"type": "fall.res","operation": "mul"},{"min": 13,"max": 18,"type": "armor","operation": "add"}],
+              "lore": [{"text": "Wearing a full set of Gale Forged","color": "gray","italic": false},{"text": "grants increased air speed","color": "gray","italic": false}],
+              "name": [{"bold": true,"color": "blue","italic": false,"text": "Gale Forged Chestplate"}]
+            }
+          },
+          "minecraft:enchantment_glint_override": false
+        }
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "rpgc:armor": 1,
+          "rpg_loot:gale":1
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:jump_strength",
+            "id": "gale_chest",
+            "amount": 0.10,
+            "operation": "add_multiplied_total",
+            "slot": "armor"
+          }
+        ],
+        "replace": false
+      }
+    ]
+  }

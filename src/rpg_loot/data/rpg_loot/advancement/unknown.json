@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": {"tag":"unknown"}
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg_loot:discover/click"
+    }
+  }
