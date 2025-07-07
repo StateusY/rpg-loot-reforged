@@ -4,6 +4,9 @@
 - (FIXED) Hordlings multiply like the plaque
 - (FIXED) Fall damage is too high for the player only
 - (FIXED) Health bars are not given to Armadillos, Bogged, Camels, Creakings, and Sniffers
+
+---
+  
 - [UNK] Damage resistances
 - [IMPORTANT] Spider, Cave Spider, and Horse health bars stick to the newest entity (spawing wise of the listed ones)
 - [MID] Blazes have ERROR health bars
