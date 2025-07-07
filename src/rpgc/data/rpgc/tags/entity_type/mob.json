@@ -1,15 +1,21 @@
 {
     "replace": false,
     "values": [
+      "minecraft:allay",
+      "minecraft:armadillo",
+      "minecraft:axolotl",
       "minecraft:bat",
       "minecraft:bee",
       "minecraft:blaze",
+      "minecraft:bogged",
       "minecraft:breeze",
+      "minecraft:camel",
       "minecraft:cat",
       "minecraft:cave_spider",
       "minecraft:chicken",
       "minecraft:cod",
       "minecraft:cow",
+      "minecraft:creaking",
       "minecraft:creeper",
       "minecraft:dolphin",
       "minecraft:donkey",
@@ -20,6 +26,7 @@
       "minecraft:endermite",
       "minecraft:evoker",
       "minecraft:fox",
+      "minecraft:frog",
       "minecraft:ghast",
       "minecraft:glow_squid",
       "minecraft:goat",
@@ -52,6 +59,7 @@
       "minecraft:skeleton",
       "minecraft:skeleton_horse",
       "minecraft:slime",
+      "minecraft:sniffer",
       "minecraft:snow_golem",
       "minecraft:spider",
       "minecraft:squid",
@@ -74,9 +82,6 @@
       "minecraft:zombie",
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
-      "minecraft:zombified_piglin",
-      "minecraft:allay",
-      "minecraft:axolotl",
-      "minecraft:frog"
+      "minecraft:zombified_piglin"
     ]
   }

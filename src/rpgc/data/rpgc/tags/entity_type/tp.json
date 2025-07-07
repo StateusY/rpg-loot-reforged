@@ -3,7 +3,10 @@
     "values": [
       "minecraft:spider",
       "minecraft:cave_spider",
-      "minecraft:horse"
+      "minecraft:horse",
+      "minecraft:mule",
+      "minecraft:donkey",
+      "minecraft:shulker"
     ]
   }
   
