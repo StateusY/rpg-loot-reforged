@@ -4,7 +4,7 @@
 - (FIXED) Hordlings multiply like the plaque
 - (FIXED) Fall damage is too high for the player only
 - (FIXED) Health bars are not given to Armadillos, Bogged, Camels, Creakings, and Sniffers
-- (FIXED) Warden sonic booms do no damage
+- (FIXED) Warden sonic booms do no damage to players
 
 ---
   
@@ -15,3 +15,7 @@
 - [IMPORTANT] Shulker health bars do not move when the shulker teleports - they also disconnect from the shulker's health
 - [LOW] If a mob takes damage before they are given a health bar, they die instantly
 - [MID] Health can never exceed base therefore ignoring absorption
+- [MID] Warden sonic booms do no damage to mobs
+- [MID] cactus do no damage to mobs
+- [MID] suffoction does no damage to mobs
+- [LOW] mobs register magic damage as physical damage
