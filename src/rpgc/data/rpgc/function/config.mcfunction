@@ -22,6 +22,7 @@ function rpgc:register_damage {prefix:"✊",type:physical,color:'#B48C4B'}
 function rpgc:register_damage {prefix:"✨",type:magic,color:'#8803fc'}
 function rpgc:register_damage {prefix:"💔",type:wither,color:black}
 function rpgc:register_damage {prefix:"❤",type:heal,color:'#34eb43'}
+function rpgc:register_damage {prefix:"🎵",type:sonic,color:'#009295'}
 
 
 #Debug Text
