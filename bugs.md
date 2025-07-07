@@ -14,3 +14,4 @@
 - [IMPORTANT] Shulker health bars do not move when the shulker teleports - they also disconnect from the shulker's health
 - [MID] Warden sonic booms do no damage
 - [LOW] If a mob takes damage before they are given a health bar, they die instantly
+- [MID] Health can never exceed base therefore ignoring absorption
