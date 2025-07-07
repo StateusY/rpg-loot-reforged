@@ -9,7 +9,7 @@ If you see any code that looks:
   
   c. fast
   
-That is probally LostPuppet's code, he is a much better programmer than I :skull:, so all credit goes to him - this project wouldn't be where it is now if it weren't for him. Also there is a mysterious friend who helped him, though his name I do not know.
+That is probally LostPuppet's code, he is a much better programmer than I :skull:, so all credit goes to him - this project wouldn't be where it is now if it weren't for him. Also [Dawnkiro](https://github.com/DawnKiro) helped him out on the custom attribute system too.
 
 ---
 
