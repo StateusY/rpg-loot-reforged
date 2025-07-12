@@ -1,4 +1,4 @@
-# rpg-loot-fork
+# rpg-loot-reforged
 This is a fork of [LostPuppet's](https://github.com/LostPuppet) rework on Michael9r9r's rpg_loot datapack
 
 If you see any code that looks:
