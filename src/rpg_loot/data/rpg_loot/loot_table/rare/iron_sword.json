@@ -28,20 +28,6 @@
         }
       },
       {
-        "function": "minecraft:set_attributes",
-        "modifiers": [
-          {
-            "attribute": "minecraft:attack_speed",
-            "id": "sword",
-            "amount": {"min": -2.4,"max": -2.5
-            },
-            "operation": "add_value",
-            "slot": "mainhand"
-          }
-        ],
-        "replace": false
-      },
-      {
         "function": "minecraft:set_enchantments",
         "enchantments": {
           "rpgc:weapon": 1

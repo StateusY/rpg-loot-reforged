@@ -16,23 +16,31 @@
         "components": {
           "minecraft:custom_data": {
             "tag": "unknown",
-            "item_model": "minecraft:netherite_sword",
-            "contents": {"item":"minecraft:netherite_sword",
-            "damage": [{"min":10.2,"max":11.7,"type":"physical"},{"min":1.6,"max":3.3,"type":"fire"}],
-            "lore": [{ "text": "A ancient relic still burning to the touch", "color": "gray", "italic": false}],
-            "name": [{"color":"blue","text":"Rare Netherite Sword"}]
+            "item_model": "minecraft:stone_sword",
+            "contents": {"item":"minecraft:stone_sword",
+            "damage": [{"min": 5,"max":9,"type": "physical"}],
+            "lore": [{ "text": "A sword made from sticks and polished stones", "color": "gray", "italic": false}],
+            "name": [{"color":"gold","text":"Legendary Stone Sword"}]
             }
           },
-          "minecraft:max_damage": 480
+          "minecraft:max_damage": 280
         }
       },
       {
         "function": "minecraft:set_attributes",
         "modifiers": [
           {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {"min": 0,"max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
             "attribute": "minecraft:attack_speed",
             "id": "sword",
-            "amount": {"min": -2.6,"max": -2.4
+            "amount": {"min": -2.4,"max": -2.6
             },
             "operation": "add_value",
             "slot": "mainhand"

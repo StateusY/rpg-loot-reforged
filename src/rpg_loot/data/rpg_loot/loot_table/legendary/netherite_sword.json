@@ -18,17 +18,25 @@
             "tag": "unknown",
             "item_model": "minecraft:netherite_sword",
             "contents": {"item":"minecraft:netherite_sword",
-            "damage": [{"min":10.2,"max":11.7,"type":"physical"},{"min":1.6,"max":3.3,"type":"fire"}],
+            "damage": [{"min":10.5,"max":13,"type":"physical"},{"min":2.7,"max":5,"type":"fire"}],
             "lore": [{ "text": "A ancient relic still burning to the touch", "color": "gray", "italic": false}],
-            "name": [{"color":"blue","text":"Rare Netherite Sword"}]
+            "name": [{"color":"gold","text":"Legendary Netherite Sword"}]
             }
           },
-          "minecraft:max_damage": 480
+          "minecraft:max_damage": 1000
         }
       },
       {
         "function": "minecraft:set_attributes",
         "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {"min": 0,"max": 0.6
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
           {
             "attribute": "minecraft:attack_speed",
             "id": "sword",

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "#rpgc:conversions/swords"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpg_loot:discover/conversions/convert"
+  }
+}

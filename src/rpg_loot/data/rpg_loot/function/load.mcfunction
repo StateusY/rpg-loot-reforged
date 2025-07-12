@@ -10,3 +10,6 @@ scoreboard objectives add rpg_loot.ember_charge dummy
 
 #sonar sword
 scoreboard objectives add rpg_loot.sonar_sword dummy
+
+#conversions
+scoreboard objectives add rpg_loot.rarity_random_value dummy

@@ -40,7 +40,7 @@
           {
             "attribute": "minecraft:attack_speed",
             "id": "sword",
-            "amount": {"min": -2.4,"max": -2.6
+            "amount": {"min": -2.6,"max": -2.4
             },
             "operation": "add_value",
             "slot": "mainhand"

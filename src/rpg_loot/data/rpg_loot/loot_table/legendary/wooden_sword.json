@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rpg_loot:unidentified_item"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_data": {
+          "tag": "unknown",
+          "item_model": "minecraft:wooden_sword",
+          "contents": {"item":"minecraft:wooden_sword",
+          "damage": [{"min": 5.7,"max":7,"type": "physical"}],
+          "lore": [{ "text": "A piece of fine wood carved into a sword", "color": "gray", "italic": false}],
+          "name": [{"color":"gold","text":"Legendary Wooden Sword"}]
+          }
+        },
+        "minecraft:max_damage": 240
+      }
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:attack_speed",
+          "id": "sword",
+          "amount": {"min": -2.1,"max": -2.3
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "replace": false
+    },
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "rpgc:weapon": 1
+      }
+    }
+  ]
+}

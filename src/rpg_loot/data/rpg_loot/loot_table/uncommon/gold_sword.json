@@ -18,7 +18,7 @@
             "tag": "unknown",
             "item_model": "minecraft:golden_sword",
             "contents": {"item":"minecraft:golden_sword",
-            "damage": [{"min":3.9,"max":9.1,"type":"magic"}],
+            "damage": [{"min":3.9,"max":10,"type":"magic"}],
             "lore": [{ "text": "An unstable magical sword", "color": "gray", "italic": false}],
             "name": [{"color":"green","text":"Uncommon Golden Sword"}]
             }
@@ -40,7 +40,7 @@
           {
             "attribute": "minecraft:attack_speed",
             "id": "sword",
-            "amount": {"min": -2.4,"max": -2.6
+            "amount": {"min": -2.6,"max": -2.4
             },
             "operation": "add_value",
             "slot": "mainhand"

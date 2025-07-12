@@ -1,7 +1,10 @@
 advancement revoke @s only rpg_loot:unknown
+
+# sets the current item to be modified
 data modify storage rpgloot:temp item set from entity @s SelectedItem
 scoreboard players set @s rpgc.click_cd 5
 
+# the new item's components are in the custom_data of the parent unknown item, see the loot tables
 data modify storage rpgloot:temp modify.model set from storage rpgloot:temp item.components.minecraft:custom_data.item_model
 data modify storage rpgloot:temp modify.name set from storage rpgloot:temp item.components.minecraft:custom_data.contents.name
 data modify storage rpgloot:temp modify.item set from storage rpgloot:temp item.components.minecraft:custom_data.contents.item

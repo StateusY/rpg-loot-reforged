@@ -1,7 +1,7 @@
 
 #function rpgc:register_mob_with_properties {type:"minecraft:skeleton",properties:{weight:2,cd:200,hp:10,name:'{"color":"dark_blue","text":"sir blah blah \\\\n fi fai pho fum i have a big thumb"}',type:"wither_skeleton",tag:"dave",damage:[{type:'physical',amount:5}],modifiers:[{chance:100,set:"gay"}]}}
 
-function rpgc:register_mob_with_properties {type:"minecraft:husk",properties:{cd:20,weight:2,hp:10000,name:'{"color":"dark_blue","text":"im fat"}',damage:[{type:'physical',amount:10}],modifiers:[{chance:100,set:["common","rare","gay"]},{chance:50,set:["mythic","super gay"]}]}}
+#function rpgc:register_mob_with_properties {type:"minecraft:husk",properties:{cd:20,weight:2,hp:10000,name:'{"color":"dark_blue","text":"im fat"}',damage:[{type:'physical',amount:10}],modifiers:[{chance:100,set:["common","rare","gay"]},{chance:50,set:["mythic","super gay"]}]}}
 
 function rpgc:register_mob_with_properties {type:"minecraft:iron_golem",properties:{cd:20,weight:1,hp:50,armor:25,name:'Chonk',damage:[{type:'physical',amount:5}]}}
 

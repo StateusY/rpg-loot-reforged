@@ -16,19 +16,27 @@
         "components": {
           "minecraft:custom_data": {
             "tag": "unknown",
-            "item_model": "minecraft:netherite_sword",
-            "contents": {"item":"minecraft:netherite_sword",
-            "damage": [{"min":10.2,"max":11.7,"type":"physical"},{"min":1.6,"max":3.3,"type":"fire"}],
-            "lore": [{ "text": "A ancient relic still burning to the touch", "color": "gray", "italic": false}],
-            "name": [{"color":"blue","text":"Rare Netherite Sword"}]
+            "item_model": "minecraft:diamond_sword",
+            "contents": {"item":"minecraft:diamond_sword",
+            "damage": [{"min": 12,"max":15,"type":"physical"}],
+            "lore": [{ "text": "A sword made of finest gemstones", "color": "gray", "italic": false}],
+            "name": [{"color":"gold","text":"Legendary Diamond Sword"}]
             }
           },
-          "minecraft:max_damage": 480
+          "minecraft:max_damage":700
         }
       },
       {
         "function": "minecraft:set_attributes",
         "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {"min": 0,"max": 0.5
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
           {
             "attribute": "minecraft:attack_speed",
             "id": "sword",
