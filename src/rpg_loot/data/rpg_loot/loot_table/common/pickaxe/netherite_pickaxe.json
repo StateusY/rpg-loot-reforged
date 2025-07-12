@@ -16,14 +16,15 @@
         "components": {
           "minecraft:custom_data": {
             "tag": "unknown",
-            "item_model": "minecraft:netherite_sword",
-            "contents": {"item":"minecraft:netherite_sword",
-            "damage": [{"min":10.5,"max":13,"type":"physical"},{"min":2.7,"max":5,"type":"fire"}],
-            "lore": [{ "text": "A ancient relic still burning to the touch", "color": "gray", "italic": false}],
-            "name": [{"color":"gold","text":"Legendary Netherite Sword"}]
+            "item_model": "minecraft:netherite_pickaxe",
+            "contents": {"item":"minecraft:netherite_pickaxe",
+            "damage": [{"min":6.2,"max":7.1,"type":"physical"},{"min":1,"max":2,"type":"fire"}],
+            "attributes": [{ "min": 5, "max": 12, "type": "crit.chance", "operation": "add"}],
+            "lore": [{ "text": "A ancient relic still warm to the touch", "color": "gray", "italic": false}],
+            "name": [{"color":"gray","text":"Common Netherite Pickaxe"}]
             }
           },
-          "minecraft:max_damage": 1000
+          "minecraft:max_damage": 120
         }
       },
       {
@@ -32,7 +33,7 @@
           {
             "attribute": "minecraft:entity_interaction_range",
             "id": "sword",
-            "amount": {"min": 0,"max": 0.6
+            "amount": {"min": -0.5,"max": 0
             },
             "operation": "add_value",
             "slot": "mainhand"
@@ -40,7 +41,7 @@
           {
             "attribute": "minecraft:attack_speed",
             "id": "sword",
-            "amount": {"min": -2.6,"max": -2.4
+            "amount": {"min": -3,"max": -2.5
             },
             "operation": "add_value",
             "slot": "mainhand"

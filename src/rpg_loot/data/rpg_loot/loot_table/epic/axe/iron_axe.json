@@ -1,0 +1,59 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "tag": "unknown",
+            "item_model": "minecraft:iron_axe",
+            "contents": {"item":"minecraft:iron_axe",
+            "damage": [{"min": 10.2,"max":16,"type": "physical"}],
+            "attributes": [{ "min": 15, "max": 20, "type": "crit.chance", "operation": "add"}],
+            "lore": [{ "text": "A well forged metalic axe", "color": "gray", "italic": false}],
+            "name": [{"color":"gold","text":"Epic Iron Axe"}]
+            }
+          },
+          "minecraft:max_damage": 1200
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {"min": -0.5,"max": 0
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "attribute": "minecraft:attack_speed",
+            "id": "sword",
+            "amount": {"min": -3,"max": -2.5
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "rpgc:weapon": 1
+        }
+      }
+    ]
+  }

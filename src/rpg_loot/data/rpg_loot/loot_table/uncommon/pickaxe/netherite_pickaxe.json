@@ -1,0 +1,59 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpg_loot:unidentified_item"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "tag": "unknown",
+            "item_model": "minecraft:netherite_pickaxe",
+            "contents": {"item":"minecraft:netherite_pickaxe",
+            "damage": [{"min":6.9,"max":9.11,"type":"physical"},{"min":1.2,"max":2.4,"type":"fire"}],
+            "attributes": [{ "min": 10, "max": 18, "type": "crit.chance", "operation": "add"}],
+            "lore": [{ "text": "A ancient relic still warm to the touch", "color": "gray", "italic": false}],
+            "name": [{"color":"green","text":"Uncommon Netherite Pickaxe"}]
+            }
+          },
+          "minecraft:max_damage": 340
+        }
+      },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "sword",
+            "amount": {"min": -0.5,"max": 0
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "attribute": "minecraft:attack_speed",
+            "id": "sword",
+            "amount": {"min": -3,"max": -2.5
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "replace": false
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "rpgc:weapon": 1
+        }
+      }
+    ]
+  }

@@ -4,7 +4,7 @@
       "trigger": "minecraft:item_durability_changed",
       "conditions": {
         "item": {
-          "items": "#rpgc:conversions/swords"
+          "items": "#rpgc:conversions/convertible"
         }
       }
     }

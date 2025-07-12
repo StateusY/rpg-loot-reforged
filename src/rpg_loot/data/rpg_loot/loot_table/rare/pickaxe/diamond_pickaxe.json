@@ -16,14 +16,15 @@
         "components": {
           "minecraft:custom_data": {
             "tag": "unknown",
-            "item_model": "minecraft:diamond_sword",
-            "contents": {"item":"minecraft:diamond_sword",
-            "damage": [{"min": 12,"max":15,"type":"physical"}],
-            "lore": [{ "text": "A sword made of finest gemstones", "color": "gray", "italic": false}],
-            "name": [{"color":"gold","text":"Legendary Diamond Sword"}]
+            "item_model": "minecraft:diamond_pickaxe",
+            "contents": {"item":"minecraft:diamond_pickaxe",
+            "damage": [{"min": 9.1,"max":12.3,"type":"physical"}],
+            "attributes": [{ "min": 17, "max": 24, "type": "crit.chance", "operation": "add"}],
+            "lore": [{ "text": "A pickaxe made of gemstones", "color": "gray", "italic": false}],
+            "name": [{"color":"blue","text":"Rare Diamond Pickaxe"}]
             }
           },
-          "minecraft:max_damage":700
+          "minecraft:max_damage": 540
         }
       },
       {
@@ -32,7 +33,7 @@
           {
             "attribute": "minecraft:entity_interaction_range",
             "id": "sword",
-            "amount": {"min": 0,"max": 0.5
+            "amount": {"min": -0.5,"max": 0
             },
             "operation": "add_value",
             "slot": "mainhand"
@@ -40,7 +41,7 @@
           {
             "attribute": "minecraft:attack_speed",
             "id": "sword",
-            "amount": {"min": -2.6,"max": -2.4
+            "amount": {"min": -3,"max": -2.5
             },
             "operation": "add_value",
             "slot": "mainhand"

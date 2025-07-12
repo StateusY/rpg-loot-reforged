@@ -20,7 +20,7 @@
           "contents": {"item":"minecraft:wooden_sword",
           "damage": [{"min": 5.7,"max":7,"type": "physical"}],
           "lore": [{ "text": "A piece of fine wood carved into a sword", "color": "gray", "italic": false}],
-          "name": [{"color":"gold","text":"Legendary Wooden Sword"}]
+          "name": [{"color":"gold","text":"Epic Wooden Sword"}]
           }
         },
         "minecraft:max_damage": 240

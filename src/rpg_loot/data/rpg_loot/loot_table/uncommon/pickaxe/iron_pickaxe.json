@@ -16,14 +16,15 @@
         "components": {
           "minecraft:custom_data": {
             "tag": "unknown",
-            "item_model": "minecraft:stone_sword",
-            "contents": {"item":"minecraft:stone_sword",
-            "damage": [{"min": 5,"max":9,"type": "physical"}],
-            "lore": [{ "text": "A sword made from sticks and polished stones", "color": "gray", "italic": false}],
-            "name": [{"color":"gold","text":"Legendary Stone Sword"}]
+            "item_model": "minecraft:iron_pickaxe",
+            "contents": {"item":"minecraft:iron_pickaxe",
+            "damage": [{"min": 6.7,"max":9.8,"type": "physical"}],
+            "attributes": [{ "min": 15, "max": 20, "type": "crit.chance", "operation": "add"}],
+            "lore": [{ "text": "A shoddily forged metalic pickaxe", "color": "gray", "italic": false}],
+            "name": [{"color":"green","text":"Uncommon Iron Pickaxe"}]
             }
           },
-          "minecraft:max_damage": 280
+          "minecraft:max_damage": 500
         }
       },
       {
@@ -32,7 +33,7 @@
           {
             "attribute": "minecraft:entity_interaction_range",
             "id": "sword",
-            "amount": {"min": 0,"max": 0.5
+            "amount": {"min": -0.5,"max": 0
             },
             "operation": "add_value",
             "slot": "mainhand"
@@ -40,7 +41,7 @@
           {
             "attribute": "minecraft:attack_speed",
             "id": "sword",
-            "amount": {"min": -2.4,"max": -2.6
+            "amount": {"min": -3,"max": -2.5
             },
             "operation": "add_value",
             "slot": "mainhand"
