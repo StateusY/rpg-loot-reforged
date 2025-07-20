@@ -1,4 +1,5 @@
 scoreboard players reset #ember_was_full_drawn
+
 execute if score @s rpgc.draw_percent matches 100.. run scoreboard players add @s rpg_loot.ember_charge 1
 execute if score @s rpgc.draw_percent matches 100.. run scoreboard players set #ember_was_full_drawn rpg_loot.temp 1
 

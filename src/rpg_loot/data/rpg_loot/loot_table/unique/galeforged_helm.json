@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "rpg_loot:unidentified_item"
+            "value": "rpg_loot:unidentified_item/unidentified_helmet"
           }
         ]
       }
@@ -41,6 +41,13 @@
             "attribute": "minecraft:jump_strength",
             "id": "gale_hat",
             "amount": 0.10,
+            "operation": "add_multiplied_total",
+            "slot": "armor"
+          },
+          {
+            "attribute": "safe_fall_distance",
+            "id": "gale_hat",
+            "amount": 1.2,
             "operation": "add_multiplied_total",
             "slot": "armor"
           }

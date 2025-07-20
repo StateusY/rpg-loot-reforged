@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "rpg_loot:unidentified_item"
+            "value": "rpg_loot:unidentified_item/unidentified_pickaxe"
           }
         ]
       }
@@ -20,7 +20,7 @@
             "contents": {"item":"minecraft:golden_pickaxe",
             "damage": [{"min":4.2,"max":11.8,"type":"magic"}],
             "attributes": [{ "min": 10, "max": 18, "type": "crit.chance", "operation": "add"}],
-            "lore": [{ "text": "An unstable magical axe", "color": "gray", "italic": false}],
+            "lore": [{ "text": "An unstable magical pickaxe", "color": "gray", "italic": false}],
             "name": [{"color":"green","text":"Uncommon Golden Pickaxe"}]
             }
           },

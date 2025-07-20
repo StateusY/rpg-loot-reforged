@@ -7,11 +7,11 @@ function rpgc:register_mob_with_properties {type:"minecraft:iron_golem",properti
 
 #function rpgc:register_mob_with_properties {type:"minecraft:spider",properties:{weight:1,hp:20,cd:20,name:'{"text":"Spooder"}',damage:[{type:'physical',amount:1}],events:[{type:"death",run:"function example:spooderlings"}]}}
 
-function rpgc:register_mob_with_properties {type:"minecraft:silverfish",properties:{weight:1,hp:1,cd:20,name:'{"text":"Mine Turtle"}',damage:[{type:'physical',amount:0}],events:[{type:"hit",run:"summon tnt"}]}}
+#function rpgc:register_mob_with_properties {type:"minecraft:silverfish",properties:{weight:1,hp:1,cd:20,name:'{"text":"Mine Turtle"}',damage:[{type:'physical',amount:0}],events:[{type:"hit",run:"summon tnt"}]}}
 
 
 
-function rpgc:register_modifier {set:"gay",weight:1,predicate:'[]',stats:[{add:{hp:1}},{mul:{dmg:5}}],commands:{tick:"rpgc:-/whatever",load:"minecraft:nya"}}
+#function rpgc:register_modifier {set:"gay",weight:1,predicate:'[]',stats:[{add:{hp:1}},{mul:{dmg:5}}],commands:{tick:"rpgc:-/whatever",load:"minecraft:nya"}}
 
 
 #function rpgc:register_mob_with_properties {type:"minecraft:spider",properties:{weight:0,hp:1,cd:5,events:[{type:"death",run:"summon tnt"}],damage:[{type:'physical',amount:.1}],name:'{"text":"Spooderling"}',tag:"rpgc.spooderling",nbt:'{CustomNameVisible:0b,attributes:[{id:"minecraft:scale",base:0.25}]}'}}

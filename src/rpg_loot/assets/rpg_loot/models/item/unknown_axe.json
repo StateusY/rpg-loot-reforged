@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rpg_loot:item/unknown_axe",
+    "layer1": "rpg_loot:item/unknown_shine"
+  }
+}

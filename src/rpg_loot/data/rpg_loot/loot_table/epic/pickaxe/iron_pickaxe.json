@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "rpg_loot:unidentified_item"
+            "value": "rpg_loot:unidentified_item/unidentified_pickaxe"
           }
         ]
       }

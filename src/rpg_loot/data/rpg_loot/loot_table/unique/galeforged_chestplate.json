@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "rpg_loot:unidentified_item"
+            "value": "rpg_loot:unidentified_item/unidentified_chestplate"
           }
         ]
       }
@@ -40,7 +40,14 @@
           {
             "attribute": "minecraft:jump_strength",
             "id": "gale_chest",
-            "amount": 0.10,
+            "amount": 0.15,
+            "operation": "add_multiplied_total",
+            "slot": "armor"
+          },
+          {
+            "attribute": "safe_fall_distance",
+            "id": "gale_chest",
+            "amount": 1.2,
             "operation": "add_multiplied_total",
             "slot": "armor"
           }

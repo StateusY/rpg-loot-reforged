@@ -1,0 +1,1 @@
+summon husk ~ ~ ~ {Invulnerable:1b,CustomNameVisible:1b,NoAI:1b,Tags:["rpg_loot.test_dummy"],CustomName:'"Timothy the Target Dummy"'}

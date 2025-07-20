@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "rpg_loot:unidentified_item"
+          "value": "rpg_loot:unidentified_item/unidentified_bow"
         }
       ]
     }
@@ -14,11 +14,9 @@
     {
       "function": "minecraft:set_components",
       "components": {
-        "minecraft:item_name": "\"Unknown Item\"",
-        "minecraft:item_model": "rpg_loot:unknown",
         "minecraft:custom_data": {
           "tag": "unknown",
-          "item_model": "minecraft:bow",
+          "item_model": "rpg_loot:ember",
           "contents": {
             "item": "minecraft:bow",
             "damage": [{"amount":15,"type": "fire"} ],

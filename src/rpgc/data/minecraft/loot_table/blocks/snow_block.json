@@ -39,10 +39,12 @@
                     "minecraft:custom_data": "{damage:[{type:'cold',amount:1}]}",
                     "minecraft:enchantment_glint_override": false,
                     "minecraft:enchantments": {
-                      "levels": {
-                        "rpgc:weapon": 1
-                      },
-                      "show_in_tooltip": false
+                      "rpgc:weapon": 1
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:enchantments"
+                      ]
                     }
                   }
                 },

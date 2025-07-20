@@ -2,6 +2,8 @@
 
 #moj_import <light.glsl>
 #moj_import <fog.glsl>
+#moj_import <minecraft:dynamictransforms.glsl>
+#moj_import <minecraft:projection.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -14,15 +16,8 @@ uniform sampler2D Sampler0;
 uniform sampler2D Sampler1;
 uniform sampler2D Sampler2;
 
-uniform mat4 ModelViewMat;
-uniform mat4 ProjMat;
-
-uniform vec3 Light0_Direction;
-uniform vec3 Light1_Direction;
-
-uniform int FogShape;
-
-out float vertexDistance;
+out float sphericalVertexDistance;
+out float cylindricalVertexDistance;
 out vec4 vertexColor;
 out vec4 lightMapColor;
 out vec4 overlayColor;
@@ -73,8 +68,14 @@ const vec2[] origins = vec2[](
 const int[] faceremap = int[](0, 0, 1, 1, 2, 3, 4, 5);
 
 void main() {
+#ifdef NO_CARDINAL_LIGHTING
+    vertexColor = Color;
+#else
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, normalize(Normal), Color);
+#endif
+#ifndef EMISSIVE
     lightMapColor = texelFetch(Sampler2, UV2 / 16, 0);
+#endif
     overlayColor = texelFetch(Sampler1, UV1, 0);
     normal = ProjMat * ModelViewMat * vec4(Normal, 0.0);
 
@@ -84,7 +85,8 @@ void main() {
         part = 0.0;
         texCoord0 = UV0;
         texCoord1 = vec2(0.0);
-        vertexDistance = fog_distance(Position, FogShape);
+        sphericalVertexDistance = fog_spherical_distance(Position);
+        cylindricalVertexDistance = fog_cylindrical_distance(Position);
         gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     }
     else {
@@ -93,12 +95,13 @@ void main() {
         vec2 UVout2 = vec2(0.0);
         int partId = -int((wpos.y - MAXRANGE) / SPACING);
 
+        //beginning of problematic section
         part = float(partId);
-
         if (partId == 0) { // higher precision position if no translation is needed
             gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
         }
         else {
+            
             vec4 samp1 = texture(Sampler0, vec2(54.0 / 64.0, 20.0 / 64.0));
             vec4 samp2 = texture(Sampler0, vec2(55.0 / 64.0, 20.0 / 64.0));
             bool slim = samp1.a == 0.0 || (((samp1.r + samp1.g + samp1.b) == 0.0) && ((samp2.r + samp2.g + samp2.b) == 0.0) && samp1.a == 1.0 && samp2.a == 1.0);
@@ -160,6 +163,7 @@ void main() {
                 else {
                     offset += subuv.zw;
                 }
+            
             }
 
             UVout += offset;
@@ -167,8 +171,10 @@ void main() {
             UVout /= float(SKINRES);
             UVout2 /= float(SKINRES);
         }
+        //end of problematic section
 
-        vertexDistance = fog_distance(wpos, FogShape);
+        sphericalVertexDistance = fog_spherical_distance(Position);
+        cylindricalVertexDistance = fog_cylindrical_distance(Position);
         texCoord0 = UVout;
         texCoord1 = UVout2;
     }

@@ -8,7 +8,8 @@ $item modify entity @s weapon.mainhand [{"function":"minecraft:set_name","entity
 
 execute if data storage rpgloot:temp modify.damage[0] run function rpg_loot:discover/lore/damage with storage rpgloot:temp modify.damage[0]
 
-data modify storage rpgloot:temp modify.vanilla_attributes set from entity @s SelectedItem.components."minecraft:attribute_modifiers".modifiers
+# removed .modifiers from end
+data modify storage rpgloot:temp modify.vanilla_attributes set from entity @s SelectedItem.components."minecraft:attribute_modifiers"
 execute if data storage rpgloot:temp modify.vanilla_attributes[0] run function rpg_loot:discover/lore/attributes/vanilla
 data modify storage rpgloot:temp modify.split set value {mul:[],add:[]}
 

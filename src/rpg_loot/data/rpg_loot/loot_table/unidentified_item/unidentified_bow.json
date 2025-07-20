@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "\"Unidentified Item\"",
-                "minecraft:item_model": "rpg_loot:unknown",
+                "minecraft:item_name": "\"Unidentified Bow\"",
+                "minecraft:item_model": "rpg_loot:unknown_bow",
                 "minecraft:custom_data": {
                   "contents": {
                     "item": "minecraft:dirt",
@@ -31,17 +31,15 @@
                   },
                   "has_consume_particles": false
                 },
-                "minecraft:enchantments": {
-                  "levels": {},
-                  "show_in_tooltip": false
-                },
-                "!minecraft:food": {},
-                "minecraft:hide_additional_tooltip": {},
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:max_stack_size": 1,
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:stored_enchantments",
+                    "minecraft:food",
+                    "minecraft:enchantment_glint_override",
+                    "minecraft:attribute_modifiers"
+                  ]
                 }
               }
             }

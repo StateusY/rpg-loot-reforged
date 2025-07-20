@@ -1,18 +1,13 @@
 #version 150
 
 #moj_import <fog.glsl>
+#moj_import <minecraft:dynamictransforms.glsl>
+#moj_import <minecraft:projection.glsl>
 
 uniform sampler2D Sampler0;
 
-uniform mat4 ModelViewMat;
-uniform mat4 ProjMat;
-
-uniform vec4 ColorModulator;
-uniform float FogStart;
-uniform float FogEnd;
-uniform vec4 FogColor;
-
-in float vertexDistance;
+in float sphericalVertexDistance;
+in float cylindricalVertexDistance;
 in vec4 vertexColor;
 in vec4 lightMapColor;
 in vec4 overlayColor;
@@ -25,6 +20,7 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
+#ifdef ALPHA_CUTOUT
     if (color.a < 0.1 || abs(mod(part + 0.5, 1.0) - 0.5) > 0.001) {
         discard;
     }
@@ -38,9 +34,13 @@ void main() {
             color.a = 1.0;
         }
     }
-
+#endif
     color *= vertexColor * ColorModulator;
+#ifndef NO_OVERLAY
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
+#endif
+#ifndef EMISSIVE
     color *= lightMapColor;
-    fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
+#endif
+    fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 }

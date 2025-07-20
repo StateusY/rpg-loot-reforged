@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "rpg_loot:unidentified_item"
+            "value": "rpg_loot:unidentified_item/unidentified_boots"
           }
         ]
       }
@@ -42,6 +42,13 @@
             "id": "gale_boots",
             "amount": 0.10,
             "operation": "add_multiplied_total",
+            "slot": "armor"
+          },
+          {
+            "attribute": "step_height",
+            "id": "gale_boots",
+            "amount": 1,
+            "operation": "add_value",
             "slot": "armor"
           }
         ],
