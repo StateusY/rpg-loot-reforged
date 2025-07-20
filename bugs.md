@@ -8,6 +8,7 @@
 - (FIXED) Health Bars are just json text
 - (FIXED) Text shader is broken
 - (FIXED) Damage numbers render correctly again
+- (FIXED) Down timer is no longer broken
 
 ---
   
@@ -29,5 +30,5 @@
 - [HIGH] The player hp bar is gone
 - [HIGH] Non-Player damage doesnt effect mobs
 - [MID] Mob HP bars are missing end pieces
-- [MID] Down Timer and skin is broken
+- [MID] Down skin is broken
 - [LOW] Load function is semi-functional (requires reopening of world)
