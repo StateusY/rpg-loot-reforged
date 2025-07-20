@@ -5,6 +5,8 @@
 - (FIXED) Fall damage is too high for the player only
 - (FIXED) Health bars are not given to Armadillos, Bogged, Camels, Creakings, and Sniffers
 - (FIXED) Warden sonic booms do no damage to players
+- (FIXED) Health Bars are just json text
+- (FIXED) Text shader is broken
 
 ---
   
@@ -20,8 +22,11 @@
 - [MID] suffoction does no damage to mobs
 - [LOW] mobs register magic damage as physical damage
 
-### Update to 1.21.7 Bugs
+### Update to 1.21.8 Bugs
 
-- [HIGH] Health Bars are just json text
-- [HIGH] Text shader is broken
 - [HIGH] All mobs die one-hit
+- [HIGH] The player hp bar is gone
+- [HIGH] Non-Player damage doesnt effect mobs
+- [MID] Mob HP bars are missing end pieces
+- [MID] Down Timer and skin is broken
+- [LOW] Load function is semi-functional (requires reopening of world)
