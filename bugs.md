@@ -7,6 +7,7 @@
 - (FIXED) Warden sonic booms do no damage to players
 - (FIXED) Health Bars are just json text
 - (FIXED) Text shader is broken
+- (FIXED) Damage numbers render correctly again
 
 ---
   
