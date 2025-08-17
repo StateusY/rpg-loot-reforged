@@ -11,6 +11,18 @@ If you see any code that looks:
   
 That is probally [LostPuppet's](https://github.com/LostPuppet) code, he is a much better programmer than I :skull:, so all credit goes to him - this project wouldn't be where it is now if it weren't for him. Also [Dawnkiro](https://github.com/DawnKiro) helped him out on the custom attribute system too. (And shaders too!)
 
+### Additional Credits
+
+The fantastic player motion library makes some of this stuff possible (following is from the modrinth page):
+
+[Player Motion](https://modrinth.com/datapack/player_motion) is an explosion-based library that uses subtick timing to ensure that only one player is pushed by the blast without any side effects.
+
+Credit to [@BigPapi13](https://github.com/BigPapi13/Delta) for making the original library this is inspired by. This project aims to succeed it.
+
+Credit to nedraw from the minecraft commands discord for the ender crystal methodology & implementation this is now based on.
+
+Credit to [@SuperSwordTW](https://github.com/SuperSwordTW) for helping make significant math performance & stability improvements.
+
 ---
 
 Some quick terms:
