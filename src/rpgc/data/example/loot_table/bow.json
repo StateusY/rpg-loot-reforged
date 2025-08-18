@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{damage:[{type:'physical',amount:1000}],bow:{draw:20,velocity:10,inaccuracy:1}}"
+              "tag": "{damage:[{type:'physical',amount:1000},{type:'physical',amount:10},{type:'test',amount:1}],bow:{draw:1,velocity:1,inaccuracy:12}}"
             },
             {
               "function": "minecraft:set_enchantments",

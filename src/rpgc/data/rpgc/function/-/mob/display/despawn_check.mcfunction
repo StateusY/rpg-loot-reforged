@@ -1,1 +1,0 @@
-$execute unless predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"vehicle":{}}} unless entity @n[type=!text_display,tag=rpgc,scores={rpgc.id2=$(id)}] run function rpgc:-/mob/display/die

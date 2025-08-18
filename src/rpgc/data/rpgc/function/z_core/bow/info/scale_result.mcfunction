@@ -1,0 +1,1 @@
+$function rpgc:z_api/info {message:"result $(amount) $(type)"}

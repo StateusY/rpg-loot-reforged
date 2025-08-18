@@ -1,2 +1,2 @@
-advancement revoke @s only rpgc:test
-say e
+say configed
+$say "$(data)"

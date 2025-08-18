@@ -1,1 +1,0 @@
-$item modify entity @s weapon.mainhand {"function":"minecraft:set_lore","entity":"this","lore":[[{"text":"$(sign)$(whole).$(decimal) ","color":"blue","italic":false},{"translate":"$(type)"}]],"mode":"append"}

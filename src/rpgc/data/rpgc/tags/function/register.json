@@ -1,5 +1,6 @@
 {
     "values": [
-        "example:load"
+        "example:load",
+        "rpg_loot:mobs/list"
     ]
 }

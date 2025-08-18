@@ -1,34 +1,26 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_sword",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Scrappy Wooden Sword"
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{damage:[{type:'test',amount:1},{type:'physical',amount:1}],events:[{type:kill,run:'particle minecraft:explosion'},{type:death,run:'say died'},{type:hit,run:'say stab'},{type:hurt,run:'say owi'}]}"
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "rpgc:weapon": 1
+                }
               }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                "🗡️1",
-                "🕛1.2",
-                "🤚3"
-              ],
-              "mode": "replace_all"
-            }
-          ]
-        }
-      ],
-      "functions": []
-    }
-  ]
-}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

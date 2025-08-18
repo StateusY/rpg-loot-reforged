@@ -1,26 +1,26 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bow",
-            "functions": [
-              {
-                "function": "minecraft:set_custom_data",
-                "tag": "{damage:[{type:'physical',amount:5}],draw:20,velocity:20,inaccuracy:10,projectiles:100,events:[{type:'impact',run:'summon tnt'}]}"
-              },
-              {
-                "function": "minecraft:set_enchantments",
-                "enchantments": {
-                  "rpgc:bow": 1
-                }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{damage:[{type:'physical',amount:1000},{type:'physical',amount:10},{type:'test',amount:1}],bow:{draw:1,velocity:10,inaccuracy:100}}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:bow": 1,
+                "minecraft:multishot": 50
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

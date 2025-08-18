@@ -1,1 +1,0 @@
-$execute anchored eyes positioned ^ ^ ^ run summon item ~ ~-0.25 ~ {CustomNameVisible:1b,Age:5960,PickupDelay:32767,Invulnerable:1b,Motion:[$(x)d,$(y)d,$(z)d],CustomName:'[{"color":"$(color)","text":"$(prefix)","bold":true},"$(1).$(2)!!!"]',Item:{id:"minecraft:structure_void",count:1,components:{"minecraft:max_stack_size":1,"minecraft:item_model":"rpgc:no"}}}

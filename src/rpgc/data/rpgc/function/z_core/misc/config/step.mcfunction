@@ -1,0 +1,1 @@
+$function rpgc:z_core/misc/config/dialog {debug:$(debug),hp:$(hp),macro:"$"}

@@ -20,7 +20,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "rpgc:-/mob/summon/spawn"
+            "function": "rpgc:z_core/mob/summon/spawn"
           },
           "requirements": {
             "condition": "minecraft:entity_properties",

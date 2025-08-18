@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/bow/impact"
+          "function": "rpgc:z_core/bow/impact"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
@@ -36,7 +36,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/bow/hit"
+          "function": "rpgc:z_core/bow/hit"
         },
         "requirements": {
           "condition": "minecraft:inverted",
@@ -54,7 +54,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/bow/flight"
+          "function": "rpgc:z_core/bow/flight"
         }
       }
     ]

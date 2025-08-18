@@ -1,1 +1,0 @@
-$data modify storage rpgc:temp properties set from storage rpgc:registry mob."$(type)"[{tag:"$(tag)"}]

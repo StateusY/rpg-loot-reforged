@@ -1,0 +1,1 @@
+say rpgc:z_core/combat/hit/mob_cd

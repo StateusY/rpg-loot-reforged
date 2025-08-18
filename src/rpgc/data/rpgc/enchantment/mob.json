@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/mob/core/5tick"
+          "function": "rpgc:z_core/mob/core/5tick"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
@@ -33,13 +33,13 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/mob/core/tick"
+          "function": "rpgc:z_core/mob/core/tick"
         }
       },
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/mob/fall/falling"
+          "function": "rpgc:z_core/mob/fall/falling"
         },
         "requirements": {
           "condition": "minecraft:all_of",
@@ -76,7 +76,7 @@
         "affected": "attacker",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/combat/hit/attacker"
+          "function": "rpgc:z_core/combat/hit/attacker"
         }
       },
       {
@@ -84,7 +84,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/combat/hit/target"
+          "function": "rpgc:z_core/combat/hit/target"
         }
       }
     ],

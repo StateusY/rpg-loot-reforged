@@ -22,7 +22,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/combat/hit/victim"
+          "function": "rpgc:z_core/combat/hit/victim"
         }
       },
       {
@@ -30,7 +30,7 @@
         "affected": "attacker",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/combat/hit/attacker"
+          "function": "rpgc:z_core/combat/hit/attacker"
         }
       },
       {
@@ -38,7 +38,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:-/combat/hit/target"
+          "function": "rpgc:z_core/combat/hit/last"
         }
       }
     ]

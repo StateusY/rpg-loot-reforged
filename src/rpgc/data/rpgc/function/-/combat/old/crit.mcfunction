@@ -1,1 +1,0 @@
-$execute if predicate {"condition":"minecraft:random_chance","chance":$(chance)} run function rpgc:-/combat/hit/critted

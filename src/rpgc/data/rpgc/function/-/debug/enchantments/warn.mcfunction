@@ -1,1 +1,0 @@
-execute unless function rpgc:-/debug/enchantments/check run tellraw @a [{"color":"dark_red","text":"Warning!!!"},{"bold":true,"color":"red","text":" The world needs to be restarted in order for the datapack to work"}]

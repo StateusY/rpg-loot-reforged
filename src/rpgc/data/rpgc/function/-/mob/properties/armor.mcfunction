@@ -1,1 +1,0 @@
-execute store result score @s rpgc.armor run data get storage rpgc:temp properties.armor 10

@@ -20,7 +20,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "rpgc:-/bow/arrow"
+            "function": "rpgc:z_core/bow/tag_arrow"
           }
         }
       ]

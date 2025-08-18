@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "rpgc:config",
+    "path": "debug"
+  },
+  "range": {
+    "min": 1
+  }
+}

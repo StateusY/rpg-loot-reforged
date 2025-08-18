@@ -1,6 +1,6 @@
 {
     "description": "",
-    "supported_items": "#rpgc:trinkets",
+    "supported_items": "minecraft:barrier",
     "weight": 1,
     "max_level": 1,
     "min_cost": {
