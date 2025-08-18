@@ -9,13 +9,14 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{damage:[{type:'physical',amount:1000},{type:'physical',amount:10},{type:'test',amount:1}],bow:{draw:1,velocity:10,inaccuracy:100}}"
+              "tag": "{damage:[{type:'physical',amount:1000},{type:'physical',amount:10},{type:'test',amount:1}],bow:{draw:100,velocity:10,inaccuracy:100}}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "rpgc:bow": 1,
-                "minecraft:multishot": 50
+                "minecraft:multishot": 10,
+                "minecraft:punch": 50
               }
             }
           ]

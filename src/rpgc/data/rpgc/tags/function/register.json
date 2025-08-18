@@ -1,6 +1,5 @@
 {
     "values": [
-        "example:load",
-        "rpg_loot:mobs/list"
+        "rpgc:z_core/registry/load_all"
     ]
 }

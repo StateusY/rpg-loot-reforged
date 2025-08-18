@@ -1,0 +1,1 @@
+$function rpgc:z_api/info {message:'Spawning mob with the following properties $(properties)'}

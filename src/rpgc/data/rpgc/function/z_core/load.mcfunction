@@ -14,6 +14,8 @@ scoreboard objectives add rpgc.hp dummy
 execute unless data storage rpgc:config init run function rpgc:z_core/misc/config/init
 
 
+scoreboard objectives add player_left_game minecraft.custom:minecraft.leave_game
+
 ## Bows
 scoreboard objectives add rpgc.shot_arrow minecraft.used:minecraft.bow
 
@@ -25,7 +27,6 @@ scoreboard objectives add rpgc.velocity_percent dummy
 scoreboard objectives add rpgc.inaccuracy dummy
 scoreboard objectives add rpgc.projectile_dmg dummy
 scoreboard objectives add rpgc.projectile_percent dummy
-scoreboard objectives add rpgc.projectile_count dummy
 
 scoreboard objectives add motion_x1 dummy
 scoreboard objectives add motion_y1 dummy
@@ -52,10 +53,7 @@ scoreboard players set #99 constant 99
 scoreboard players set #100 constant 100
 scoreboard players set #1000 constant 1000
 
-## Load registries
-function rpgc:z_core/registry/load_all
+function #rpgc:register
 
-## Api Load
-function rpgc:z_api/default_damages
-function rpgc:z_api/default_mobs
-
+# Schedules
+function rpgc:z_core/1second

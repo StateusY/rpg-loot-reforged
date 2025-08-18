@@ -1,0 +1,1 @@
+$function rpgc:z_api/attribute/modifier/add {id:armor,name:base,type:add,value:$(armor)}

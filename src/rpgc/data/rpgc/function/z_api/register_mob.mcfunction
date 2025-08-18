@@ -1,4 +1,3 @@
-# From <rpgc:z_api/default_mobs>
-
-$function rpgc:z_core/mob/register {type:"$(type)"}
-$function rpgc:z_api/append_properties {properties:$(properties)}
+#> from: rpgc:z_api/defaults/mobs
+$function rpgc:z_core/mob/reg/register {type:"$(type)"}
+$function rpgc:z_core/mob/reg/append_properties {properties:$(properties)}

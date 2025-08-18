@@ -1,1 +1,0 @@
-say rpgc:z_core/mob/summon/spawn

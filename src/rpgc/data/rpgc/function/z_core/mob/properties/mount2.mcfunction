@@ -1,0 +1,2 @@
+$data merge entity @s {equipment:{mainhand:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"$(tag)"},"minecraft:enchantments":{levels:{"rpgc:summon":1}}}}}}
+function rpgc:z_core/mob/summon/spawn
