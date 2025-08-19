@@ -30,7 +30,7 @@
         "affected": "attacker",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:z_core/combat/hit/attacker"
+          "function": "rpgc:z_core/combat/hit/attacker_stage/attacker"
         }
       },
       {
@@ -38,7 +38,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:z_core/combat/hit/last"
+          "function": "rpgc:z_core/combat/hit/calc_stage/target"
         }
       }
     ]

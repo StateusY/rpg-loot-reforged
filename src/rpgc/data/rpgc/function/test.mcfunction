@@ -1,2 +1,9 @@
-say configed
-$say "$(data)"
+function rpgc:z_api/attribute/modifier/add {id:physical_dmg,name:"temp",type:add,value:1}
+function rpgc:z_api/attribute/modifier/add {id:cold_dmg,name:"temp",type:add,value:1}
+function rpgc:z_api/attribute/modifier/add {id:cold_res,name:"temp",type:add,value:0.5}
+function rpgc:z_api/attribute/modifier/add {id:pen,name:"temp",type:add,value:10}
+function rpgc:z_api/attribute/modifier/add {id:draw_speed,name:"temp",type:add,value:25}
+function rpgc:z_api/attribute/modifier/add {id:accuracy,name:"temp",type:add,value:0}
+function rpgc:z_api/attribute/modifier/add {id:velocity,name:"temp",type:add,value:1}
+function rpgc:z_api/attribute/modifier/add {id:crit_chance,name:"temp",type:add,value:1.2}
+function rpgc:z_api/attribute/modifier/add {id:max_hp,name:"temp",type:add,value:1.2}

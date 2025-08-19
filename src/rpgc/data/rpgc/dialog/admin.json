@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Admin Menu",
+    "color": "blue"
+  },
+  "external_title": "Rpgc",
+  "body": [],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "columns": 3,
+  "actions": [
+    {
+      "label": "Attribute Manager",
+      "tooltip": {
+        "text": "Lets you modify, add, remove attributes of any player",
+        "color": "gray"
+      },
+      "width": 100
+    },
+    {
+      "label": "Player Data",
+      "tooltip": {
+        "text": "Lets you see all rpgc data of a specific player",
+        "color": "gray"
+      },
+      "width": 100
+    },
+    {
+      "label": "Config Menu",
+      "tooltip": {
+        "text": "Access the config "
+      },
+      "width": 100,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function rpgc:config"
+      }
+    }
+  ]
+}

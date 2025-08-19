@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Player Menu",
+    "color": "blue"
+  },
+  "actions": [
+    {
+      "label": "e"
+    }
+  ]
+}

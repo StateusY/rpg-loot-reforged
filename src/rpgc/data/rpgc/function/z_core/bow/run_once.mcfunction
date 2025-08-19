@@ -18,3 +18,5 @@ execute if data storage rpgc:temp bow.raw_damage[0] run function rpgc:z_core/bow
 
 # gets the velocity based on draw percent
 function rpgc:z_core/bow/fetch_velocity with storage rpgc:temp bow
+execute store result storage rpgc:temp bow.velocity_add double 10 run function rpgc:z_api/attribute/get {id:velocity}
+function rpgc:z_core/bow/velocity_ with storage rpgc:temp bow

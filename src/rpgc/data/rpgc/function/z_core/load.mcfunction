@@ -6,11 +6,13 @@ scoreboard objectives add rpgc.temp dummy
 # Internal ID to attach data and context to PLAYER ONLY, use instead of UUID when possible
 scoreboard objectives add rpgc.id dummy
 
-# Health value for both entities and players, DON'T UPDATE DIRECTLY, instead call <(not yet implemented)>
+# Use scoreboards for hp because regen would make it very laggy
+scoreboard objectives add rpgc.max_hp dummy
 scoreboard objectives add rpgc.hp dummy
 
 
 ## TEMP
+execute as lostpuppet run function rpgc:test
 execute unless data storage rpgc:config init run function rpgc:z_core/misc/config/init
 
 
@@ -52,8 +54,14 @@ scoreboard players set #30 constant 30
 scoreboard players set #99 constant 99
 scoreboard players set #100 constant 100
 scoreboard players set #1000 constant 1000
-
+scoreboard players set #7000 constant 7000
 function #rpgc:register
+
+#triggers
+scoreboard objectives add rpgc.dialog trigger
+## trigger meanings
+# 1 = stats
+
 
 # Schedules
 function rpgc:z_core/1second

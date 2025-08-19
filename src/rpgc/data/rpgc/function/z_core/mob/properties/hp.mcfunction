@@ -1,3 +1,3 @@
 $function rpgc:z_api/attribute/modifier/add {id:max_hp,name:base,type:add,value:$(hp)}
-execute store result entity @s data.current_hp double 0.01 run function rpgc:z_api/attribute/get {id:max_hp}
-
+$scoreboard players set @s rpgc.max_hp $(hp)
+execute store result score @s rpgc.hp run scoreboard players operation @s rpgc.max_hp *= #100 constant
