@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:40,velocity:10,inaccuracy:10}}"
+              "tag": "{rpgc:true,bow:{draw:100,velocity:10,inaccuracy:10},events:[{name:merp,source:mainhand,listen:bow_shot,command:'say pew'},{name:merp,source:mainhand,listen:hit,command:'say pew'}],attributes:[{id:ranged_dmg,name:mainhand,type:add,value:.5},{id:crit_chance,name:mainhand,type:add,value:1},{id:draw_speed,name:mainhand,type:mul,value:2}]}"
             },
             {
               "function": "minecraft:set_enchantments",

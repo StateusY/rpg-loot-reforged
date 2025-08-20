@@ -13,3 +13,6 @@ execute store result storage rpgc:temp draw_percent double 1 run scoreboard play
 execute store result storage rpgc:temp draw_speed double 0.01 run function rpgc:z_api/attribute/get {id:draw_speed}
 function rpgc:z_core/bow/_draw with storage rpgc:temp
 execute if score @s rpgc.draw_percent matches 101.. run scoreboard players set @s rpgc.draw_percent 100
+
+# Temporarly displays the draw percent on the screen
+title @s actionbar {"score":{"name":"@s","objective":"rpgc.draw_percent"}}

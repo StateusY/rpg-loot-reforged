@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Player Data",
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "name",
+      "label": "Enter Player's Name Here",
+      "label_visible": true
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": "Go Back"
+    },
+    {
+      "label": "Fetch Data"
+    }
+  ]
+}

@@ -10,7 +10,7 @@ function rpgc:z_api/attribute/register {id:"draw_speed",base:1,icon:"🏹",color
 function rpgc:z_api/attribute/register {id:"dmg_mult",base:1,icon:"🗡",color:"dark_gray",tags:[],on_update:""}
 function rpgc:z_api/attribute/register {id:"crit_chance",base:0.05,icon:"🎲",color:"yellow",tags:[],on_update:""}
 function rpgc:z_api/attribute/register {id:"crit_damage",base:0.15,icon:"🪓",color:"yellow",tags:[],on_update:""}
-function rpgc:z_api/attribute/register {id:"over_crit",base:0.10,icon:"🪓",color:"gold",tags:[],on_update:""}
+function rpgc:z_api/attribute/register {id:"over_crit",base:0,icon:"🪓",color:"gold",tags:[],on_update:""}
 
 function rpgc:z_api/attribute/register {id:"dodge",base:0,icon:"༄",color:"white",tags:[],on_update:""}
 

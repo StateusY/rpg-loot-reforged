@@ -19,5 +19,6 @@ execute store result score .random rpgc.temp run random value 1..100
 execute unless score .random rpgc.temp <= .crit_chance rpgc.temp run return fail
 
 execute store result score .crit_mult rpgc.temp run function rpgc:z_api/attribute/get {id:over_crit}
+execute unless score .crit_mult rpgc.temp matches 1.. run return fail
 scoreboard players operation .dmg_mult rpgc.temp += .crit_mult rpgc.temp
 scoreboard players set .crit_stage rpgc.temp 2

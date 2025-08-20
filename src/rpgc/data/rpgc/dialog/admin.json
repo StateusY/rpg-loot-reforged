@@ -26,7 +26,11 @@
         "text": "Lets you see all rpgc data of a specific player",
         "color": "gray"
       },
-      "width": 100
+      "width": 100,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "rpgc:enter_name"
+      }
     },
     {
       "label": "Config Menu",

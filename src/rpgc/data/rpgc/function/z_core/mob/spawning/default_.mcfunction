@@ -1,0 +1,1 @@
+$function rpgc:z_api/attribute/modifier/add {id:physical_dmg,type:add,name:base,value:$(temp)}

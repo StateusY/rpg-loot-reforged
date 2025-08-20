@@ -15,8 +15,7 @@ scoreboard objectives add rpgc.hp dummy
 
 scoreboard objectives add rpgc.atk_cooldown dummy
 
-## TEMP
-execute as lostpuppet run function rpgc:test
+
 execute unless data storage rpgc:config init run function rpgc:z_core/misc/config/init
 
 
