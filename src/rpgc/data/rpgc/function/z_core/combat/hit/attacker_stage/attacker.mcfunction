@@ -1,6 +1,5 @@
 tag @s add rpgc.current_attacker
 
-## MOVE TO END
 #get the dmg mult *can be increased by crits*
 execute store result score .dmg_mult rpgc.temp run function rpgc:z_api/attribute/get {id:dmg_mult}
 

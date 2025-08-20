@@ -3,7 +3,14 @@
     "punch": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": {}
+        "player": {},
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
       }
     }
   },

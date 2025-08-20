@@ -19,5 +19,6 @@ execute if score .crit_stage rpgc.temp matches 1 run playsound minecraft:item.ma
 execute if score .crit_stage rpgc.temp matches 2 anchored eyes positioned ^ ^ ^ run particle minecraft:trial_spawner_detection ~ ~-.5 ~ 0 0 0 0.1 25 normal
 execute if score .crit_stage rpgc.temp matches 2 run playsound minecraft:item.mace.smash_ground_heavy player @a ~ ~ ~ 2 1.5
 
+execute unless entity @s[type=player] run data remove entity @s HurtTime
 # prevent clearing the entire system so you can do mutli selector damage
 execute unless score .halt_combat_clear rpgc.temp matches 1 run return run function rpgc:z_core/combat/hit/reset

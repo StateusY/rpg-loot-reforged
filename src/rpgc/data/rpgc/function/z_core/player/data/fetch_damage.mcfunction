@@ -1,4 +1,4 @@
-## 
+## Outputs to rpgc:output damage
 
 #get the dmg mult *can be increased by crits*
 execute store result score .dmg_mult rpgc.temp run function rpgc:z_api/attribute/get {id:dmg_mult}
@@ -12,4 +12,5 @@ function rpgc:z_core/combat/hit/attacker_stage/crit
 data modify storage rpgc:temp combat.damages set from storage rpgc:registry damage
 function rpgc:z_core/player/data/misc/damage_recurse
 data modify storage rpgc:output damage set from storage rpgc:temp combat.all_dmg
+execute store result storage rpgc:output crit_stage int 1 run scoreboard players get .crit_stage rpgc.temp
 function rpgc:z_core/combat/hit/reset

@@ -1,4 +1,4 @@
-
+tag @n[tag=rpgc.current_attacker] remove rpgc.current_attacker
 scoreboard players reset .armor
 scoreboard players reset .armor_pen
 scoreboard players reset .armor_res
