@@ -4,9 +4,26 @@
     "text": "Player Menu",
     "color": "blue"
   },
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "rpgc:menu"
+    }
+  },
   "actions": [
     {
-      "label": "e"
+      "label": "Stats",
+      "tooltip": {
+        "text": "Open the stats menu"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgc.dialog set 1"
+      }
     }
   ]
 }

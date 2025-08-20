@@ -5,7 +5,7 @@ function rpgc:z_api/attribute/register {id:"pen",base:0,icon:"🔨",color:"dark_
 
 function rpgc:z_api/attribute/register {id:"velocity",base:1,icon:"⁀➴",color:"gray",tags:[],on_update:""}
 function rpgc:z_api/attribute/register {id:"accuracy",base:0,icon:"🎯",color:"green",tags:[],on_update:""}
-function rpgc:z_api/attribute/register {id:"draw_speed",base:1,icon:"🏹",color:"green",tags:[],on_update:""}
+function rpgc:z_api/attribute/register {id:"draw_speed",base:1,icon:"🏹",color:"aqua",tags:[],on_update:""}
 
 function rpgc:z_api/attribute/register {id:"dmg_mult",base:1,icon:"🗡",color:"dark_gray",tags:[],on_update:""}
 function rpgc:z_api/attribute/register {id:"crit_chance",base:0.05,icon:"🎲",color:"yellow",tags:[],on_update:""}

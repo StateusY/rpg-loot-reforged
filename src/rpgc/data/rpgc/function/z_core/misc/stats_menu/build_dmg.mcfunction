@@ -1,0 +1,1 @@
+$data modify storage rpgc:temp dialog.built append value {type:"minecraft:plain_message",contents:{text:"$(prefix) 🗡$(type_dmg) 🛡$(type_res)%",color:"$(color)",hover_event:{action:"show_text",value:{text:"You deal $(type_dmg) $(type) damage and take $(type_res)% less $(type) damage"}}}}
