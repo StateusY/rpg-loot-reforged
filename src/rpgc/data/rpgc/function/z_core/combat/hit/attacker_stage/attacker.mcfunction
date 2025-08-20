@@ -5,8 +5,8 @@ tag @s add rpgc.current_attacker
 execute store result score .dmg_mult rpgc.temp run function rpgc:z_api/attribute/get {id:dmg_mult}
 
 #Current crit system, eventualy change to allow for over crits using chance overflow above 50% crit chance
-execute store result storage rpgc:temp combat.crit_chance double 0.01 run function rpgc:z_api/attribute/get {id:crit_chance}
-function rpgc:z_core/combat/hit/attacker_stage/crit/chance with storage rpgc:temp combat
+execute store result score .crit_chance rpgc.temp run function rpgc:z_api/attribute/get {id:crit_chance}
+function rpgc:z_core/combat/hit/attacker_stage/crit
 
 #get the dmg mult *can be increased by crits*
 execute store result storage rpgc:temp combat.dmg_mult double 0.01 run scoreboard players get .dmg_mult rpgc.temp 

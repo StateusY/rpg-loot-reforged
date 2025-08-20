@@ -1,0 +1,1 @@
+function rpgc:z_core/player/update_from_config with storage rpgc:config

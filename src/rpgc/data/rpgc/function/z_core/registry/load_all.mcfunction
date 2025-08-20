@@ -4,6 +4,7 @@
 
 # Clear attribute registry
 data modify storage rpgc:registry attribute set value {}
+data modify storage rpgc:tags attribute set value {}
 
 # Clear damage registry
 data remove storage rpgc:registry damage

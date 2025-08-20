@@ -1,4 +1,5 @@
-data modify storage rpgc:temp properties.name set string storage rpgc:temp mob.type 0
+
+data modify storage rpgc:temp properties.name set string storage rpgc:temp mob.type
 tag @s add rpgc.mob_default
 data modify storage rpgc:temp properties.hp set from entity @s Health
 data modify storage rpgc:temp properties.damage set value [{type:'physical',amount:0}]
