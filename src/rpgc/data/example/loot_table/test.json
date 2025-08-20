@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_custom_data",
-                "tag": "{damage:[{type:'test',amount:1},{type:'physical',amount:1}],events:[{type:kill,run:'particle minecraft:explosion'},{type:death,run:'say died'},{type:hit,run:'say stab'},{type:hurt,run:'say owi'}]}"
+                "tag": "{rpgc:true}"
               },
               {
                 "function": "minecraft:set_enchantments",

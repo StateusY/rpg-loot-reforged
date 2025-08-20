@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": []
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgc:temp"
+  }
+}

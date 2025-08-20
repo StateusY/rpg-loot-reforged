@@ -1,3 +1,6 @@
+gamerule doImmediateRespawn true
+
+
 ## Scoreboards
 
 # Simple dummy data, any data stored here is expected to be changed or destroyed after a function ends
@@ -10,6 +13,7 @@ scoreboard objectives add rpgc.id dummy
 scoreboard objectives add rpgc.max_hp dummy
 scoreboard objectives add rpgc.hp dummy
 
+scoreboard objectives add rpgc.atk_cooldown dummy
 
 ## TEMP
 execute as lostpuppet run function rpgc:test
@@ -17,10 +21,9 @@ execute unless data storage rpgc:config init run function rpgc:z_core/misc/confi
 
 
 scoreboard objectives add player_left_game minecraft.custom:minecraft.leave_game
-
+scoreboard objectives add died deathCount
 ## Bows
 scoreboard objectives add rpgc.shot_arrow minecraft.used:minecraft.bow
-
 scoreboard objectives add rpgc.drawing dummy
 scoreboard objectives add rpgc.draw_percent dummy
 scoreboard objectives add rpgc.draw_speed dummy
@@ -29,6 +32,10 @@ scoreboard objectives add rpgc.velocity_percent dummy
 scoreboard objectives add rpgc.inaccuracy dummy
 scoreboard objectives add rpgc.projectile_dmg dummy
 scoreboard objectives add rpgc.projectile_percent dummy
+
+scoreboard objectives add rpgc.slot0 dummy
+scoreboard objectives add rpgc.slot1 dummy
+
 
 scoreboard objectives add motion_x1 dummy
 scoreboard objectives add motion_y1 dummy

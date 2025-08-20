@@ -3,7 +3,7 @@ data modify storage rpgc:temp attacker.damage set from entity @s SelectedItem.co
 
 ## do not know what we need all this for v
 
-#function rpgc:-/event/call {type:"hit",source:"storage rpgc:data current"}
+
 
 #function rpgc:-/player/attribute/get {type:"crit.chance"}
 # execute store result score .random rpgc.temp run random value 1..1000 rpgc:crit

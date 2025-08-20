@@ -1,5 +1,5 @@
 # Register attributes
-function rpgc:z_api/attribute/register {id:"max_hp",base:0,icon:"❤",color:"red",tags:[],on_update:"function rpgc:z_core/misc/max_hp_update"}
+function rpgc:z_api/attribute/register {id:"max_hp",base:0,icon:"❤",color:"red",tags:[],on_update:"function rpgc:z_core/player/updates/hp"}
 function rpgc:z_api/attribute/register {id:"armor",base:0,icon:"⛊",color:"blue",tags:[],on_update:""}
 function rpgc:z_api/attribute/register {id:"pen",base:0,icon:"🔨",color:"dark_blue",tags:[],on_update:""}
 

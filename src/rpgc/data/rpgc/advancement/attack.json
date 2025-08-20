@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "punch": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgc:z_core/player/equipment/attack"
+  }
+}

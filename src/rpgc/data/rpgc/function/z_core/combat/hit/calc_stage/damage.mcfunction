@@ -40,4 +40,4 @@ function rpgc:z_core/combat/hit/calc_stage/dmg_numbers/prep
 data remove storage rpgc:temp combat.dmg[0]
 execute if data storage rpgc:temp combat.dmg[0] run function rpgc:z_core/combat/hit/calc_stage/damage with storage rpgc:temp combat.dmg[0]
 
-execute if score @s rpgc.hp matches ..0 run kill @s
+execute if score @s rpgc.hp matches ..0 run function rpgc:z_core/combat/hit/death

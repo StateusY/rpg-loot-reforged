@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{bow:{draw:40,velocity:10,inaccuracy:10}}"
+              "tag": "{rpgc:true,bow:{draw:40,velocity:10,inaccuracy:10}}"
             },
             {
               "function": "minecraft:set_enchantments",

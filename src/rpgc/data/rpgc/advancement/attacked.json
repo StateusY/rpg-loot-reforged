@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "struck": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {},
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgc:z_core/player/equipment/attacked"
+  }
+}

@@ -1,4 +1,4 @@
-function rpgc:z_api/attribute/modifier/add {id:physical_dmg,name:"temp",type:add,value:1}
+function rpgc:z_api/attribute/modifier/add {id:physical_dmg,name:"temp",type:add,value:0}
 function rpgc:z_api/attribute/modifier/add {id:cold_dmg,name:"temp",type:add,value:1}
 function rpgc:z_api/attribute/modifier/add {id:cold_res,name:"temp",type:add,value:0.5}
 function rpgc:z_api/attribute/modifier/add {id:pen,name:"temp",type:add,value:10}
