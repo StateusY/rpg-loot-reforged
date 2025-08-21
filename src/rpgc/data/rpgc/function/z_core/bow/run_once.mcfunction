@@ -1,4 +1,5 @@
 #> from: rpgc:z_core/bow/bow_shot
+function rpgc:z_api/event/call {event:bow_shot}
 
 # get the damage multipler based on draw percent
 execute store result storage rpgc:temp bow.draw_dmg double 0.01 run scoreboard players get @s rpgc.draw_percent

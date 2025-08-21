@@ -14,6 +14,7 @@ $scoreboard players operation value rpgc.temp *= $(id)_mul rpgc.temp
 # Normalize result
 scoreboard players operation value rpgc.temp /= #100 constant
 
+
 # Store value to attributes
 $execute store result storage rpgc:temp attributes.$(id) double 0.01 run scoreboard players get value rpgc.temp
 

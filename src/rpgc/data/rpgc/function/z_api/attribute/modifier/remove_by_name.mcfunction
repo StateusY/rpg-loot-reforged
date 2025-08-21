@@ -13,6 +13,6 @@ function rpgc:z_core/attribute/cleanup_modifier
 
 function rpgc:z_core/attribute/cleanup_temp
 
-execute if data storage rpgc:temp found_modifiers[0] run function rpgc:z_core/attribute/update_by_name with storage rpgc:temp found_modifiers[0]
+execute if data storage rpgc:temp found_modifiers[0] run function rpgc:z_core/attribute/update with storage rpgc:temp found_modifiers[0]
 data remove storage rpgc:temp found_modifiers
 
