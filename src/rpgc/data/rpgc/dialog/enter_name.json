@@ -17,7 +17,11 @@
       "label": "Go Back"
     },
     {
-      "label": "Fetch Data"
+      "label": "Fetch Data",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "function rpgc:z_core/misc/player_manager/fetch_player {name:$(name)}"
+      }
     }
   ]
 }

@@ -1,0 +1,3 @@
+$execute unless entity $(name) run return run dialog show @s {type:"minecraft:multi_action",title:"Player Data",inputs:[{type:"minecraft:text",key:"name",label:"Enter Player's Name Here",label_visible:1b,initial:"$(name) is not a valid player"}],can_close_with_escape:1b,pause:0b,after_action:"close",actions:[{label:"Go Back"},{label:"Fetch Data",action:{type:"minecraft:dynamic/run_command",template:"function rpgc:z_core/misc/player_manager/fetch_player {name:\u0024(name)}"}}]}
+$execute store result storage rpgc:temp fetch.id int 1 run scoreboard players get $(name) rpgc.id
+function rpgc:z_core/misc/player_manager/fetch_data with storage rpgc:temp fetch
