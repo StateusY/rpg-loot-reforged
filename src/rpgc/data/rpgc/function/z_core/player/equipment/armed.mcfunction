@@ -1,2 +1,2 @@
-function rpgc:z_api/attribute/modifier/add {id:physical_dmg,name:"unarmed",type:add,value:0}
+function rpgc:z_api/attribute/modifier/remove_by_source {source:unarmed}
 tag @s remove rpgc.unarmed

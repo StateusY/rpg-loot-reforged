@@ -1,3 +1,4 @@
+
 execute unless function rpgc:z_core/require_entity run return fail
 
 $function rpgc:z_api/info {message:"Removed modifier $(name)"}
@@ -15,4 +16,3 @@ function rpgc:z_core/attribute/cleanup_temp
 
 execute if data storage rpgc:temp found_modifiers[0] run function rpgc:z_core/attribute/update with storage rpgc:temp found_modifiers[0]
 data remove storage rpgc:temp found_modifiers
-

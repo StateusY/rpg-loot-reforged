@@ -1,5 +1,6 @@
 {
     "values": [
-        "rpgc:z_core/tick"
+        "rpgc:z_core/tick",
+        "player_motion:internal/technical/tick"
     ]
 }

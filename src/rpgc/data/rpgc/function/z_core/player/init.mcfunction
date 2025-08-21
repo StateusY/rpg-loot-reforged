@@ -8,4 +8,4 @@ function rpgc:z_core/player/data/context
 data modify storage rpgc:player context.data set value {attributes:{},modifiers:[],events:[],events_by_listen:{}}
 function rpgc:z_core/player/data/save
 
-function rpgc:z_core/player/update_from_config
+function rrpgc:z_core/player/updates/config

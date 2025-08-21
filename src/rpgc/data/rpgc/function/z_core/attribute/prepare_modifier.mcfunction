@@ -1,3 +1,4 @@
+
 execute if entity @s[type=player] run return run function rpgc:z_core/attribute/prepare_modifier_player
 
 # Get generic entity data

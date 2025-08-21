@@ -1,0 +1,2 @@
+execute if entity @s[tag=rpgloot.twinblade_dash1_end,tag=!rpgloot.twinblade_dash2] run function rpg_loot:items/twinblade/dash2
+execute unless predicate rpgc:ground if entity @s[tag=!rpgloot.twinblade_dash1] run function rpg_loot:items/twinblade/dash1

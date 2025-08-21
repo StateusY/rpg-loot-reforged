@@ -1,0 +1,1 @@
+$function rpgc:z_api/attribute/modifier/add {source:unarmed,id:physical_dmg,name:"unarmed",type:add,value:$(dmg)}

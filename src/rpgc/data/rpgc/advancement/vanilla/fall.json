@@ -1,0 +1,12 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:fall_from_height",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "rpgc:z_core/player/vanilla/fall/land"
+    }
+  }
+  

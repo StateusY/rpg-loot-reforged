@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,events:[{name:twinstep_dash,source:weapon,listen:use,command:'function rpg_loot:items/twinblade/use'},{name:twinstep_held,source:weapon,listen:held,command:'function rpg_loot:items/twinblade/held'},{name:twinstep_swap,source:weapon,listen:swap_off,command:'function rpg_loot:items/twinblade/swap'},{name:twinstep_land,source:weapon,listen:land,command:'function rpg_loot:items/twinblade/land'},{name:twinstep_end,source:weapon,listen:use_end,command:'function rpg_loot:items/twinblade/use_end'}],attributes:[{id:physical_dmg,name:Twinstep,type:add,value:5},{id:fall_dmg,name:Twinstep,type:add,value:5}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Twinstep",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Jump and ",
+                    "color": "#a4eff9",
+                    "italic": false
+                  },
+                  {
+                    "keybind": "key.use"
+                  },
+                  {
+                    "text": " To dash away, "
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "#a4eff9",
+                    "italic": false
+                  },
+                  {
+                    "text": " again before landing to perform another dash"
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.sneak",
+                    "color": "#a4eff9",
+                    "italic": false
+                  },
+                  {
+                    "text": " while dashing to perform a slam"
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "has_consume_particles": false
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

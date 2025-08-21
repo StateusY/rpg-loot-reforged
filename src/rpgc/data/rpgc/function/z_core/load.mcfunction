@@ -1,27 +1,40 @@
 gamerule doImmediateRespawn true
 
 
-## Scoreboards
+## ───[ Core Scoreboards ]──────────────────────────────
 
-# Simple dummy data, any data stored here is expected to be changed or destroyed after a function ends
+# Temp Score
 scoreboard objectives add rpgc.temp dummy
 
-# Internal ID to attach data and context to PLAYER ONLY, use instead of UUID when possible
+# Player ID (use instead of UUID)
 scoreboard objectives add rpgc.id dummy
 
-# Use scoreboards for hp because regen would make it very laggy
+# Item use tracking
+scoreboard objectives add rpgc.using dummy
+scoreboard objectives add rpgc.stop_using dummy
+
+# Delay for slot swap (MC jank workaround)
+scoreboard objectives add rpgc.queue_swap dummy
+
+## ───[ Player Stats ]──────────────────────────────────
+
+# Player health
 scoreboard objectives add rpgc.max_hp dummy
 scoreboard objectives add rpgc.hp dummy
-
+# Attack cooldown
 scoreboard objectives add rpgc.atk_cooldown dummy
 
 
-execute unless data storage rpgc:config init run function rpgc:z_core/misc/config/init
-
-
+## ───[ Player State ]──────────────────────────────────
+# Disconnect & death tracking
 scoreboard objectives add player_left_game minecraft.custom:minecraft.leave_game
 scoreboard objectives add died deathCount
-## Bows
+
+# Slot tracking
+scoreboard objectives add rpgc.slot0 dummy
+scoreboard objectives add rpgc.slot1 dummy
+
+## ───[ Bows / Projectiles ]────────────────────────────
 scoreboard objectives add rpgc.shot_arrow minecraft.used:minecraft.bow
 scoreboard objectives add rpgc.drawing dummy
 scoreboard objectives add rpgc.draw_percent dummy
@@ -32,10 +45,8 @@ scoreboard objectives add rpgc.inaccuracy dummy
 scoreboard objectives add rpgc.projectile_dmg dummy
 scoreboard objectives add rpgc.projectile_percent dummy
 
-scoreboard objectives add rpgc.slot0 dummy
-scoreboard objectives add rpgc.slot1 dummy
 
-
+## ───[ Motion / Physics ]──────────────────────────────
 scoreboard objectives add motion_x1 dummy
 scoreboard objectives add motion_y1 dummy
 scoreboard objectives add motion_z1 dummy
@@ -44,7 +55,11 @@ scoreboard objectives add motion_x2 dummy
 scoreboard objectives add motion_y2 dummy
 scoreboard objectives add motion_z2 dummy
 
-## Constants
+# Fall distance
+scoreboard objectives add rpgc.fall minecraft.custom:minecraft.fall_one_cm
+
+
+## ───[ Constants ]─────────────────────────────────────
 scoreboard objectives add constant dummy
 scoreboard players set #loaded constant 1
 scoreboard players set #-1 constant -1
@@ -61,13 +76,16 @@ scoreboard players set #99 constant 99
 scoreboard players set #100 constant 100
 scoreboard players set #1000 constant 1000
 scoreboard players set #7000 constant 7000
-function #rpgc:register
 
-#triggers
+
+## ───[ Triggers ]──────────────────────────────────────
 scoreboard objectives add rpgc.dialog trigger
-## trigger meanings
-# 1 = stats
+# Trigger meanings:
+#   1 = stats
 
 
-# Schedules
+## ───[ Init & Scheduling ]─────────────────────────────
+function #rpgc:register
 function rpgc:z_core/1second
+
+execute unless data storage rpgc:config init run function rpgc:z_core/misc/config/init

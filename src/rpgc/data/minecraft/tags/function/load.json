@@ -1,6 +1,7 @@
 {
   "values": [
-    "rpgc:z_core/load"
+    "rpgc:z_core/load",
+    "player_motion:internal/technical/load"
   ]
 }
 

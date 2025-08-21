@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "using": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "rpgc": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgc:z_core/player/updates/using"
+  }
+}

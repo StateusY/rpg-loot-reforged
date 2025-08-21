@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:100,velocity:10,inaccuracy:1},events:[{name:pew,source:mainhand,listen:bow_shot,command:'say pew'},{name:poke,source:mainhand,listen:on_attack,command:'say poke'},{name:gotem,source:mainhand,listen:drawing_bow,command:'say gotem'}],attributes:[{id:ranged_dmg,name:mainhand,type:add,value:5},{id:crit_chance,name:mainhand,type:add,value:1},{id:draw_speed,name:mainhand,type:mul,value:2}]}"
+              "tag": "{rpgc:true,bow:{draw:100,velocity:10,inaccuracy:1},events:[{name:pew,source:weapon,listen:bow_shot,command:'say pew'},{name:poke,source:weapon,listen:on_attack,command:'say poke'},{name:gotem,source:weapon,listen:drawing_bow,command:'say drawing'}],attributes:[{id:ranged_dmg,name:basic_bow,type:add,value:5},{id:crit_chance,name:basic_bow,type:add,value:1},{id:draw_speed,name:basic_bow,type:mul,value:2}]}"
             },
             {
               "function": "minecraft:set_enchantments",
