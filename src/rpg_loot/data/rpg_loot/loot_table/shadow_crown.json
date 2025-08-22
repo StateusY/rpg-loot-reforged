@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,events:[{name:shadow_retaliation,source:helmet,listen:hurt,command:'function rpg_loot:items/shadow_crown/hurt'},{name:shadow_retaliation,source:helmet,listen:death,command:'function rpg_loot:items/shadow_crown/death'}],attributes:[{id:armor,name:shadow_crown,type:add,value:15},{id:wither_dmg,name:shadow_crown,type:add,value:1}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Crown of vengeful shadows",
+                "color": "dark_gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Vengeful shadows protect you",
+                  "color": "dark_red",
+                  "italic": false
+                },
+                {
+                  "text": "Shadows will avenge you",
+                  "color": "dark_red",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

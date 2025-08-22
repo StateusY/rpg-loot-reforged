@@ -9,3 +9,4 @@ function rpgc:z_core/mob/properties/apply with storage rpgc:temp properties
 data remove storage rpgc:registry temp
 
 tag @s add rpgc
+

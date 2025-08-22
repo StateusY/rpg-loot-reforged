@@ -1,0 +1,76 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "[": -16,
+        ",": -33,
+        "]": -17
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "glide:hud/hp/0.png",
+      "height": 16,
+      "ascent": -964,
+      "chars": [
+        "0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glide:hud/hp/1.png",
+      "height": 16,
+      "ascent": -964,
+      "chars": [
+        "1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glide:hud/hp/2.png",
+      "height": 16,
+      "ascent": -964,
+      "chars": [
+        "2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glide:hud/hp/3.png",
+      "height": 16,
+      "ascent": -964,
+      "chars": [
+        "3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glide:hud/hp/invincible.png",
+      "height": 16,
+      "ascent": -964,
+      "chars": [
+        "4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glide:hud/hp/blink.png",
+      "height": 16,
+      "ascent": -964,
+      "chars": [
+        "8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "glide:hud/hp/invincible_blink.png",
+      "height": 16,
+      "ascent": -964,
+      "chars": [
+        "9"
+      ]
+    }
+  ]
+}
+

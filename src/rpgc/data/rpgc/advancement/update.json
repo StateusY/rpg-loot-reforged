@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "update": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "rpgc": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgc:z_core/player/updates/queue"
+  }
+}

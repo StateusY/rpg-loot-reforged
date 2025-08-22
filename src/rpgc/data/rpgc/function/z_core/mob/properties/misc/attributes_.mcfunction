@@ -1,1 +1,1 @@
-$function rpgc:z_api/attribute/modifier/add {id:$(id),name:$(name),type:$(type),value:$(value)}
+$function rpgc:z_api/attribute/modifier/add {id:$(id),source:base,name:$(name),type:$(type),value:$(value)}

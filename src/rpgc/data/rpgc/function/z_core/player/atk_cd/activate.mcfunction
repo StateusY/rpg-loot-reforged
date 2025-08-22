@@ -4,6 +4,6 @@ scoreboard players set #multemp rpgc.atk_cooldown 100
 execute store result score #divtemp rpgc.atk_cooldown run attribute @s minecraft:attack_speed get 100
 scoreboard players operation @s rpgc.atk_cooldown *= #multemp rpgc.atk_cooldown
 scoreboard players operation @s rpgc.atk_cooldown /= #divtemp rpgc.atk_cooldown
-attribute @s attack_damage base set -100000
+attribute @s attack_damage modifier add rpgc:atkcd -100000 add_multiplied_total
 execute store result score @s rpgc.slot1 run data get entity @s SelectedItemSlot
 

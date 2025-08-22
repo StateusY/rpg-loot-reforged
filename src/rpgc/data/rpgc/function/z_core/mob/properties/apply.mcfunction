@@ -10,12 +10,14 @@ execute if data storage rpgc:temp properties.tag run function rpgc:z_core/mob/pr
 execute if data storage rpgc:temp properties.mount run function rpgc:z_core/mob/properties/mount with storage rpgc:temp properties.mount
 #function rpgc:-/mob/properties/id
 
-##REPLACE WITH NEW ATTRIBUTES SYSTEM vvv
+
 execute if data storage rpgc:temp properties.attributes run function rpgc:z_core/mob/properties/attributes
 
 execute if data storage rpgc:temp properties.hp run function rpgc:z_core/mob/properties/hp with storage rpgc:temp properties
 
 execute if data storage rpgc:temp properties.name run function rpgc:z_core/mob/properties/name with storage rpgc:temp properties
+execute if data storage rpgc:temp properties.bar_size run function rpgc:z_core/mob/properties/bar with storage rpgc:temp properties
+
 function rpgc:z_core/mob/properties/item
 execute if data storage rpgc:temp properties.cd run function rpgc:z_core/mob/properties/cd with storage rpgc:temp properties
 execute if data storage rpgc:temp properties.nbt run function rpgc:z_core/mob/properties/nbt with storage rpgc:temp properties

@@ -1,3 +1,4 @@
 execute positioned ~ ~ ~ run function rpg_loot:items/twinblade/circle3
-$function rpgc:z_api/damage {target:"@e[type=#rpgc:all,distance=..6] unless score @s rpgc.id matches $(id)",damage:[{type:fall,value:$(damage)}]}
+$execute as @e[type=#rpgc:all,distance=..6] unless score @s rpgc.id matches $(id) run function rpgc:z_api/damage {target:"@s",damage:[{type:fall,value:$(damage)}]}
+scoreboard players reset @s
 kill @s

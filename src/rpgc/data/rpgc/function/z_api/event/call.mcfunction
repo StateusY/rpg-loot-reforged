@@ -4,6 +4,7 @@ function rpgc:z_core/event/prepare
 
 # Filter events
 $data modify storage rpgc:temp events set from storage rpgc:temp events_by_listen.$(event)
+$execute unless data storage rpgc:temp events[0] run return run function rpgc:z_api/info {message:"No listeners found for event $(event)"}
 execute if data storage rpgc:temp events[0] run function rpgc:z_core/event/call with storage rpgc:temp events[0]
 
 function rpgc:z_core/event/cleanup
