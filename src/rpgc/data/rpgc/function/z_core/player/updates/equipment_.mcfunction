@@ -1,0 +1,13 @@
+execute store result score @s rpgc.temp run data get storage rpgc:player context.data.equipment.head
+$execute unless predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:all_of",terms:[{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{head:{items:"air"}}}},{condition:"minecraft:value_check",value:{type:"minecraft:score",target:"this",score:"rpgc.temp"},range:0}]},{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{head:{predicates:{"minecraft:custom_data":{id:"$(head)"}}}}}}]} run function rpgc:z_core/player/equipment/head
+
+execute store result score @s rpgc.temp run data get storage rpgc:player context.data.equipment.chest
+$execute unless predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:all_of",terms:[{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{chest:{items:"air"}}}},{condition:"minecraft:value_check",value:{type:"minecraft:score",target:"this",score:"rpgc.temp"},range:0}]},{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{chest:{predicates:{"minecraft:custom_data":{id:"$(chest)"}}}}}}]} run function rpgc:z_core/player/equipment/chest
+
+execute store result score @s rpgc.temp run data get storage rpgc:player context.data.equipment.legs
+$execute unless predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:all_of",terms:[{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{legs:{items:"air"}}}},{condition:"minecraft:value_check",value:{type:"minecraft:score",target:"this",score:"rpgc.temp"},range:0}]},{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{legs:{predicates:{"minecraft:custom_data":{id:"$(legs)"}}}}}}]} run function rpgc:z_core/player/equipment/legs
+
+execute store result score @s rpgc.temp run data get storage rpgc:player context.data.equipment.feet
+$execute unless predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:all_of",terms:[{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{feet:{items:"air"}}}},{condition:"minecraft:value_check",value:{type:"minecraft:score",target:"this",score:"rpgc.temp"},range:0}]},{condition:"minecraft:entity_properties",entity:"this",predicate:{equipment:{feet:{predicates:{"minecraft:custom_data":{id:"$(feet)"}}}}}}]} run function rpgc:z_core/player/equipment/feet
+
+scoreboard players reset @s rpgc.temp

@@ -1,3 +1,3 @@
-$scoreboard players remove $(owner) rpgloot.shade_count 1
 execute on passengers run kill @s
+scoreboard players reset @s
 kill @s

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{id:'shadow_crown',rpgc:true,events:[{name:shadow_retaliation,source:helmet,listen:hurt,command:'function rpg_loot:items/shadow_crown/hurt'},{name:shadow_retaliation,source:helmet,listen:death,command:'function rpg_loot:items/shadow_crown/death'}],attributes:[{id:armor,name:shadow_crown,type:add,value:15},{id:wither_dmg,name:shadow_crown,type:add,value:1},{id:wither_dmg,name:shadow_mult,type:mul,value:.5}]}"
+              "tag": "{id:'shadow_crown',rpgc:true,events:[{name:shadow_retaliation,source:head,listen:hurt,command:'function rpg_loot:items/shadow_crown/hurt'},{name:shadow_restore,source:head,listen:head_swap,command:'function rpg_loot:items/shadow_crown/clear'}],attributes:[{id:armor,source:head,name:shadow_crown,type:add,value:15},{id:wither_dmg,source:head,name:shadow_crown,type:add,value:1},{id:wither_dmg,source:head,name:shadow_mult,type:mul,value:.25}]}"
             },
             {
               "function": "minecraft:set_name",
