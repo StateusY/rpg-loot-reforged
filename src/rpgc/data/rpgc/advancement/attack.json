@@ -6,6 +6,12 @@
         "player": {},
         "damage": {
           "type": {
+            "tags": [
+              {
+                "id": "rpgc:ignore_advancement",
+                "expected": false
+              }
+            ],
             "direct_entity": {
               "type": "minecraft:player"
             }

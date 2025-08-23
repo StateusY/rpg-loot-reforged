@@ -1,3 +1,4 @@
+data remove storage rpgc:temp events_by_listen
 execute unless function rpgc:z_core/require_entity run return fail
 
 function rpgc:z_core/event/prepare

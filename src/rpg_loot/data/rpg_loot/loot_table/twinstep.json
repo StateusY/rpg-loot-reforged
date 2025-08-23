@@ -70,13 +70,13 @@
                   "consume_seconds": 999999,
                   "animation": "none",
                   "has_consume_particles": false
-                }
+                },
+                "minecraft:item_model": "rpgloot:twinstep"
               }
             }
           ]
         }
-      ],
-      "functions": []
+      ]
     }
   ]
 }

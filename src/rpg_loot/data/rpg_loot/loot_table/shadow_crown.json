@@ -9,12 +9,12 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{name:shadow_retaliation,source:helmet,listen:hurt,command:'function rpg_loot:items/shadow_crown/hurt'},{name:shadow_retaliation,source:helmet,listen:death,command:'function rpg_loot:items/shadow_crown/death'}],attributes:[{id:armor,name:shadow_crown,type:add,value:15},{id:wither_dmg,name:shadow_crown,type:add,value:1}]}"
+              "tag": "{rpgc:true,events:[{name:shadow_retaliation,source:helmet,listen:hurt,command:'function rpg_loot:items/shadow_crown/hurt'},{name:shadow_retaliation,source:helmet,listen:death,command:'function rpg_loot:items/shadow_crown/death'}],attributes:[{id:armor,name:shadow_crown,type:add,value:15},{id:wither_dmg,name:shadow_crown,type:add,value:1},{id:wither_dmg,name:shadow_mult,type:mul,value:.5}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Crown of vengeful shadows",
+                "text": "Crown of vengeful shades",
                 "color": "dark_gray",
                 "italic": false
               }
@@ -23,17 +23,18 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Vengeful shadows protect you",
-                  "color": "dark_red",
-                  "italic": false
-                },
-                {
-                  "text": "Shadows will avenge you",
+                  "text": "Vengeful shades protect you",
                   "color": "dark_red",
                   "italic": false
                 }
               ],
               "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpg_loot:backend/items/shadow_crown_player": 1
+              }
             },
             {
               "function": "minecraft:toggle_tooltips",
@@ -43,8 +44,7 @@
             }
           ]
         }
-      ],
-      "functions": []
+      ]
     }
   ]
 }

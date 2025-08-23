@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,events:[{name:thorn_prick,source:weapon,listen:use,command:'function rpg_loot:items/thorny_dagger/use'}],attributes:[{id:physical_dmg,name:shadow_mult,type:mul,value:.5}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Thorny Dagger",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "keybind": "key.use",
+                  "color": "#7200be",
+                  "italic": false
+                },
+                {
+                  "text": " to prick yourself.",
+                  "color": "#7200be",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
