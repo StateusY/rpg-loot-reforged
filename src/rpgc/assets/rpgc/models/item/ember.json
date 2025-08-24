@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rpg_loot:item/ember"
+    "layer0": "rpgloot:item/ember"
   },
   "display": {
     "thirdperson_righthand": {

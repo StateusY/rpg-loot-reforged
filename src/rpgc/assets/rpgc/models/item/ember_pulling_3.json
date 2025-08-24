@@ -1,6 +1,6 @@
 {
-  "parent": "rpg_loot:item/ember",
+  "parent": "rpgloot:item/ember",
   "textures": {
-    "layer0": "rpg_loot:item/ember_pulling_3"
+    "layer0": "rpgloot:item/ember_pulling_3"
   }
 }

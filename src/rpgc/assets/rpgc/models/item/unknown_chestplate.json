@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "rpg_loot:item/unknown_chestplate",
-    "layer1": "rpg_loot:item/unknown_shine"
+    "layer0": "rpgloot:item/unknown_chestplate",
+    "layer1": "rpgloot:item/unknown_shine"
   }
 }

@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "rpg_loot:item/unknown_boots",
+    "model": "rpgloot:item/unknown_boots",
     "tints": [
       {
         "type": "minecraft:constant",

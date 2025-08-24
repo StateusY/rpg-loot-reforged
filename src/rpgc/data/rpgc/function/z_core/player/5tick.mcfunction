@@ -1,0 +1,1 @@
+function rpgc:z_api/event/call {event:slow_tick}

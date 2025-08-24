@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "rpg_loot:item/unknown_pickaxe",
+    "model": "rpgloot:item/unknown_pickaxe",
     "tints": [
       {
         "type": "minecraft:constant",

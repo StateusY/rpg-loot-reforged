@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "rpg_loot:item/unknown_shovel",
+    "model": "rpgloot:item/unknown_shovel",
     "tints": [
       {
         "type": "minecraft:constant",

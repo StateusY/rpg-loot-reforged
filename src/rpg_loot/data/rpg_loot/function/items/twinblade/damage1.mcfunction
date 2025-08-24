@@ -1,2 +1,0 @@
-function rpg_loot:items/twinblade/circle1
-$execute as @e[type=#rpgc:all,distance=..2] unless score @s rpgc.id matches $(id) run function rpgc:z_api/damage {target:"@s",damage:[{type:fall,value:$(damage)}]}

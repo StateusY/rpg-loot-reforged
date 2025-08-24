@@ -1,0 +1,1 @@
+$function rpgc:z_api/damage {target:"@s",damage:[{type:"bleed",value:$(dmg)}]}

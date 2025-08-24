@@ -1,0 +1,1 @@
+$execute as @n[type=minecraft:item_display,tag=rpgloot.shade,tag=!rpgloot.shade_angry,nbt={data:{owner:"$(out)"}}] run function rpgloot:items/shadow_crown/shade/make_angry

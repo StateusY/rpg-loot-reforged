@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "rpg_loot:item/unknown_bow",
+    "model": "rpgloot:item/unknown_bow",
     "tints": [
       {
         "type": "minecraft:constant",

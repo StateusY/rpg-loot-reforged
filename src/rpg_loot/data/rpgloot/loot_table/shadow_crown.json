@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:'shadow_crown',rpgc:true,events:[{name:shadow_retaliation,source:head,listen:hurt,command:'function rpgloot:items/shadow_crown/hurt'},{name:shadow_restore,source:head,listen:head_swap,command:'function rpgloot:items/shadow_crown/clear'}],attributes:[{id:armor,source:head,name:shadow_crown,type:add,value:15},{id:wither_dmg,source:head,name:shadow_crown,type:add,value:1},{id:wither_dmg,source:head,name:shadow_mult,type:mul,value:.25}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Crown of vengeful shades",
+                "color": "dark_gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Vengeful shades protect you",
+                  "color": "dark_red",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgloot:backend/items/shadow_crown_player": 1
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
