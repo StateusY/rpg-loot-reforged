@@ -1,6 +1,6 @@
 execute unless function rpgc:z_core/require_entity run return fail
 
-$function rpgc:z_api/info {message:"Added event \"$(name)\" |from source: $(source) |listening to: $(listen) |calling: $(command)"}
+$function rpgc:z_api/info {message:"Added event \"$(name)\" | from source: $(source) | listening to: $(listen) | calling: $(command)"}
 
 function rpgc:z_core/event/prepare
 

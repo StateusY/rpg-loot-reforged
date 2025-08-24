@@ -33,6 +33,7 @@ scoreboard objectives add died deathCount
 # Slot tracking
 scoreboard objectives add rpgc.slot0 dummy
 scoreboard objectives add rpgc.slot1 dummy
+scoreboard objectives add rpgc.drop minecraft.custom:minecraft.drop
 
 ## ───[ Bows / Projectiles ]────────────────────────────
 scoreboard objectives add rpgc.shot_arrow minecraft.used:minecraft.bow

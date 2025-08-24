@@ -1,3 +1,4 @@
+scoreboard players reset @s rpgc.drop
 execute if score @s rpgc.atk_cooldown matches 1.. run attribute @s minecraft:attack_damage modifier remove rpgc:atkcd
 function rpgc:z_api/event/call {event:swap_off}
 execute if predicate rpgc:unarmed run function rpgc:z_core/player/equipment/unarmed

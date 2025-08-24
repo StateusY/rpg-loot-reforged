@@ -4,4 +4,4 @@ scoreboard players reset @s rpgc.drawing
 scoreboard players reset @s rpgc.draw_percent
 scoreboard players reset .current_id
 title @s actionbar ""
-data remove storage rpgc:temp bow
+#data remove storage rpgc:temp bow

@@ -1,4 +1,5 @@
 #  <rpgc:z_core/tick>
+execute if score @s rpgc.drop matches 1.. run function rpgc:z_core/player/equipment/swaped
 execute if entity @s[tag=rpgc.update_queued] run function rpgc:z_core/player/updates/equipment
 
 execute unless predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{effects:{"minecraft:resistance":{amplifier:255}}}} run effect give @s resistance infinite 255 true
