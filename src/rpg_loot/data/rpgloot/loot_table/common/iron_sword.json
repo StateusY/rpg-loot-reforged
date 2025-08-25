@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,events:[{name:iron_sword,source:weapon,listen:held,command:'function rpgloot:items/basic/iron/sword/held'},{name:iron_sword,source:weapon,listen:hurt,command:'function rpgloot:items/basic/iron/sword/hurt'},{name:iron_sword,source:weapon,listen:use,command:'function rpgloot:items/basic/iron/sword/use'},{name:iron_sword,source:weapon,listen:swap_off,command:'function rpgloot:items/basic/iron/sword/swap_off'}],attributes:[{id:physical_dmg,name:iron_sword,source:weapon,type:add,value:6}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "has_consume_particles": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

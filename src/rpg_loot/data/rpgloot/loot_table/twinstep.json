@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{name:twinstep_dash,source:weapon,listen:use,command:'function rpgloot:items/twinblade/use'},{name:twinstep_held,source:weapon,listen:held,command:'function rpgloot:items/twinblade/held'},{name:twinstep_swap,source:weapon,listen:swap_off,command:'function rpgloot:items/twinblade/swap'},{name:twinstep_land,source:weapon,listen:land,command:'function rpgloot:items/twinblade/land'},{name:twinstep_end,source:weapon,listen:use_end,command:'function rpgloot:items/twinblade/use_end'}],attributes:[{id:physical_dmg,name:Twinstep,type:add,value:5},{id:fall_dmg,name:Twinstep,type:add,value:5}]}"
+              "tag": "{rpgc:true,events:[{name:twinstep_dash,source:weapon,listen:use,command:'function rpgloot:items/twinstep/use'},{name:twinstep_held,source:weapon,listen:held,command:'function rpgloot:items/twinstep/held'},{name:twinstep_swap,source:weapon,listen:swap_off,command:'function rpgloot:items/twinstep/swap'},{name:twinstep_land,source:weapon,listen:land,command:'function rpgloot:items/twinstep/land'},{name:twinstep_end,source:weapon,listen:use_end,command:'function rpgloot:items/twinstep/use_end'}],attributes:[{id:physical_dmg,name:Twinstep,type:add,value:5},{id:fall_dmg,name:Twinstep,type:add,value:5}]}"
             },
             {
               "function": "minecraft:set_name",

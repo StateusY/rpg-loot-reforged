@@ -1,0 +1,26 @@
+{
+  "description": "",
+  "supported_items": "minecraft:structure_void",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": ["any"],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rpgloot:items/twinstep/crater"
+        }
+      }
+    ]
+  }
+}

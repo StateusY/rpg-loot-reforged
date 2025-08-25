@@ -1,6 +1,0 @@
-{
-  "parent": "rpgloot:item/ember",
-  "textures": {
-    "layer0": "rpgloot:item/ember_pulling_1"
-  }
-}

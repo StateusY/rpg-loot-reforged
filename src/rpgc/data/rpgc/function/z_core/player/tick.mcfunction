@@ -23,3 +23,7 @@ execute if score @s rpgc.dialog matches 1 run function rpgc:z_core/misc/stats_me
 function rpgc:z_core/player/equipment/mainhand
 execute unless entity @s[tag=rpgc.unarmed] run function rpgc:z_api/event/call {event:held}
 execute if score @s rpgc.drop matches 1.. run scoreboard players set @s rpgc.queue_swap 1
+
+# Update HUD
+execute if entity @s[tag=rpgc.hud_needs_update] run function rpgc:z_core/player/hud/update
+

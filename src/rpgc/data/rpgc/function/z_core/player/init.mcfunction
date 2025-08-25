@@ -4,10 +4,16 @@ execute unless score @s rpgc.id matches 0.. run function rpgc:z_core/player/new_
 # Get player context
 function rpgc:z_core/player/data/context
 
-# Initialize and save player's data
 
+# Initialize and save player's data
 data modify storage rpgc:player context.data set value {attributes:{},modifiers:[],events:[],events_by_listen:{},equipment:{head:"",chest:"",legs:"",feet:""}}
 
 function rpgc:z_core/player/data/save
 
+
+# Create the player's bossbar
+function rpgc:z_core/player/hud/setup with storage rpgc:player context
+
+
 function rpgc:z_core/player/updates/config
+
