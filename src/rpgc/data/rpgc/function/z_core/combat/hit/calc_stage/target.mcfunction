@@ -1,4 +1,4 @@
-execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",gamemode:["creative","spectator"]}}} run function rpgc:z_core/combat/hit/reset
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",gamemode:["creative","spectator"]}}} run return run function rpgc:z_core/combat/hit/reset
 execute if function rpgc:z_core/combat/hit/calc_stage/check_valid run return run execute unless score .halt_combat_clear rpgc.temp matches 1 run function rpgc:z_core/combat/hit/reset
 
 function rpgc:z_api/event/call {event:hurt}
@@ -24,5 +24,6 @@ execute if score .crit_stage rpgc.temp matches 2 run playsound minecraft:item.ma
 execute unless entity @e[type=#rpgc:all,tag=rpgc.current_attacker] run damage @s[type=!player] 0.0000001 rpgc:hit by @p
 execute unless entity @s[type=player] run data remove entity @s HurtTime
 # prevent clearing the entire system so you can do mutli selector damage
-
+tag @s remove rpgc.current_victim
+execute if score @s rpgc.hp matches ..0 run function rpgc:z_core/combat/hit/death
 execute unless score .halt_combat_clear rpgc.temp matches 1 run return run function rpgc:z_core/combat/hit/reset

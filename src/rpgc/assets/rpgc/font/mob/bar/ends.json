@@ -1,0 +1,21 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "<": -8,
+        ">": -8
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgc:bar/ends.png",
+      "height": 24,
+      "ascent": 2,
+      "chars": [
+        "[]"
+      ]
+    }
+  ]
+}
+

@@ -6,3 +6,5 @@ scoreboard players reset @s rpgloot.twinblade_slam_start
 scoreboard players operation .temp_id rpgloot.temp = @s rpgc.id
 execute summon armor_stand run function rpgloot:items/twinblade/marker
 data remove storage rpgloot:temp twinblade
+scoreboard players reset .slam
+scoreboard players reset .temp_id

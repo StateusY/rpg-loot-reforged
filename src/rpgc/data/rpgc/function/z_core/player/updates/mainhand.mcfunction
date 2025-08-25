@@ -6,3 +6,4 @@ execute if data storage rpgc:temp mainhand.attributes[0] run function rpgc:z_cor
 execute if data storage rpgc:temp mainhand.events[0] run function rpgc:z_core/player/updates/macro/weapon/event with storage rpgc:temp mainhand.events[0]
 
 data remove storage rpgc:temp mainhand
+execute unless predicate rpgc:unarmed run function rpgc:z_core/player/equipment/armed

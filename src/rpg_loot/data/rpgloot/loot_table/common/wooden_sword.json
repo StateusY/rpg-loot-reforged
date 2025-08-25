@@ -5,17 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
+          "name": "minecraft:wooden_sword",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},events:[{name:wooden_bow,source:weapon,listen:bow_impact,command:'function rpgloot:items/basic/wood/bow/impact'}],attributes:[{id:ranged_dmg,name:wooden_bow,type:add,value:2}]}"
+              "tag": "{rpgc:true,events:[{name:wooden_sword,source:weapon,listen:hit,command:'function rpgloot:items/basic/wood/sword/hit'}],attributes:[{id:physical_dmg,name:wooden_sword,source:weapon,type:add,value:4}]}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:bow": 1,
-                "infinity": 1
+                "rpgc:weapon": 1
               }
             }
           ]
