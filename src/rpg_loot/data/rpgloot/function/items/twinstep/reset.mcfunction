@@ -1,4 +1,5 @@
-
+attribute @s safe_fall_distance modifier remove rpgloot.twinstep
+tag @s remove rpgloot.twinstep_modified
 tag @s remove rpgloot.twinstep_dash1
 tag @s remove rpgloot.twinstep_dash1_end
 tag @s remove rpgloot.twinstep_dash2

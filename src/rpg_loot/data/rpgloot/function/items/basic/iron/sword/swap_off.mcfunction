@@ -1,1 +1,2 @@
+
 function rpgloot:items/basic/iron/sword/reset

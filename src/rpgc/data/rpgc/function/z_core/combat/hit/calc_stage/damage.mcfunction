@@ -19,16 +19,15 @@ scoreboard players operation .current_dmg rpgc.temp -= .a rpgc.temp
 
 # resistance calculation
 $execute store result score .current_res rpgc.temp run function rpgc:z_api/attribute/get {id:$(type)_res}
-say resistance calc
 scoreboard players operation .a rpgc.temp = .current_dmg rpgc.temp
-tellraw @a ["a =",{"score":{"name":".a","objective":"rpgc.temp"}}]
-tellraw @a ["b =",{"score":{"name":".current_res","objective":"rpgc.temp"}}]
+#tellraw @a ["a =",{"score":{"name":".a","objective":"rpgc.temp"}}]
+#tellraw @a ["b =",{"score":{"name":".current_res","objective":"rpgc.temp"}}]
 scoreboard players operation .a rpgc.temp *= .current_res rpgc.temp
-tellraw @a ["c =",{"score":{"name":".a","objective":"rpgc.temp"}}]
+#tellraw @a ["c =",{"score":{"name":".a","objective":"rpgc.temp"}}]
 scoreboard players operation .a rpgc.temp /= #100 constant
-tellraw @a ["d =",{"score":{"name":".a","objective":"rpgc.temp"}}]
+#tellraw @a ["d =",{"score":{"name":".a","objective":"rpgc.temp"}}]
 scoreboard players operation .current_dmg rpgc.temp -= .a rpgc.temp
-tellraw @a ["f =",{"score":{"name":".current_dmg","objective":"rpgc.temp"}}]
+#tellraw @a ["f =",{"score":{"name":".current_dmg","objective":"rpgc.temp"}}]
 
 scoreboard players operation @s rpgc.hp -= .current_dmg rpgc.temp
 # damage number setup
