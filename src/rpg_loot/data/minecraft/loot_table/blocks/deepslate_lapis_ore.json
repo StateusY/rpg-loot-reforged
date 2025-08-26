@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:netherite_scrap"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Magnite Clump",
+                "color": "#454545",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "rpgloot": {
+                  "material ": "magnite_clump"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": []
+    }
+  ],
+  "functions": []
+}

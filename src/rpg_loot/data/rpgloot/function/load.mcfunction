@@ -13,3 +13,6 @@ scoreboard objectives add rpgloot.splinter_dmg dummy
 scoreboard objectives add rpgloot.splinter_timer dummy
 
 scoreboard objectives add rpgloot.parry_timer dummy
+
+scoreboard objectives add rpgloot.mythril_mined minecraft.mined:minecraft.deepslate_emerald_ore
+scoreboard objectives add rpgloot.magnite_mined minecraft.mined:minecraft.deepslate_lapis_ore
