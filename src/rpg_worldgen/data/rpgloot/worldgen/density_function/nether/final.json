@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": 0.5,
+  "max_exclusive": 127.5,
+  "when_in_range": "rpgloot:nether/0/final",
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": -127.5,
+    "max_exclusive": -0.5,
+    "when_in_range": "rpgloot:nether/1/final",
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": -255.5,
+      "max_exclusive": -128.5,
+      "when_in_range": "rpgloot:nether/2/final",
+      "when_out_of_range": 1
+    }
+  }
+}
