@@ -1,4 +1,7 @@
 # rpg-loot-reforged
+
+
+## IMPORTANT: THE DATAPACK IS CURRENTLY UNDERGOING ANOTHER REWRITE (*again lol*) - THIS IS CURRENTLY ONLY FOR 1.21.7+
 This is a fork of [LostPuppet's](https://github.com/LostPuppet) rework on Michael9r9r's rpgloot datapack
 
 If you see any code that looks:
