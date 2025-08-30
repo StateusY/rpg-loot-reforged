@@ -1,0 +1,57 @@
+{
+  "providers": [
+    {
+      "comment": "numbers are 0123456789abcdef bc hexadecimal",
+      "type": "space",
+      "advances": {
+        " ": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/materials/raw_titanium.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "\u9999"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/wooden_sword",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "\u0001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/bow",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "\u0002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/wooden_axe",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "\u0003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/wooden_pickaxe",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "\u0004"
+      ]
+    }
+  ]
+}
+
