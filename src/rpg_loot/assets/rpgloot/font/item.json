@@ -11,43 +11,61 @@
       "type": "bitmap",
       "file": "rpgloot:item/materials/raw_titanium.png",
       "height": 16,
-      "ascent": 12,
+      "ascent": 11,
       "chars": [
         "\u9999"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/wooden_sword",
+      "file": "minecraft:item/oak_planks.png",
       "height": 16,
-      "ascent": 12,
+      "ascent": 11,
+      "chars": [
+        "\u000a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/stick.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\u000b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/wooden_sword.png",
+      "height": 16,
+      "ascent": 11,
       "chars": [
         "\u0001"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/bow",
+      "file": "minecraft:item/bow.png",
       "height": 16,
-      "ascent": 12,
+      "ascent": 11,
       "chars": [
         "\u0002"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/wooden_axe",
+      "file": "minecraft:item/wooden_axe.png",
       "height": 16,
-      "ascent": 12,
+      "ascent": 11,
       "chars": [
         "\u0003"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/wooden_pickaxe",
+      "file": "minecraft:item/wooden_pickaxe.png",
       "height": 16,
-      "ascent": 12,
+      "ascent": 11,
       "chars": [
         "\u0004"
       ]
