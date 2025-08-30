@@ -1,3 +1,4 @@
+
 tag @s add rpgloot.magnite
 playsound minecraft:block.respawn_anchor.set_spawn block @a ~ ~ ~ 0.5 2
 tp @e[type=item,distance=..8] ~ ~ ~

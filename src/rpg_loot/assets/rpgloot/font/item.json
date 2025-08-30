@@ -5,7 +5,9 @@
       "type": "space",
       "advances": {
         "/": -1,
-        " ": 2
+        " ": -2,
+        "_": 2,
+        "-": 1
       }
     },
     {
@@ -37,6 +39,24 @@
     },
     {
       "type": "bitmap",
+      "file": "minecraft:item/string.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue00c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/leather.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue00d"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:item/wooden_sword.png",
       "height": 16,
       "ascent": 11,
@@ -46,7 +66,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/bow.png",
+      "file": "minecraft:item/wooden_axe.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -55,7 +75,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/wooden_axe.png",
+      "file": "minecraft:item/wooden_pickaxe.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -64,7 +84,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/wooden_pickaxe.png",
+      "file": "minecraft:item/bow.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -73,4 +93,3 @@
     }
   ]
 }
-

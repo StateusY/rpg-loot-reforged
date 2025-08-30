@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Wood & Leather",
+  "inputs": [],
+  "columns": 4,
+  "actions": [
+    {
+      "label": {
+        "text": "\ue001",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "2x "
+        },
+        {
+          "text": "\ue00a",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 1x "
+        },
+        {
+          "text": "\ue00b",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20
+    },
+    {
+      "label": {
+        "text": "\ue002_",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "3x "
+        },
+        {
+          "text": "\ue00a",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 2x "
+        },
+        {
+          "text": "\ue00b",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20
+    },
+    {
+      "label": {
+        "text": "\ue003",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "3x "
+        },
+        {
+          "text": "\ue00a",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 2x "
+        },
+        {
+          "text": "\ue00b",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20
+    },
+    {
+      "label": {
+        "text": "\ue004",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "3x "
+        },
+        {
+          "text": "\ue00b",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 3x "
+        },
+        {
+          "text": "\ue00c",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20
+    }
+  ]
+}

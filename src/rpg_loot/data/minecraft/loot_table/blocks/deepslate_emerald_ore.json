@@ -25,13 +25,13 @@
               "function": "minecraft:set_components",
               "components": {
                 "!minecraft:consumable": {},
-                "minecraft:item_model": "rpgloot:materials/mythiril_shard"
+                "minecraft:item_model": "rpgloot:materials/mythril_shard"
               }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Mythril Shard",
+                "text": "Crystalline Mythril",
                 "italic": false
               }
             },
@@ -39,7 +39,7 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "rpgloot": {
-                  "material": "crystalline_mythiril_shard"
+                  "material": "crystalline_mythril"
                 }
               }
             }
