@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clock",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -24,13 +24,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "has_consume_particles": false
+                },
                 "minecraft:item_model": "minecraft:emerald"
               }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Crystalline Mythril Shard",
+                "text": "Mythril Shard",
                 "color": "#45b56a",
                 "italic": false
               }
@@ -39,15 +44,13 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "rpgloot": {
-                  "material": "crystalline_mythril"
+                  "material": "mythril_shard"
                 }
               }
             }
           ]
         }
-      ],
-      "conditions": []
+      ]
     }
-  ],
-  "functions": []
+  ]
 }

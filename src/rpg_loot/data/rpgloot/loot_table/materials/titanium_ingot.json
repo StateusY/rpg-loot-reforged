@@ -15,7 +15,7 @@
                   "animation": "none",
                   "has_consume_particles": false
                 },
-                "minecraft:item_model": "rpgloot:titanium_ingot"
+                "minecraft:item_model": "rpgloot:materials/titanium_ingot"
               }
             },
             {

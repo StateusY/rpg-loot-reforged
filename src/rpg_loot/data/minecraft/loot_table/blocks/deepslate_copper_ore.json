@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
@@ -15,24 +16,23 @@
                   "animation": "none",
                   "has_consume_particles": false
                 },
-                "minecraft:item_model": "rpgloot:materials/raw_silver"
+                "minecraft:item_model": "minecraft:diamond"
               }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Raw Silver",
+                "text": "Gem",
+                "color": "#ab1717",
                 "italic": false
               }
             },
             {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "rpgloot": {
+                  "material": "gem"
+                }
               }
             }
           ]

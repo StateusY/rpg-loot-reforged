@@ -15,7 +15,7 @@
                   "animation": "none",
                   "has_consume_particles": false
                 },
-                "minecraft:item_model": "rpgloot:raw_titanium"
+                "minecraft:item_model": "rpgloot:materials/raw_titanium"
               }
             },
             {

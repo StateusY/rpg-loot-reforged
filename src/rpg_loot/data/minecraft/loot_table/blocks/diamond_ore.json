@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
@@ -20,19 +21,17 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true}"
+              "tag": {
+                "rpgloot": {
+                  "material": "raw_silver"
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
                 "text": "Raw Silver",
                 "italic": false
-              }
-            },
-            {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false
               }
             }
           ]
