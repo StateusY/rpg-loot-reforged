@@ -8,3 +8,7 @@ execute if score @s rpgloot.mythril_mined matches 1.. as @n[type=item,nbt={Age:0
 execute if score @s rpgloot.mythril_mined matches 1.. run scoreboard players reset @s rpgloot.mythril_mined
 
 execute if score @s rpgloot.parry_timer matches 1.. run scoreboard players remove @s rpgloot.parry_timer 1
+
+# Stations
+execute if score @s rpgloot.interact_with_smithing_table matches 1.. run function rpgloot:station/crafter/interact
+
