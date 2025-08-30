@@ -26,7 +26,7 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "rpgloot": {
-                  "material ": "magnite_clump"
+                  "material": "magnite_clump"
                 }
               }
             }

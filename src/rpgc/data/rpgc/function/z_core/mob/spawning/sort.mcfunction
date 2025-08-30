@@ -1,4 +1,5 @@
 #> from: rpgc:z_core/1second
+execute if entity @s[tag=rpgc.mob_ignore] run return fail
 summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["rpgc.mob_marker"]}
 ride @s mount @n[type=armor_stand,limit=1,tag=rpgc.mob_marker]
 execute on vehicle run data modify storage rpgc:temp mob.type set from entity @s Passengers[0].id
