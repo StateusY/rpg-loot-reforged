@@ -4,7 +4,8 @@
       "comment": "numbers are 0123456789abcdef bc hexadecimal",
       "type": "space",
       "advances": {
-        " ": -1
+        "/": -1,
+        " ": 2
       }
     },
     {
@@ -13,16 +14,16 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\u9999"
+        "\ue999"
       ]
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/oak_planks.png",
-      "height": 16,
-      "ascent": 11,
+      "file": "minecraft:block/oak_planks.png",
+      "height": 12,
+      "ascent": 9,
       "chars": [
-        "\u000a"
+        "\ue00a"
       ]
     },
     {
@@ -31,7 +32,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\u000b"
+        "\ue00b"
       ]
     },
     {
@@ -40,7 +41,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\u0001"
+        "\ue001"
       ]
     },
     {
@@ -49,7 +50,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\u0002"
+        "\ue002"
       ]
     },
     {
@@ -58,7 +59,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\u0003"
+        "\ue003"
       ]
     },
     {
@@ -67,7 +68,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\u0004"
+        "\ue004"
       ]
     }
   ]
