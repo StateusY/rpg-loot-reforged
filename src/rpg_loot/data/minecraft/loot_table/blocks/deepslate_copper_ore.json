@@ -11,11 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:consumable": {
-                  "consume_seconds": 999999,
-                  "animation": "none",
-                  "has_consume_particles": false
-                },
+                "!minecraft:consumable": {},
                 "minecraft:item_model": "minecraft:diamond"
               }
             },
