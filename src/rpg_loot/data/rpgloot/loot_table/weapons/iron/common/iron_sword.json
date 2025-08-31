@@ -26,6 +26,14 @@
                   "has_consume_particles": false
                 }
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "rpgloot": {
+                  "tier": "common"
+                }
+              }
             }
           ]
         }

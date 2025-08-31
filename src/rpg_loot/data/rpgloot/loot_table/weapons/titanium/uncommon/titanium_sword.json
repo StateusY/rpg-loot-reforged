@@ -16,6 +16,14 @@
               "enchantments": {
                 "rpgc:weapon": 1
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "rpgloot": {
+                  "tier": "uncommon"
+                }
+              }
             }
           ]
         }
