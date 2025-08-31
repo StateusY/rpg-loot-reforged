@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{name:iron_sword_held,source:weapon,listen:held,command:'function rpgloot:items/basic/iron/sword/held'},{name:iron_sword_hurt,source:weapon,listen:hurt_late,command:'function rpgloot:items/basic/iron/sword/hurt'},{name:iron_sword_use,source:weapon,listen:use,command:'function rpgloot:items/basic/iron/sword/use'},{name:iron_sword_swap,source:weapon,listen:swap_off,command:'function rpgloot:items/basic/iron/sword/swap_off'}],attributes:[{id:physical_dmg,name:iron_sword,source:weapon,type:add,value:6}]}"
+              "tag": "{rpgc:true,events:[{name:iron_sword_held,source:weapon,listen:held,command:'function rpgloot:items/basic/iron/sword/held'},{name:iron_sword_hurt,source:weapon,listen:hurt_late,command:'function rpgloot:items/basic/iron/sword/hurt'},{name:iron_sword_use,source:weapon,listen:use,command:'function rpgloot:items/basic/iron/sword/use'},{name:iron_sword_swap,source:weapon,listen:swap_off,command:'function rpgloot:items/basic/iron/sword/swap_off'}],attributes:[{id:physical_dmg,name:iron_sword,source:weapon,type:add,value:10}]}"
             },
             {
               "function": "minecraft:set_enchantments",

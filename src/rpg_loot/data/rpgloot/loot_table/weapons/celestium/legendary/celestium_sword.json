@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rpgloot:celestium_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,events:[{name:celestium_sword,source:weapon,listen:hit,command:'function rpgloot:items/basic/celestium/sword/hit'}],attributes:[{id:physical_dmg,name:celestium_sword,source:weapon,type:add,value:300}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
