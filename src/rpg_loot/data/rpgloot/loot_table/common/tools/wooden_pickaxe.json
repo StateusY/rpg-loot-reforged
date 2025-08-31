@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#rpgloot:tools/wood",
+                      "speed": 0.1,
+                      "correct_for_drops": false
+                    },
+                    {
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "speed": 2,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

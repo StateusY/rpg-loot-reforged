@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "Crafting"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Categories"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    }
+  ],
+  "dialogs": [
+    "rpgloot:crafting/equipment/menu"
+  ],
+  "pause": false,
+  "after_action": "none"
+}

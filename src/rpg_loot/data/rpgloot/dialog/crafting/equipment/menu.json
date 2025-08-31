@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "Materials"
+  },
+  "external_title": {
+    "text": "Equipment"
+  },
+  "body": [],
+  "exit_action": {
+    "label": {
+      "text": "Back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "rpgloot:crafting/menu"
+    }
+  },
+  "dialogs": [
+    "rpgloot:crafting/equipment/wood",
+    "rpgloot:crafting/equipment/stone",
+    "rpgloot:crafting/equipment/copper",
+    "rpgloot:crafting/equipment/iron"
+  ],
+  "pause": false,
+  "after_action": "none"
+}

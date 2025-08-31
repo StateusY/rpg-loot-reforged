@@ -19,4 +19,4 @@ scoreboard objectives add rpgloot.magnite_mined minecraft.mined:minecraft.deepsl
 
 # Menus
 scoreboard objectives add rpgloot.interact_with_smithing_table minecraft.custom:minecraft.interact_with_smithing_table
-
+scoreboard objectives add rpgloot.crafter trigger

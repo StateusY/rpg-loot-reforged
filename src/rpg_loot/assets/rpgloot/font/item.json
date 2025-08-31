@@ -90,6 +90,42 @@
       "chars": [
         "\ue004"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/leather_helmet_tinted.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/leather_chestplate_tinted.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/leather_leggings_tinted.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/leather_boots_tinted.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue008"
+      ]
     }
   ]
 }

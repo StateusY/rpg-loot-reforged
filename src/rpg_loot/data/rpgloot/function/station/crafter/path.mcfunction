@@ -1,0 +1,1 @@
+$function rpgloot:station/crafter/equipment/$(path)

@@ -1,5 +1,7 @@
-## Scoreboard hell
+execute if score @s rpgloot.crafter matches 1001.. run function rpgloot:station/crafter/craft
 
+## Scoreboard hell
+scoreboard players enable @s rpgloot.crafter
 # Ores
 execute if score @s rpgloot.magnite_mined matches 1.. as @n[type=item,nbt={Age:0s,Item:{components:{"minecraft:custom_data": {rpgloot:{"material":"magnite_clump"}}}}}] at @s run function rpgloot:ores/magnite
 execute if score @s rpgloot.magnite_mined matches 1.. run scoreboard players reset @s rpgloot.magnite_mined
