@@ -17,5 +17,10 @@ execute unless data storage rpgc:temp display.bar_fill[0] run data modify storag
 execute unless data storage rpgc:temp display.bar_empty[0] run data modify storage rpgc:temp display.bar_empty set value [0]
 
 function rpgc:z_core/mob/display/apply with storage rpgc:temp display
+
+scoreboard players reset bar_size rpgc.temp
+scoreboard players reset bar_fill rpgc.temp
+scoreboard players reset bar_empty rpgc.temp
+
 data remove storage rpgc:temp display
 

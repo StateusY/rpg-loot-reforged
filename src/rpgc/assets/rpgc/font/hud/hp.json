@@ -4,17 +4,16 @@
       "type": "space",
       "advances": {
         "[": -90,
-        "]": 9,
-        ",": -2
+        "]": 89
       }
     },
     {
       "type": "bitmap",
-      "file": "rpgc:hud/hearts.png",
-      "height": 10,
-      "ascent": -287,
+      "file": "rpgc:hud/hp.png",
+      "height": 6,
+      "ascent": -280,
       "chars": [
-        "9876543210"
+        "0123456789,"
       ]
     }
   ]
