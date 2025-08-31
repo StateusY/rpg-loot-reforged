@@ -17,6 +17,13 @@
       "contents": ""
     }
   ],
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger rpgloot.crafter set -1"
+    }
+  },
   "dialogs": [
     "rpgloot:crafting/equipment/menu"
   ],

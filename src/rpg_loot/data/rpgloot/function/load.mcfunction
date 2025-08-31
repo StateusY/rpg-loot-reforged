@@ -1,7 +1,7 @@
 
 function rpgloot:damages
 scoreboard objectives add rpgloot.temp dummy
-
+scoreboard objectives add rpgloot.died deathCount
 # Items
 scoreboard objectives add rpgloot.twinstep_slam_start dummy
 scoreboard objectives add rpgloot.twinstep_slam_end dummy

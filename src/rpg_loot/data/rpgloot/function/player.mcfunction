@@ -1,5 +1,6 @@
-execute if score @s rpgloot.crafter matches 1001.. run function rpgloot:station/crafter/craft
-
+execute if score @s[tag=rpgloot.crafter_open] rpgloot.crafter matches 1001.. run function rpgloot:station/crafter/craft
+execute if score @s rpgloot.crafter matches -1 run function rpgloot:station/crafter/close
+execute if score @s rpgloot.died matches 1.. run function rpgloot:player/spawn
 ## Scoreboard hell
 scoreboard players enable @s rpgloot.crafter
 # Ores

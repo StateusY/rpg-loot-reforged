@@ -25,6 +25,7 @@ execute unless entity @e[type=#rpgc:all,tag=rpgc.current_attacker] run damage @s
 execute unless entity @s[type=player] run data remove entity @s HurtTime
 # prevent clearing the entire system so you can do mutli selector damage
 function rpgc:z_api/event/call {event:hurt_late}
+execute if entity @s[type=player] run tag @s add rpgc.hud_needs_update
 tag @s remove rpgc.current_victim
 execute if score @s rpgc.hp matches ..0 run function rpgc:z_core/combat/hit/death
 execute unless score .halt_combat_clear rpgc.temp matches 1 run return run function rpgc:z_core/combat/hit/reset
