@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_column",
   "textures": {
     "end": "minecraft:block/basalt_top",
-    "side": "minecraft:block/deepslate_emerald_ore"
+    "side": "rpgloot:block/mythril_ore"
   }
 }

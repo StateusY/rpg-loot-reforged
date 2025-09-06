@@ -1,0 +1,6 @@
+{
+  "parent": "rpgloot:block/special",
+  "textures": {
+    "all": "rpgloot:block/celestium"
+  }
+}
