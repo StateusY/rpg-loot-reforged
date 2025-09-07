@@ -1,0 +1,144 @@
+{
+    "targets" : {
+        "final": {},
+        "eye": { "width": 1, "height": 1, "persistent": true },
+        "eye_swap": { "width": 1, "height": 1 }
+    },
+    "passes": [
+        {
+            "vertex_shader": "minecraft:post/screenquad",
+            "fragment_shader": "minecraft:post/transparency",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Translucent",
+                    "target": "minecraft:translucent"
+                },
+                {
+                    "sampler_name": "TranslucentDepth",
+                    "target": "minecraft:translucent",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "ItemEntity",
+                    "target": "minecraft:item_entity"
+                },
+                {
+                    "sampler_name": "ItemEntityDepth",
+                    "target": "minecraft:item_entity",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
+                },
+                {
+                    "sampler_name": "ParticlesDepth",
+                    "target": "minecraft:particles",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Clouds",
+                    "target": "minecraft:clouds"
+                },
+                {
+                    "sampler_name": "CloudsDepth",
+                    "target": "minecraft:clouds",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Weather",
+                    "target": "minecraft:weather"
+                },
+                {
+                    "sampler_name": "WeatherDepth",
+                    "target": "minecraft:weather",
+                    "use_depth_buffer": true
+                }
+            ],
+            "output": "final"
+        },
+        {
+            "vertex_shader": "rpgloot:post/eye",
+            "fragment_shader": "rpgloot:post/eye",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "final"
+                },
+                {
+                    "sampler_name": "Eye",
+                    "target": "eye"
+                }
+            ],
+            "uniforms": {
+                "EyeConfig": [
+                    {
+                        "name": "Points",
+                        "type": "vec4",
+                        "value": [ 0.4, 0.4, 0.6, 0.6 ]
+                    }
+                ]
+            },
+            "output": "eye_swap"
+        },
+        {
+            "vertex_shader": "rpgloot:post/eye",
+            "fragment_shader": "rpgloot:post/eye",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "final"
+                },
+                {
+                    "sampler_name": "Eye",
+                    "target": "eye_swap"
+                }
+            ],
+            "uniforms": {
+                "EyeConfig": [
+                    {
+                        "name": "Points",
+                        "type": "vec4",
+                        "value": [ 0.4, 0.6, 0.6, 0.4 ]
+                    }
+                ]
+            },
+            "output": "eye"
+        },
+        {
+            "vertex_shader": "minecraft:post/screenquad",
+            "fragment_shader": "rpgloot:post/postprocess",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "final"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Eye",
+                    "target": "eye"
+                },
+                {
+                    "sampler_name": "Dither",
+                    "location": "dither",
+                    "width": 4,
+                    "height": 4
+                }
+            ],
+            "output": "minecraft:main"
+        }
+    ]
+}

@@ -3,6 +3,7 @@
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
+#moj_import <minecraft:globals.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -26,6 +27,19 @@ vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
 
 void main() {
     vPosition = Position + ModelOffset;
+
+    //vPosition.y -= pow(length(vPosition.xz) * 0.5, 2.0);
+
+    //vPosition.y += sin(GameTime * 10000.0 - vPosition.y * 0.3) * 0.18;
+    
+    float angle = /*vPosition.x * 0.001;*/GameTime * 10000.0;
+    mat2 matrix = mat2(
+      vec2(cos(angle), -sin(angle)),
+      vec2(sin(angle), cos(angle))
+    );
+    //vPosition.xy = matrix * vPosition.xy;
+    //vPosition.xz = matrix * vPosition.xz;
+    
     vNormal = Normal;
     vUV = UV0;
     vColor = Color;
