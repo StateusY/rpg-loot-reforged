@@ -1,0 +1,6 @@
+{
+  "parent": "rpg_loot:item/ember",
+  "textures": {
+    "layer0": "rpg_loot:item/ember_pulling_0"
+  }
+}
