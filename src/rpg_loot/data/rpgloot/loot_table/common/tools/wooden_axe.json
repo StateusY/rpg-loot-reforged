@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": [
+            {
+              "selector": "@s",
+              "color": "gray"
+            },
+            {
+              "text": "'s Common Wooden Axe"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:tool": {
+              "rules": [
+                {
+                  "blocks": "#minecraft:mineable/axe",
+                  "speed": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:block_interaction_range",
+              "id": "rpgloot:axe",
+              "amount": {
+                "min": -0.25,
+                "max": -0.15
+              },
+              "operation": "add_multiplied_total",
+              "slot": "mainhand"
+            },
+            {
+              "attribute": "minecraft:block_break_speed",
+              "id": "rpgloot:axe",
+              "amount": {
+                "min": -0.15,
+                "max": 0.1
+              },
+              "operation": "add_multiplied_total",
+              "slot": "mainhand"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
