@@ -1,8 +1,11 @@
 {
-    "block.minecraft.deepslate_emerald_ore": "Crystalline Mythril Ore",
-    "block.minecraft.deepslate_lapis_ore": "Magnite Ore",
-    "block.minecraft.deepslate_gold_ore": "Cobalt Ore",
-    "block.minecraft.deepslate_copper_ore": "Geode",
     "block.minecraft.diamond_ore": "Silver Ore",
-    "block.minecraft.deepslate_iron_ore": "Titanium Ore"
+    "block.minecraft.deepslate_diamond_ore": "Diamond Ore",
+    "block.minecraft.deepslate_iron_ore": "Titanium Ore",
+    "block.minecraft.deepslate_lapis_ore": "Cobalt Ore",
+    "block.minecraft.deepslate_coal_ore": "Magnite Ore",
+    "block.minecraft.emerald_ore": "Crystalline Mythril Ore",
+    "block.minecraft.deepslate_emerald_ore": "Celestium",
+    "block.minecraft.deepslate_gold_ore": "Eternium",
+    "block.minecraft.deepslate_copper_ore": "Geode"
 }
