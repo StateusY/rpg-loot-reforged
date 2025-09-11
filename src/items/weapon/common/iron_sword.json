@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Common Iron Sword",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{\"rpgc\": true, \"events\": [{\"source\": \"sword\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/iron/sword/hit\"}], \"attributes\": [{\"id\": \"physical_dmg\", \"name\": \"iron_sword\", \"source\": \"weapon\", \"type\": \"add\", \"value\": 3.0}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 128
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

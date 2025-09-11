@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Rare Wooden Axe",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{\"rpgc\": true, \"events\": [{\"source\": \"sword\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}], \"attributes\": [{\"id\": \"physical_dmg\", \"name\": \"wooden_sword\", \"source\": \"weapon\", \"type\": \"add\", \"value\": 3.125}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

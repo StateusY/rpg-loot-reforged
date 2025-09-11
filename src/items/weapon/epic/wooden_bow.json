@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Epic Wooden Bow",
+                "color": "purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{\"rpgc\": true, \"events\": [{\"name\": \"wooden_bow\", \"source\": \"weapon\", \"listen\": \"bow_impact\", \"command\": \"function rpgloot:items/basic/wood/bow/impact\"}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 150
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

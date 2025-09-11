@@ -1,5 +1,5 @@
 tag @s add rpgloot.shade_angry
-say angy made
+
 playsound minecraft:entity.phantom.ambient player @a ~ ~ ~ .5 0
 rotate @s ~ ~-90
 execute as @n[tag=rpgc.current_attacker,tag=!rpgloot.shade_hurt] run function gu:generate

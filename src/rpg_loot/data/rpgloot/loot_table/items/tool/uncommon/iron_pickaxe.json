@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "selector": "@s",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": "'s Uncommon Iron Pickaxe",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,events:[{\"source\": \"sword\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/iron/sword/hit\"}],attributes:[{id:physical_dmg,name:iron_pickaxe,source:weapon,type:add,value:0.9375}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 160,
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#rpgloot:tools/iron",
+                      "speed": 3.75,
+                      "correct_for_drops": false
+                    },
+                    {
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "speed": 3.75,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

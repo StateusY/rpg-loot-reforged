@@ -29,6 +29,8 @@ scoreboard players operation .a rpgc.temp /= #100 constant
 scoreboard players operation .current_dmg rpgc.temp -= .a rpgc.temp
 #tellraw @a ["f =",{"score":{"name":".current_dmg","objective":"rpgc.temp"}}]
 
+execute if score .current_dmg rpgc.temp matches ..0 run scoreboard players set .current_dmg rpgc.temp 0
+
 scoreboard players operation @s rpgc.hp -= .current_dmg rpgc.temp
 # damage number setup
 $data modify storage rpgc:temp numbers set from storage rpgc:registry damage[{type:$(type)}]

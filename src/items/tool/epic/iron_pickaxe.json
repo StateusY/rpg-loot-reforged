@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Epic Iron Pickaxe",
+                "color": "purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{\"rpgc\": true, \"events\": [{\"source\": \"sword\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/iron/sword/hit\"}], \"attributes\": [{\"id\": \"physical_dmg\", \"name\": \"iron_sword\", \"source\": \"weapon\", \"type\": \"add\", \"value\": 7.03125}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 300
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
