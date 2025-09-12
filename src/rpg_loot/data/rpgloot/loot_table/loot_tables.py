@@ -5,52 +5,209 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "items"
 
-# === MATERIALS ===
 materials = [
     {
-        "name": "Wooden", "type": "item_only",
-        "damage_value": 2, "tool_value": 2, "armor_value": 0, "durability": 64,
+        "name": "Wood",
+        "type": "item_only",
+        "damage_value": 4,
+        "bow_value": 2,
+        "tool_speed": 1,
+        "armor_value": 0,
+        "durability": 64,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[{"name":"wooden_sword","source": "weapon", "listen": "hit", "command": "function rpgloot:items/basic/wood/sword/hit"}]',
-        "bow_events": '[{"name": "wooden_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/wood/bow/impact"}]'
+        "bow_events": '[{"name": "wooden_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/wood/bow/impact"}]',
+        "armor_events": '[]'
     },
     {
-        "name": "Leather", "type": "armor_only",
-        "damage_value": 1, "tool_value": 1, "armor_value": 48, "durability": 64,
-        "armor_events": '[{"source": "armor", "listen": "hit", "command": "function rpgloot:items/basic/leather/armor/hit"}]'
+        "name": "Stone",
+        "type": "both",
+        "damage_value": 6,
+        "bow_value": 3,
+        "tool_speed": 1.2,
+        "armor_value": 1,
+        "durability": 128,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
     },
     {
-        "name": "Iron", "type": "both",
-        "damage_value": 3, "tool_value": 3, "armor_value": 0, "durability": 128,
-        "weapon_events": '[{"source": "sword", "listen": "hit", "command": "function rpgloot:items/basic/iron/sword/hit"}]'
+        "name": "Copper",
+        "type": "both",
+        "damage_value": 8,
+        "bow_value": 4,
+        "tool_speed": 1.5,
+        "armor_value": 2,
+        "durability": 160,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Iron",
+        "type": "both",
+        "damage_value": 10,
+        "bow_value": 5,
+        "tool_speed": 1.75,
+        "armor_value": 3,
+        "durability": 256,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Silver",
+        "type": "both",
+        "damage_value": 14,
+        "bow_value": 6,
+        "tool_speed": 2.0,
+        "armor_value": 4,
+        "durability": 384,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Diamond",
+        "type": "both",
+        "damage_value": 18,
+        "bow_value": 8,
+        "tool_speed": 2.25,
+        "armor_value": 5,
+        "durability": 1024,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Titanium",
+        "type": "both",
+        "damage_value": 22,
+        "bow_value": 10,
+        "tool_speed": 2.5,
+        "armor_value": 6,
+        "durability": 2048,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Cobalt",
+        "type": "both",
+        "damage_value": 30,
+        "bow_value": 12,
+        "tool_speed": 2.75,
+        "armor_value": 7,
+        "durability": 4096,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Magnite",
+        "type": "both",
+        "damage_value": 38,
+        "bow_value": 15,
+        "tool_speed": 3.0,
+        "armor_value": 8,
+        "durability": 6000,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Netherite",
+        "type": "both",
+        "damage_value": 46,
+        "bow_value": 18,
+        "tool_speed": 3.25,
+        "armor_value": 10,
+        "durability": 8000,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Mythril",
+        "type": "both",
+        "damage_value": 54,
+        "bow_value": 20,
+        "tool_speed": 3.5,
+        "armor_value": 13.5,
+        "durability": 10000,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Celestium",
+        "type": "both",
+        "damage_value": 64,
+        "bow_value": 25,
+        "tool_speed": 4.0,
+        "armor_value": 15,
+        "durability": 12000,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
+    },
+    {
+        "name": "Eternium",
+        "type": "both",
+        "damage_value": 64,
+        "bow_value": 25,
+        "tool_speed": 4.0,
+        "armor_value": 15,
+        "durability": 12000,
+        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "weapon_events": '[]',
+        "bow_events": '[]',
+        "armor_events": '[]'
     }
 ]
 
+
 # === RARITIES ===
-tier_increase = {
+rarity_base = {
     "common": 1.0,
     "uncommon": 1.25,
-    "rare": 1.25,
-    "epic": 1.5,
-    "legendary": 2.0
+    "rare": 1.5,
+    "epic": 2.0,
+    "legendary": 3.0
 }
-
-def compute_cumulative_multipliers():
-    cumulative = {}
-    prev = 1.0
-    for tier in ["common", "uncommon", "rare", "epic", "legendary"]:
-        cumulative[tier] = prev * tier_increase[tier]
-        prev = cumulative[tier]
-    return cumulative
-
-cumulative_multipliers = compute_cumulative_multipliers()
 
 rarities = {
-    "common": {"multiplier": cumulative_multipliers["common"], "color": "gray"},
-    "uncommon": {"multiplier": cumulative_multipliers["uncommon"], "color": "green"},
-    "rare": {"multiplier": cumulative_multipliers["rare"], "color": "blue"},
-    "epic": {"multiplier": cumulative_multipliers["epic"], "color": "dark_purple"},
-    "legendary": {"multiplier": cumulative_multipliers["legendary"], "color": "gold"},
+    "common": {"color": "gray"},
+    "uncommon": {"color": "green"},
+    "rare": {"color": "blue"},
+    "epic": {"color": "dark_purple"},
+    "legendary": {"color": "gold"},
 }
+
+# Weakness scaling helper
+min_dmg = min(m["damage_value"] for m in materials)
+max_dmg = max(m["damage_value"] for m in materials)
+
+def weakness_factor(base):
+    return (max_dmg - base) / (max_dmg - min_dmg) if max_dmg != min_dmg else 0
+
+def rarity_multiplier(base, rarity):
+    base_mult = rarity_base[rarity]
+    w = weakness_factor(base)
+    # doubled intensity scaling
+    effective_mult = 1 + (base_mult - 1) * (1 + w * 2)
+    return effective_mult
 
 # === ITEM CATEGORIES ===
 WEAPONS = ["sword", "bow"]
@@ -69,60 +226,80 @@ def get_vanilla_placeholder(material_name, item_type):
         return "minecraft:stone"
 
 # === GENERATOR FUNCTION ===
-def generate_loot_table(material, rarity, rarity_data, item_type):
+def generate_loot_table(material, rarity, item_type):
     generators = {
         "sword": generate_sword, "bow": generate_bow,
         "axe": generate_tool, "pickaxe": generate_tool, "shovel": generate_tool, "hoe": generate_tool,
         "helmet": generate_armor, "chestplate": generate_armor, "leggings": generate_armor, "boots": generate_armor
     }
-    return generators[item_type](material, rarity, rarity_data, item_type)
+    return generators[item_type](material, rarity, item_type)
 
 # === PER-ITEM METHODS ===
-def generate_sword(material, rarity, rarity_data, item_type):
-    damage = material.get("damage_value", 0) * rarity_data["multiplier"]
-    durability = int(material.get("durability", 1) * rarity_data["multiplier"])
-    color = rarity_data["color"]
-    tag_string = f'{{rpgc:true,events:{material.get("weapon_events","[]")},attributes:[{{id:physical_dmg,name:{material["name"].lower()}_sword,source:weapon,type:add,value:{damage}}}]}}'
+def generate_sword(material, rarity, item_type):
+    base = material.get("damage_value", 0)
+    mult = rarity_multiplier(base, rarity)
+    damage = base * mult
+    durability = int(material.get("durability", 1) * mult)
+    color = rarities[rarity]["color"]
+    tag_string = f'{{rpgc:true,attributes:[{{id:physical_dmg,name:{material["name"].lower()}_sword,source:weapon,type:add,value:{damage}}}]}}'
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability)
 
-def generate_bow(material, rarity, rarity_data, item_type):
-    durability = int(material.get("durability", 1) * rarity_data["multiplier"])
-    color = rarity_data["color"]
-    tag_string = f'{{rpgc:true,events:{material.get("bow_events","[]")}}}'
+def generate_bow(material, rarity, item_type):
+    base = material.get("bow_value", material.get("damage_value", 0) / 2)
+    mult = rarity_multiplier(base, rarity)
+    damage = base * mult
+    durability = int(material.get("durability", 1) * mult)
+    color = rarities[rarity]["color"]
+    tag_string = f'{{rpgc:true,bow:{material.get("bow","{}")},attributes:[{{id:ranged_dmg,name:{material["name"].lower()}_bow,source:weapon,type:add,value:{damage}}}]}}'
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:bow", durability)
 
-def generate_tool(material, rarity, rarity_data, item_type):
-    # 75% damage reduction for all tools
-    base_damage = material.get("damage_value", 0) * 0.25
-    damage = base_damage * rarity_data["multiplier"]
-    durability = int(material.get("durability", 1) * rarity_data["multiplier"])
-    tool_speed = material.get("tool_value", 1) * rarity_data["multiplier"]
-    color = rarity_data["color"]
-    
-    tag_string = f'{{rpgc:true,events:{material.get("weapon_events","[]")},attributes:[{{id:physical_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
+def generate_tool(material, rarity, item_type):
+    base = material.get("damage_value", 0) * 0.25
+    mult = rarity_multiplier(base, rarity)
+    damage = base * mult
+    durability = int(material.get("durability", 1) * mult)
+    tool_speed = material.get("tool_speed", 1)
+    color = rarities[rarity]["color"]
 
-    # Pickaxe gets minecraft:tool component
+    tag_string = f'{{rpgc:true,attributes:[{{id:tool_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
+
     extra_components = {}
     if item_type == "pickaxe":
         extra_components["minecraft:tool"] = {
             "rules": [
-                {"blocks": f"#rpgloot:tools/{material['name'].lower()}", "speed": tool_speed, "correct_for_drops": False},
+                {"blocks": f"#rpgloot:tools/{material['name'].lower()}", "speed": 0.1, "correct_for_drops": False},
                 {"blocks": "#minecraft:mineable/pickaxe", "speed": tool_speed, "correct_for_drops": True}
             ],
             "default_mining_speed": 1,
             "damage_per_block": 1
         }
 
-    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability, extra_components=extra_components)
+    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability, extra_components)
 
-def generate_armor(material, rarity, rarity_data, item_type):
-    armor_val = material.get("armor_value", 0) * rarity_data["multiplier"]
-    durability = int(material.get("durability", 1) * rarity_data["multiplier"])
-    color = rarity_data["color"]
-    tag_string = f'{{rpgc:true,events:{material.get("armor_events","[]")}}}'
+def generate_armor(material, rarity, item_type):
+    base = material.get("armor_value", 0)
+    mult = rarity_multiplier(base if base > 0 else material["damage_value"], rarity)
+    armor_val = base * mult
+    durability = int(material.get("durability", 1) * mult)
+    color = rarities[rarity]["color"]
+
+    slot_map = {
+        "helmet": "head",
+        "chestplate": "chest",
+        "leggings": "legs",
+        "boots": "feet"
+    }
+    slot = slot_map.get(item_type)
+
+    tag_string = (
+        f'{{rpgc:true,id:{rarity}_{material["name"].lower()}_{item_type},'
+        f'attributes:[{{id:armor,name:{material["name"].lower()}_{item_type},'
+        f'source:{slot},type:add,value:{armor_val}}}]}}'
+    )
+
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:armor", durability)
 
-# Helper to create loot table entry
+# === Helper to create loot table entry ===
 def create_loot_entry(material, rarity, color, item_type, tag_string, enchantment_type, durability, extra_components=None):
     item_name = get_vanilla_placeholder(material["name"], item_type)
     name_component = [
@@ -131,7 +308,6 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
          "color": color, "italic": False}
     ]
 
-    # Components including max damage
     components = {"minecraft:max_damage": durability}
     if extra_components:
         components.update(extra_components)
@@ -179,9 +355,9 @@ def main():
         else:
             item_types = WEAPONS + TOOLS + ARMORS
 
-        for rarity, rarity_data in rarities.items():
+        for rarity in rarities:
             for item_type in item_types:
-                loot = generate_loot_table(material, rarity, rarity_data, item_type)
+                loot = generate_loot_table(material, rarity, item_type)
                 save_loot_table(material, rarity, item_type, loot)
 
     print("Loot tables generated in the script folder!")

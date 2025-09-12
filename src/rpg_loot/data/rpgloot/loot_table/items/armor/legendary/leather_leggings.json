@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/leather/armor/hit\"}]}"
+              "tag": "{rpgc:true,id:legendary_leather_leggings,events:[{\"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/leather/armor/hit\"}],attributes:[{id:armor,name:leather_leggings,source:legs,type:add,value:9.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/leather/armor/hit\"}]}"
+              "tag": "{rpgc:true,id:uncommon_leather_boots,events:[{\"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/leather/armor/hit\"}],attributes:[{id:armor,name:leather_boots,source:feet,type:add,value:2.5}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/leather/armor/hit\"}]}"
+              "tag": "{rpgc:true,id:rare_leather_chestplate,events:[{\"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/leather/armor/hit\"}],attributes:[{id:armor,name:leather_chestplate,source:chest,type:add,value:3.125}]}"
             },
             {
               "function": "minecraft:set_enchantments",

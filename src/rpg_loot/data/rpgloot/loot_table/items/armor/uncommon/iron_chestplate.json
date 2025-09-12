@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[]}"
+              "tag": "{rpgc:true,id:uncommon_iron_chestplate,attributes:[{id:armor,name:iron_chestplate,source:chest,type:add,value:5.275}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 160
+                "minecraft:max_damage": 450
               }
             }
           ]

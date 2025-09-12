@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"source\": \"sword\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/iron/sword/hit\"}],attributes:[{id:physical_dmg,name:iron_pickaxe,source:weapon,type:add,value:0.75}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:iron_pickaxe,source:weapon,type:add,value:2.5}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,17 +36,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 128,
+                "minecraft:max_damage": 256,
                 "minecraft:tool": {
                   "rules": [
                     {
                       "blocks": "#rpgloot:tools/iron",
-                      "speed": 3.0,
+                      "speed": 0.1,
                       "correct_for_drops": false
                     },
                     {
                       "blocks": "#minecraft:mineable/pickaxe",
-                      "speed": 3.0,
+                      "speed": 1.75,
                       "correct_for_drops": true
                     }
                   ],

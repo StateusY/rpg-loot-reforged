@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"source\": \"sword\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/iron/sword/hit\"}],attributes:[{id:physical_dmg,name:iron_axe,source:weapon,type:add,value:1.171875}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:iron_axe,source:weapon,type:add,value:6.3125}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 200
+                "minecraft:max_damage": 646
               }
             }
           ]
