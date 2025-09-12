@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_hoe,source:weapon,type:add,value:6.139583333333333}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_hoe,source:weapon,type:add,value:13.197916666666666}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 673
+                "minecraft:max_damage": 1448
               }
             }
           ]

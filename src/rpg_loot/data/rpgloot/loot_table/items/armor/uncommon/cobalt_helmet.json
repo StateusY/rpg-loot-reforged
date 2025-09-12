@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:uncommon_cobalt_helmet,attributes:[{id:armor,name:cobalt_helmet,source:head,type:add,value:12.075000000000001}]}"
+              "tag": "{rpgc:true,id:uncommon_cobalt_helmet,attributes:[{id:armor,name:cobalt_helmet,source:head,type:add,value:25.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 7065
+                "minecraft:max_damage": 14848
               }
             }
           ]

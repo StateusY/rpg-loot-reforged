@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:epic_diamond_boots,attributes:[{id:armor,name:diamond_boots,source:feet,type:add,value:19.833333333333336}]}"
+              "tag": "{rpgc:true,id:epic_diamond_boots,attributes:[{id:armor,name:diamond_boots,source:feet,type:add,value:59.16666666666666}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 4061
+                "minecraft:max_damage": 12117
               }
             }
           ]

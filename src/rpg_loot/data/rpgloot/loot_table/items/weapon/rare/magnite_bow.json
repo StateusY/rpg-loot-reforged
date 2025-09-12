@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:magnite_bow,source:weapon,type:add,value:34.75}]}"
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:magnite_bow,source:weapon,type:add,value:83.75}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 13899
+                "minecraft:max_damage": 33500
               }
             }
           ]

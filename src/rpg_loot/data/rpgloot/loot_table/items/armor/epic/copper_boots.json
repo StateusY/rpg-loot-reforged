@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:epic_copper_boots,attributes:[{id:armor,name:copper_boots,source:feet,type:add,value:8.133333333333333}]}"
+              "tag": "{rpgc:true,id:epic_copper_boots,attributes:[{id:armor,name:copper_boots,source:feet,type:add,value:24.666666666666668}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 650
+                "minecraft:max_damage": 1973
               }
             }
           ]

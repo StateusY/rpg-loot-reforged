@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:iron_bow,source:weapon,type:add,value:12.416666666666668}]}"
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:iron_bow,source:weapon,type:add,value:32.08333333333333}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 635
+                "minecraft:max_damage": 1642
               }
             }
           ]

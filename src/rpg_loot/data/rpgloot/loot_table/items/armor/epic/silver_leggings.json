@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:epic_silver_leggings,attributes:[{id:armor,name:silver_leggings,source:legs,type:add,value:16.0}]}"
+              "tag": "{rpgc:true,id:epic_silver_leggings,attributes:[{id:armor,name:silver_leggings,source:legs,type:add,value:48.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1536
+                "minecraft:max_damage": 4608
               }
             }
           ]

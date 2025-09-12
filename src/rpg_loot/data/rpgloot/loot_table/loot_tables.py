@@ -199,15 +199,21 @@ rarities = {
 min_dmg = min(m["damage_value"] for m in materials)
 max_dmg = max(m["damage_value"] for m in materials)
 
-def weakness_factor(base):
-    return (max_dmg - base) / (max_dmg - min_dmg) if max_dmg != min_dmg else 0
+# Weakness factor: higher for weaker materials
+def weakness_factor(base_damage):
+    return (max_dmg - base_damage) / (max_dmg - min_dmg) if max_dmg != min_dmg else 0
 
-def rarity_multiplier(base, rarity):
+# Final multiplier per rarity, doubling intensity for weak materials
+def rarity_multiplier(base_damage, rarity):
     base_mult = rarity_base[rarity]
-    w = weakness_factor(base)
-    # doubled intensity scaling
-    effective_mult = 1 + (base_mult - 1) * (1 + w * 2)
+    w = weakness_factor(base_damage)
+    effective_mult = 1 + (base_mult - 1) * (1 + w * 10)  # Weak items get extra boost
     return effective_mult
+
+# Example usage:
+for mat in materials:
+    for rarity in rarity_base.keys():
+        mult = rarity_multiplier(mat["damage_value"], rarity)
 
 # === ITEM CATEGORIES ===
 WEAPONS = ["sword", "bow"]

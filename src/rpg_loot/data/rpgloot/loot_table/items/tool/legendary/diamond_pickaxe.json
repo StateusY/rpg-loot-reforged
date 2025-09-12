@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:diamond_pickaxe,source:weapon,type:add,value:31.35}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:diamond_pickaxe,source:weapon,type:add,value:102.75000000000001}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 7133,
+                "minecraft:max_damage": 23381,
                 "minecraft:tool": {
                   "rules": [
                     {

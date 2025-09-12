@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:titanium_hoe,source:weapon,type:add,value:13.6125}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:titanium_hoe,source:weapon,type:add,value:35.0625}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 5068
+                "minecraft:max_damage": 13056
               }
             }
           ]

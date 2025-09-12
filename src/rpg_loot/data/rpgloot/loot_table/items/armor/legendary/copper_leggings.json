@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_copper_leggings,attributes:[{id:armor,name:copper_leggings,source:legs,type:add,value:14.266666666666667}]}"
+              "tag": "{rpgc:true,id:legendary_copper_leggings,attributes:[{id:armor,name:copper_leggings,source:legs,type:add,value:47.333333333333336}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1141
+                "minecraft:max_damage": 3786
               }
             }
           ]

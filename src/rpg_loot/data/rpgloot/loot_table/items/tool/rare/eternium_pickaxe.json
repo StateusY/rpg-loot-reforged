@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:eternium_pickaxe,source:weapon,type:add,value:36.8}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:eternium_pickaxe,source:weapon,type:add,value:88.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 27599,
+                "minecraft:max_damage": 66000,
                 "minecraft:tool": {
                   "rules": [
                     {

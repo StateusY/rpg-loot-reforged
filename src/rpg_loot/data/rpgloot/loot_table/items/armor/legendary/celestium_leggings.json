@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_celestium_leggings,attributes:[{id:armor,name:celestium_leggings,source:legs,type:add,value:94.0}]}"
+              "tag": "{rpgc:true,id:legendary_celestium_leggings,attributes:[{id:armor,name:celestium_leggings,source:legs,type:add,value:290.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 75200
+                "minecraft:max_damage": 232000
               }
             }
           ]

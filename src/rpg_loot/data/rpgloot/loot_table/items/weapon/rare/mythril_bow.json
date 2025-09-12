@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:mythril_bow,source:weapon,type:add,value:44.66666666666667}]}"
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:mythril_bow,source:weapon,type:add,value:103.33333333333331}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 22333
+                "minecraft:max_damage": 51666
               }
             }
           ]

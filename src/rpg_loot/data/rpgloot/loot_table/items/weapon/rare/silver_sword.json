@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:silver_sword,source:weapon,type:add,value:32.66666666666667}]}"
+              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:silver_sword,source:weapon,type:add,value:79.33333333333334}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 896
+                "minecraft:max_damage": 2176
               }
             }
           ]

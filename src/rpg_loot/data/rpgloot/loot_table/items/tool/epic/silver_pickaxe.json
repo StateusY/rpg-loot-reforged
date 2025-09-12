@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_pickaxe,source:weapon,type:add,value:14.058333333333334}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_pickaxe,source:weapon,type:add,value:42.291666666666664}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1542,
+                "minecraft:max_damage": 4640,
                 "minecraft:tool": {
                   "rules": [
                     {

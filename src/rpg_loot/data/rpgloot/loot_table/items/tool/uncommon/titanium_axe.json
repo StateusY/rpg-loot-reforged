@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:titanium_axe,source:weapon,type:add,value:9.55625}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:titanium_axe,source:weapon,type:add,value:20.28125}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 3558
+                "minecraft:max_damage": 7552
               }
             }
           ]

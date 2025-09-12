@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_diamond_helmet,attributes:[{id:armor,name:diamond_helmet,source:head,type:add,value:34.66666666666667}]}"
+              "tag": "{rpgc:true,id:legendary_diamond_helmet,attributes:[{id:armor,name:diamond_helmet,source:head,type:add,value:113.33333333333331}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 7099
+                "minecraft:max_damage": 23210
               }
             }
           ]

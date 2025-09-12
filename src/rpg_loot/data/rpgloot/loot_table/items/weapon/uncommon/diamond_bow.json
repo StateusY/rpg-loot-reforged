@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:diamond_bow,source:weapon,type:add,value:13.733333333333334}]}"
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:diamond_bow,source:weapon,type:add,value:28.666666666666668}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1757
+                "minecraft:max_damage": 3669
               }
             }
           ]

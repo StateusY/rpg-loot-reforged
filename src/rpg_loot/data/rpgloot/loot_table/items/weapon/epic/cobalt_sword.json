@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:cobalt_sword,source:weapon,type:add,value:94.0}]}"
+              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:cobalt_sword,source:weapon,type:add,value:229.99999999999997}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 12834
+                "minecraft:max_damage": 31402
               }
             }
           ]

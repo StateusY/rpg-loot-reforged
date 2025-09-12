@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_axe,source:weapon,type:add,value:24.616666666666667}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_axe,source:weapon,type:add,value:81.08333333333333}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 2700
+                "minecraft:max_damage": 8896
               }
             }
           ]

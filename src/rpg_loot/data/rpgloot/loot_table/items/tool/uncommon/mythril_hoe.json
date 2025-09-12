@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:mythril_hoe,source:weapon,type:add,value:22.556250000000002}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:mythril_hoe,source:weapon,type:add,value:45.28125}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 16708
+                "minecraft:max_damage": 33541
               }
             }
           ]

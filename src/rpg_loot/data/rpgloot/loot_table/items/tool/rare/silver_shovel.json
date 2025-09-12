@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_shovel,source:weapon,type:add,value:8.779166666666667}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:silver_shovel,source:weapon,type:add,value:22.895833333333332}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 963
+                "minecraft:max_damage": 2512
               }
             }
           ]

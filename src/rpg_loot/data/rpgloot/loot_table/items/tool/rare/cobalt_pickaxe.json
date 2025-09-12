@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:cobalt_pickaxe,source:weapon,type:add,value:18.3125}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:cobalt_pickaxe,source:weapon,type:add,value:46.5625}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 10001,
+                "minecraft:max_damage": 25429,
                 "minecraft:tool": {
                   "rules": [
                     {

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:epic_celestium_boots,attributes:[{id:armor,name:celestium_boots,source:feet,type:add,value:54.5}]}"
+              "tag": "{rpgc:true,id:epic_celestium_boots,attributes:[{id:armor,name:celestium_boots,source:feet,type:add,value:152.5}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 43600
+                "minecraft:max_damage": 122000
               }
             }
           ]

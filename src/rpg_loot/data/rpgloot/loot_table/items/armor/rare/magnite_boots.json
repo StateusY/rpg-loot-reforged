@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_magnite_boots,attributes:[{id:armor,name:magnite_boots,source:feet,type:add,value:19.46666666666667}]}"
+              "tag": "{rpgc:true,id:rare_magnite_boots,attributes:[{id:armor,name:magnite_boots,source:feet,type:add,value:49.333333333333336}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 14600
+                "minecraft:max_damage": 37000
               }
             }
           ]

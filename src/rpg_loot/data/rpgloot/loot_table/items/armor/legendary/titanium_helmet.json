@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_titanium_helmet,attributes:[{id:armor,name:titanium_helmet,source:head,type:add,value:41.2}]}"
+              "tag": "{rpgc:true,id:legendary_titanium_helmet,attributes:[{id:armor,name:titanium_helmet,source:head,type:add,value:134.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 14062
+                "minecraft:max_damage": 45738
               }
             }
           ]

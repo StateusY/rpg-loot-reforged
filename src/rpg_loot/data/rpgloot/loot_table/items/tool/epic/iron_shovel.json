@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:iron_shovel,source:weapon,type:add,value:10.125}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:iron_shovel,source:weapon,type:add,value:30.625}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1036
+                "minecraft:max_damage": 3136
               }
             }
           ]

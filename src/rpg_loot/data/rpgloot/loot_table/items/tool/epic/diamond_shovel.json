@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:diamond_shovel,source:weapon,type:add,value:17.925}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:diamond_shovel,source:weapon,type:add,value:53.62500000000001}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 4078
+                "minecraft:max_damage": 12202
               }
             }
           ]

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_iron_boots,attributes:[{id:armor,name:iron_boots,source:feet,type:add,value:7.55}]}"
+              "tag": "{rpgc:true,id:rare_iron_boots,attributes:[{id:armor,name:iron_boots,source:feet,type:add,value:19.75}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 644
+                "minecraft:max_damage": 1685
               }
             }
           ]

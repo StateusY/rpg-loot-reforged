@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:stone_axe,source:weapon,type:add,value:2.65625}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:stone_axe,source:weapon,type:add,value:5.78125}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 226
+                "minecraft:max_damage": 493
               }
             }
           ]

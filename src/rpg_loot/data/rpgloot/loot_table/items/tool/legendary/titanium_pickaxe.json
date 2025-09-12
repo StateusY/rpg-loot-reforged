@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:titanium_pickaxe,source:weapon,type:add,value:37.95}]}"
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:titanium_pickaxe,source:weapon,type:add,value:123.75}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 14131,
+                "minecraft:max_damage": 46080,
                 "minecraft:tool": {
                   "rules": [
                     {

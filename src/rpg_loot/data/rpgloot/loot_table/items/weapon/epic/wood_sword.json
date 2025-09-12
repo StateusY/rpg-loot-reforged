@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:wood_sword,source:weapon,type:add,value:16.0}]}"
+              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:wood_sword,source:weapon,type:add,value:48.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 256
+                "minecraft:max_damage": 768
               }
             }
           ]

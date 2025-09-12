@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_magnite_chestplate,attributes:[{id:armor,name:magnite_chestplate,source:chest,type:add,value:53.86666666666667}]}"
+              "tag": "{rpgc:true,id:legendary_magnite_chestplate,attributes:[{id:armor,name:magnite_chestplate,source:chest,type:add,value:173.33333333333334}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 40400
+                "minecraft:max_damage": 130000
               }
             }
           ]
