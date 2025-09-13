@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate_iron_ore",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Titanium Ore",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "rpgloot:materials/crystalline_mythril"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Crystalline Mythril",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "rpgloot": {
+                  "material": "crystalline_mythril"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

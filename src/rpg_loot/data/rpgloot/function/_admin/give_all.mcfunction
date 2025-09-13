@@ -1,0 +1,6 @@
+
+function rpgloot:_admin/give_all_armor
+function rpgloot:_admin/give_all_tools
+function rpgloot:_admin/give_all_weapons
+function rpgloot:_admin/give_all_materials
+function rpgloot:_admin/give_all_blocks

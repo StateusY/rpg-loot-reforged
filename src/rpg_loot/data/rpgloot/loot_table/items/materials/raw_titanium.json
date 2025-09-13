@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "rpgloot:raw_titanium"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Raw Titanium",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
