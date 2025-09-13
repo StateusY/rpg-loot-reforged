@@ -5,15 +5,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
+          "name": "minecraft:deepslate_coal_ore",
           "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "!minecraft:consumable": {},
-                "minecraft:item_model": "rpgloot:materials/raw_titanium"
-              }
-            },
             {
               "function": "minecraft:set_custom_data",
               "tag": "{rpgc:true}"
@@ -21,7 +14,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Raw Titanium",
+                "text": "Magnite Ore",
                 "italic": false
               }
             },

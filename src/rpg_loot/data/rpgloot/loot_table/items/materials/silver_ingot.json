@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "!minecraft:consumable": {},
-                "minecraft:item_model": "rpgloot:silver_ingot"
+                "minecraft:item_model": "rpgloot:materials/silver_ingot"
               }
             },
             {

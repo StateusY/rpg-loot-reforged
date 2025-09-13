@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "!minecraft:consumable": {},
-                "minecraft:item_model": "rpgloot:raw_silver"
+                "minecraft:item_model": "rpgloot:materials/raw_silver"
               }
             },
             {

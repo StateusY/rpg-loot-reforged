@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "!minecraft:consumable": {},
-                "minecraft:item_model": "rpgloot:titanium_ingot"
+                "minecraft:item_model": "rpgloot:materials/titanium_ingot"
               }
             },
             {
