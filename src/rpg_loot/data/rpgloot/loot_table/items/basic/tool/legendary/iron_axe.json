@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 5688,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/iron_axe"
+                "minecraft:item_model": "rpgloot:tools/iron_axe"
               }
             }
           ]

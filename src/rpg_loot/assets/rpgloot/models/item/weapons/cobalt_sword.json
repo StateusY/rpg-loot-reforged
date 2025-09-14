@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/weapons/cobalt_sword"
+    "layer0": "rpgloot:item/weapons/cobalt_sword"
   }
 }

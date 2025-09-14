@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/tools/eternium_pickaxe"
+    "model": "rpgloot:item/tools/eternium_pickaxe"
   }
 }

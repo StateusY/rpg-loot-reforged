@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 450,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/chain_leggings",
+                "minecraft:item_model": "rpgloot:armor/chain_leggings",
                 "minecraft:equippable": {
                   "slot": "legs",
                   "asset_id": "rpgloot:chain"

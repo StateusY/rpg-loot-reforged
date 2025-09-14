@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 441,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/stone_bow"
+                "minecraft:item_model": "rpgloot:weapons/stone_bow"
               }
             }
           ]

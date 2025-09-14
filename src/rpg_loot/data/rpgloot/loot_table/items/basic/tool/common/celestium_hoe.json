@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 12000,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/celestium_hoe"
+                "minecraft:item_model": "rpgloot:tools/celestium_hoe"
               }
             }
           ]

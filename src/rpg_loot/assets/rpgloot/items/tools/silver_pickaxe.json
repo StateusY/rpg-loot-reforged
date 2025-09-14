@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/tools/silver_pickaxe"
+    "model": "rpgloot:item/tools/silver_pickaxe"
   }
 }

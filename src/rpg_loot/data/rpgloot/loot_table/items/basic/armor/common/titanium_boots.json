@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 2048,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/titanium_boots",
+                "minecraft:item_model": "rpgloot:armor/titanium_boots",
                 "minecraft:equippable": {
                   "slot": "feet",
                   "asset_id": "rpgloot:titanium"

@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 18000,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/eternium_boots",
+                "minecraft:item_model": "rpgloot:armor/eternium_boots",
                 "minecraft:equippable": {
                   "slot": "feet",
                   "asset_id": "rpgloot:eternium"

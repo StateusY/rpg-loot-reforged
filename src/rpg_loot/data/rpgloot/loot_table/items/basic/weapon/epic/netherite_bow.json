@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 38400,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/netherite_bow"
+                "minecraft:item_model": "rpgloot:weapons/netherite_bow"
               }
             }
           ]

@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 12000,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/eternium_chestplate",
+                "minecraft:item_model": "rpgloot:armor/eternium_chestplate",
                 "minecraft:equippable": {
                   "slot": "chest",
                   "asset_id": "rpgloot:eternium"

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/tools/titanium_pickaxe"
+    "model": "rpgloot:item/tools/titanium_pickaxe"
   }
 }

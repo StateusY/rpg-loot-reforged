@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 940,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/copper_chestplate",
+                "minecraft:item_model": "rpgloot:armor/copper_chestplate",
                 "minecraft:equippable": {
                   "slot": "chest",
                   "asset_id": "rpgloot:copper"

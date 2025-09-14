@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 12000,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/eternium_bow"
+                "minecraft:item_model": "rpgloot:weapons/eternium_bow"
               }
             }
           ]

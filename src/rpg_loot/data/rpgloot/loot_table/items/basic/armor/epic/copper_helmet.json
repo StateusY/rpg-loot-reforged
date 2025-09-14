@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 1720,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/copper_helmet",
+                "minecraft:item_model": "rpgloot:armor/copper_helmet",
                 "minecraft:equippable": {
                   "slot": "head",
                   "asset_id": "rpgloot:copper"

@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 4096,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/cobalt_shovel"
+                "minecraft:item_model": "rpgloot:tools/cobalt_shovel"
               }
             }
           ]

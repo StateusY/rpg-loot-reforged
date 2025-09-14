@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 15000,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/eternium_leggings",
+                "minecraft:item_model": "rpgloot:armor/eternium_leggings",
                 "minecraft:equippable": {
                   "slot": "legs",
                   "asset_id": "rpgloot:eternium"

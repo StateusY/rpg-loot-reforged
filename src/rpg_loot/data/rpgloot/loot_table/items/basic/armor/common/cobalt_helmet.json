@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 4096,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/cobalt_helmet",
+                "minecraft:item_model": "rpgloot:armor/cobalt_helmet",
                 "minecraft:equippable": {
                   "slot": "head",
                   "asset_id": "rpgloot:cobalt"

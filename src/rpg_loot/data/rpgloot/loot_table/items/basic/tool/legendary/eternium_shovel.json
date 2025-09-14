@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 216000,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/eternium_shovel"
+                "minecraft:item_model": "rpgloot:tools/eternium_shovel"
               }
             }
           ]

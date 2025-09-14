@@ -354,7 +354,12 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
     components = {"minecraft:max_damage": durability,"minecraft:enchantment_glint_override": False}
 
     # Auto model path → rpgloot:item/{material}_{item_type}
-    model_path = f"rpgloot:item/{material['name'].lower()}_{item_type}"
+    if item_type in WEAPONS:
+        model_path = f"rpgloot:weapons/{material['name'].lower()}_{item_type}"
+    elif item_type in TOOLS:
+        model_path = f"rpgloot:tools/{material['name'].lower()}_{item_type}"
+    elif item_type in ARMORS:
+        model_path = f"rpgloot:armor/{material['name'].lower()}_{item_type}"
     components["minecraft:item_model"] = model_path
 
     # Merge extra components

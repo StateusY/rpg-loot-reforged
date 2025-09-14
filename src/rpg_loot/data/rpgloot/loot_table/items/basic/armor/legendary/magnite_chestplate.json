@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 66750,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/magnite_chestplate",
+                "minecraft:item_model": "rpgloot:armor/magnite_chestplate",
                 "minecraft:equippable": {
                   "slot": "chest",
                   "asset_id": "rpgloot:magnite"

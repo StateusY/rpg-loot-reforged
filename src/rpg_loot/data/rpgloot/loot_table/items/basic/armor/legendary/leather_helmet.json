@@ -38,7 +38,7 @@
               "components": {
                 "minecraft:max_damage": 1392,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:item_model": "rpgloot:item/leather_helmet",
+                "minecraft:item_model": "rpgloot:armor/leather_helmet",
                 "minecraft:equippable": {
                   "slot": "head",
                   "asset_id": "rpgloot:leather"

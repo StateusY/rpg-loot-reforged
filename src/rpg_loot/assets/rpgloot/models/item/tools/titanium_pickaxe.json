@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/tools/titanium_pickaxe"
+    "layer0": "rpgloot:item/tools/titanium_pickaxe"
   }
 }
