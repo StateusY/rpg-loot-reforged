@@ -25,5 +25,5 @@ execute unless entity @s[tag=rpgc.unarmed] run function rpgc:z_api/event/call {e
 execute if score @s rpgc.drop matches 1.. run scoreboard players set @s rpgc.queue_swap 1
 
 # Update HUD
-execute if entity @s[tag=rpgc.hud_needs_update] run function rpgc:z_core/player/hud/update
+function rpgc:z_core/player/hud/try_update
 
