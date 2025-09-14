@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "rpgloot:item/weapons/copper_sword"
+  }
+}

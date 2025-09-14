@@ -1,6 +1,7 @@
 # From <rpgloot:_admin/give_all>
 
 
+
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/common/celestium_axe
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/common/celestium_hoe
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/common/celestium_pickaxe
@@ -233,10 +234,6 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eternium_ax
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eternium_hoe
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eternium_pickaxe
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eternium_shovel
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eturnium_axe
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eturnium_hoe
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eturnium_pickaxe
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/eturnium_shovel
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/iron_axe
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/iron_hoe
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/tool/legendary/iron_pickaxe

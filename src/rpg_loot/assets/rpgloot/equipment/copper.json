@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rpgloot:copper"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rpgloot:copper"
+      }
+    ]
+  }
+}

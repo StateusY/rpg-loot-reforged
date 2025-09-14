@@ -1,3 +1,4 @@
+say [RPGLOOT LOADED]
 
 function rpgloot:damages
 scoreboard objectives add rpgloot.temp dummy

@@ -1,5 +1,6 @@
 gamerule doImmediateRespawn true
 
+say [RPGC LOADED]
 
 ## ───[ Core Scoreboards ]──────────────────────────────
 

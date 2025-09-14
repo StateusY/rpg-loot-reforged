@@ -36,7 +36,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 613
+                "minecraft:max_damage": 613,
+                "minecraft:item_model": "rpgloot:tools/copper_axe",
+                "minecraft:enchantment_glint_override": false
               }
             }
           ]
