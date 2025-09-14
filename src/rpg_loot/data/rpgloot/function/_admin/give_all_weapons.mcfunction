@@ -22,8 +22,8 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/eterni
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/eternium_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/iron_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/iron_sword
-# execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/wooden_bow - ig there is none for reasons?
-# execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/wooden_sword
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/wood_bow
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/wood_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/magnite_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/magnite_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/common/mythril_bow
@@ -49,8 +49,8 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/eter
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/eternium_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/iron_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/iron_sword
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/wooden_bow
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/wooden_sword
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/wood_bow
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/wood_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/magnite_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/magnite_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/uncommon/mythril_bow
@@ -76,8 +76,8 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/eternium
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/eternium_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/iron_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/iron_sword
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/wooden_bow
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/wooden_sword
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/wood_bow
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/wood_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/magnite_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/magnite_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/rare/mythril_bow
@@ -103,8 +103,8 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/eternium
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/eternium_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/iron_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/iron_sword
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/wooden_bow
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/wooden_sword
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/wood_bow
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/wood_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/magnite_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/magnite_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/epic/mythril_bow
@@ -130,8 +130,8 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/ete
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/eternium_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/iron_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/iron_sword
-# execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/wooden_bow - also DNE ig???
-# execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/wooden_sword
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/wood_bow
+execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/wood_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/magnite_bow
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/magnite_sword
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/weapon/legendary/mythril_bow
