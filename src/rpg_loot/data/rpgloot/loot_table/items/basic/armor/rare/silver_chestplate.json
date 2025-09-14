@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "selector": "@s",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "'s Rare Silver Chestplate",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,id:rare_silver_chestplate,attributes:[{id:armor,name:silver_chestplate,source:chest,type:add,value:37.84375}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:armor": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 2076,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:item_model": "rpgloot:item/silver_chestplate",
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "rpgloot:silver"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "selector": "@s",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": "'s Uncommon Eternium Shovel",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:eternium_shovel,source:weapon,type:add,value:50.0}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 37500,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:item_model": "rpgloot:item/eternium_shovel"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

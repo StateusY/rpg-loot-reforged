@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "selector": "@s",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": "'s Epic Copper Pickaxe",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:copper_pickaxe,source:weapon,type:add,value:23.375}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:weapon": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 1870,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:item_model": "rpgloot:item/copper_pickaxe",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#rpgloot:tools/copper",
+                      "speed": 0.1,
+                      "correct_for_drops": false
+                    },
+                    {
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "speed": 1.5,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
