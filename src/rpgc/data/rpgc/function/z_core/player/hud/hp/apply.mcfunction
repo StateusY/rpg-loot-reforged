@@ -1,6 +1,7 @@
 $data modify storage rpgc:temp hud.contents append value [\
-  {text:"$(hearts)",font:"rpgc:hud/hearts",color:"#FFFFFF"},\
-  {text:"$(hp)",font:"rpgc:hud/hp",color:"#FFFFFF"},\
-  {text:"$(hp)",font:"rpgc:hud/hp_backspace",color:"#FFFFFF"}\
+  {text:"",color:"#01FE01"},\
+  {text:"$(hearts)",font:"rpgc:hud/hearts"},\
+  {text:"$(hp)",font:"rpgc:hud/hp"},\
+  {text:"$(hp)",font:"rpgc:hud/hp_backspace"}\
 ]
 
