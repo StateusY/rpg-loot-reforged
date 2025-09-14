@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "selector": "@s",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "'s Legendary Iron Bow",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:iron_bow,source:weapon,type:add,value:113.33333333333331}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:bow": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 5802,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:item_model": "rpgloot:item/iron_bow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

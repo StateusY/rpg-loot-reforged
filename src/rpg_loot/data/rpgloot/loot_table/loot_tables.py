@@ -1,9 +1,10 @@
 import json
+import shutil
 from pathlib import Path
 
 # Base output folder relative to script location
 BASE_DIR = Path(__file__).parent
-OUTPUT_DIR = BASE_DIR / "items"
+OUTPUT_DIR = BASE_DIR / "basic"
 
 materials = [
     {
@@ -199,28 +200,27 @@ rarities = {
 min_dmg = min(m["damage_value"] for m in materials)
 max_dmg = max(m["damage_value"] for m in materials)
 
-# Weakness factor: higher for weaker materials
 def weakness_factor(base_damage):
     return (max_dmg - base_damage) / (max_dmg - min_dmg) if max_dmg != min_dmg else 0
 
-# Final multiplier per rarity, doubling intensity for weak materials
 def rarity_multiplier(base_damage, rarity):
     base_mult = rarity_base[rarity]
     w = weakness_factor(base_damage)
-    effective_mult = 1 + (base_mult - 1) * (1 + w * 10)  # Weak items get extra boost
+    effective_mult = 1 + (base_mult - 1) * (1 + w * 10)
     return effective_mult
-
-# Example usage:
-for mat in materials:
-    for rarity in rarity_base.keys():
-        mult = rarity_multiplier(mat["damage_value"], rarity)
 
 # === ITEM CATEGORIES ===
 WEAPONS = ["sword", "bow"]
 TOOLS = ["axe", "pickaxe", "shovel", "hoe"]
 ARMORS = ["helmet", "chestplate", "leggings", "boots"]
 
-# === VANILLA PLACEHOLDER ITEM MAPPING ===
+# === CLEAR OUTPUT FOLDER ===
+def clear_output_dir():
+    if OUTPUT_DIR.exists():
+        shutil.rmtree(OUTPUT_DIR)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+# === PLACEHOLDER ===
 def get_vanilla_placeholder(material_name, item_type):
     if item_type in WEAPONS:
         return "minecraft:bow" if item_type == "bow" else "minecraft:iron_sword"
@@ -231,7 +231,7 @@ def get_vanilla_placeholder(material_name, item_type):
     else:
         return "minecraft:stone"
 
-# === GENERATOR FUNCTION ===
+# === GENERATOR DISPATCH ===
 def generate_loot_table(material, rarity, item_type):
     generators = {
         "sword": generate_sword, "bow": generate_bow,
@@ -240,7 +240,7 @@ def generate_loot_table(material, rarity, item_type):
     }
     return generators[item_type](material, rarity, item_type)
 
-# === PER-ITEM METHODS ===
+# === ITEM GENERATORS ===
 def generate_sword(material, rarity, item_type):
     base = material.get("damage_value", 0)
     mult = rarity_multiplier(base, rarity)
@@ -302,10 +302,16 @@ def generate_armor(material, rarity, item_type):
         f'attributes:[{{id:armor,name:{material["name"].lower()}_{item_type},'
         f'source:{slot},type:add,value:{armor_val}}}]}}'
     )
+# === Add equippable component ===
+    extra_components = {
+        "minecraft:equippable": {
+            "slot": slot,
+            "asset_id": 'rpgloot:armor/'+material["name"].lower()+'_'+item_type
+        }
+    }
 
-    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:armor", durability)
-
-# === Helper to create loot table entry ===
+    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:armor", durability, extra_components)
+# === LOOT ENTRY CREATION ===
 def create_loot_entry(material, rarity, color, item_type, tag_string, enchantment_type, durability, extra_components=None):
     item_name = get_vanilla_placeholder(material["name"], item_type)
     name_component = [
@@ -314,7 +320,14 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
          "color": color, "italic": False}
     ]
 
-    components = {"minecraft:max_damage": durability}
+    # Core components
+    components = {"minecraft:max_damage": durability,"minecraft:enchantment_glint_override": False}
+
+    # Auto model path → rpgloot:item/{material}_{item_type}
+    model_path = f"rpgloot:item/{material['name'].lower()}_{item_type}"
+    components["minecraft:item_model"] = model_path
+
+    # Merge extra components
     if extra_components:
         components.update(extra_components)
 
@@ -352,6 +365,8 @@ def save_loot_table(material, rarity, item_type, loot):
 
 # === MAIN ===
 def main():
+    clear_output_dir()  # clear folder first
+
     for material in materials:
         mat_type = material.get("type", "both")
         if mat_type == "item_only":
@@ -366,7 +381,7 @@ def main():
                 loot = generate_loot_table(material, rarity, item_type)
                 save_loot_table(material, rarity, item_type, loot)
 
-    print("Loot tables generated in the script folder!")
+    print("Loot tables regenerated in the script folder!")
 
 if __name__ == "__main__":
     main()

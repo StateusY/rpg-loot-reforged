@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "selector": "@s",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "'s Rare Eternium Leggings",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true,id:rare_eternium_leggings,attributes:[{id:armor,name:eternium_leggings,source:legs,type:add,value:83.75}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "rpgc:armor": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 67000,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:item_model": "rpgloot:item/eternium_leggings",
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "rpgloot:armor/eternium_leggings"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
