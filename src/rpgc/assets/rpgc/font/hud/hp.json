@@ -11,7 +11,7 @@
       "type": "bitmap",
       "file": "rpgc:hud/hp.png",
       "height": 6,
-      "ascent": -280,
+      "ascent": -944,
       "chars": [
         "0123456789,"
       ]

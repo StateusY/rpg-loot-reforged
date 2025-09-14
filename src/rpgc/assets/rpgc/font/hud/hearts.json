@@ -12,7 +12,7 @@
       "type": "bitmap",
       "file": "rpgc:hud/hearts.png",
       "height": 10,
-      "ascent": -287,
+      "ascent": -951,
       "chars": [
         "9876543210"
       ]
