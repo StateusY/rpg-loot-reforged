@@ -1,5 +1,5 @@
 # From <rpgloot:_admin/give_all>
-loot give @s loot rpgloot:items/basic/basic/
+#loot give @s loot rpgloot:items/basic/basic/
 
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/common/celestium_boots
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/common/celestium_chestplate
