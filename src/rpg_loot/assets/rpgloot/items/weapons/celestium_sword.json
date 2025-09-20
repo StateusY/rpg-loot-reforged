@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/weapons/celestium_sword"
+    "model": "rpgloot:item/weapons/celestium_sword"
   }
 }

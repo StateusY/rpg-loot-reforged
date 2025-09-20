@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/weapons/magnite_sword"
+    "model": "rpgloot:item/weapons/magnite_sword"
   }
 }

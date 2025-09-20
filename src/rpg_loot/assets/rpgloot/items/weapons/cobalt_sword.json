@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/weapons/cobalt_sword"
+    "model": "rpgloot:item/weapons/cobalt_sword"
   }
 }

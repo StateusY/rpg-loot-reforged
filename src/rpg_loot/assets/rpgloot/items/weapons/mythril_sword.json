@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/weapons/mythril_sword"
+    "model": "rpgloot:item/weapons/mythril_sword"
   }
 }
