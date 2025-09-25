@@ -351,7 +351,7 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
     ]
 
     # Core components
-    components = {"minecraft:max_damage": durability,"minecraft:enchantment_glint_override": False}
+    components = {"minecraft:max_damage": durability,"minecraft:enchantment_glint_override": False,"minecraft:lore": [[{"text": "0 ","color": "white","font": "rpgloot:icon","italic": False},{"translate": "rpgloot.tooltip","color": "white","font": "rpgloot:tooltip","italic": False}]],"minecraft:tooltip_style": "rpgloot:rpgloot"}
 
     # Auto model path → rpgloot:item/{material}_{item_type}
     if item_type in WEAPONS:

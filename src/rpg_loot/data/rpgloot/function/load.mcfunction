@@ -1,4 +1,7 @@
-say [RPGLOOT LOADED]
+# /reload message
+tellraw @a [{"text": "0 ","color": "white","font": "rpgloot:icon","italic": false},{"translate":"rpgloot.tooltip","font":"rpgloot:tooltip","color":"white","italic":false},{text:" ","font":"minecraft:default"},{"translate":rpgloot.loaded,"font":"minecraft:default"}]
+
+
 
 function rpgloot:damages
 scoreboard objectives add rpgloot.temp dummy

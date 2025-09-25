@@ -38,6 +38,23 @@
               "components": {
                 "minecraft:max_damage": 24000,
                 "minecraft:enchantment_glint_override": false,
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "rpgloot:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "rpgloot.tooltip",
+                      "color": "white",
+                      "font": "rpgloot:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:tooltip_style": "rpgloot:rpgloot",
                 "minecraft:item_model": "rpgloot:armor/eternium_helmet",
                 "minecraft:equippable": {
                   "slot": "head",

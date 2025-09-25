@@ -1,6 +1,8 @@
 gamerule doImmediateRespawn true
 
-say [RPGC LOADED]
+# /reload message
+tellraw @a [{"text": "0 ","color": "white","font": "rpgc:icon","italic": false},{"translate":"rpgc.tooltip","font":"rpgc:tooltip","color":"white","italic":false},{text:" ","font":"minecraft:default"},{"translate":rpgc.loaded,"font":"minecraft:default"}]
+
 
 ## ───[ Core Scoreboards ]──────────────────────────────
 

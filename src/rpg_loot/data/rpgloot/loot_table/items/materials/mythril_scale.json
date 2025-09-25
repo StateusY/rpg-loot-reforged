@@ -12,7 +12,24 @@
               "function": "minecraft:set_components",
               "components": {
                 "!minecraft:consumable": {},
-                "minecraft:item_model": "rpgloot:materials/mythril_scale"
+                "minecraft:item_model": "rpgloot:materials/mythril_scale",
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "rpgloot:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "rpgloot.tooltip",
+                      "color": "white",
+                      "font": "rpgloot:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:tooltip_style": "rpgloot:rpgloot"
               }
             },
             {
