@@ -28,7 +28,8 @@
                     }
                   ]
                 ],
-                "minecraft:tooltip_style": "rpgloot:rpgloot"
+                "minecraft:tooltip_style": "rpgloot:rpgloot",
+                "minecraft:custom_data": {"rpgloot":{"ingredient":{"type":"raw_titanium"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}}
               }
             },
             {

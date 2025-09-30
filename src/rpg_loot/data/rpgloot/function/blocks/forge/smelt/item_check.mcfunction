@@ -1,0 +1,2 @@
+execute if data entity @s {item:{components:{"minecraft:custom_data":{smithed:{ignore:{crafting:true}}}}}} unless data entity @s {item:{components:{"minecraft:custom_data":{rpgloot:{ingredient:{}}}}}} run return run data modify storage rpgloot:temp forge.Items append value {id:"ignore"}
+data modify storage rpgloot:temp forge.Items append from entity @s item

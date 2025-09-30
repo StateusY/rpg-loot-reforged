@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "X": "#minecraft:wooden_tool_materials"
+  },
+  "pattern": [
+    "###",
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:item_frame",
+    "components": {
+    "minecraft:item_name": {"translate":"item.rpgloot.forge","fallback":"Forging Station"},
+    "minecraft:item_model": "rpgloot:forge_item",
+    "minecraft:custom_data": {"rpgloot":{"forge":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+    "minecraft:lore": [
+        [
+        {
+            "text": "0 ",
+            "color": "white",
+            "font": "rpgloot:icon",
+            "italic": false
+        },
+        {
+            "translate": "rpgloot.tooltip",
+            "color": "white",
+            "font": "rpgloot:tooltip",
+            "italic": false
+        }
+        ]
+    ],
+    "minecraft:tooltip_style": "rpgloot:rpgloot",
+    "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["rpgloot.forge_setup"],"Silent":true,"Invisible":true}
+    }
+  }
+}

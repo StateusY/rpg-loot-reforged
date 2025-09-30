@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "rpgloot:block/forge_bottom",
+		"up": "rpgloot:block/forge_top",
+		"west": "rpgloot:block/forge_side"
+	},
+	"elements": [
+		{
+			"name": "Top",
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#west"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#west"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#west"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down"}
+			}
+		},
+		{
+			"name": "NW Leg",
+			"from": [0, 0, 0],
+			"to": [4, 12, 4],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"east": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"south": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"west": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#up"},
+				"down": {"uv": [0, 12, 4, 16], "texture": "#down"}
+			}
+		},
+		{
+			"name": "NE Leg",
+			"from": [12, 0, 0],
+			"to": [16, 12, 4],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"east": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"west": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"up": {"uv": [12, 0, 16, 4], "texture": "#up"},
+				"down": {"uv": [12, 12, 16, 16], "texture": "#down"}
+			}
+		},
+		{
+			"name": "SE Leg",
+			"from": [12, 0, 12],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"east": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"west": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#up"},
+				"down": {"uv": [12, 0, 16, 4], "texture": "#down"}
+			}
+		},
+		{
+			"name": "SW Leg",
+			"from": [0, 0, 12],
+			"to": [4, 12, 16],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"east": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"south": {"uv": [0, 4, 4, 16], "texture": "#west"},
+				"west": {"uv": [12, 4, 16, 16], "texture": "#west"},
+				"up": {"uv": [0, 12, 4, 16], "texture": "#up"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

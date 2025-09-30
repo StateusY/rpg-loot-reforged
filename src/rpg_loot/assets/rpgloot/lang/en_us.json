@@ -1,4 +1,5 @@
 {
     "rpgloot.tooltip": "RPGLoot Reforged",
-    "rpgloot.loaded": "loaded!"
+    "rpgloot.loaded": "loaded!",
+    "item.rpgloot.forge": "Forging Station"
 }

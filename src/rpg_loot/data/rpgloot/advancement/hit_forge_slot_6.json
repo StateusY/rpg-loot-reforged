@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"rpgloot.forge_interaction_slot_6\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgloot:blocks/forge/hit/slots/hit_slot_6"
+  }
+}

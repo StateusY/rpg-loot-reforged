@@ -1,0 +1,1 @@
+execute if entity @s[tag=rpgloot.forge] run function rpgloot:blocks/forge/tick

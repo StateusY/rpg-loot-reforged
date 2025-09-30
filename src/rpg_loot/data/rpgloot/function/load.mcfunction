@@ -21,6 +21,26 @@ scoreboard objectives add rpgloot.parry_timer dummy
 scoreboard objectives add rpgloot.mythril_mined minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add rpgloot.magnite_mined minecraft.mined:minecraft.deepslate_lapis_ore
 
+# forge
+scoreboard objectives add rpgloot.dummy dummy
+scoreboard objectives add rpgloot.hit_count dummy
+scoreboard objectives add rpgloot.hit_timer dummy
+
+scoreboard objectives add rpgloot.selected_slot dummy
+scoreboard objectives add rpgloot.occupied_slots dummy
+scoreboard objectives add rpgloot.occupied_slot_1 dummy
+scoreboard objectives add rpgloot.occupied_slot_2 dummy
+scoreboard objectives add rpgloot.occupied_slot_3 dummy
+scoreboard objectives add rpgloot.occupied_slot_4 dummy
+scoreboard objectives add rpgloot.occupied_slot_5 dummy
+scoreboard objectives add rpgloot.occupied_slot_6 dummy
+scoreboard objectives add rpgloot.occupied_slot_7 dummy
+scoreboard objectives add rpgloot.occupied_slot_8 dummy
+scoreboard objectives add rpgloot.occupied_slot_9 dummy
+scoreboard objectives add rpgloot.item_count dummy
+scoreboard objectives add rpgloot.smelt_time dummy
+scoreboard objectives add rpgloot.rotation dummy
+
 # Menus
 scoreboard objectives add rpgloot.interact_with_smithing_table minecraft.custom:minecraft.interact_with_smithing_table
 scoreboard objectives add rpgloot.crafter trigger

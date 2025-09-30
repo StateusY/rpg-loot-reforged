@@ -66,6 +66,7 @@ scoreboard objectives add rpgc.fall minecraft.custom:minecraft.fall_one_cm
 ## ───[ Constants ]─────────────────────────────────────
 scoreboard objectives add constant dummy
 scoreboard players set #loaded constant 1
+scoreboard players set #-90 constant -90
 scoreboard players set #-1 constant -1
 scoreboard players set #0 constant 0
 scoreboard players set #1 constant 1
@@ -77,8 +78,10 @@ scoreboard players set #10 constant 10
 scoreboard players set #20 constant 20
 scoreboard players set #25 constant 25
 scoreboard players set #30 constant 30
+scoreboard players set #90 constant 90
 scoreboard players set #99 constant 99
 scoreboard players set #100 constant 100
+scoreboard players set #180 constant 180
 scoreboard players set #1000 constant 1000
 scoreboard players set #7000 constant 7000
 

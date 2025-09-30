@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"rpgloot.forge_interaction_base\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgloot:blocks/forge/hit/hit_base"
+  }
+}
