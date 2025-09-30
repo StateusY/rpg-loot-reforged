@@ -7,7 +7,7 @@
       "predicate": {
         "slots": {
           "container.*": {
-            "items": "#minecraft:planks",
+            "items": "string",
             "count": {
               "min": 3,
               "max": 999999
@@ -24,7 +24,7 @@
           "container.*": {
             "items": "minecraft:stick",
             "count": {
-              "min": 2,
+              "min": 3,
               "max": 999999
             }
           }

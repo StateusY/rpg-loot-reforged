@@ -84,7 +84,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/bow.png",
+      "file": "minecraft:item/wooden_shovel.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -93,7 +93,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/leather_helmet_tinted.png",
+      "file": "minecraft:item/wooden_hoe.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/leather_chestplate_tinted.png",
+      "file": "minecraft:item/bow.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -111,7 +111,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/leather_leggings_tinted.png",
+      "file": "minecraft:item/leather_helmet_tinted.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -120,11 +120,29 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/leather_boots_tinted.png",
+      "file": "minecraft:item/leather_chestplate_tinted.png",
       "height": 16,
       "ascent": 11,
       "chars": [
         "\ue008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/leather_leggings_tinted.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/leather_boots_tinted.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue010"
       ]
     }
   ]
