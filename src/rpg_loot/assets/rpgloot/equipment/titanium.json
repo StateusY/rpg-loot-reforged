@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rpgloot:titanium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rpgloot:titanium"
+      }
+    ]
+  }
+}

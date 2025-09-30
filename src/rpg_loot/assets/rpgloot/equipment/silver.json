@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rpgloot:silver"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rpgloot:silver"
+      }
+    ]
+  }
+}

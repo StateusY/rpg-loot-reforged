@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rpgloot:mythril"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rpgloot:mythril"
+      }
+    ]
+  }
+}
