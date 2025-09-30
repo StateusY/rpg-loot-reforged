@@ -1,0 +1,35 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "#minecraft:planks",
+            "count": {
+              "min": 2,
+              "max": 999999
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:stick",
+            "count": {
+              "min": 2,
+              "max": 999999
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -15,6 +15,7 @@ execute unless score .armor rpgc.temp <= #0 constant run function rpgc:z_core/co
 # run damage calculations
 function rpgc:z_core/combat/hit/calc_stage/damage with storage rpgc:temp combat.dmg[0]
 execute unless entity @s[type=player] run function rpgc:z_core/mob/display/hp_change
+damage @s 0.00001 rpgc:hit
 # misc
 execute anchored eyes positioned ^ ^ ^ run particle item{item:"nether_wart_block"} ~ ~-.5 ~ 0 0 0 0.2 15 normal
 execute if score .crit_stage rpgc.temp matches 1 anchored eyes positioned ^ ^ ^ run particle wax_on ~ ~-.5 ~ 0 0 0 10 15 normal

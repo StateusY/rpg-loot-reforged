@@ -16,8 +16,8 @@ materials = [
         "armor_value": 0,
         "durability": 64,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
-        "weapon_events": '[{"name":"wooden_sword","source": "weapon", "listen": "hit", "command": "function rpgloot:items/basic/wood/sword/hit"}]',
-        "bow_events": '[{"name": "wooden_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/wood/bow/impact"}]',
+        "weapon_events": '[{"name":"wood_sword","source": "weapon", "listen": "hit", "command": "function rpgloot:items/basic/wood/sword/hit"}]',
+        "bow_events": '[{"name": "wood_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/wood/bow/impact"}]',
         "armor_events": '[]'
     },
     {
@@ -277,8 +277,20 @@ def generate_sword(material, rarity, item_type):
     damage = base * mult
     durability = int(material.get("durability", 1) * mult)
     color = rarities[rarity]["color"]
-    tag_string = f'{{rpgc:true,attributes:[{{id:physical_dmg,name:{material["name"].lower()}_sword,source:weapon,type:add,value:{damage}}}]}}'
+
+    # events
+    weapon_events = material.get("weapon_events", "[]")
+    if not isinstance(weapon_events, str):
+        weapon_events = json.dumps(weapon_events)
+
+    tag_string = (
+        f'{{rpgc:true,'
+        f'events:{weapon_events},'
+        f'attributes:[{{id:physical_dmg,name:{material["name"].lower()}_sword,source:weapon,type:add,value:{damage}}}]}}'
+    )
+
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability)
+
 
 def generate_bow(material, rarity, item_type):
     base = material.get("bow_value", material.get("damage_value", 0) / 2)
@@ -286,8 +298,23 @@ def generate_bow(material, rarity, item_type):
     damage = base * mult
     durability = int(material.get("durability", 1) * mult)
     color = rarities[rarity]["color"]
-    tag_string = f'{{rpgc:true,bow:{material.get("bow","{}")},attributes:[{{id:ranged_dmg,name:{material["name"].lower()}_bow,source:weapon,type:add,value:{damage}}}]}}'
-    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:bow", durability)
+
+    bow_str = material.get("bow", "{}")
+    bow_events = material.get("bow_events", "[]")
+    if not isinstance(bow_events, str):
+        bow_events = json.dumps(bow_events)
+
+    tag_string = (
+        f'{{rpgc:true,'
+        f'bow:{bow_str},'
+        f'events:{bow_events},'
+        f'attributes:[{{id:ranged_dmg,name:{material["name"].lower()}_bow,source:weapon,type:add,value:{damage}}}]}}'
+    )
+
+    # Pass both enchants here
+    return create_loot_entry(material, rarity, color, item_type, tag_string, ["rpgc:bow", "infinity"], durability)
+
+
 
 def generate_tool(material, rarity, item_type):
     base = material.get("damage_value", 0) * 0.25
@@ -297,7 +324,15 @@ def generate_tool(material, rarity, item_type):
     tool_speed = material.get("tool_speed", 1)
     color = rarities[rarity]["color"]
 
-    tag_string = f'{{rpgc:true,attributes:[{{id:tool_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
+    weapon_events = material.get("weapon_events", "[]")
+    if not isinstance(weapon_events, str):
+        weapon_events = json.dumps(weapon_events)
+
+    tag_string = (
+        f'{{rpgc:true,'
+        f'events:{weapon_events},'
+        f'attributes:[{{id:tool_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
+    )
 
     extra_components = {}
     if item_type == "pickaxe":
@@ -312,12 +347,17 @@ def generate_tool(material, rarity, item_type):
 
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability, extra_components)
 
+
 def generate_armor(material, rarity, item_type):
     base = material.get("armor_value", 0)
     mult = rarity_multiplier(base, rarity, "armor")
     armor_val = base * mult
     durability = int(material.get("durability", 1) * mult)
     color = rarities[rarity]["color"]
+
+    armor_events = material.get("armor_events", "[]")
+    if not isinstance(armor_events, str):
+        armor_events = json.dumps(armor_events)
 
     slot_map = {
         "helmet": "head",
@@ -328,19 +368,21 @@ def generate_armor(material, rarity, item_type):
     slot = slot_map.get(item_type)
 
     tag_string = (
-        f'{{rpgc:true,id:{rarity}_{material["name"].lower()}_{item_type},'
-        f'attributes:[{{id:armor,name:{material["name"].lower()}_{item_type},'
-        f'source:{slot},type:add,value:{armor_val}}}]}}'
+        f'{{rpgc:true,'
+        f'events:{armor_events},'
+        f'id:{rarity}_{material["name"].lower()}_{item_type},'
+        f'attributes:[{{id:armor,name:{material["name"].lower()}_{item_type},source:{slot},type:add,value:{armor_val}}}]}}'
     )
-# === Add equippable component ===
+
     extra_components = {
         "minecraft:equippable": {
             "slot": slot,
-            "asset_id": 'rpgloot:'+material["name"].lower()
+            "asset_id": 'rpgloot:' + material["name"].lower()
         }
     }
 
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:armor", durability, extra_components)
+
 # === LOOT ENTRY CREATION ===
 def create_loot_entry(material, rarity, color, item_type, tag_string, enchantment_type, durability, extra_components=None):
     item_name = get_vanilla_placeholder(material["name"], item_type)
@@ -351,7 +393,14 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
     ]
 
     # Core components
+<<<<<<< Updated upstream
     components = {"minecraft:max_damage": durability,"minecraft:enchantment_glint_override": False,"minecraft:lore": [[{"text": "0 ","color": "white","font": "rpgloot:icon","italic": False},{"translate": "rpgloot.tooltip","color": "white","font": "rpgloot:tooltip","italic": False}]],"minecraft:tooltip_style": "rpgloot:rpgloot"}
+=======
+    components = {
+        "minecraft:max_damage": durability,
+        "minecraft:enchantment_glint_override": False
+    }
+>>>>>>> Stashed changes
 
     # Auto model path → rpgloot:item/{material}_{item_type}
     if item_type in WEAPONS:
@@ -366,6 +415,12 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
     if extra_components:
         components.update(extra_components)
 
+    # Support multiple enchantments
+    if isinstance(enchantment_type, (list, tuple)):
+        enchantments = {en: 1 for en in enchantment_type}
+    else:
+        enchantments = {enchantment_type: 1}
+
     return {
         "pools": [{
             "rolls": 1,
@@ -375,12 +430,13 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
                 "functions": [
                     {"function": "minecraft:set_name", "entity": "this", "name": name_component},
                     {"function": "minecraft:set_custom_data", "tag": tag_string},
-                    {"function": "minecraft:set_enchantments", "enchantments": {enchantment_type: 1}},
+                    {"function": "minecraft:set_enchantments", "enchantments": enchantments},
                     {"function": "minecraft:set_components", "components": components}
                 ]
             }]
         }]
     }
+
 
 # === FILE WRITER ===
 def save_loot_table(material, rarity, item_type, loot):
