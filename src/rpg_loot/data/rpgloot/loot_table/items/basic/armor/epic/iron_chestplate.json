@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:epic_iron_chestplate,attributes:[{id:armor,name:iron_chestplate,source:chest,type:add,value:52.1875}]}"
+              "tag": "{rpgc:true,events:[],id:epic_iron_chestplate,attributes:[{id:armor,name:iron_chestplate,source:chest,type:add,value:52.1875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

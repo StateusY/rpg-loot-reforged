@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:uncommon_cobalt_boots,attributes:[{id:armor,name:cobalt_boots,source:feet,type:add,value:38.671875}]}"
+              "tag": "{rpgc:true,events:[],id:uncommon_cobalt_boots,attributes:[{id:armor,name:cobalt_boots,source:feet,type:add,value:38.671875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

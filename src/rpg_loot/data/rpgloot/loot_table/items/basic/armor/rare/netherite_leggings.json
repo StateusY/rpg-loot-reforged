@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_netherite_leggings,attributes:[{id:armor,name:netherite_leggings,source:legs,type:add,value:66.84375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_netherite_leggings,attributes:[{id:armor,name:netherite_leggings,source:legs,type:add,value:66.84375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

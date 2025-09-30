@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:uncommon_magnite_boots,attributes:[{id:armor,name:magnite_boots,source:feet,type:add,value:43.046875}]}"
+              "tag": "{rpgc:true,events:[],id:uncommon_magnite_boots,attributes:[{id:armor,name:magnite_boots,source:feet,type:add,value:43.046875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:magnite_axe,source:weapon,type:add,value:32.099609375}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:magnite_axe,source:weapon,type:add,value:32.099609375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

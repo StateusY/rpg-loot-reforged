@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:epic_leather_helmet,attributes:[{id:armor,name:leather_helmet,source:head,type:add,value:22.75}]}"
+              "tag": "{rpgc:true,events:[],id:epic_leather_helmet,attributes:[{id:armor,name:leather_helmet,source:head,type:add,value:22.75}]}"
             },
             {
               "function": "minecraft:set_enchantments",

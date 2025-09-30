@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_iron_leggings,attributes:[{id:armor,name:iron_leggings,source:legs,type:add,value:28.59375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_iron_leggings,attributes:[{id:armor,name:iron_leggings,source:legs,type:add,value:28.59375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_leather_leggings,attributes:[{id:armor,name:leather_leggings,source:legs,type:add,value:12.375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_leather_leggings,attributes:[{id:armor,name:leather_leggings,source:legs,type:add,value:12.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

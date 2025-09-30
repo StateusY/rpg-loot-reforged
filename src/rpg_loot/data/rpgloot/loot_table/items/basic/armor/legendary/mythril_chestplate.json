@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_mythril_chestplate,attributes:[{id:armor,name:mythril_chestplate,source:chest,type:add,value:165.375}]}"
+              "tag": "{rpgc:true,events:[],id:legendary_mythril_chestplate,attributes:[{id:armor,name:mythril_chestplate,source:chest,type:add,value:165.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

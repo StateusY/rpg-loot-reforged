@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_mythril_helmet,attributes:[{id:armor,name:mythril_helmet,source:head,type:add,value:61.59375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_mythril_helmet,attributes:[{id:armor,name:mythril_helmet,source:head,type:add,value:61.59375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

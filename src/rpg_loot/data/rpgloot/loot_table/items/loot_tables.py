@@ -108,7 +108,12 @@ materials = [
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
         "bow_events": '[]',
-        "armor_events": '[]'
+        "armor_events": '[]',
+        "helmet_events":'[{"name": "titanium_helmet", "source": "head", "listen": "head_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},{"name": "titanium_helmet", "source": "head", "listen": "head_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
+        "chestplate_events":'[{"name": "titanium_chestplate", "source": "chest", "listen": "chest_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},{"name": "titanium_chestplate", "source": "chest", "listen": "chest_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
+        "leggings_events":'[{"name": "titanium_leggings", "source": "legs", "listen": "legs_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},{"name": "titanium_leggings", "source": "legs", "listen": "legs_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
+        "boots_events":'[{"name": "titanium_boots", "source": "feet", "listen": "feet_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},"name": "titanium_boots", "source": "feet", "listen": "feet_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]'
+
     },
     {
         "name": "Cobalt",
@@ -355,10 +360,6 @@ def generate_armor(material, rarity, item_type):
     durability = int(material.get("durability", 1) * mult)
     color = rarities[rarity]["color"]
 
-    armor_events = material.get("armor_events", "[]")
-    if not isinstance(armor_events, str):
-        armor_events = json.dumps(armor_events)
-
     slot_map = {
         "helmet": "head",
         "chestplate": "chest",
@@ -367,6 +368,28 @@ def generate_armor(material, rarity, item_type):
     }
     slot = slot_map.get(item_type)
 
+    # --- Collect events ---
+    all_events = []
+
+    # 1. Generic armor_events
+    if "armor_events" in material:
+        generic_events = material.get("armor_events", "[]")
+        if isinstance(generic_events, str):
+            generic_events = json.loads(generic_events)
+        all_events.extend(generic_events)
+
+    # 2. Specific piece events
+    event_field = f"{item_type}_events"
+    if event_field in material:
+        specific_events = material.get(event_field, "[]")
+        if isinstance(specific_events, str):
+            specific_events = json.loads(specific_events)
+        all_events.extend(specific_events)
+
+    # 3. Convert back to JSON string
+    armor_events = json.dumps(all_events) if all_events else "[]"
+
+    # --- Tag string ---
     tag_string = (
         f'{{rpgc:true,'
         f'events:{armor_events},'
@@ -383,6 +406,7 @@ def generate_armor(material, rarity, item_type):
 
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:armor", durability, extra_components)
 
+
 # === LOOT ENTRY CREATION ===
 def create_loot_entry(material, rarity, color, item_type, tag_string, enchantment_type, durability, extra_components=None):
     item_name = get_vanilla_placeholder(material["name"], item_type)
@@ -392,17 +416,12 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
          "color": color, "italic": False}
     ]
 
-    # Core components
-<<<<<<< Updated upstream
+# Core components
     components = {"minecraft:max_damage": durability,"minecraft:enchantment_glint_override": False,"minecraft:lore": [[{"text": "0 ","color": "white","font": "rpgloot:icon","italic": False},{"translate": "rpgloot.tooltip","color": "white","font": "rpgloot:tooltip","italic": False}]],"minecraft:tooltip_style": "rpgloot:rpgloot"}
-=======
-    components = {
-        "minecraft:max_damage": durability,
-        "minecraft:enchantment_glint_override": False
-    }
->>>>>>> Stashed changes
 
-    # Auto model path → rpgloot:item/{material}_{item_type}
+
+# Auto model path → rpgloot:item/{material}_{item_type}
+    model_path = f"rpgloot:item/{material['name'].lower()}_{item_type}"
     if item_type in WEAPONS:
         model_path = f"rpgloot:weapons/{material['name'].lower()}_{item_type}"
     elif item_type in TOOLS:

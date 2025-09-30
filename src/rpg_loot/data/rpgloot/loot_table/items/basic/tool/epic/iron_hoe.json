@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:iron_hoe,source:weapon,type:add,value:29.0234375}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:iron_hoe,source:weapon,type:add,value:29.0234375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

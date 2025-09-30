@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:celestium_sword,source:weapon,type:add,value:64.0}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:celestium_sword,source:weapon,type:add,value:64.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",

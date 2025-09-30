@@ -6,3 +6,4 @@ data modify storage rpgc:player context.data.equipment.head set value ""
 data modify storage rpgc:player context.data.equipment.head set from entity @s equipment.head.components.minecraft:custom_data.id
 data modify storage rpgc:temp equipment.attributes append from entity @s equipment.head.components."minecraft:custom_data".attributes[]
 data modify storage rpgc:temp equipment.events append from entity @s equipment.head.components."minecraft:custom_data".events[]
+tag @s add rpgc.head_swap

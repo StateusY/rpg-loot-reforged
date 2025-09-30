@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_cobalt_chestplate,attributes:[{id:armor,name:cobalt_chestplate,source:chest,type:add,value:62.34375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_cobalt_chestplate,attributes:[{id:armor,name:cobalt_chestplate,source:chest,type:add,value:62.34375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

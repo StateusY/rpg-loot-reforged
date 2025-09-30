@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:rare_diamond_chestplate,attributes:[{id:armor,name:diamond_chestplate,source:chest,type:add,value:45.84375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_diamond_chestplate,attributes:[{id:armor,name:diamond_chestplate,source:chest,type:add,value:45.84375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

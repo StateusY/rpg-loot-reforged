@@ -15,8 +15,8 @@ execute if data storage rpgc:temp properties.attributes run function rpgc:z_core
 
 execute if data storage rpgc:temp properties.hp run function rpgc:z_core/mob/properties/hp with storage rpgc:temp properties
 
-execute if data storage rpgc:temp properties.name run function rpgc:z_core/mob/properties/name with storage rpgc:temp properties
 execute if data storage rpgc:temp properties.bar_size run function rpgc:z_core/mob/properties/bar with storage rpgc:temp properties
+execute if data storage rpgc:temp properties.name run function rpgc:z_core/mob/properties/name with storage rpgc:temp properties
 
 function rpgc:z_core/mob/properties/item
 execute if data storage rpgc:temp properties.cd run function rpgc:z_core/mob/properties/cd with storage rpgc:temp properties

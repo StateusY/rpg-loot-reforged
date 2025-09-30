@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_chain_leggings,attributes:[{id:armor,name:chain_leggings,source:legs,type:add,value:63.375}]}"
+              "tag": "{rpgc:true,events:[],id:legendary_chain_leggings,attributes:[{id:armor,name:chain_leggings,source:legs,type:add,value:63.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

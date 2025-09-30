@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:iron_axe,source:weapon,type:add,value:55.546875}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:iron_axe,source:weapon,type:add,value:55.546875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

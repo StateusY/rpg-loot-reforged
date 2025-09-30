@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:common_leather_chestplate,attributes:[{id:armor,name:leather_chestplate,source:chest,type:add,value:2.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_leather_chestplate,attributes:[{id:armor,name:leather_chestplate,source:chest,type:add,value:2.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",

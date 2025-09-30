@@ -25,12 +25,13 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:mythril_bow,source:weapon,type:add,value:35.0}]}"
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:mythril_bow,source:weapon,type:add,value:35.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:bow": 1
+                "rpgc:bow": 1,
+                "infinity": 1
               }
             },
             {

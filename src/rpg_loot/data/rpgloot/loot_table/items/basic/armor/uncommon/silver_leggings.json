@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:uncommon_silver_leggings,attributes:[{id:armor,name:silver_leggings,source:legs,type:add,value:22.421875}]}"
+              "tag": "{rpgc:true,events:[],id:uncommon_silver_leggings,attributes:[{id:armor,name:silver_leggings,source:legs,type:add,value:22.421875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

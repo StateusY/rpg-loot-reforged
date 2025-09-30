@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:legendary_magnite_leggings,attributes:[{id:armor,name:magnite_leggings,source:legs,type:add,value:211.375}]}"
+              "tag": "{rpgc:true,events:[],id:legendary_magnite_leggings,attributes:[{id:armor,name:magnite_leggings,source:legs,type:add,value:211.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

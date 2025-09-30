@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:mythril_axe,source:weapon,type:add,value:133.5234375}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:mythril_axe,source:weapon,type:add,value:133.5234375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

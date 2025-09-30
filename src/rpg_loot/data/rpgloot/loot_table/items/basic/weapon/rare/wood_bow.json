@@ -25,12 +25,13 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:wood_bow,source:weapon,type:add,value:12.200000000000001}]}"
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},events:[{\"name\": \"wood_bow\", \"source\": \"weapon\", \"listen\": \"bow_impact\", \"command\": \"function rpgloot:items/basic/wood/bow/impact\"}],attributes:[{id:ranged_dmg,name:wood_bow,source:weapon,type:add,value:12.200000000000001}]}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:bow": 1
+                "rpgc:bow": 1,
+                "infinity": 1
               }
             },
             {

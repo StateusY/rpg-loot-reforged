@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:diamond_hoe,source:weapon,type:add,value:50.8359375}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:diamond_hoe,source:weapon,type:add,value:50.8359375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

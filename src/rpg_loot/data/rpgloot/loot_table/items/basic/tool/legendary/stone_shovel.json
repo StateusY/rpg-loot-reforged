@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:stone_shovel,source:weapon,type:add,value:33.796875}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:stone_shovel,source:weapon,type:add,value:33.796875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

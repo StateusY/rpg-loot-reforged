@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:common_magnite_chestplate,attributes:[{id:armor,name:magnite_chestplate,source:chest,type:add,value:19.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_magnite_chestplate,attributes:[{id:armor,name:magnite_chestplate,source:chest,type:add,value:19.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",

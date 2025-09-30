@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:wood_sword,source:weapon,type:add,value:24.75}]}"
+              "tag": "{rpgc:true,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:physical_dmg,name:wood_sword,source:weapon,type:add,value:24.75}]}"
             },
             {
               "function": "minecraft:set_enchantments",

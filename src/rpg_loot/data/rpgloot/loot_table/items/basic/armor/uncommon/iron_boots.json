@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:uncommon_iron_boots,attributes:[{id:armor,name:iron_boots,source:feet,type:add,value:16.796875}]}"
+              "tag": "{rpgc:true,events:[],id:uncommon_iron_boots,attributes:[{id:armor,name:iron_boots,source:feet,type:add,value:16.796875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

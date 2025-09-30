@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:stone_pickaxe,source:weapon,type:add,value:17.6484375}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:stone_pickaxe,source:weapon,type:add,value:17.6484375}]}"
             },
             {
               "function": "minecraft:set_enchantments",

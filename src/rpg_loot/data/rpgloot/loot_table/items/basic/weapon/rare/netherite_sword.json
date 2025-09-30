@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:physical_dmg,name:netherite_sword,source:weapon,type:add,value:133.6875}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:netherite_sword,source:weapon,type:add,value:133.6875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:common_diamond_boots,attributes:[{id:armor,name:diamond_boots,source:feet,type:add,value:9.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_diamond_boots,attributes:[{id:armor,name:diamond_boots,source:feet,type:add,value:9.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",

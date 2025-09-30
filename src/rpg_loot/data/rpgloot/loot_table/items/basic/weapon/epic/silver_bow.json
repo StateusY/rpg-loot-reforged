@@ -25,12 +25,13 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},attributes:[{id:ranged_dmg,name:silver_bow,source:weapon,type:add,value:57.599999999999994}]}"
+              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:silver_bow,source:weapon,type:add,value:57.599999999999994}]}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:bow": 1
+                "rpgc:bow": 1,
+                "infinity": 1
               }
             },
             {

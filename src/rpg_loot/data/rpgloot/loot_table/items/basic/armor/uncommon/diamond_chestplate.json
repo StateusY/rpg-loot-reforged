@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,id:uncommon_diamond_chestplate,attributes:[{id:armor,name:diamond_chestplate,source:chest,type:add,value:27.421875}]}"
+              "tag": "{rpgc:true,events:[],id:uncommon_diamond_chestplate,attributes:[{id:armor,name:diamond_chestplate,source:chest,type:add,value:27.421875}]}"
             },
             {
               "function": "minecraft:set_enchantments",

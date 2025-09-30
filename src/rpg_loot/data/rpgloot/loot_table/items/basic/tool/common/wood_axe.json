@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:wood_axe,source:weapon,type:add,value:1.0}]}"
+              "tag": "{rpgc:true,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:tool_dmg,name:wood_axe,source:weapon,type:add,value:1.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,attributes:[{id:tool_dmg,name:copper_axe,source:weapon,type:add,value:23.375}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:copper_axe,source:weapon,type:add,value:23.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",
