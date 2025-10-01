@@ -1,0 +1,6 @@
+{
+  "parent": "rpgloot:item/ember",
+  "textures": {
+    "layer0": "rpgloot:item/weapons/wood_bow_pulling_0"
+  }
+}
