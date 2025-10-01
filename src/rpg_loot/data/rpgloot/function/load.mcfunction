@@ -6,6 +6,8 @@ tellraw @a [{"text": "0 ","color": "white","font": "rpgloot:icon","italic": fals
 function rpgloot:damages
 scoreboard objectives add rpgloot.temp dummy
 scoreboard objectives add rpgloot.died deathCount
+scoreboard objectives add rpgloot.ttk dummy
+
 # Items
 scoreboard objectives add rpgloot.twinstep_slam_start dummy
 scoreboard objectives add rpgloot.twinstep_slam_end dummy
@@ -17,6 +19,10 @@ scoreboard objectives add rpgloot.splinter_dmg dummy
 scoreboard objectives add rpgloot.splinter_timer dummy
 
 scoreboard objectives add rpgloot.parry_timer dummy
+
+scoreboard objectives add rpgloot.titanium_image dummy
+scoreboard objectives add rpgloot.titanium_timer dummy
+scoreboard objectives add rpgloot.titanium_charge dummy
 
 scoreboard objectives add rpgloot.mythril_mined minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add rpgloot.magnite_mined minecraft.mined:minecraft.deepslate_lapis_ore

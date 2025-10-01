@@ -109,10 +109,14 @@ materials = [
         "weapon_events": '[]',
         "bow_events": '[]',
         "armor_events": '[]',
-        "helmet_events":'[{"name": "titanium_helmet", "source": "head", "listen": "head_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},{"name": "titanium_helmet", "source": "head", "listen": "head_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
-        "chestplate_events":'[{"name": "titanium_chestplate", "source": "chest", "listen": "chest_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},{"name": "titanium_chestplate", "source": "chest", "listen": "chest_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
-        "leggings_events":'[{"name": "titanium_leggings", "source": "legs", "listen": "legs_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},{"name": "titanium_leggings", "source": "legs", "listen": "legs_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
-        "boots_events":'[{"name": "titanium_boots", "source": "feet", "listen": "feet_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"},"name": "titanium_boots", "source": "feet", "listen": "feet_equip", "command": "function rpgloot:items/basic/titanium/armor/swap"}]'
+        "helmet_events":'[{"name": "titanium_helmet", "source": "head", "listen": "head_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
+        "chestplate_events":'[{"name": "titanium_chestplate", "source": "chest", "listen": "chest_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
+        "leggings_events":'[{"name": "titanium_leggings", "source": "legs", "listen": "legs_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
+        "boots_events":'[{"name": "titanium_boots", "source": "feet", "listen": "feet_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
+        "helmet_enchants": {"rpgloot:backend/items/titanium": 1},
+        "chestplate_enchants": {"rpgloot:backend/items/titanium": 1},
+        "leggings_enchants": {"rpgloot:backend/items/titanium": 1},
+        "boots_enchants": {"rpgloot:backend/items/titanium": 1}
 
     },
     {
@@ -360,25 +364,17 @@ def generate_armor(material, rarity, item_type):
     durability = int(material.get("durability", 1) * mult)
     color = rarities[rarity]["color"]
 
-    slot_map = {
-        "helmet": "head",
-        "chestplate": "chest",
-        "leggings": "legs",
-        "boots": "feet"
-    }
+    slot_map = {"helmet": "head", "chestplate": "chest", "leggings": "legs", "boots": "feet"}
     slot = slot_map.get(item_type)
 
     # --- Collect events ---
     all_events = []
-
-    # 1. Generic armor_events
     if "armor_events" in material:
         generic_events = material.get("armor_events", "[]")
         if isinstance(generic_events, str):
             generic_events = json.loads(generic_events)
         all_events.extend(generic_events)
 
-    # 2. Specific piece events
     event_field = f"{item_type}_events"
     if event_field in material:
         specific_events = material.get(event_field, "[]")
@@ -386,10 +382,8 @@ def generate_armor(material, rarity, item_type):
             specific_events = json.loads(specific_events)
         all_events.extend(specific_events)
 
-    # 3. Convert back to JSON string
     armor_events = json.dumps(all_events) if all_events else "[]"
 
-    # --- Tag string ---
     tag_string = (
         f'{{rpgc:true,'
         f'events:{armor_events},'
@@ -404,7 +398,15 @@ def generate_armor(material, rarity, item_type):
         }
     }
 
-    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:armor", durability, extra_components)
+    # 🔹 Check for enchants
+    enchant_field = f"{item_type}_enchants"
+    if enchant_field in material:
+        enchants = material[enchant_field]
+    else:
+        enchants = {"rpgc:armor": 1}
+
+    return create_loot_entry(material, rarity, color, item_type, tag_string, enchants, durability, extra_components)
+
 
 
 # === LOOT ENTRY CREATION ===
@@ -416,11 +418,18 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
          "color": color, "italic": False}
     ]
 
-# Core components
-    components = {"minecraft:max_damage": durability,"minecraft:enchantment_glint_override": False,"minecraft:lore": [[{"text": "0 ","color": "white","font": "rpgloot:icon","italic": False},{"translate": "rpgloot.tooltip","color": "white","font": "rpgloot:tooltip","italic": False}]],"minecraft:tooltip_style": "rpgloot:rpgloot"}
+    # Core components
+    components = {
+        "minecraft:max_damage": durability,
+        "minecraft:enchantment_glint_override": False,
+        "minecraft:lore": [[
+            {"text": "0 ", "color": "white", "font": "rpgloot:icon", "italic": False},
+            {"translate": "rpgloot.tooltip", "color": "white", "font": "rpgloot:tooltip", "italic": False}
+        ]],
+        "minecraft:tooltip_style": "rpgloot:rpgloot"
+    }
 
-
-# Auto model path → rpgloot:item/{material}_{item_type}
+    # Auto model path → rpgloot:item/{material}_{item_type}
     model_path = f"rpgloot:item/{material['name'].lower()}_{item_type}"
     if item_type in WEAPONS:
         model_path = f"rpgloot:weapons/{material['name'].lower()}_{item_type}"
@@ -434,10 +443,15 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
     if extra_components:
         components.update(extra_components)
 
-    # Support multiple enchantments
-    if isinstance(enchantment_type, (list, tuple)):
+    # --- Enchantments ---
+    if isinstance(enchantment_type, dict):
+        # already a dict of enchantments
+        enchantments = enchantment_type
+    elif isinstance(enchantment_type, (list, tuple)):
+        # list → multiple enchants with level 1
         enchantments = {en: 1 for en in enchantment_type}
     else:
+        # single string → single enchant at level 1
         enchantments = {enchantment_type: 1}
 
     return {
@@ -455,6 +469,7 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
             }]
         }]
     }
+
 
 
 # === FILE WRITER ===

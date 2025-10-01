@@ -25,12 +25,12 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"name\": \"titanium_boots\", \"source\": \"feet\", \"listen\": \"feet_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:legendary_titanium_boots,attributes:[{id:armor,name:titanium_boots,source:feet,type:add,value:177.375}]}"
+              "tag": "{rpgc:true,events:[{\"name\": \"titanium_boots\", \"source\": \"feet\", \"listen\": \"feet_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}, {\"name\": \"titanium_boots\", \"source\": \"feet\", \"listen\": \"feet_equip\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:legendary_titanium_boots,attributes:[{id:armor,name:titanium_boots,source:feet,type:add,value:177.375}]}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:armor": 1
+                "rpgloot:backend/items/titanium": 1
               }
             },
             {

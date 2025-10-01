@@ -10,6 +10,8 @@ execute if score @s rpgloot.magnite_mined matches 1.. run scoreboard players res
 execute if score @s rpgloot.mythril_mined matches 1.. as @n[type=item,nbt={Age:0s,Item:{components:{"minecraft:custom_data": {rpgloot:{"material":"crystalline_mythril"}}}}}] run function rpgloot:ores/mythril
 execute if score @s rpgloot.mythril_mined matches 1.. run scoreboard players reset @s rpgloot.mythril_mined
 
+# Items
+execute if entity @s[tag=rpgloot.titanium_ran] run tag @s remove rpgloot.titanium_ran
 execute if score @s rpgloot.parry_timer matches 1.. run scoreboard players remove @s rpgloot.parry_timer 1
 
 # Stations

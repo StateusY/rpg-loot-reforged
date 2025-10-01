@@ -1,0 +1,1 @@
+$execute facing ^$(x) ^$(y) ^-4 run particle smoke ~ ~1 ~ ^ ^ ^1000000 0.000001 0
