@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:eternium_sword,source:weapon,type:add,value:64.0}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:eternium_sword,source:weapon,type:add,value:64}]}"
             },
             {
               "function": "minecraft:set_enchantments",

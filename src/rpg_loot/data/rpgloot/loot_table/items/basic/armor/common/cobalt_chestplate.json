@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:common_cobalt_chestplate,attributes:[{id:armor,name:cobalt_chestplate,source:chest,type:add,value:15.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_cobalt_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 8}, {\"id\": \"max_hp\", \"name\": \"cobalt_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 15}]}"
             },
             {
               "function": "minecraft:set_enchantments",

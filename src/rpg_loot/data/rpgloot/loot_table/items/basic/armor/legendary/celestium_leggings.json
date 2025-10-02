@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:legendary_celestium_leggings,attributes:[{id:armor,name:celestium_leggings,source:legs,type:add,value:96.0}]}"
+              "tag": "{rpgc:true,events:[],id:legendary_celestium_leggings,attributes:[{\"id\": \"armor\", \"name\": \"celestium_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 36}, {\"id\": \"max_hp\", \"name\": \"celestium_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 96}]}"
             },
             {
               "function": "minecraft:set_enchantments",

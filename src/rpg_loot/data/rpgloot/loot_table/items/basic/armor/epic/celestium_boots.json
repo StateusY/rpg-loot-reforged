@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:epic_celestium_boots,attributes:[{id:armor,name:celestium_boots,source:feet,type:add,value:64.0}]}"
+              "tag": "{rpgc:true,events:[],id:epic_celestium_boots,attributes:[{\"id\": \"armor\", \"name\": \"celestium_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"celestium_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 64}]}"
             },
             {
               "function": "minecraft:set_enchantments",

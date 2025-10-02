@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:common_celestium_chestplate,attributes:[{id:armor,name:celestium_chestplate,source:chest,type:add,value:32.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_celestium_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"celestium_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"celestium_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 32}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -3,6 +3,12 @@ import shutil
 from pathlib import Path
 
 # Base output folder relative to script location
+LOG_FILE = Path(__file__).parent / "log.txt"
+
+def log_debug(msg):
+    with open(LOG_FILE, "a") as f:
+        f.write(msg + "\n")
+
 BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "basic"
 
@@ -13,17 +19,16 @@ materials = [
         "damage_value": 4,
         "bow_value": 2,
         "tool_speed": 1,
-        "armor_value": 0,
         "durability": 64,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[{"name":"wood_sword","source": "weapon", "listen": "hit", "command": "function rpgloot:items/basic/wood/sword/hit"}]',
         "bow_events": '[{"name": "wood_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/wood/bow/impact"}]',
-        "armor_events": '[]'
     },
     {
         "name": "Leather",
         "type": "armor_only",
-        "armor_value": 2,
+        "hp_value":2,
+        "armor_value": 1,
         "durability": 64,
         "armor_events": '[]'
     },
@@ -41,7 +46,8 @@ materials = [
     },
     {
         "name": "Chain",
-        "armor_value":3,
+        "hp_value":3,
+        "armor_value":2,
         "type": "armor_only",
         "durability": 128,
     },
@@ -51,7 +57,8 @@ materials = [
         "damage_value": 8,
         "bow_value": 4,
         "tool_speed": 1.5,
-        "armor_value": 4,
+        "hp_value":4,
+        "armor_value": 3,
         "durability": 160,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -64,7 +71,8 @@ materials = [
         "damage_value": 10,
         "bow_value": 5,
         "tool_speed": 1.75,
-        "armor_value": 5,
+        "hp_value":5,
+        "armor_value": 4,
         "durability": 256,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -77,7 +85,8 @@ materials = [
         "damage_value": 14,
         "bow_value": 6,
         "tool_speed": 2.0,
-        "armor_value": 7,
+        "hp_value":7,
+        "armor_value": 5,
         "durability": 384,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -90,7 +99,8 @@ materials = [
         "damage_value": 18,
         "bow_value": 8,
         "tool_speed": 2.25,
-        "armor_value": 9,
+        "hp_value":9,
+        "armor_value": 6,
         "durability": 1024,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -103,7 +113,8 @@ materials = [
         "damage_value": 22,
         "bow_value": 10,
         "tool_speed": 2.5,
-        "armor_value": 11,
+        "hp_value":11,
+        "armor_value": 7,
         "durability": 2048,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -116,7 +127,8 @@ materials = [
         "helmet_enchants": {"rpgloot:backend/items/titanium": 1},
         "chestplate_enchants": {"rpgloot:backend/items/titanium": 1},
         "leggings_enchants": {"rpgloot:backend/items/titanium": 1},
-        "boots_enchants": {"rpgloot:backend/items/titanium": 1}
+        "boots_enchants": {"rpgloot:backend/items/titanium": 1},
+        "armor_attributes":[{"id":"dodge","name":"titanium_armor","source":"armor","type":"add","value":0.04}]
 
     },
     {
@@ -125,7 +137,8 @@ materials = [
         "damage_value": 30,
         "bow_value": 12,
         "tool_speed": 2.75,
-        "armor_value": 15,
+        "hp_value":15,
+        "armor_value": 8,
         "durability": 4096,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -138,7 +151,8 @@ materials = [
         "damage_value": 38,
         "bow_value": 15,
         "tool_speed": 3.0,
-        "armor_value": 19,
+        "hp_value":19,
+        "armor_value": 9,
         "durability": 6000,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -151,7 +165,8 @@ materials = [
         "damage_value": 46,
         "bow_value": 18,
         "tool_speed": 3.25,
-        "armor_value": 23,
+        "hp_value":23,
+        "armor_value": 10,
         "durability": 8000,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -164,7 +179,8 @@ materials = [
         "damage_value": 54,
         "bow_value": 20,
         "tool_speed": 3.5,
-        "armor_value": 27,
+        "hp_value":27,
+        "armor_value": 11,
         "durability": 10000,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -177,7 +193,8 @@ materials = [
         "damage_value": 64,
         "bow_value": 25,
         "tool_speed": 4.0,
-        "armor_value": 32,
+        "hp_value":32,
+        "armor_value": 12,
         "durability": 12000,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -190,7 +207,8 @@ materials = [
         "damage_value": 64,
         "bow_value": 25,
         "tool_speed": 4.0,
-        "armor_value": 32,
+        "hp_value":32,
+        "armor_value": 12,
         "durability": 12000,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -227,25 +245,65 @@ max_bow   = max(m.get("bow_value", 0) for m in materials)
 min_armor = min(m.get("armor_value", 0) for m in materials)
 max_armor = max(m.get("armor_value", 0) for m in materials)
 
+# --- add HP min/max (put near your other min/max lines) ---
+min_hp = min(m.get("hp_value", 0) for m in materials)
+max_hp = max(m.get("hp_value", 0) for m in materials)
+
+# === weakness_factor (replace existing) ===
 def weakness_factor(base_value, value_type="damage"):
     if value_type == "armor":
-        if max_armor == min_armor:
-            return 0
-        return (max_armor - base_value) / (max_armor - min_armor)
+        denom = (max_armor - min_armor)
+        if denom == 0:
+            return 0.0
+        return (max_armor - base_value) / denom
     elif value_type == "bow":
-        if max_bow == min_bow:
-            return 0
-        return (max_bow - base_value) / (max_bow - min_bow)
-    else:  # "damage" = melee / tools
-        if max_dmg == min_dmg:
-            return 0
-        return (max_dmg - base_value) / (max_dmg - min_dmg)
+        denom = (max_bow - min_bow)
+        if denom == 0:
+            return 0.0
+        return (max_bow - base_value) / denom
+    elif value_type == "hp":                # NEW branch for HP
+        denom = (max_hp - min_hp)
+        if denom == 0:
+            return 0.0
+        return (max_hp - base_value) / denom
+    else:  # damage
+        denom = (max_dmg - min_dmg)
+        if denom == 0:
+            return 0.0
+        return (max_dmg - base_value) / denom
 
 def rarity_multiplier(base_value, rarity, value_type="damage"):
     base_mult = rarity_base[rarity]
-    w = weakness_factor(base_value, value_type)
-    effective_mult = 1 + (base_mult - 1) * (1 + w * 10)
-    return effective_mult
+
+    # lookup min/max for this stat type
+    ranges = {
+        "damage": (min_dmg, max_dmg),
+        "bow": (min_bow, max_bow),
+        "armor": (min_armor, max_armor),
+        "hp": (min_hp, max_hp),
+    }
+    min_val, max_val = ranges[value_type]
+
+    if max_val == min_val:
+        return base_mult
+
+    # normalize 0..1
+    t = (base_value - min_val) / (max_val - min_val)
+
+    # compression factor: how close the weakest item gets to strongest
+    catchup_factor = 0.5  # 0.5 = weakest ends ~50% of strongest
+
+    # interpolate toward max (but never reduce max)
+    effective_base = base_value + (max_val - base_value) * (1 - t) * catchup_factor
+
+    # turn into multiplier relative to original base
+    effective_mult = (effective_base / base_value) * base_mult
+
+    # clamp to nearest whole number to avoid rounding noise
+    return round(effective_mult)
+
+
+
 
 
 # === ITEM CATEGORIES ===
@@ -358,16 +416,25 @@ def generate_tool(material, rarity, item_type):
 
 
 def generate_armor(material, rarity, item_type):
-    base = material.get("armor_value", 0)
-    mult = rarity_multiplier(base, rarity, "armor")
-    armor_val = base * mult
-    durability = int(material.get("durability", 1) * mult)
+    base_armor = material.get("armor_value", 0)
+    base_hp    = material.get("hp_value", 0)
+
+    armor_mult = rarity_multiplier(base_armor, rarity, "armor")
+    hp_mult    = rarity_multiplier(base_hp, rarity, "hp")
+
+    armor_val = base_armor * armor_mult
+    hp_val    = base_hp * hp_mult
+
+    log_debug(f"[generate_armor] material={material['name']}, rarity={rarity}, item_type={item_type}")
+    log_debug(f"  base_armor={base_armor}, armor_mult={armor_mult}, armor_val={armor_val}")
+    log_debug(f"  base_hp={base_hp}, hp_mult={hp_mult}, hp_val={hp_val}")
+
+    durability = int(material.get("durability", 1) * armor_mult)
     color = rarities[rarity]["color"]
 
     slot_map = {"helmet": "head", "chestplate": "chest", "leggings": "legs", "boots": "feet"}
     slot = slot_map.get(item_type)
 
-    # --- Collect events ---
     all_events = []
     if "armor_events" in material:
         generic_events = material.get("armor_events", "[]")
@@ -384,11 +451,26 @@ def generate_armor(material, rarity, item_type):
 
     armor_events = json.dumps(all_events) if all_events else "[]"
 
+    attributes = [
+        {"id": "armor",  "name": f"{material['name'].lower()}_{item_type}_armor", "source": slot, "type": "add", "value": armor_val},
+        {"id": "max_hp", "name": f"{material['name'].lower()}_{item_type}_hp",    "source": slot, "type": "add", "value": hp_val}
+    ]
+
+    if "armor_attributes" in material:
+        attributes.extend(material["armor_attributes"])
+
+    attr_field = f"{item_type}_attributes"
+    if attr_field in material:
+        attributes.extend(material[attr_field])
+    
+    for attribute in attributes:
+        attribute["source"] = slot
+
     tag_string = (
         f'{{rpgc:true,'
         f'events:{armor_events},'
         f'id:{rarity}_{material["name"].lower()}_{item_type},'
-        f'attributes:[{{id:armor,name:{material["name"].lower()}_{item_type},source:{slot},type:add,value:{armor_val}}}]}}'
+        f'attributes:{json.dumps(attributes)}}}'
     )
 
     extra_components = {
@@ -398,7 +480,6 @@ def generate_armor(material, rarity, item_type):
         }
     }
 
-    # 🔹 Check for enchants
     enchant_field = f"{item_type}_enchants"
     if enchant_field in material:
         enchants = material[enchant_field]
@@ -406,6 +487,10 @@ def generate_armor(material, rarity, item_type):
         enchants = {"rpgc:armor": 1}
 
     return create_loot_entry(material, rarity, color, item_type, tag_string, enchants, durability, extra_components)
+
+
+
+
 
 
 
@@ -490,6 +575,8 @@ def save_loot_table(material, rarity, item_type, loot):
 
 # === MAIN ===
 def main():
+    if LOG_FILE.exists():
+        LOG_FILE.unlink()
     clear_output_dir()  # clear folder first
 
     for material in materials:

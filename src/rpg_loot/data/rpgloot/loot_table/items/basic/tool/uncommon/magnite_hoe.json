@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:magnite_hoe,source:weapon,type:add,value:32.099609375}]}"
+              "tag": "{rpgc:true,events:[],attributes:[{id:tool_dmg,name:magnite_hoe,source:weapon,type:add,value:38.0}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 20273,
+                "minecraft:max_damage": 24000,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

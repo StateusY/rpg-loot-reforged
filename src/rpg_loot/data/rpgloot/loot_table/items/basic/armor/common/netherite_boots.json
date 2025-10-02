@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:common_netherite_boots,attributes:[{id:armor,name:netherite_boots,source:feet,type:add,value:23.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_netherite_boots,attributes:[{\"id\": \"armor\", \"name\": \"netherite_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 10}, {\"id\": \"max_hp\", \"name\": \"netherite_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 23}]}"
             },
             {
               "function": "minecraft:set_enchantments",

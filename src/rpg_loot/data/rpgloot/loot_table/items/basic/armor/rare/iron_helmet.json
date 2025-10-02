@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:rare_iron_helmet,attributes:[{id:armor,name:iron_helmet,source:head,type:add,value:28.59375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_iron_helmet,attributes:[{\"id\": \"armor\", \"name\": \"iron_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 8}, {\"id\": \"max_hp\", \"name\": \"iron_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 25}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1464,
+                "minecraft:max_damage": 512,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

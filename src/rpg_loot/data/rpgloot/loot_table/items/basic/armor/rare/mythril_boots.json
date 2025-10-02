@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:rare_mythril_boots,attributes:[{id:armor,name:mythril_boots,source:feet,type:add,value:61.59375}]}"
+              "tag": "{rpgc:true,events:[],id:rare_mythril_boots,attributes:[{\"id\": \"armor\", \"name\": \"mythril_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 22}, {\"id\": \"max_hp\", \"name\": \"mythril_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 54}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 22812,
+                "minecraft:max_damage": 20000,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:common_mythril_chestplate,attributes:[{id:armor,name:mythril_chestplate,source:chest,type:add,value:27.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_mythril_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"mythril_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 11}, {\"id\": \"max_hp\", \"name\": \"mythril_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 27}]}"
             },
             {
               "function": "minecraft:set_enchantments",

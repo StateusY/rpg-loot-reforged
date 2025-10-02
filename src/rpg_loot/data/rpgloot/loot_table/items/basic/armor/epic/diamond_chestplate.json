@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:epic_diamond_chestplate,attributes:[{id:armor,name:diamond_chestplate,source:chest,type:add,value:82.6875}]}"
+              "tag": "{rpgc:true,events:[],id:epic_diamond_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"diamond_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"diamond_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 36}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 9408,
+                "minecraft:max_damage": 2048,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:common_celestium_helmet,attributes:[{id:armor,name:celestium_helmet,source:head,type:add,value:32.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_celestium_helmet,attributes:[{\"id\": \"armor\", \"name\": \"celestium_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"celestium_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 32}]}"
             },
             {
               "function": "minecraft:set_enchantments",

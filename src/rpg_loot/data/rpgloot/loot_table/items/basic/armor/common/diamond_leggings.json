@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:common_diamond_leggings,attributes:[{id:armor,name:diamond_leggings,source:legs,type:add,value:9.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_diamond_leggings,attributes:[{\"id\": \"armor\", \"name\": \"diamond_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 6}, {\"id\": \"max_hp\", \"name\": \"diamond_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 18}]}"
             },
             {
               "function": "minecraft:set_enchantments",

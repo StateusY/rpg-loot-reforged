@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:rare_copper_chestplate,attributes:[{id:armor,name:copper_chestplate,source:chest,type:add,value:23.5}]}"
+              "tag": "{rpgc:true,events:[],id:rare_copper_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"copper_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"copper_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 24}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 940,
+                "minecraft:max_damage": 480,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

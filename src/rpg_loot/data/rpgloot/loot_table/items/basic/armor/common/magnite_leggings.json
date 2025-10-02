@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:common_magnite_leggings,attributes:[{id:armor,name:magnite_leggings,source:legs,type:add,value:19.0}]}"
+              "tag": "{rpgc:true,events:[],id:common_magnite_leggings,attributes:[{\"id\": \"armor\", \"name\": \"magnite_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"magnite_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 19}]}"
             },
             {
               "function": "minecraft:set_enchantments",

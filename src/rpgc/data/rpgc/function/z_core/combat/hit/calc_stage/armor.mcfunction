@@ -8,8 +8,8 @@ execute store result storage rpgc:temp combat.armor double 0.01 run scoreboard p
 execute if score .armor rpgc.temp matches 1.. run function rpgc:z_core/math/armor_curve with storage rpgc:temp combat
 execute store result score .armor_res rpgc.temp run data get storage bs:out math.pow 1
 
-# clamp the resistance to 70%
-execute if score .armor_res rpgc.temp > #70 constant run scoreboard players set .armor_res rpgc.temp 70
+# clamp the resistance to 75%
+execute if score .armor_res rpgc.temp > #75 constant run scoreboard players set .armor_res rpgc.temp 75
 
 # flat dmg reduction 
 
