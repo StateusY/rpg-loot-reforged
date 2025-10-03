@@ -1,1 +1,1 @@
-say swap
+function rpgloot:items/basic/titanium/armor/end_sprint

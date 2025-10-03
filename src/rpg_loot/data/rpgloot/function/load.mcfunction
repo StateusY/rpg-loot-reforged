@@ -12,6 +12,9 @@ scoreboard objectives add rpgloot.ttk dummy
 scoreboard objectives add rpgloot.twinstep_slam_start dummy
 scoreboard objectives add rpgloot.twinstep_slam_end dummy
 
+scoreboard objectives add rpgloot.storm_spear_charge dummy
+scoreboard objectives add rpgloot.storm_spear_strength dummy
+
 scoreboard objectives add rpgloot.shade_count dummy
 scoreboard objectives add rpgloot.shade_timer dummy
 

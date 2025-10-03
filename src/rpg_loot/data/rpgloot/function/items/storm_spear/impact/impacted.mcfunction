@@ -1,0 +1,4 @@
+summon armor_stand ~ ~.5 ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["rpgloot.storm_spear_strike","rpgloot.storm_spear_strike_new"],Passengers:[{id:"minecraft:item_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,20f],scale:[1f,1f,42f]},item:{id:"minecraft:white_wool",count:1}}],equipment:{mainhand:{id:"minecraft:structure_void",count:1,components:{"minecraft:enchantments":{"rpgloot:backend/items/storm_spear_big_strike":1,fire_aspect:2}}}}}
+execute store result storage rpgloot:temp strike.x double 0.1 run random value -10..10
+execute store result storage rpgloot:temp strike.z double 0.1 run random value -10..10
+execute as @n[type=armor_stand,tag=rpgloot.storm_spear_strike_new] at @s run function rpgloot:items/storm_spear/impact/ray with storage rpgloot:temp strike

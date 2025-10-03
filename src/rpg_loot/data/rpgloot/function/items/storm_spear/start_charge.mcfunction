@@ -1,0 +1,1 @@
+attribute @s gravity modifier add rpgloot:storm_spear -1 add_multiplied_total

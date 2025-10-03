@@ -1,4 +1,4 @@
-say call legs swap event
+
 function rpgc:z_api/event/call {event:"legs_swap"}
 function rpgc:z_api/attribute/modifier/remove_by_source {source:legs}
 function rpgc:z_api/event/remove_by_source {source:legs}
