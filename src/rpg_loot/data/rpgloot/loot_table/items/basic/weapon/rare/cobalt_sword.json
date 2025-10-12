@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:cobalt_sword,source:weapon,type:add,value:60}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],attributes:[{id:physical_dmg,name:cobalt_sword,source:weapon,type:add,value:60}]}"
             },
             {
               "function": "minecraft:set_enchantments",

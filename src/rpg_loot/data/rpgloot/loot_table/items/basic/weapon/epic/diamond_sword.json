@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:diamond_sword,source:weapon,type:add,value:72}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],attributes:[{id:physical_dmg,name:diamond_sword,source:weapon,type:add,value:54}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 4096,
+                "minecraft:max_damage": 3072,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

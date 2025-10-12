@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:legendary_eternium_helmet,attributes:[{\"id\": \"armor\", \"name\": \"eternium_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 36}, {\"id\": \"max_hp\", \"name\": \"eternium_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 96}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],id:legendary_eternium_helmet,attributes:[{\"id\": \"armor\", \"name\": \"eternium_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 36}, {\"id\": \"max_hp\", \"name\": \"eternium_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 96}]}"
             },
             {
               "function": "minecraft:set_enchantments",

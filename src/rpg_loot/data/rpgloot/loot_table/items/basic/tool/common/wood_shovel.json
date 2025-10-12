@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:tool_dmg,name:wood_shovel,source:weapon,type:add,value:32.0}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:physical_damage,name:wood_shovel,source:weapon,type:add,value:1}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 2048,
+                "minecraft:max_damage": 64,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

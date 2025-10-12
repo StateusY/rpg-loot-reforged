@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:copper_sword,source:weapon,type:add,value:96}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],attributes:[{id:physical_dmg,name:copper_sword,source:weapon,type:add,value:96}]}"
             },
             {
               "function": "minecraft:set_enchantments",

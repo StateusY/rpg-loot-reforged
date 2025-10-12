@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:legendary_copper_boots,attributes:[{\"id\": \"armor\", \"name\": \"copper_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"copper_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 48}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],id:legendary_copper_boots,attributes:[{\"id\": \"armor\", \"name\": \"copper_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"copper_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 48}]}"
             },
             {
               "function": "minecraft:set_enchantments",

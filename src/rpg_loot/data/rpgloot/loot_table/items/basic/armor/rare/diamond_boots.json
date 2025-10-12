@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:rare_diamond_boots,attributes:[{\"id\": \"armor\", \"name\": \"diamond_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"diamond_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 27}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],id:rare_diamond_boots,attributes:[{\"id\": \"armor\", \"name\": \"diamond_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"diamond_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 18}]}"
             },
             {
               "function": "minecraft:set_enchantments",

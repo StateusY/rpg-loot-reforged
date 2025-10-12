@@ -1,6 +1,6 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Wood & Leather",
+  "title": "Iron",
   "body": [
     {
       "type": "minecraft:plain_message",

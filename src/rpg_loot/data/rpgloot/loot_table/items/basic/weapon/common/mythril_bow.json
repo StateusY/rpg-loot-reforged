@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:mythril_bow,source:weapon,type:add,value:20}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:mythril_bow,source:weapon,type:add,value:20}]}"
             },
             {
               "function": "minecraft:set_enchantments",

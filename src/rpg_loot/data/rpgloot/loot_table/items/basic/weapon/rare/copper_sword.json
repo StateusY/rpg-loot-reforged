@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:copper_sword,source:weapon,type:add,value:48}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],attributes:[{id:physical_dmg,name:copper_sword,source:weapon,type:add,value:32}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 960,
+                "minecraft:max_damage": 640,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

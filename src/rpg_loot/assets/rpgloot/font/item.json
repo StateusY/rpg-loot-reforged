@@ -57,6 +57,24 @@
     },
     {
       "type": "bitmap",
+      "file": "minecraft:block/cobblestone.png",
+      "height": 12,
+      "ascent": 9,
+      "chars": [
+        "\ue00e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/flint.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue00f"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:item/wooden_sword.png",
       "height": 16,
       "ascent": 11,
@@ -143,6 +161,97 @@
       "ascent": 11,
       "chars": [
         "\ue010"
+      ]
+    }
+    ,
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/stone_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/stone_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/stone_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/stone_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/stone_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/stone_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ue020"
       ]
     }
   ]

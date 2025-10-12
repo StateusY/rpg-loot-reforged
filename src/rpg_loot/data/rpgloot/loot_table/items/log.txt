@@ -1,51 +1,51 @@
 [generate_armor] material=Leather, rarity=common, item_type=helmet
-  base_armor=1, armor_mult=6, armor_val=6
-  base_hp=2, hp_mult=8, hp_val=16
+  base_armor=1, armor_mult=1, armor_val=1
+  base_hp=2, hp_mult=1, hp_val=2
 [generate_armor] material=Leather, rarity=common, item_type=chestplate
-  base_armor=1, armor_mult=6, armor_val=6
-  base_hp=2, hp_mult=8, hp_val=16
+  base_armor=1, armor_mult=1, armor_val=1
+  base_hp=2, hp_mult=1, hp_val=2
 [generate_armor] material=Leather, rarity=common, item_type=leggings
-  base_armor=1, armor_mult=6, armor_val=6
-  base_hp=2, hp_mult=8, hp_val=16
+  base_armor=1, armor_mult=1, armor_val=1
+  base_hp=2, hp_mult=1, hp_val=2
 [generate_armor] material=Leather, rarity=common, item_type=boots
-  base_armor=1, armor_mult=6, armor_val=6
-  base_hp=2, hp_mult=8, hp_val=16
+  base_armor=1, armor_mult=1, armor_val=1
+  base_hp=2, hp_mult=1, hp_val=2
 [generate_armor] material=Leather, rarity=uncommon, item_type=helmet
-  base_armor=1, armor_mult=8, armor_val=8
-  base_hp=2, hp_mult=10, hp_val=20
+  base_armor=1, armor_mult=3, armor_val=3
+  base_hp=2, hp_mult=3, hp_val=6
 [generate_armor] material=Leather, rarity=uncommon, item_type=chestplate
-  base_armor=1, armor_mult=8, armor_val=8
-  base_hp=2, hp_mult=10, hp_val=20
+  base_armor=1, armor_mult=3, armor_val=3
+  base_hp=2, hp_mult=3, hp_val=6
 [generate_armor] material=Leather, rarity=uncommon, item_type=leggings
-  base_armor=1, armor_mult=8, armor_val=8
-  base_hp=2, hp_mult=10, hp_val=20
+  base_armor=1, armor_mult=3, armor_val=3
+  base_hp=2, hp_mult=3, hp_val=6
 [generate_armor] material=Leather, rarity=uncommon, item_type=boots
-  base_armor=1, armor_mult=8, armor_val=8
-  base_hp=2, hp_mult=10, hp_val=20
+  base_armor=1, armor_mult=3, armor_val=3
+  base_hp=2, hp_mult=3, hp_val=6
 [generate_armor] material=Leather, rarity=rare, item_type=helmet
-  base_armor=1, armor_mult=9, armor_val=9
-  base_hp=2, hp_mult=12, hp_val=24
+  base_armor=1, armor_mult=5, armor_val=5
+  base_hp=2, hp_mult=7, hp_val=14
 [generate_armor] material=Leather, rarity=rare, item_type=chestplate
-  base_armor=1, armor_mult=9, armor_val=9
-  base_hp=2, hp_mult=12, hp_val=24
+  base_armor=1, armor_mult=5, armor_val=5
+  base_hp=2, hp_mult=7, hp_val=14
 [generate_armor] material=Leather, rarity=rare, item_type=leggings
-  base_armor=1, armor_mult=9, armor_val=9
-  base_hp=2, hp_mult=12, hp_val=24
+  base_armor=1, armor_mult=5, armor_val=5
+  base_hp=2, hp_mult=7, hp_val=14
 [generate_armor] material=Leather, rarity=rare, item_type=boots
-  base_armor=1, armor_mult=9, armor_val=9
-  base_hp=2, hp_mult=12, hp_val=24
+  base_armor=1, armor_mult=5, armor_val=5
+  base_hp=2, hp_mult=7, hp_val=14
 [generate_armor] material=Leather, rarity=epic, item_type=helmet
-  base_armor=1, armor_mult=12, armor_val=12
-  base_hp=2, hp_mult=16, hp_val=32
+  base_armor=1, armor_mult=10, armor_val=10
+  base_hp=2, hp_mult=13, hp_val=26
 [generate_armor] material=Leather, rarity=epic, item_type=chestplate
-  base_armor=1, armor_mult=12, armor_val=12
-  base_hp=2, hp_mult=16, hp_val=32
+  base_armor=1, armor_mult=10, armor_val=10
+  base_hp=2, hp_mult=13, hp_val=26
 [generate_armor] material=Leather, rarity=epic, item_type=leggings
-  base_armor=1, armor_mult=12, armor_val=12
-  base_hp=2, hp_mult=16, hp_val=32
+  base_armor=1, armor_mult=10, armor_val=10
+  base_hp=2, hp_mult=13, hp_val=26
 [generate_armor] material=Leather, rarity=epic, item_type=boots
-  base_armor=1, armor_mult=12, armor_val=12
-  base_hp=2, hp_mult=16, hp_val=32
+  base_armor=1, armor_mult=10, armor_val=10
+  base_hp=2, hp_mult=13, hp_val=26
 [generate_armor] material=Leather, rarity=legendary, item_type=helmet
   base_armor=1, armor_mult=18, armor_val=18
   base_hp=2, hp_mult=24, hp_val=48
@@ -58,114 +58,114 @@
 [generate_armor] material=Leather, rarity=legendary, item_type=boots
   base_armor=1, armor_mult=18, armor_val=18
   base_hp=2, hp_mult=24, hp_val=48
-[generate_armor] material=Chain, rarity=common, item_type=helmet
+[generate_armor] material=Flint, rarity=common, item_type=helmet
+  base_armor=2, armor_mult=1, armor_val=2
+  base_hp=3, hp_mult=1, hp_val=3
+[generate_armor] material=Flint, rarity=common, item_type=chestplate
+  base_armor=2, armor_mult=1, armor_val=2
+  base_hp=3, hp_mult=1, hp_val=3
+[generate_armor] material=Flint, rarity=common, item_type=leggings
+  base_armor=2, armor_mult=1, armor_val=2
+  base_hp=3, hp_mult=1, hp_val=3
+[generate_armor] material=Flint, rarity=common, item_type=boots
+  base_armor=2, armor_mult=1, armor_val=2
+  base_hp=3, hp_mult=1, hp_val=3
+[generate_armor] material=Flint, rarity=uncommon, item_type=helmet
+  base_armor=2, armor_mult=2, armor_val=4
+  base_hp=3, hp_mult=3, hp_val=9
+[generate_armor] material=Flint, rarity=uncommon, item_type=chestplate
+  base_armor=2, armor_mult=2, armor_val=4
+  base_hp=3, hp_mult=3, hp_val=9
+[generate_armor] material=Flint, rarity=uncommon, item_type=leggings
+  base_armor=2, armor_mult=2, armor_val=4
+  base_hp=3, hp_mult=3, hp_val=9
+[generate_armor] material=Flint, rarity=uncommon, item_type=boots
+  base_armor=2, armor_mult=2, armor_val=4
+  base_hp=3, hp_mult=3, hp_val=9
+[generate_armor] material=Flint, rarity=rare, item_type=helmet
   base_armor=2, armor_mult=3, armor_val=6
   base_hp=3, hp_mult=5, hp_val=15
-[generate_armor] material=Chain, rarity=common, item_type=chestplate
+[generate_armor] material=Flint, rarity=rare, item_type=chestplate
   base_armor=2, armor_mult=3, armor_val=6
   base_hp=3, hp_mult=5, hp_val=15
-[generate_armor] material=Chain, rarity=common, item_type=leggings
+[generate_armor] material=Flint, rarity=rare, item_type=leggings
   base_armor=2, armor_mult=3, armor_val=6
   base_hp=3, hp_mult=5, hp_val=15
-[generate_armor] material=Chain, rarity=common, item_type=boots
+[generate_armor] material=Flint, rarity=rare, item_type=boots
   base_armor=2, armor_mult=3, armor_val=6
   base_hp=3, hp_mult=5, hp_val=15
-[generate_armor] material=Chain, rarity=uncommon, item_type=helmet
-  base_armor=2, armor_mult=4, armor_val=8
-  base_hp=3, hp_mult=7, hp_val=21
-[generate_armor] material=Chain, rarity=uncommon, item_type=chestplate
-  base_armor=2, armor_mult=4, armor_val=8
-  base_hp=3, hp_mult=7, hp_val=21
-[generate_armor] material=Chain, rarity=uncommon, item_type=leggings
-  base_armor=2, armor_mult=4, armor_val=8
-  base_hp=3, hp_mult=7, hp_val=21
-[generate_armor] material=Chain, rarity=uncommon, item_type=boots
-  base_armor=2, armor_mult=4, armor_val=8
-  base_hp=3, hp_mult=7, hp_val=21
-[generate_armor] material=Chain, rarity=rare, item_type=helmet
+[generate_armor] material=Flint, rarity=epic, item_type=helmet
   base_armor=2, armor_mult=5, armor_val=10
-  base_hp=3, hp_mult=8, hp_val=24
-[generate_armor] material=Chain, rarity=rare, item_type=chestplate
+  base_hp=3, hp_mult=9, hp_val=27
+[generate_armor] material=Flint, rarity=epic, item_type=chestplate
   base_armor=2, armor_mult=5, armor_val=10
-  base_hp=3, hp_mult=8, hp_val=24
-[generate_armor] material=Chain, rarity=rare, item_type=leggings
+  base_hp=3, hp_mult=9, hp_val=27
+[generate_armor] material=Flint, rarity=epic, item_type=leggings
   base_armor=2, armor_mult=5, armor_val=10
-  base_hp=3, hp_mult=8, hp_val=24
-[generate_armor] material=Chain, rarity=rare, item_type=boots
+  base_hp=3, hp_mult=9, hp_val=27
+[generate_armor] material=Flint, rarity=epic, item_type=boots
   base_armor=2, armor_mult=5, armor_val=10
-  base_hp=3, hp_mult=8, hp_val=24
-[generate_armor] material=Chain, rarity=epic, item_type=helmet
-  base_armor=2, armor_mult=6, armor_val=12
-  base_hp=3, hp_mult=11, hp_val=33
-[generate_armor] material=Chain, rarity=epic, item_type=chestplate
-  base_armor=2, armor_mult=6, armor_val=12
-  base_hp=3, hp_mult=11, hp_val=33
-[generate_armor] material=Chain, rarity=epic, item_type=leggings
-  base_armor=2, armor_mult=6, armor_val=12
-  base_hp=3, hp_mult=11, hp_val=33
-[generate_armor] material=Chain, rarity=epic, item_type=boots
-  base_armor=2, armor_mult=6, armor_val=12
-  base_hp=3, hp_mult=11, hp_val=33
-[generate_armor] material=Chain, rarity=legendary, item_type=helmet
+  base_hp=3, hp_mult=9, hp_val=27
+[generate_armor] material=Flint, rarity=legendary, item_type=helmet
   base_armor=2, armor_mult=9, armor_val=18
   base_hp=3, hp_mult=16, hp_val=48
-[generate_armor] material=Chain, rarity=legendary, item_type=chestplate
+[generate_armor] material=Flint, rarity=legendary, item_type=chestplate
   base_armor=2, armor_mult=9, armor_val=18
   base_hp=3, hp_mult=16, hp_val=48
-[generate_armor] material=Chain, rarity=legendary, item_type=leggings
+[generate_armor] material=Flint, rarity=legendary, item_type=leggings
   base_armor=2, armor_mult=9, armor_val=18
   base_hp=3, hp_mult=16, hp_val=48
-[generate_armor] material=Chain, rarity=legendary, item_type=boots
+[generate_armor] material=Flint, rarity=legendary, item_type=boots
   base_armor=2, armor_mult=9, armor_val=18
   base_hp=3, hp_mult=16, hp_val=48
 [generate_armor] material=Copper, rarity=common, item_type=helmet
-  base_armor=3, armor_mult=2, armor_val=6
-  base_hp=4, hp_mult=4, hp_val=16
+  base_armor=3, armor_mult=1, armor_val=3
+  base_hp=4, hp_mult=1, hp_val=4
 [generate_armor] material=Copper, rarity=common, item_type=chestplate
-  base_armor=3, armor_mult=2, armor_val=6
-  base_hp=4, hp_mult=4, hp_val=16
+  base_armor=3, armor_mult=1, armor_val=3
+  base_hp=4, hp_mult=1, hp_val=4
 [generate_armor] material=Copper, rarity=common, item_type=leggings
-  base_armor=3, armor_mult=2, armor_val=6
-  base_hp=4, hp_mult=4, hp_val=16
+  base_armor=3, armor_mult=1, armor_val=3
+  base_hp=4, hp_mult=1, hp_val=4
 [generate_armor] material=Copper, rarity=common, item_type=boots
+  base_armor=3, armor_mult=1, armor_val=3
+  base_hp=4, hp_mult=1, hp_val=4
+[generate_armor] material=Copper, rarity=uncommon, item_type=helmet
+  base_armor=3, armor_mult=2, armor_val=6
+  base_hp=4, hp_mult=2, hp_val=8
+[generate_armor] material=Copper, rarity=uncommon, item_type=chestplate
+  base_armor=3, armor_mult=2, armor_val=6
+  base_hp=4, hp_mult=2, hp_val=8
+[generate_armor] material=Copper, rarity=uncommon, item_type=leggings
+  base_armor=3, armor_mult=2, armor_val=6
+  base_hp=4, hp_mult=2, hp_val=8
+[generate_armor] material=Copper, rarity=uncommon, item_type=boots
+  base_armor=3, armor_mult=2, armor_val=6
+  base_hp=4, hp_mult=2, hp_val=8
+[generate_armor] material=Copper, rarity=rare, item_type=helmet
   base_armor=3, armor_mult=2, armor_val=6
   base_hp=4, hp_mult=4, hp_val=16
-[generate_armor] material=Copper, rarity=uncommon, item_type=helmet
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=5, hp_val=20
-[generate_armor] material=Copper, rarity=uncommon, item_type=chestplate
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=5, hp_val=20
-[generate_armor] material=Copper, rarity=uncommon, item_type=leggings
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=5, hp_val=20
-[generate_armor] material=Copper, rarity=uncommon, item_type=boots
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=5, hp_val=20
-[generate_armor] material=Copper, rarity=rare, item_type=helmet
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=6, hp_val=24
 [generate_armor] material=Copper, rarity=rare, item_type=chestplate
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=6, hp_val=24
+  base_armor=3, armor_mult=2, armor_val=6
+  base_hp=4, hp_mult=4, hp_val=16
 [generate_armor] material=Copper, rarity=rare, item_type=leggings
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=6, hp_val=24
+  base_armor=3, armor_mult=2, armor_val=6
+  base_hp=4, hp_mult=4, hp_val=16
 [generate_armor] material=Copper, rarity=rare, item_type=boots
-  base_armor=3, armor_mult=3, armor_val=9
-  base_hp=4, hp_mult=6, hp_val=24
+  base_armor=3, armor_mult=2, armor_val=6
+  base_hp=4, hp_mult=4, hp_val=16
 [generate_armor] material=Copper, rarity=epic, item_type=helmet
   base_armor=3, armor_mult=4, armor_val=12
-  base_hp=4, hp_mult=8, hp_val=32
+  base_hp=4, hp_mult=7, hp_val=28
 [generate_armor] material=Copper, rarity=epic, item_type=chestplate
   base_armor=3, armor_mult=4, armor_val=12
-  base_hp=4, hp_mult=8, hp_val=32
+  base_hp=4, hp_mult=7, hp_val=28
 [generate_armor] material=Copper, rarity=epic, item_type=leggings
   base_armor=3, armor_mult=4, armor_val=12
-  base_hp=4, hp_mult=8, hp_val=32
+  base_hp=4, hp_mult=7, hp_val=28
 [generate_armor] material=Copper, rarity=epic, item_type=boots
   base_armor=3, armor_mult=4, armor_val=12
-  base_hp=4, hp_mult=8, hp_val=32
+  base_hp=4, hp_mult=7, hp_val=28
 [generate_armor] material=Copper, rarity=legendary, item_type=helmet
   base_armor=3, armor_mult=6, armor_val=18
   base_hp=4, hp_mult=12, hp_val=48
@@ -179,53 +179,53 @@
   base_armor=3, armor_mult=6, armor_val=18
   base_hp=4, hp_mult=12, hp_val=48
 [generate_armor] material=Iron, rarity=common, item_type=helmet
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=3, hp_val=15
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=1, hp_val=5
 [generate_armor] material=Iron, rarity=common, item_type=chestplate
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=3, hp_val=15
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=1, hp_val=5
 [generate_armor] material=Iron, rarity=common, item_type=leggings
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=3, hp_val=15
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=1, hp_val=5
 [generate_armor] material=Iron, rarity=common, item_type=boots
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=3, hp_val=15
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=1, hp_val=5
 [generate_armor] material=Iron, rarity=uncommon, item_type=helmet
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=4, hp_val=20
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=2, hp_val=10
 [generate_armor] material=Iron, rarity=uncommon, item_type=chestplate
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=4, hp_val=20
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=2, hp_val=10
 [generate_armor] material=Iron, rarity=uncommon, item_type=leggings
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=4, hp_val=20
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=2, hp_val=10
 [generate_armor] material=Iron, rarity=uncommon, item_type=boots
-  base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=4, hp_val=20
+  base_armor=4, armor_mult=1, armor_val=4
+  base_hp=5, hp_mult=2, hp_val=10
 [generate_armor] material=Iron, rarity=rare, item_type=helmet
   base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=5, hp_val=25
+  base_hp=5, hp_mult=3, hp_val=15
 [generate_armor] material=Iron, rarity=rare, item_type=chestplate
   base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=5, hp_val=25
+  base_hp=5, hp_mult=3, hp_val=15
 [generate_armor] material=Iron, rarity=rare, item_type=leggings
   base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=5, hp_val=25
+  base_hp=5, hp_mult=3, hp_val=15
 [generate_armor] material=Iron, rarity=rare, item_type=boots
   base_armor=4, armor_mult=2, armor_val=8
-  base_hp=5, hp_mult=5, hp_val=25
+  base_hp=5, hp_mult=3, hp_val=15
 [generate_armor] material=Iron, rarity=epic, item_type=helmet
   base_armor=4, armor_mult=3, armor_val=12
-  base_hp=5, hp_mult=7, hp_val=35
+  base_hp=5, hp_mult=5, hp_val=25
 [generate_armor] material=Iron, rarity=epic, item_type=chestplate
   base_armor=4, armor_mult=3, armor_val=12
-  base_hp=5, hp_mult=7, hp_val=35
+  base_hp=5, hp_mult=5, hp_val=25
 [generate_armor] material=Iron, rarity=epic, item_type=leggings
   base_armor=4, armor_mult=3, armor_val=12
-  base_hp=5, hp_mult=7, hp_val=35
+  base_hp=5, hp_mult=5, hp_val=25
 [generate_armor] material=Iron, rarity=epic, item_type=boots
   base_armor=4, armor_mult=3, armor_val=12
-  base_hp=5, hp_mult=7, hp_val=35
+  base_hp=5, hp_mult=5, hp_val=25
 [generate_armor] material=Iron, rarity=legendary, item_type=helmet
   base_armor=4, armor_mult=5, armor_val=20
   base_hp=5, hp_mult=10, hp_val=50
@@ -240,52 +240,52 @@
   base_hp=5, hp_mult=10, hp_val=50
 [generate_armor] material=Silver, rarity=common, item_type=helmet
   base_armor=5, armor_mult=1, armor_val=5
-  base_hp=7, hp_mult=2, hp_val=14
+  base_hp=7, hp_mult=1, hp_val=7
 [generate_armor] material=Silver, rarity=common, item_type=chestplate
   base_armor=5, armor_mult=1, armor_val=5
-  base_hp=7, hp_mult=2, hp_val=14
+  base_hp=7, hp_mult=1, hp_val=7
 [generate_armor] material=Silver, rarity=common, item_type=leggings
   base_armor=5, armor_mult=1, armor_val=5
-  base_hp=7, hp_mult=2, hp_val=14
+  base_hp=7, hp_mult=1, hp_val=7
 [generate_armor] material=Silver, rarity=common, item_type=boots
   base_armor=5, armor_mult=1, armor_val=5
-  base_hp=7, hp_mult=2, hp_val=14
+  base_hp=7, hp_mult=1, hp_val=7
 [generate_armor] material=Silver, rarity=uncommon, item_type=helmet
-  base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=3, hp_val=21
+  base_armor=5, armor_mult=1, armor_val=5
+  base_hp=7, hp_mult=2, hp_val=14
 [generate_armor] material=Silver, rarity=uncommon, item_type=chestplate
-  base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=3, hp_val=21
+  base_armor=5, armor_mult=1, armor_val=5
+  base_hp=7, hp_mult=2, hp_val=14
 [generate_armor] material=Silver, rarity=uncommon, item_type=leggings
-  base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=3, hp_val=21
+  base_armor=5, armor_mult=1, armor_val=5
+  base_hp=7, hp_mult=2, hp_val=14
 [generate_armor] material=Silver, rarity=uncommon, item_type=boots
-  base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=3, hp_val=21
+  base_armor=5, armor_mult=1, armor_val=5
+  base_hp=7, hp_mult=2, hp_val=14
 [generate_armor] material=Silver, rarity=rare, item_type=helmet
   base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=4, hp_val=28
+  base_hp=7, hp_mult=3, hp_val=21
 [generate_armor] material=Silver, rarity=rare, item_type=chestplate
   base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=4, hp_val=28
+  base_hp=7, hp_mult=3, hp_val=21
 [generate_armor] material=Silver, rarity=rare, item_type=leggings
   base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=4, hp_val=28
+  base_hp=7, hp_mult=3, hp_val=21
 [generate_armor] material=Silver, rarity=rare, item_type=boots
   base_armor=5, armor_mult=2, armor_val=10
-  base_hp=7, hp_mult=4, hp_val=28
+  base_hp=7, hp_mult=3, hp_val=21
 [generate_armor] material=Silver, rarity=epic, item_type=helmet
   base_armor=5, armor_mult=3, armor_val=15
-  base_hp=7, hp_mult=5, hp_val=35
+  base_hp=7, hp_mult=4, hp_val=28
 [generate_armor] material=Silver, rarity=epic, item_type=chestplate
   base_armor=5, armor_mult=3, armor_val=15
-  base_hp=7, hp_mult=5, hp_val=35
+  base_hp=7, hp_mult=4, hp_val=28
 [generate_armor] material=Silver, rarity=epic, item_type=leggings
   base_armor=5, armor_mult=3, armor_val=15
-  base_hp=7, hp_mult=5, hp_val=35
+  base_hp=7, hp_mult=4, hp_val=28
 [generate_armor] material=Silver, rarity=epic, item_type=boots
   base_armor=5, armor_mult=3, armor_val=15
-  base_hp=7, hp_mult=5, hp_val=35
+  base_hp=7, hp_mult=4, hp_val=28
 [generate_armor] material=Silver, rarity=legendary, item_type=helmet
   base_armor=5, armor_mult=4, armor_val=20
   base_hp=7, hp_mult=7, hp_val=49
@@ -300,52 +300,52 @@
   base_hp=7, hp_mult=7, hp_val=49
 [generate_armor] material=Diamond, rarity=common, item_type=helmet
   base_armor=6, armor_mult=1, armor_val=6
-  base_hp=9, hp_mult=2, hp_val=18
+  base_hp=9, hp_mult=1, hp_val=9
 [generate_armor] material=Diamond, rarity=common, item_type=chestplate
   base_armor=6, armor_mult=1, armor_val=6
-  base_hp=9, hp_mult=2, hp_val=18
+  base_hp=9, hp_mult=1, hp_val=9
 [generate_armor] material=Diamond, rarity=common, item_type=leggings
   base_armor=6, armor_mult=1, armor_val=6
-  base_hp=9, hp_mult=2, hp_val=18
+  base_hp=9, hp_mult=1, hp_val=9
 [generate_armor] material=Diamond, rarity=common, item_type=boots
   base_armor=6, armor_mult=1, armor_val=6
-  base_hp=9, hp_mult=2, hp_val=18
+  base_hp=9, hp_mult=1, hp_val=9
 [generate_armor] material=Diamond, rarity=uncommon, item_type=helmet
-  base_armor=6, armor_mult=2, armor_val=12
+  base_armor=6, armor_mult=1, armor_val=6
   base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=uncommon, item_type=chestplate
-  base_armor=6, armor_mult=2, armor_val=12
+  base_armor=6, armor_mult=1, armor_val=6
   base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=uncommon, item_type=leggings
-  base_armor=6, armor_mult=2, armor_val=12
+  base_armor=6, armor_mult=1, armor_val=6
   base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=uncommon, item_type=boots
-  base_armor=6, armor_mult=2, armor_val=12
+  base_armor=6, armor_mult=1, armor_val=6
   base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=rare, item_type=helmet
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=3, hp_val=27
+  base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=rare, item_type=chestplate
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=3, hp_val=27
+  base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=rare, item_type=leggings
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=3, hp_val=27
+  base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=rare, item_type=boots
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=3, hp_val=27
+  base_hp=9, hp_mult=2, hp_val=18
 [generate_armor] material=Diamond, rarity=epic, item_type=helmet
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=4, hp_val=36
+  base_hp=9, hp_mult=3, hp_val=27
 [generate_armor] material=Diamond, rarity=epic, item_type=chestplate
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=4, hp_val=36
+  base_hp=9, hp_mult=3, hp_val=27
 [generate_armor] material=Diamond, rarity=epic, item_type=leggings
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=4, hp_val=36
+  base_hp=9, hp_mult=3, hp_val=27
 [generate_armor] material=Diamond, rarity=epic, item_type=boots
   base_armor=6, armor_mult=2, armor_val=12
-  base_hp=9, hp_mult=4, hp_val=36
+  base_hp=9, hp_mult=3, hp_val=27
 [generate_armor] material=Diamond, rarity=legendary, item_type=helmet
   base_armor=6, armor_mult=4, armor_val=24
   base_hp=9, hp_mult=6, hp_val=54
@@ -360,28 +360,28 @@
   base_hp=9, hp_mult=6, hp_val=54
 [generate_armor] material=Titanium, rarity=common, item_type=helmet
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=common, item_type=chestplate
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=common, item_type=leggings
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=common, item_type=boots
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=uncommon, item_type=helmet
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=uncommon, item_type=chestplate
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=uncommon, item_type=leggings
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=uncommon, item_type=boots
   base_armor=7, armor_mult=1, armor_val=7
-  base_hp=11, hp_mult=2, hp_val=22
+  base_hp=11, hp_mult=1, hp_val=11
 [generate_armor] material=Titanium, rarity=rare, item_type=helmet
   base_armor=7, armor_mult=2, armor_val=14
   base_hp=11, hp_mult=2, hp_val=22
@@ -432,16 +432,16 @@
   base_hp=15, hp_mult=1, hp_val=15
 [generate_armor] material=Cobalt, rarity=uncommon, item_type=helmet
   base_armor=8, armor_mult=1, armor_val=8
-  base_hp=15, hp_mult=2, hp_val=30
+  base_hp=15, hp_mult=1, hp_val=15
 [generate_armor] material=Cobalt, rarity=uncommon, item_type=chestplate
   base_armor=8, armor_mult=1, armor_val=8
-  base_hp=15, hp_mult=2, hp_val=30
+  base_hp=15, hp_mult=1, hp_val=15
 [generate_armor] material=Cobalt, rarity=uncommon, item_type=leggings
   base_armor=8, armor_mult=1, armor_val=8
-  base_hp=15, hp_mult=2, hp_val=30
+  base_hp=15, hp_mult=1, hp_val=15
 [generate_armor] material=Cobalt, rarity=uncommon, item_type=boots
   base_armor=8, armor_mult=1, armor_val=8
-  base_hp=15, hp_mult=2, hp_val=30
+  base_hp=15, hp_mult=1, hp_val=15
 [generate_armor] material=Cobalt, rarity=rare, item_type=helmet
   base_armor=8, armor_mult=2, armor_val=16
   base_hp=15, hp_mult=2, hp_val=30
@@ -456,16 +456,16 @@
   base_hp=15, hp_mult=2, hp_val=30
 [generate_armor] material=Cobalt, rarity=epic, item_type=helmet
   base_armor=8, armor_mult=2, armor_val=16
-  base_hp=15, hp_mult=3, hp_val=45
+  base_hp=15, hp_mult=2, hp_val=30
 [generate_armor] material=Cobalt, rarity=epic, item_type=chestplate
   base_armor=8, armor_mult=2, armor_val=16
-  base_hp=15, hp_mult=3, hp_val=45
+  base_hp=15, hp_mult=2, hp_val=30
 [generate_armor] material=Cobalt, rarity=epic, item_type=leggings
   base_armor=8, armor_mult=2, armor_val=16
-  base_hp=15, hp_mult=3, hp_val=45
+  base_hp=15, hp_mult=2, hp_val=30
 [generate_armor] material=Cobalt, rarity=epic, item_type=boots
   base_armor=8, armor_mult=2, armor_val=16
-  base_hp=15, hp_mult=3, hp_val=45
+  base_hp=15, hp_mult=2, hp_val=30
 [generate_armor] material=Cobalt, rarity=legendary, item_type=helmet
   base_armor=8, armor_mult=3, armor_val=24
   base_hp=15, hp_mult=4, hp_val=60

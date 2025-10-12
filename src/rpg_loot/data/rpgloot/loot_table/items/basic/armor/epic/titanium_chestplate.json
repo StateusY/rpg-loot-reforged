@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"name\": \"titanium_chestplate\", \"source\": \"chest\", \"listen\": \"chest_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:epic_titanium_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"titanium_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 14}, {\"id\": \"max_hp\", \"name\": \"titanium_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 33}, {\"id\": \"dodge\", \"name\": \"titanium_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 0.04}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,events:[{\"name\": \"titanium_chestplate\", \"source\": \"chest\", \"listen\": \"chest_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:epic_titanium_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"titanium_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 14}, {\"id\": \"max_hp\", \"name\": \"titanium_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 33}, {\"id\": \"dodge\", \"name\": \"titanium_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 0.04}]}"
             },
             {
               "function": "minecraft:set_enchantments",

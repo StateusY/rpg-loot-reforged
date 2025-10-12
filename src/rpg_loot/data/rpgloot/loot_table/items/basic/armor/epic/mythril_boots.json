@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:epic_mythril_boots,attributes:[{\"id\": \"armor\", \"name\": \"mythril_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 22}, {\"id\": \"max_hp\", \"name\": \"mythril_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 54}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],id:epic_mythril_boots,attributes:[{\"id\": \"armor\", \"name\": \"mythril_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 22}, {\"id\": \"max_hp\", \"name\": \"mythril_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 54}]}"
             },
             {
               "function": "minecraft:set_enchantments",

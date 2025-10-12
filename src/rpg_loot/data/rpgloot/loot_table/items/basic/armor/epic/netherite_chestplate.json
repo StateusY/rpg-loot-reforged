@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:epic_netherite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"netherite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 20}, {\"id\": \"max_hp\", \"name\": \"netherite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 46}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],id:epic_netherite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"netherite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 20}, {\"id\": \"max_hp\", \"name\": \"netherite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 46}]}"
             },
             {
               "function": "minecraft:set_enchantments",

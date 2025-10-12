@@ -45,10 +45,10 @@ materials = [
         "armor_events": '[]'
     },
     {
-        "name": "Chain",
+        "name": "Flint",
+        "type": "armor_only",
         "hp_value":3,
         "armor_value":2,
-        "type": "armor_only",
         "durability": 128,
     },
     {
@@ -290,8 +290,15 @@ def rarity_multiplier(base_value, rarity, value_type="damage"):
     # normalize 0..1
     t = (base_value - min_val) / (max_val - min_val)
 
-    # compression factor: how close the weakest item gets to strongest
-    catchup_factor = 0.5  # 0.5 = weakest ends ~50% of strongest
+    # catchup factor by rarity (0 for common → 0.5 for legendary)
+    catchup_factors = {
+        "common": 0.0,
+        "uncommon": 0.125,
+        "rare": 0.25,
+        "epic": 0.375,
+        "legendary": 0.5
+    }
+    catchup_factor = catchup_factors.get(rarity, 0.0)
 
     # interpolate toward max (but never reduce max)
     effective_base = base_value + (max_val - base_value) * (1 - t) * catchup_factor
@@ -301,6 +308,7 @@ def rarity_multiplier(base_value, rarity, value_type="damage"):
 
     # clamp to nearest whole number to avoid rounding noise
     return round(effective_mult)
+
 
 
 
@@ -352,6 +360,7 @@ def generate_sword(material, rarity, item_type):
 
     tag_string = (
         f'{{rpgc:true,'
+        f'rpgloot_tier:{rarity},'
         f'events:{weapon_events},'
         f'attributes:[{{id:physical_dmg,name:{material["name"].lower()}_sword,source:weapon,type:add,value:{damage}}}]}}'
     )
@@ -373,6 +382,7 @@ def generate_bow(material, rarity, item_type):
 
     tag_string = (
         f'{{rpgc:true,'
+        f'rpgloot_tier:{rarity},'
         f'bow:{bow_str},'
         f'events:{bow_events},'
         f'attributes:[{{id:ranged_dmg,name:{material["name"].lower()}_bow,source:weapon,type:add,value:{damage}}}]}}'
@@ -384,10 +394,16 @@ def generate_bow(material, rarity, item_type):
 
 
 def generate_tool(material, rarity, item_type):
-    base = material.get("damage_value", 0) * 0.25
-    mult = rarity_multiplier(base, rarity)
-    damage = base * mult
-    durability = int(material.get("durability", 1) * mult)
+    # base sword damage (full stat) and its rarity multiplier
+    base_damage = material.get("damage_value", 0)
+    sword_mult = rarity_multiplier(base_damage, rarity, "damage")
+
+    # tool damage = 25% of the sword damage AFTER multiplier (rounded)
+    damage = round(base_damage * sword_mult * 0.25)
+
+    # durability scales with the same sword multiplier
+    durability = int(round(material.get("durability", 1) * sword_mult))
+
     tool_speed = material.get("tool_speed", 1)
     color = rarities[rarity]["color"]
 
@@ -397,8 +413,9 @@ def generate_tool(material, rarity, item_type):
 
     tag_string = (
         f'{{rpgc:true,'
+        f'rpgloot_tier:{rarity},'
         f'events:{weapon_events},'
-        f'attributes:[{{id:tool_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
+        f'attributes:[{{id:physical_damage,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
     )
 
     extra_components = {}
@@ -413,6 +430,7 @@ def generate_tool(material, rarity, item_type):
         }
 
     return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability, extra_components)
+
 
 
 def generate_armor(material, rarity, item_type):
@@ -468,6 +486,7 @@ def generate_armor(material, rarity, item_type):
 
     tag_string = (
         f'{{rpgc:true,'
+        f'rpgloot_tier:{rarity},'
         f'events:{armor_events},'
         f'id:{rarity}_{material["name"].lower()}_{item_type},'
         f'attributes:{json.dumps(attributes)}}}'
@@ -487,11 +506,6 @@ def generate_armor(material, rarity, item_type):
         enchants = {"rpgc:armor": 1}
 
     return create_loot_entry(material, rarity, color, item_type, tag_string, enchants, durability, extra_components)
-
-
-
-
-
 
 
 # === LOOT ENTRY CREATION ===

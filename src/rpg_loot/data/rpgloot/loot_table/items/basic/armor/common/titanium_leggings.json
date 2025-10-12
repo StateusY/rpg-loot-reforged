@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"name\": \"titanium_leggings\", \"source\": \"legs\", \"listen\": \"legs_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:common_titanium_leggings,attributes:[{\"id\": \"armor\", \"name\": \"titanium_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 7}, {\"id\": \"max_hp\", \"name\": \"titanium_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 22}, {\"id\": \"dodge\", \"name\": \"titanium_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 0.04}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,events:[{\"name\": \"titanium_leggings\", \"source\": \"legs\", \"listen\": \"legs_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:common_titanium_leggings,attributes:[{\"id\": \"armor\", \"name\": \"titanium_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 7}, {\"id\": \"max_hp\", \"name\": \"titanium_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 11}, {\"id\": \"dodge\", \"name\": \"titanium_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 0.04}]}"
             },
             {
               "function": "minecraft:set_enchantments",

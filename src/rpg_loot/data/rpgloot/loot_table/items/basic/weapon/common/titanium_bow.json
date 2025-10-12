@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:titanium_bow,source:weapon,type:add,value:10}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:titanium_bow,source:weapon,type:add,value:10}]}"
             },
             {
               "function": "minecraft:set_enchantments",

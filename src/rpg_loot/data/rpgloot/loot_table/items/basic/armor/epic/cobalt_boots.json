@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],id:epic_cobalt_boots,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 16}, {\"id\": \"max_hp\", \"name\": \"cobalt_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 45}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],id:epic_cobalt_boots,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 16}, {\"id\": \"max_hp\", \"name\": \"cobalt_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 30}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[],attributes:[{id:physical_dmg,name:stone_sword,source:weapon,type:add,value:66}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],attributes:[{id:physical_dmg,name:stone_sword,source:weapon,type:add,value:54}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1408,
+                "minecraft:max_damage": 1152,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [
