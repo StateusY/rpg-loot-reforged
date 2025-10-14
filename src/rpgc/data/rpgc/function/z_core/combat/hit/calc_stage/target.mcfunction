@@ -1,6 +1,6 @@
 execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",gamemode:["creative","spectator"]}}} run return run function rpgc:z_core/combat/hit/reset
 execute if function rpgc:z_core/combat/hit/calc_stage/check_valid unless score .halt_combat_clear rpgc.temp matches 1 run function rpgc:z_core/combat/hit/reset
-
+execute if entity @s[type=player] if score @s rpgc.iframes matches 1.. run return run function rpgc:z_core/combat/hit/reset
 execute store result score .dodge rpgc.temp run function rpgc:z_api/attribute/get {id:dodge}
 execute if score .dodge rpgc.temp matches 75.. run scoreboard players set .dodge rpgc.temp 75
 execute store result storage rpgc:temp combat.dodge double 0.01 run scoreboard players get .dodge rpgc.temp
@@ -21,6 +21,9 @@ execute unless score .armor rpgc.temp <= #0 constant run function rpgc:z_core/co
 function rpgc:z_core/combat/hit/calc_stage/damage with storage rpgc:temp combat.dmg[0]
 execute unless entity @s[type=player] run function rpgc:z_core/mob/display/hp_change
 damage @s 0.00001 rpgc:hit
+
+scoreboard players operation @s rpgc.current_regen_delay = @s rpgc.regen_delay
+
 # misc
 execute anchored eyes positioned ^ ^ ^ run particle item{item:"nether_wart_block"} ~ ~-.5 ~ 0 0 0 0.2 15 normal
 execute if score .crit_stage rpgc.temp matches 1 anchored eyes positioned ^ ^ ^ run particle wax_on ~ ~-.5 ~ 0 0 0 10 15 normal
@@ -29,9 +32,12 @@ execute if score .crit_stage rpgc.temp matches 2 anchored eyes positioned ^ ^ ^ 
 execute if score .crit_stage rpgc.temp matches 2 run playsound minecraft:item.mace.smash_ground_heavy player @a ~ ~ ~ 2 1.5
 execute unless entity @e[type=#rpgc:all,tag=rpgc.current_attacker] run damage @s[type=!player] 0.0000001 rpgc:hit by @p
 execute unless entity @s[type=player] run data remove entity @s HurtTime
-# prevent clearing the entire system so you can do mutli selector damage
+
+execute if entity @s[type=player] run function rpgc:z_core/combat/hit/calc_stage/iframes
+
 function rpgc:z_api/event/call {event:hurt_late}
 execute if entity @s[type=player] run tag @s add rpgc.hud_needs_update
 tag @s remove rpgc.current_victim
 execute if score @s rpgc.hp matches ..0 run function rpgc:z_core/combat/hit/death
+# prevent clearing the entire system so you can do mutli selector damage
 execute unless score .halt_combat_clear rpgc.temp matches 1 run return run function rpgc:z_core/combat/hit/reset

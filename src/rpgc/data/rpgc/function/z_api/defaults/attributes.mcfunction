@@ -16,3 +16,7 @@ function rpgc:z_api/attribute/register {id:"dodge",base:0,icon:"༄",color:"whit
 
 function rpgc:z_api/attribute/register {id:"vamp",base:0,icon:"🦷",color:"dark_red",tags:[],on_update:""}
 
+function rpgc:z_api/attribute/register {id:"regen_amount",base:0,icon:"💕",color:"green",tags:[],on_update:""}
+function rpgc:z_api/attribute/register {id:"regen_delay",base:0,icon:"⌛",color:"yellow",tags:[],on_update:"function rpgc:z_core/player/regen/update"}
+
+function rpgc:z_api/attribute/register {id:"iframes",base:0,icon:"🕛",color:"white",tags:[],on_update:""}

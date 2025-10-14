@@ -1,0 +1,2 @@
+execute store result score .delay rpgc.temp run function rpgc:z_api/attribute/get {id:"regen_delay"}
+execute store result score @s rpgc.regen_delay run scoreboard players operation .delay rpgc.temp /= #100 constant

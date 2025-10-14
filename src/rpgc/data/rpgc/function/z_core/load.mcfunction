@@ -21,9 +21,18 @@ scoreboard objectives add rpgc.queue_swap dummy
 
 ## ───[ Player Stats ]──────────────────────────────────
 
+# Regeneration
+scoreboard objectives add rpgc.saturation dummy
+scoreboard objectives add rpgc.food food
+scoreboard objectives add rpgc.regen_delay dummy
+scoreboard objectives add rpgc.current_regen_delay dummy
+
 # Player health
 scoreboard objectives add rpgc.max_hp dummy
 scoreboard objectives add rpgc.hp dummy
+scoreboard objectives add rpgc.current_iframes dummy
+scoreboard objectives add rpgc.iframes dummy
+
 # Attack cooldown
 scoreboard objectives add rpgc.atk_cooldown dummy
 

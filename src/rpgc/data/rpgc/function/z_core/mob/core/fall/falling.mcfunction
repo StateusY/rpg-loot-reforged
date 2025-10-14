@@ -1,1 +1,1 @@
-say rpgc:z_core/mob/fall/falling
+execute store result score @s rpgc.fall run data get entity @s fall_distance 10

@@ -27,3 +27,5 @@ execute if score @s rpgc.drop matches 1.. run scoreboard players set @s rpgc.que
 # Update HUD
 function rpgc:z_core/player/hud/try_update
 
+execute if score @s rpgc.iframes matches 1.. run scoreboard players remove @s rpgc.iframes 1
+execute if score @s rpgc.current_regen_delay matches 1.. run scoreboard players remove @s rpgc.current_regen_delay 1

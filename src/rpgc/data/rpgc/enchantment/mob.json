@@ -39,7 +39,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgc:z_core/mob/fall/falling"
+          "function": "rpgc:z_core/mob/core/fall/falling"
         },
         "requirements": {
           "condition": "minecraft:all_of",

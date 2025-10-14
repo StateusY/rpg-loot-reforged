@@ -1,5 +1,5 @@
 
-data modify storage rpgc:temp properties.name set string storage rpgc:temp mob.type
+$data modify storage rpgc:temp properties.name set value '"$(type)"'
 tag @s add rpgc.mob_default
 data modify storage rpgc:temp properties.hp set from entity @s Health
 data modify storage rpgc:temp properties.bar_size set value 100

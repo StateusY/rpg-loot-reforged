@@ -15,7 +15,8 @@ execute store result storage rpgc:temp stats.dodge double 1 run function rpgc:z_
 
 execute store result storage rpgc:temp stats.vamp double 1 run function rpgc:z_api/attribute/get {id:"vamp"}
 
-
+execute store result storage rpgc:temp stats.regen_delay double 0.01 run function rpgc:z_api/attribute/get {id:"regen_amount"}
+execute store result storage rpgc:temp stats.regen_amount double 0.01 run function rpgc:z_api/attribute/get {id:"regen_delay"}
 
 
 

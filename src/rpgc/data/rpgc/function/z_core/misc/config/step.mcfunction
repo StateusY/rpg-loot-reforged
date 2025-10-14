@@ -1,1 +1,1 @@
-$function rpgc:z_core/misc/config/dialog {debug:$(debug),hp:$(hp),macro:"$"}
+$function rpgc:z_core/misc/config/dialog {debug:$(debug),hp:$(hp),delay:$(delay),regen:$(regen),iframes:$(iframes),macro:"$"}

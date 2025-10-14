@@ -9,7 +9,7 @@ function rpgc:z_core/mob/reg/select with storage rpgc:temp mob
 data modify storage rpgc:temp properties set from storage rpgc:registry temp.result
 
 #if no special properties, run custom name
-execute unless data storage rpgc:temp properties run function rpgc:z_core/mob/spawning/default
+execute unless data storage rpgc:temp properties run function rpgc:z_core/mob/spawning/default with storage rpgc:temp mob
 
 execute at @s run function rpgc:z_core/mob/properties/apply with storage rpgc:temp properties
 
