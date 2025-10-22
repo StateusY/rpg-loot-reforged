@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Common Diamond Axe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.common",
+                  "fallback": "Common",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.diamond",
+                  "fallback": "Diamond",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.axe",
+                  "fallback": "Axe",
                   "color": "gray",
                   "italic": false
                 }

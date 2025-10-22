@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Legendary Wood Hoe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.legendary",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.wood",
+                  "fallback": "Wood",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.hoe",
+                  "fallback": "Hoe",
                   "color": "gold",
                   "italic": false
                 }

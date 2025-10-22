@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Uncommon Titanium Sword",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.uncommon",
+                  "fallback": "Uncommon",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.titanium",
+                  "fallback": "Titanium",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.sword",
+                  "fallback": "Sword",
                   "color": "green",
                   "italic": false
                 }

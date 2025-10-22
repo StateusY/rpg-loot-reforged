@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Rare Flint Boots",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.rare",
+                  "fallback": "Rare",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.flint",
+                  "fallback": "Flint",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.boots",
+                  "fallback": "Boots",
                   "color": "blue",
                   "italic": false
                 }

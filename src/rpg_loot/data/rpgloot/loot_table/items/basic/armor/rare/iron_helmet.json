@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Rare Iron Helmet",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.rare",
+                  "fallback": "Rare",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.iron",
+                  "fallback": "Iron",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.helmet",
+                  "fallback": "Helmet",
                   "color": "blue",
                   "italic": false
                 }
@@ -36,7 +64,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 512,
+                "minecraft:max_damage": 1024,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

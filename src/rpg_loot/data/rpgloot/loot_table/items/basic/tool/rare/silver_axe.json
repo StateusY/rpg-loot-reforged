@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Rare Silver Axe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.rare",
+                  "fallback": "Rare",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.silver",
+                  "fallback": "Silver",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.axe",
+                  "fallback": "Axe",
                   "color": "blue",
                   "italic": false
                 }
@@ -36,7 +64,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1152,
+                "minecraft:max_damage": 2304,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

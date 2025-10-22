@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Uncommon Netherite Axe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.uncommon",
+                  "fallback": "Uncommon",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.netherite",
+                  "fallback": "Netherite",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.axe",
+                  "fallback": "Axe",
                   "color": "green",
                   "italic": false
                 }

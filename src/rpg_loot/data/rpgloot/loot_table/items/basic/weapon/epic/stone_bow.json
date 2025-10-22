@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Epic Stone Bow",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.epic",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.stone",
+                  "fallback": "Stone",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.bow",
+                  "fallback": "Bow",
                   "color": "dark_purple",
                   "italic": false
                 }

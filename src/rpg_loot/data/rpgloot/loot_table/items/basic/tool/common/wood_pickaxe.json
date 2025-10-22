@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Common Wood Pickaxe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.common",
+                  "fallback": "Common",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.wood",
+                  "fallback": "Wood",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.pickaxe",
+                  "fallback": "Pickaxe",
                   "color": "gray",
                   "italic": false
                 }

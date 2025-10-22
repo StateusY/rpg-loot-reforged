@@ -15,6 +15,7 @@ OUTPUT_DIR = BASE_DIR / "basic"
 materials = [
     {
         "name": "Wood",
+        "translate": "rpgloot.material.wood",
         "type": "item_only",
         "damage_value": 4,
         "bow_value": 2,
@@ -26,6 +27,7 @@ materials = [
     },
     {
     "name": "Leather",
+    "translate": "rpgloot.material.leather",
     "type": "armor_only",
     "hp_value": 2,
     "armor_value": 1,
@@ -37,6 +39,7 @@ materials = [
     },
     {
         "name": "Stone",
+        "translate": "rpgloot.material.stone",
         "type": "item_only",
         "damage_value": 6,
         "bow_value": 3,
@@ -49,6 +52,7 @@ materials = [
     },
     {
         "name": "Flint",
+        "translate": "rpgloot.material.flint",
         "type": "armor_only",
         "hp_value":3,
         "armor_value":2,
@@ -56,6 +60,7 @@ materials = [
     },
     {
         "name": "Copper",
+        "translate": "rpgloot.material.copper",
         "type": "both",
         "damage_value": 8,
         "bow_value": 4,
@@ -70,6 +75,7 @@ materials = [
     },
     {
         "name": "Iron",
+        "translate": "rpgloot.material.iron",
         "type": "both",
         "damage_value": 10,
         "bow_value": 5,
@@ -84,6 +90,7 @@ materials = [
     },
     {
         "name": "Silver",
+        "translate": "rpgloot.material.silver",
         "type": "both",
         "damage_value": 14,
         "bow_value": 6,
@@ -98,6 +105,7 @@ materials = [
     },
     {
         "name": "Diamond",
+        "translate": "rpgloot.material.diamond",
         "type": "both",
         "damage_value": 18,
         "bow_value": 8,
@@ -112,6 +120,7 @@ materials = [
     },
     {
         "name": "Titanium",
+        "translate": "rpgloot.material.titanium",
         "type": "both",
         "damage_value": 22,
         "bow_value": 10,
@@ -136,6 +145,7 @@ materials = [
     },
     {
         "name": "Cobalt",
+        "translate": "rpgloot.material.cobalt",
         "type": "both",
         "damage_value": 30,
         "bow_value": 12,
@@ -150,6 +160,7 @@ materials = [
     },
     {
         "name": "Magnite",
+        "translate": "rpgloot.material.magnite",
         "type": "both",
         "damage_value": 38,
         "bow_value": 15,
@@ -164,6 +175,7 @@ materials = [
     },
     {
         "name": "Netherite",
+        "translate": "rpgloot.material.netherite",
         "type": "both",
         "damage_value": 46,
         "bow_value": 18,
@@ -178,6 +190,7 @@ materials = [
     },
     {
         "name": "Mythril",
+        "translate": "rpgloot.material.mythril",
         "type": "both",
         "damage_value": 54,
         "bow_value": 20,
@@ -192,6 +205,7 @@ materials = [
     },
     {
         "name": "Celestium",
+        "translate": "rpgloot.material.celestium",
         "type": "both",
         "damage_value": 64,
         "bow_value": 25,
@@ -206,6 +220,7 @@ materials = [
     },
     {
         "name": "Eternium",
+        "translate": "rpgloot.material.eternium",
         "type": "both",
         "damage_value": 64,
         "bow_value": 25,
@@ -515,9 +530,23 @@ def generate_armor(material, rarity, item_type):
 def create_loot_entry(material, rarity, color, item_type, tag_string, enchantment_type, durability, extra_components=None):
     item_name = get_vanilla_placeholder(material["name"], item_type)
     name_component = [
+        # The translations are found in the translation file en_us.json
         {"selector": "@s", "color": color, "italic": False},
-        {"text": f"'s {rarity.capitalize()} {material['name']} {item_type.capitalize()}",
-         "color": color, "italic": False}
+        {"translate": f"rpgloot.misc.'s",
+         "fallback": f"'s",
+         "color": color, "italic": False},
+        {"text": f" "},
+        {"translate": f"rpgloot.rarity.{rarity.lower()}",
+         "fallback": f"{rarity.capitalize()}",
+         "color": color, "italic": False},
+        {"text": f" "},
+        {"translate": f"rpgloot.material.{material['name'].lower()}",
+         "fallback": f"{material['name']}",
+         "color": color, "italic": False},
+        {"text": f" "},
+        {"translate": f"rpgloot.item_type.{item_type.lower()}",
+         "fallback": f"{item_type.capitalize()}",
+         "color": color, "italic": False},
     ]
 
     # Core components

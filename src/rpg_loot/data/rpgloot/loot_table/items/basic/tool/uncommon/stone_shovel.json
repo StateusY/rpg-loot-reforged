@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Uncommon Stone Shovel",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.uncommon",
+                  "fallback": "Uncommon",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.stone",
+                  "fallback": "Stone",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.shovel",
+                  "fallback": "Shovel",
                   "color": "green",
                   "italic": false
                 }

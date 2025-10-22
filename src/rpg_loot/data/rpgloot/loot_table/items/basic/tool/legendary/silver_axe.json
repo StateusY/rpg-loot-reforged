@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Legendary Silver Axe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.legendary",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.silver",
+                  "fallback": "Silver",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.axe",
+                  "fallback": "Axe",
                   "color": "gold",
                   "italic": false
                 }
@@ -36,7 +64,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 2688,
+                "minecraft:max_damage": 5376,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

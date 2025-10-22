@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Legendary Celestium Hoe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.legendary",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.celestium",
+                  "fallback": "Celestium",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.hoe",
+                  "fallback": "Hoe",
                   "color": "gold",
                   "italic": false
                 }

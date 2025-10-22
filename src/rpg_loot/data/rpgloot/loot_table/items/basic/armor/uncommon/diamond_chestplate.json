@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Uncommon Diamond Chestplate",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.uncommon",
+                  "fallback": "Uncommon",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.diamond",
+                  "fallback": "Diamond",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.chestplate",
+                  "fallback": "Chestplate",
                   "color": "green",
                   "italic": false
                 }

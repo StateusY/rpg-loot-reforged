@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Legendary Mythril Axe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.legendary",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.mythril",
+                  "fallback": "Mythril",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.axe",
+                  "fallback": "Axe",
                   "color": "gold",
                   "italic": false
                 }

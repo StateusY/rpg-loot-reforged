@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Rare Flint Chestplate",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.rare",
+                  "fallback": "Rare",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.flint",
+                  "fallback": "Flint",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.chestplate",
+                  "fallback": "Chestplate",
                   "color": "blue",
                   "italic": false
                 }

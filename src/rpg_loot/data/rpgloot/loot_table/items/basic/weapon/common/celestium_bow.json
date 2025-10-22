@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Common Celestium Bow",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.common",
+                  "fallback": "Common",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.celestium",
+                  "fallback": "Celestium",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.bow",
+                  "fallback": "Bow",
                   "color": "gray",
                   "italic": false
                 }

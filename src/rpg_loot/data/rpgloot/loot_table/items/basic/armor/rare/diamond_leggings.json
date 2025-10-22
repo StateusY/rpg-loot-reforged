@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Rare Diamond Leggings",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.rare",
+                  "fallback": "Rare",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.diamond",
+                  "fallback": "Diamond",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.leggings",
+                  "fallback": "Leggings",
                   "color": "blue",
                   "italic": false
                 }

@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Uncommon Copper Helmet",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.uncommon",
+                  "fallback": "Uncommon",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.copper",
+                  "fallback": "Copper",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.helmet",
+                  "fallback": "Helmet",
                   "color": "green",
                   "italic": false
                 }
@@ -36,7 +64,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 320,
+                "minecraft:max_damage": 512,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

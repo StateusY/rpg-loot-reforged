@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Legendary Titanium Bow",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.legendary",
+                  "fallback": "Legendary",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.titanium",
+                  "fallback": "Titanium",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.bow",
+                  "fallback": "Bow",
                   "color": "gold",
                   "italic": false
                 }

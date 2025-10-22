@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Common Mythril Chestplate",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.common",
+                  "fallback": "Common",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.mythril",
+                  "fallback": "Mythril",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.chestplate",
+                  "fallback": "Chestplate",
                   "color": "gray",
                   "italic": false
                 }

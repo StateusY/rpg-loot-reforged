@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Epic Iron Hoe",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.epic",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.iron",
+                  "fallback": "Iron",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.hoe",
+                  "fallback": "Hoe",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -36,7 +64,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1280,
+                "minecraft:max_damage": 2560,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

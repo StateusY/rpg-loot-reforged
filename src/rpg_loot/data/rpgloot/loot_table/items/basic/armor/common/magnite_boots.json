@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Common Magnite Boots",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.common",
+                  "fallback": "Common",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.magnite",
+                  "fallback": "Magnite",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.boots",
+                  "fallback": "Boots",
                   "color": "gray",
                   "italic": false
                 }

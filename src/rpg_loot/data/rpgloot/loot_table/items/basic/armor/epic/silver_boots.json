@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Epic Silver Boots",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.epic",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.silver",
+                  "fallback": "Silver",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.boots",
+                  "fallback": "Boots",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -36,7 +64,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1152,
+                "minecraft:max_damage": 2304,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [

@@ -1,5 +1,41 @@
 {
     "rpgloot.tooltip": "RPGLoot Reforged",
     "rpgloot.loaded": "loaded!",
-    "item.rpgloot.forge": "Forging Station"
+    "item.rpgloot.forge": "Forging Station",
+    
+    "rpgloot.misc.'s": "'s",
+
+    "rpgloot.material.wood": "Wood",
+    "rpgloot.material.leather": "Leather",
+    "rpgloot.material.stone": "Stone",
+    "rpgloot.material.flint": "Flint",
+    "rpgloot.material.copper": "Copper",
+    "rpgloot.material.iron": "Iron",
+    "rpgloot.material.silver": "Sliver",
+    "rpgloot.material.diamond": "Diamond",
+    "rpgloot.material.titanium": "Titanium",
+    "rpgloot.material.cobalt": "Cobalt",
+    "rpgloot.material.magnite": "Magnite",
+    "rpgloot.material.netherite": "Netherite",
+    "rpgloot.material.mythril": "Mythril",
+    "rpgloot.material.celestium": "Celestium",
+    "rpgloot.material.eternium": "Eternium",
+    
+    "rpgloot.item_type.sword": "Sword",
+    "rpgloot.item_type.bow": "Bow",
+    "rpgloot.item_type.axe": "Axe",
+    "rpgloot.item_type.pickaxe": "Pickaxe",
+    "rpgloot.item_type.shovel": "Shovel",
+    "rpgloot.item_type.hoe": "Hoe",
+    "rpgloot.item_type.helmet": "Helmet",
+    "rpgloot.item_type.chestplate": "Chestplate",
+    "rpgloot.item_type.leggings": "Leggings",
+    "rpgloot.item_type.boots": "Boots",
+    
+    "rpgloot.item_type.common": "Common",
+    "rpgloot.item_type.uncommon": "Uncommon",
+    "rpgloot.item_type.rare": "Rare",
+    "rpgloot.item_type.epic": "Epic",
+    "rpgloot.item_type.legendary": "Legendary"
+
 }

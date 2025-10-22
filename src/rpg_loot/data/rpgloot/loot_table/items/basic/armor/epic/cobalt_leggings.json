@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Epic Cobalt Leggings",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.epic",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.cobalt",
+                  "fallback": "Cobalt",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.leggings",
+                  "fallback": "Leggings",
                   "color": "dark_purple",
                   "italic": false
                 }

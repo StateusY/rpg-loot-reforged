@@ -17,7 +17,35 @@
                   "italic": false
                 },
                 {
-                  "text": "'s Epic Copper Sword",
+                  "translate": "rpgloot.misc.'s",
+                  "fallback": "'s",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.rarity.epic",
+                  "fallback": "Epic",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.material.copper",
+                  "fallback": "Copper",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "rpgloot.item_type.sword",
+                  "fallback": "Sword",
                   "color": "dark_purple",
                   "italic": false
                 }
@@ -36,7 +64,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_damage": 1120,
+                "minecraft:max_damage": 1792,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:lore": [
                   [
