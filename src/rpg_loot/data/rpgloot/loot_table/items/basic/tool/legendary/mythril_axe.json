@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],attributes:[{id:physical_damage,name:mythril_axe,source:weapon,type:add,value:40}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],attributes:[{id:physical_dmg,name:mythril_axe,source:weapon,type:add,value:40}]}"
             },
             {
               "function": "minecraft:set_enchantments",

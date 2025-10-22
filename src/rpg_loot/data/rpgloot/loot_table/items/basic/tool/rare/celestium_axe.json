@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],attributes:[{id:physical_damage,name:celestium_axe,source:weapon,type:add,value:32}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],attributes:[{id:physical_dmg,name:celestium_axe,source:weapon,type:add,value:32}]}"
             },
             {
               "function": "minecraft:set_enchantments",

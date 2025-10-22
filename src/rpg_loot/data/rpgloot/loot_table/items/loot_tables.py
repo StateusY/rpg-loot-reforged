@@ -25,12 +25,15 @@ materials = [
         "bow_events": '[{"name": "wood_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/wood/bow/impact"}]',
     },
     {
-        "name": "Leather",
-        "type": "armor_only",
-        "hp_value":2,
-        "armor_value": 1,
-        "durability": 64,
-        "armor_events": '[]'
+    "name": "Leather",
+    "type": "armor_only",
+    "hp_value": 2,
+    "armor_value": 1,
+    "durability": 64,
+    "armor_events": '[]',
+    "extra_components": {
+        "minecraft:dyed_color": -6265536
+    }
     },
     {
         "name": "Stone",
@@ -59,7 +62,7 @@ materials = [
         "tool_speed": 1.5,
         "hp_value":4,
         "armor_value": 3,
-        "durability": 160,
+        "durability": 256,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
         "bow_events": '[]',
@@ -73,7 +76,7 @@ materials = [
         "tool_speed": 1.75,
         "hp_value":5,
         "armor_value": 4,
-        "durability": 256,
+        "durability": 512,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
         "bow_events": '[]',
@@ -87,7 +90,7 @@ materials = [
         "tool_speed": 2.0,
         "hp_value":7,
         "armor_value": 5,
-        "durability": 384,
+        "durability": 768,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
         "bow_events": '[]',
@@ -415,7 +418,7 @@ def generate_tool(material, rarity, item_type):
         f'{{rpgc:true,'
         f'rpgloot_tier:{rarity},'
         f'events:{weapon_events},'
-        f'attributes:[{{id:physical_damage,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
+        f'attributes:[{{id:physical_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
     )
 
     extra_components = {}
@@ -539,8 +542,12 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
     components["minecraft:item_model"] = model_path
 
     # Merge extra components
+        # Merge extra components from the generator (e.g., equippable/tool) and material definition
+    if "extra_components" in material:
+        components.update(material["extra_components"])
     if extra_components:
         components.update(extra_components)
+
 
     # --- Enchantments ---
     if isinstance(enchantment_type, dict):

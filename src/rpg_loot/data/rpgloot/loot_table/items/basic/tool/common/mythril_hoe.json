@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,events:[],attributes:[{id:physical_damage,name:mythril_hoe,source:weapon,type:add,value:14}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,events:[],attributes:[{id:physical_dmg,name:mythril_hoe,source:weapon,type:add,value:14}]}"
             },
             {
               "function": "minecraft:set_enchantments",

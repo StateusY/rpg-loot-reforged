@@ -56,6 +56,7 @@
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
                 "minecraft:item_model": "rpgloot:armor/leather_chestplate",
+                "minecraft:dyed_color": -6265536,
                 "minecraft:equippable": {
                   "slot": "chest",
                   "asset_id": "rpgloot:leather"

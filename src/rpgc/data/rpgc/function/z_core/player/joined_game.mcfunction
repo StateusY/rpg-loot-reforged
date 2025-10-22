@@ -6,3 +6,4 @@ function rpgc:z_api/event/call {event:"chest_swap"}
 function rpgc:z_api/event/call {event:"legs_swap"}
 function rpgc:z_api/event/call {event:"feet_swap"}
 function rpgc:z_api/event/call {event:"swap_off"}
+function rpgc:z_core/player/hud/update

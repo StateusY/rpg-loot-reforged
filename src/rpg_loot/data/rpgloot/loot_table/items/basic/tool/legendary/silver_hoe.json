@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],attributes:[{id:physical_damage,name:silver_hoe,source:weapon,type:add,value:24}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],attributes:[{id:physical_dmg,name:silver_hoe,source:weapon,type:add,value:24}]}"
             },
             {
               "function": "minecraft:set_enchantments",

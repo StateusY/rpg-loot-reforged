@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],attributes:[{id:physical_damage,name:netherite_axe,source:weapon,type:add,value:12}]}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],attributes:[{id:physical_dmg,name:netherite_axe,source:weapon,type:add,value:12}]}"
             },
             {
               "function": "minecraft:set_enchantments",

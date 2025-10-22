@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,events:[],attributes:[{id:physical_damage,name:copper_shovel,source:weapon,type:add,value:2}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,events:[],attributes:[{id:physical_dmg,name:copper_shovel,source:weapon,type:add,value:2}]}"
             },
             {
               "function": "minecraft:set_enchantments",

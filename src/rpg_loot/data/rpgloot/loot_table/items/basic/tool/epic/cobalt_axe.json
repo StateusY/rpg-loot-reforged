@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],attributes:[{id:physical_damage,name:cobalt_axe,source:weapon,type:add,value:15}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],attributes:[{id:physical_dmg,name:cobalt_axe,source:weapon,type:add,value:15}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],attributes:[{id:physical_damage,name:eternium_pickaxe,source:weapon,type:add,value:16}]}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],attributes:[{id:physical_dmg,name:eternium_pickaxe,source:weapon,type:add,value:16}]}"
             },
             {
               "function": "minecraft:set_enchantments",

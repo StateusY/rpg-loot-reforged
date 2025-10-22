@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],attributes:[{id:physical_damage,name:magnite_hoe,source:weapon,type:add,value:10}]}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],attributes:[{id:physical_dmg,name:magnite_hoe,source:weapon,type:add,value:10}]}"
             },
             {
               "function": "minecraft:set_enchantments",
