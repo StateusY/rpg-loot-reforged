@@ -348,7 +348,7 @@
     },
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "rpgloot:crafting/menu"
+      "dialog": "rpgloot:crafting/equipment/menu"
     }
   },
   "pause": false,

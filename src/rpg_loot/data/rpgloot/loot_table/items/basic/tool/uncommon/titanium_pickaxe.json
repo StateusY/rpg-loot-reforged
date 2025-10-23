@@ -93,7 +93,7 @@
                     },
                     {
                       "blocks": "#minecraft:mineable/pickaxe",
-                      "speed": 2.5,
+                      "speed": 4.25,
                       "correct_for_drops": true
                     }
                   ],

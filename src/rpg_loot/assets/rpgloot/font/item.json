@@ -32,6 +32,15 @@
     },
     {
       "type": "bitmap",
+      "file": "minecraft:item/blaze_rod.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ueaa1"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:item/string.png",
       "height": 16,
       "ascent": 11,
