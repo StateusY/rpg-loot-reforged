@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],id:epic_netherite_leggings,attributes:[{\"id\": \"armor\", \"name\": \"netherite_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 20}, {\"id\": \"max_hp\", \"name\": \"netherite_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 46}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_netherite_leggings,attributes:[{\"id\": \"armor\", \"name\": \"netherite_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 20}, {\"id\": \"max_hp\", \"name\": \"netherite_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 46}]}"
             },
             {
               "function": "minecraft:set_enchantments",

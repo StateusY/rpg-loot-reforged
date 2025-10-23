@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],attributes:[{id:physical_dmg,name:stone_shovel,source:weapon,type:add,value:14}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:tool,events:[],attributes:[{id:physical_dmg,name:stone_shovel,source:weapon,type:add,value:14}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -83,7 +83,18 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:tools/stone_shovel"
+                "minecraft:item_model": "rpgloot:tools/stone_shovel",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#minecraft:mineable/shovel",
+                      "speed": 1.5,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                }
               }
             }
           ]

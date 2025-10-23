@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],id:rare_netherite_helmet,attributes:[{\"id\": \"armor\", \"name\": \"netherite_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 20}, {\"id\": \"max_hp\", \"name\": \"netherite_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 46}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:armor,events:[],id:rare_netherite_helmet,attributes:[{\"id\": \"armor\", \"name\": \"netherite_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 20}, {\"id\": \"max_hp\", \"name\": \"netherite_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 46}]}"
             },
             {
               "function": "minecraft:set_enchantments",

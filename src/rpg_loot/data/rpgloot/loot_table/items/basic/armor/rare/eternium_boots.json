@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],id:rare_eternium_boots,attributes:[{\"id\": \"armor\", \"name\": \"eternium_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"eternium_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 64}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:armor,events:[],id:rare_eternium_boots,attributes:[{\"id\": \"armor\", \"name\": \"eternium_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"eternium_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 64}]}"
             },
             {
               "function": "minecraft:set_enchantments",

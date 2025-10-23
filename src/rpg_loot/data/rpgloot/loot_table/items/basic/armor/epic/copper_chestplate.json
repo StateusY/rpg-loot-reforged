@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],id:epic_copper_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"copper_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"copper_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 28}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_copper_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"copper_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"copper_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 28}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],attributes:[{id:physical_dmg,name:netherite_pickaxe,source:weapon,type:add,value:23}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:tool,events:[],attributes:[{id:physical_dmg,name:netherite_pickaxe,source:weapon,type:add,value:23}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -93,7 +93,7 @@
                     },
                     {
                       "blocks": "#minecraft:mineable/pickaxe",
-                      "speed": 7,
+                      "speed": 9,
                       "correct_for_drops": true
                     }
                   ],

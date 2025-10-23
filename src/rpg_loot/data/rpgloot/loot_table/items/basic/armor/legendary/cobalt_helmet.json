@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],id:legendary_cobalt_helmet,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"cobalt_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 60}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_cobalt_helmet,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"cobalt_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 60}]}"
             },
             {
               "function": "minecraft:set_enchantments",

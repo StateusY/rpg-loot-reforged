@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,events:[],id:common_eternium_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"eternium_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"eternium_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 32}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_eternium_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"eternium_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"eternium_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 32}]}"
             },
             {
               "function": "minecraft:set_enchantments",

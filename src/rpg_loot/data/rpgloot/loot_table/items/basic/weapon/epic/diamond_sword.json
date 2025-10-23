@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],attributes:[{id:physical_dmg,name:diamond_sword,source:weapon,type:add,value:54}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:weapon,events:[],attributes:[{id:physical_dmg,name:diamond_sword,source:weapon,type:add,value:54}]}"
             },
             {
               "function": "minecraft:set_enchantments",

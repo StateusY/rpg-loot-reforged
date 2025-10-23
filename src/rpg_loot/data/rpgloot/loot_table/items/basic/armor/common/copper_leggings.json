@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,events:[],id:common_copper_leggings,attributes:[{\"id\": \"armor\", \"name\": \"copper_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 3}, {\"id\": \"max_hp\", \"name\": \"copper_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 4}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_copper_leggings,attributes:[{\"id\": \"armor\", \"name\": \"copper_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 3}, {\"id\": \"max_hp\", \"name\": \"copper_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 4}]}"
             },
             {
               "function": "minecraft:set_enchantments",

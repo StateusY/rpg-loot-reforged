@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,events:[],attributes:[{id:physical_dmg,name:magnite_hoe,source:weapon,type:add,value:19}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:tool,events:[],attributes:[{id:physical_dmg,name:magnite_hoe,source:weapon,type:add,value:19}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -83,7 +83,18 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:tools/magnite_hoe"
+                "minecraft:item_model": "rpgloot:tools/magnite_hoe",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#minecraft:mineable/hoe",
+                      "speed": 8,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                }
               }
             }
           ]

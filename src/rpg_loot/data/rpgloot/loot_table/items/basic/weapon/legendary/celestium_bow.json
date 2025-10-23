@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:celestium_bow,source:weapon,type:add,value:75}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:bow,bow:{draw:10,velocity:4,inaccuracy:1},events:[],attributes:[{id:ranged_dmg,name:celestium_bow,source:weapon,type:add,value:75}]}"
             },
             {
               "function": "minecraft:set_enchantments",

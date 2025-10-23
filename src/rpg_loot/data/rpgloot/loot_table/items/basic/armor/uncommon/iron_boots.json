@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],id:uncommon_iron_boots,attributes:[{\"id\": \"armor\", \"name\": \"iron_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 4}, {\"id\": \"max_hp\", \"name\": \"iron_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 10}]}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_iron_boots,attributes:[{\"id\": \"armor\", \"name\": \"iron_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 4}, {\"id\": \"max_hp\", \"name\": \"iron_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 10}]}"
             },
             {
               "function": "minecraft:set_enchantments",

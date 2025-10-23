@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,events:[],id:common_leather_boots,attributes:[{\"id\": \"armor\", \"name\": \"leather_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 1}, {\"id\": \"max_hp\", \"name\": \"leather_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 2}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_leather_boots,attributes:[{\"id\": \"armor\", \"name\": \"leather_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 1}, {\"id\": \"max_hp\", \"name\": \"leather_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 2}]}"
             },
             {
               "function": "minecraft:set_enchantments",

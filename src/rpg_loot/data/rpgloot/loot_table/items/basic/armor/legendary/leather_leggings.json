@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],id:legendary_leather_leggings,attributes:[{\"id\": \"armor\", \"name\": \"leather_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"leather_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 48}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_leather_leggings,attributes:[{\"id\": \"armor\", \"name\": \"leather_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"leather_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 48}]}"
             },
             {
               "function": "minecraft:set_enchantments",

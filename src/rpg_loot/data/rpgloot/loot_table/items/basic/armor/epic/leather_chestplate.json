@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],id:epic_leather_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"leather_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 10}, {\"id\": \"max_hp\", \"name\": \"leather_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 26}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_leather_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"leather_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 10}, {\"id\": \"max_hp\", \"name\": \"leather_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 26}]}"
             },
             {
               "function": "minecraft:set_enchantments",

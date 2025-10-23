@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],attributes:[{id:physical_dmg,name:mythril_axe,source:weapon,type:add,value:40}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:tool,events:[],attributes:[{id:physical_dmg,name:mythril_axe,source:weapon,type:add,value:40}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -83,7 +83,18 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:tools/mythril_axe"
+                "minecraft:item_model": "rpgloot:tools/mythril_axe",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#minecraft:mineable/axe",
+                      "speed": 10,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                }
               }
             }
           ]

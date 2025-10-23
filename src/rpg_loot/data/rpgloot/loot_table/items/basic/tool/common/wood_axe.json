@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:physical_dmg,name:wood_axe,source:weapon,type:add,value:1}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:tool,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:physical_dmg,name:wood_axe,source:weapon,type:add,value:1}]}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -83,7 +83,18 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:tools/wood_axe"
+                "minecraft:item_model": "rpgloot:tools/wood_axe",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#minecraft:mineable/axe",
+                      "speed": 1,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                }
               }
             }
           ]

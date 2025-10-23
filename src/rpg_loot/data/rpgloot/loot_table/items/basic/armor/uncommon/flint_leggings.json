@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,events:[],id:uncommon_flint_leggings,attributes:[{\"id\": \"armor\", \"name\": \"flint_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 4}, {\"id\": \"max_hp\", \"name\": \"flint_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 9}]}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_flint_leggings,attributes:[{\"id\": \"armor\", \"name\": \"flint_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 4}, {\"id\": \"max_hp\", \"name\": \"flint_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 9}]}"
             },
             {
               "function": "minecraft:set_enchantments",

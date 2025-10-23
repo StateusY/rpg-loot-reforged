@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],id:legendary_cobalt_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"cobalt_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 60}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_cobalt_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"cobalt_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 60}]}"
             },
             {
               "function": "minecraft:set_enchantments",

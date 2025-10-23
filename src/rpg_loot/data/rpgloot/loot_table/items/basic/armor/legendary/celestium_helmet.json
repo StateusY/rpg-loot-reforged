@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,events:[],id:legendary_celestium_helmet,attributes:[{\"id\": \"armor\", \"name\": \"celestium_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 36}, {\"id\": \"max_hp\", \"name\": \"celestium_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 96}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_celestium_helmet,attributes:[{\"id\": \"armor\", \"name\": \"celestium_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 36}, {\"id\": \"max_hp\", \"name\": \"celestium_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 96}]}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -43,7 +43,7 @@ materials = [
         "type": "item_only",
         "damage_value": 6,
         "bow_value": 3,
-        "tool_speed": 1.2,
+        "tool_speed": 1.5,
         "durability": 128,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
         "weapon_events": '[]',
@@ -64,7 +64,7 @@ materials = [
         "type": "both",
         "damage_value": 8,
         "bow_value": 4,
-        "tool_speed": 1.5,
+        "tool_speed": 2,
         "hp_value":4,
         "armor_value": 3,
         "durability": 256,
@@ -79,7 +79,7 @@ materials = [
         "type": "both",
         "damage_value": 10,
         "bow_value": 5,
-        "tool_speed": 1.75,
+        "tool_speed": 3,
         "hp_value":5,
         "armor_value": 4,
         "durability": 512,
@@ -94,7 +94,7 @@ materials = [
         "type": "both",
         "damage_value": 14,
         "bow_value": 6,
-        "tool_speed": 2.0,
+        "tool_speed": 4,
         "hp_value":7,
         "armor_value": 5,
         "durability": 768,
@@ -109,7 +109,7 @@ materials = [
         "type": "both",
         "damage_value": 18,
         "bow_value": 8,
-        "tool_speed": 2.25,
+        "tool_speed": 5,
         "hp_value":9,
         "armor_value": 6,
         "durability": 1024,
@@ -124,7 +124,7 @@ materials = [
         "type": "both",
         "damage_value": 22,
         "bow_value": 10,
-        "tool_speed": 2.5,
+        "tool_speed": 6,
         "hp_value":11,
         "armor_value": 7,
         "durability": 2048,
@@ -149,7 +149,7 @@ materials = [
         "type": "both",
         "damage_value": 30,
         "bow_value": 12,
-        "tool_speed": 2.75,
+        "tool_speed": 7,
         "hp_value":15,
         "armor_value": 8,
         "durability": 4096,
@@ -164,7 +164,7 @@ materials = [
         "type": "both",
         "damage_value": 38,
         "bow_value": 15,
-        "tool_speed": 3.0,
+        "tool_speed": 8,
         "hp_value":19,
         "armor_value": 9,
         "durability": 6000,
@@ -179,7 +179,7 @@ materials = [
         "type": "both",
         "damage_value": 46,
         "bow_value": 18,
-        "tool_speed": 3.25,
+        "tool_speed": 9,
         "hp_value":23,
         "armor_value": 10,
         "durability": 8000,
@@ -194,7 +194,7 @@ materials = [
         "type": "both",
         "damage_value": 54,
         "bow_value": 20,
-        "tool_speed": 3.5,
+        "tool_speed": 10,
         "hp_value":27,
         "armor_value": 11,
         "durability": 10000,
@@ -209,7 +209,7 @@ materials = [
         "type": "both",
         "damage_value": 64,
         "bow_value": 25,
-        "tool_speed": 4.0,
+        "tool_speed": 16,
         "hp_value":32,
         "armor_value": 12,
         "durability": 12000,
@@ -224,7 +224,7 @@ materials = [
         "type": "both",
         "damage_value": 64,
         "bow_value": 25,
-        "tool_speed": 4.0,
+        "tool_speed": 16,
         "hp_value":32,
         "armor_value": 12,
         "durability": 12000,
@@ -379,6 +379,7 @@ def generate_sword(material, rarity, item_type):
     tag_string = (
         f'{{rpgc:true,'
         f'rpgloot_tier:{rarity},'
+        f'rpgloot_type:weapon,'
         f'events:{weapon_events},'
         f'attributes:[{{id:physical_dmg,name:{material["name"].lower()}_sword,source:weapon,type:add,value:{damage}}}]}}'
     )
@@ -401,6 +402,7 @@ def generate_bow(material, rarity, item_type):
     tag_string = (
         f'{{rpgc:true,'
         f'rpgloot_tier:{rarity},'
+        f'rpgloot_type:bow,'
         f'bow:{bow_str},'
         f'events:{bow_events},'
         f'attributes:[{{id:ranged_dmg,name:{material["name"].lower()}_bow,source:weapon,type:add,value:{damage}}}]}}'
@@ -432,6 +434,7 @@ def generate_tool(material, rarity, item_type):
     tag_string = (
         f'{{rpgc:true,'
         f'rpgloot_tier:{rarity},'
+        f'rpgloot_type:tool,'
         f'events:{weapon_events},'
         f'attributes:[{{id:physical_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
     )
@@ -442,6 +445,14 @@ def generate_tool(material, rarity, item_type):
             "rules": [
                 {"blocks": f"#rpgloot:tools/{material['name'].lower()}", "speed": 0.1, "correct_for_drops": False},
                 {"blocks": "#minecraft:mineable/pickaxe", "speed": tool_speed, "correct_for_drops": True}
+            ],
+            "default_mining_speed": 1,
+            "damage_per_block": 1
+        }
+    else: 
+        extra_components["minecraft:tool"] = {
+            "rules": [
+                {"blocks": "#minecraft:mineable/"+item_type, "speed": tool_speed, "correct_for_drops": True}
             ],
             "default_mining_speed": 1,
             "damage_per_block": 1
@@ -505,6 +516,7 @@ def generate_armor(material, rarity, item_type):
     tag_string = (
         f'{{rpgc:true,'
         f'rpgloot_tier:{rarity},'
+        f'rpgloot_type:armor,'
         f'events:{armor_events},'
         f'id:{rarity}_{material["name"].lower()}_{item_type},'
         f'attributes:{json.dumps(attributes)}}}'

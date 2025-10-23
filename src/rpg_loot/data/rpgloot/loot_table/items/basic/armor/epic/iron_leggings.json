@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,events:[],id:epic_iron_leggings,attributes:[{\"id\": \"armor\", \"name\": \"iron_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"iron_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 25}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_iron_leggings,attributes:[{\"id\": \"armor\", \"name\": \"iron_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"iron_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 25}]}"
             },
             {
               "function": "minecraft:set_enchantments",

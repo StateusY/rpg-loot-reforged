@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,events:[],id:common_celestium_boots,attributes:[{\"id\": \"armor\", \"name\": \"celestium_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"celestium_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 32}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_celestium_boots,attributes:[{\"id\": \"armor\", \"name\": \"celestium_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"celestium_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 32}]}"
             },
             {
               "function": "minecraft:set_enchantments",
