@@ -1,0 +1,272 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [],
+  "inputs": [],
+  "columns": 5,
+  "exit_action": {
+    "label": {
+      "text": "Back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "rpgloot:crafting/equipment/menu"
+    }
+  },
+  "pause": false,
+  "after_action": "none",
+  "title": "Cobalt",
+  "actions": [
+    {
+      "label": {
+        "text": "\ue071",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": " 16x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 2x "
+        },
+        {
+          "text": "\ueaab",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1071"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue072",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": " 20x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 4x "
+        },
+        {
+          "text": "\ueaab",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1072"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue073",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": " 24x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 4x "
+        },
+        {
+          "text": "\ueaab",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1073"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue074",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": " 7x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 4x "
+        },
+        {
+          "text": "\ueaab",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1074"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue075",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": " 14x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 4x "
+        },
+        {
+          "text": "\ueaab",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1075"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue076",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": " 20x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        },
+        {
+          "text": " 16x "
+        },
+        {
+          "text": "\ueaac",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1076"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue077",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "10x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1077"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue077",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "16x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1078"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue079",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "14x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1079"
+      }
+    },
+    {
+      "label": {
+        "text": "\ue080",
+        "shadow_color": 0,
+        "font": "rpgloot:item"
+      },
+      "tooltip": [
+        {
+          "text": "7x "
+        },
+        {
+          "text": "\ueb0b",
+          "font": "rpgloot:item"
+        }
+      ],
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rpgloot.crafter set 1080"
+      }
+    }
+  ]
+}
