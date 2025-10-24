@@ -24,3 +24,5 @@ execute store result storage rpgc:temp bow.draw double 0.00003 run scoreboard pl
 function rpgc:z_core/bow/fetch_velocity with storage rpgc:temp bow
 execute store result storage rpgc:temp bow.velocity_add double 10 run function rpgc:z_api/attribute/get {id:velocity}
 function rpgc:z_core/bow/velocity_ with storage rpgc:temp bow
+execute if items entity @s weapon.mainhand bow run return run item modify entity @s weapon.mainhand {function:"minecraft:set_custom_model_data",floats:{values:[0],mode:"replace_all"}}
+execute if items entity @s weapon.offhand bow run return run item modify entity @s weapon.offhand {function:"minecraft:set_custom_model_data",floats:{values:[0],mode:"replace_all"}}

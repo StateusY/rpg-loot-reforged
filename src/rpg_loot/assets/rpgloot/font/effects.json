@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "rpgloot:effects/circle_1.png",
+			"ascent": 16,
+			"height": 16,
+            "chars": [
+				"o1"
+			]
+		}
+	]
+}

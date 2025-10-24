@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:bow,bow:{draw:10,velocity:4,inaccuracy:1},events:[{\"name\": \"wood_bow\", \"source\": \"weapon\", \"listen\": \"bow_impact\", \"command\": \"function rpgloot:items/basic/wood/bow/impact\"}],attributes:[{id:ranged_dmg,name:wood_bow,source:weapon,type:add,value:2}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:bow,bow:{draw:10,velocity:4,inaccuracy:2},events:[{\"name\": \"wood_bow\", \"source\": \"weapon\", \"listen\": \"bow_impact\", \"command\": \"function rpgloot:items/basic/wood/bow/impact\"}],attributes:[{id:ranged_dmg,name:wood_bow,source:weapon,type:add,value:2}]}"
             },
             {
               "function": "minecraft:set_enchantments",

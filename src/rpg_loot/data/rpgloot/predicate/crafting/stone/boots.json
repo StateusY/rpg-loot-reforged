@@ -9,8 +9,7 @@
           "container.*": {
             "items": "flint",
             "count": {
-              "min": 4,
-              "max": 999999
+              "min": 4
             }
           }
         }

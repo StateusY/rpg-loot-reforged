@@ -9,8 +9,7 @@
           "container.*": {
             "items": "#minecraft:planks",
             "count": {
-              "min": 2,
-              "max": 999999
+              "min": 2
             }
           }
         }
@@ -24,8 +23,7 @@
           "container.*": {
             "items": "minecraft:stick",
             "count": {
-              "min": 2,
-              "max": 999999
+              "min": 2
             }
           }
         }

@@ -9,8 +9,7 @@
           "container.*": {
             "items": "leather",
             "count": {
-              "min": 8,
-              "max": 999999
+              "min": 8
             }
           }
         }

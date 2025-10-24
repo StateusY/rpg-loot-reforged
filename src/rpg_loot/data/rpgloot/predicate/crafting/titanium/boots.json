@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "poisonous_potato",
+            "count": {
+              "min": 8
+            },
+            "predicates": {
+              "minecraft:custom_data": {"rpgloot":{"ingredient":{"type":"titanium_ingot"}}}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

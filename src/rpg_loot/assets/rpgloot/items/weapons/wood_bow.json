@@ -1,28 +1,27 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "on_false": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rpgloot:item/weapons/wood_bow_pulling_0"
+        }
+      },
+      {
+        "threshold": 100,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rpgloot:item/weapons/wood_bow_pulling_1"
+        }
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
       "model": "rpgloot:item/weapons/wood_bow"
-    },
-    "on_true": {
-      "type": "minecraft:range_dispatch",
-      "entries": [
-        {
-          "model": {
-            "type": "minecraft:model",
-            "model": "rpgloot:item/weapons/wood_bow_pulling_1"
-          },
-          "threshold": 0.65
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "rpgloot:item/weapons/wood_bow_pulling_0"
-      },
-      "property": "minecraft:use_duration",
-      "scale": 0.05
-    },
-    "property": "minecraft:using_item"
-  }
+    }
+  },
+  "hand_animation_on_swap": false
 }

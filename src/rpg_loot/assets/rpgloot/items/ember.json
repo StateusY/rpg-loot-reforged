@@ -11,32 +11,36 @@
         {
           "model": {
             "type": "minecraft:model",
-            "model": "rpg_loot:item/ember_pulling_1"
+            "model": "rpg_loot:item/ember_pulling_0"
           },
           "threshold": 1
         },
         {
           "model": {
             "type": "minecraft:model",
+            "model": "rpg_loot:item/ember_pulling_1"
+          },
+          "threshold": 25
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
             "model": "rpg_loot:item/ember_pulling_2"
           },
-          "threshold": 2
+          "threshold": 50
         },
         {
           "model": {
             "type": "minecraft:model",
             "model": "rpg_loot:item/ember_pulling_3"
           },
-          "threshold": 4
+          "threshold": 100
         }
       ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "rpg_loot:item/ember_pulling_0"
-      },
-      "property": "minecraft:use_duration",
-      "scale": 0.05
+      "property": "minecraft:custom_model_data",
+      "scale": 1
     },
     "property": "minecraft:using_item"
-  }
+  },
+  "hand_animation_on_swap": false
 }

@@ -260,7 +260,7 @@
       "comment": "=== TOOLS & EQUIPMENT SECTION - Weapons, tools, and armor (using number codes: ue001-ue999) ===",
       "comment": "--- Wooden Tier ---",
       "type": "bitmap",
-      "file": "minecraft:item/wooden_sword.png",
+      "file": "rpgloot:item/weapons/wood_sword.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -305,7 +305,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/bow.png",
+      "file": "rpgloot:item/weapons/wood_bow.png",
       "height": 16,
       "ascent": 11,
       "chars": [
@@ -351,7 +351,7 @@
     {
       "comment": "--- Stone Tier ---",
       "type": "bitmap",
-      "file": "minecraft:item/stone_sword.png",
+      "file": "rpgloot:item/weapons/stone_sword.png",
       "height": 16,
       "ascent": 11,
       "chars": [

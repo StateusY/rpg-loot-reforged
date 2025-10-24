@@ -9,8 +9,7 @@
           "container.*": {
             "items": "string",
             "count": {
-              "min": 3,
-              "max": 999999
+              "min": 3
             }
           }
         }
@@ -24,8 +23,7 @@
           "container.*": {
             "items": "minecraft:stick",
             "count": {
-              "min": 3,
-              "max": 999999
+              "min": 3
             }
           }
         }

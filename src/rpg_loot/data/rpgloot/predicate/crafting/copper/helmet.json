@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "copper_ingot",
+            "count": {
+              "min": 10
+            }
+          }
+        }
+      }
+    }
+  ]
+}
