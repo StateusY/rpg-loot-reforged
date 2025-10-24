@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "rpgloot:item/weapons/storm_spear"
+    "model": "rpgloot:item/storm_spear"
   }
 }

@@ -55,7 +55,7 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:weapons/storm_spear",
+                "minecraft:item_model": "rpgloot:storm_spear",
                 "minecraft:consumable": {
                   "consume_seconds": 99999,
                   "animation": "spear",
