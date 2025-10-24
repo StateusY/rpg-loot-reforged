@@ -25,12 +25,12 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,events:[{\"name\":\"ember_charge\",\"source\": \"weapon\", \"listen\": \"use\", \"command\": \"function rpgloot:items/storm_spear/use\"},{\"name\":\"storm_spear_throw\",\"source\": \"weapon\", \"listen\": \"use_end\", \"command\": \"function rpgloot:items/storm_spear/throw\"}],attributes:[{id:physical_dmg,name:wood_sword,source:weapon,type:add,value:96}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:bow,bow:{draw:150,velocity:0,inaccuracy:0},events:[{name:ember, \"source\": \"weapon\", \"listen\": \"use\", \"command\": \"say e\"}],attributes:[{id:ranged_dmg,name:ember,source:weapon,type:add,value:50},{id:fire_dmg,name:ember,source:weapon,type:add,value:50}]}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:weapon": 1
+                "rpgc:bow": 1
               }
             },
             {

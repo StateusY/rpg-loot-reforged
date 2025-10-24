@@ -1,4 +1,4 @@
-tag @s add rpgc.current_attacker
+execute unless score .no_attacker rpgc.temp matches 1 run tag @s add rpgc.current_attacker
 
 function rpgc:z_api/event/call {event:hit}
 #get the dmg mult *can be increased by crits*

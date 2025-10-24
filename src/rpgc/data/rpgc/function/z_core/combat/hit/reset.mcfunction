@@ -19,6 +19,7 @@ scoreboard players reset .random
 scoreboard players reset .crit_chance
 scoreboard players reset .divide
 scoreboard players reset .temp
+scoreboard players reset .no_attacker
 scoreboard players reset .halt_combat_clear
 data remove storage rpgc:temp combat
 data remove storage rpgc:temp numbers
