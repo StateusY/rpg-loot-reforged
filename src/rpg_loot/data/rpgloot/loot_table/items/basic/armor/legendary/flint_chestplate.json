@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_flint_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"flint_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"flint_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 48}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_flint_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"flint_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"flint_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 48}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

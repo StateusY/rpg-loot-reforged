@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_silver_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"silver_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 5}, {\"id\": \"max_hp\", \"name\": \"silver_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 14}]}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_silver_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"silver_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 5}, {\"id\": \"max_hp\", \"name\": \"silver_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 14}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

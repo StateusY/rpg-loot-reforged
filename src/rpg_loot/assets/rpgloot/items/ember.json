@@ -4,28 +4,28 @@
     "property": "minecraft:custom_model_data",
     "entries": [
       {
-        "threshold": 1,
+        "threshold": 10,
         "model": {
           "type": "minecraft:model",
           "model": "rpgloot:item/ember_pulling_0"
         }
       },
       {
-        "threshold": 25,
+        "threshold": 50,
         "model": {
           "type": "minecraft:model",
           "model": "rpgloot:item/ember_pulling_1"
         }
       },
       {
-        "threshold": 50,
+        "threshold": 100,
         "model": {
           "type": "minecraft:model",
           "model": "rpgloot:item/ember_pulling_2"
         }
       },
       {
-        "threshold": 100,
+        "threshold": 200,
         "model": {
           "type": "minecraft:model",
           "model": "rpgloot:item/ember_pulling_3"

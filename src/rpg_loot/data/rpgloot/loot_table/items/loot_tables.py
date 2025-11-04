@@ -601,6 +601,7 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
         # single string → single enchant at level 1
         enchantments = {enchantment_type: 1}
 
+    tag_string = tag_string[:-1] + ",rpgloot_modified:false}"
     return {
         "pools": [{
             "rolls": 1,

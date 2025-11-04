@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "UnmodifiedItem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "rpgloot_modified": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgloot:player/item_parts/item_changed"
+  }
+}

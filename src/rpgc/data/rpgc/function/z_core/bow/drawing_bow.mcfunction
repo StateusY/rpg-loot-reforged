@@ -12,7 +12,6 @@ scoreboard players operation @s rpgc.draw_percent /= .temp rpgc.temp
 execute store result storage rpgc:temp draw_percent double 1 run scoreboard players get @s rpgc.draw_percent
 execute store result storage rpgc:temp draw_speed double 0.01 run function rpgc:z_api/attribute/get {id:draw_speed}
 function rpgc:z_core/bow/_draw with storage rpgc:temp
-execute if score @s rpgc.draw_percent matches 101.. run scoreboard players set @s rpgc.draw_percent 100
 title @s actionbar {"score":{"name":"@s","objective":"rpgc.draw_percent"}}
-execute if items entity @s weapon.mainhand bow run return run item modify entity @s weapon.mainhand {function:"minecraft:set_custom_model_data",floats:{values:[{type:"minecraft:score",target:{type:"minecraft:context",target:"this"},score:"rpgc.draw_percent",scale:1}],mode:"replace_all"}}
-execute if items entity @s weapon.offhand bow run return run item modify entity @s weapon.offhand {function:"minecraft:set_custom_model_data",floats:{values:[{type:"minecraft:score",target:{type:"minecraft:context",target:"this"},score:"rpgc.draw_percent",scale:1}],mode:"replace_all"}}
+execute unless score @s rpgc.draw_percent matches 101.. if items entity @s weapon.mainhand bow run item modify entity @s weapon.mainhand {function:"minecraft:set_custom_model_data",floats:{values:[{type:"minecraft:score",target:{type:"minecraft:context",target:"this"},score:"rpgc.draw_percent",scale:1}],mode:"replace_all"}}
+execute if score @s rpgc.draw_percent matches 101.. run scoreboard players set @s rpgc.draw_percent 100

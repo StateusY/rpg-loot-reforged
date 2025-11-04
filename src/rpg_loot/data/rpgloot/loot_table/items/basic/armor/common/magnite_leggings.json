@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_magnite_leggings,attributes:[{\"id\": \"armor\", \"name\": \"magnite_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"magnite_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 19}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_magnite_leggings,attributes:[{\"id\": \"armor\", \"name\": \"magnite_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"magnite_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 19}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

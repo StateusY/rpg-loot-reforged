@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_netherite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"netherite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 10}, {\"id\": \"max_hp\", \"name\": \"netherite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 23}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_netherite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"netherite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 10}, {\"id\": \"max_hp\", \"name\": \"netherite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 23}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

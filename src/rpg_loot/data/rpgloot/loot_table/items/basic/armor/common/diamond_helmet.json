@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_diamond_helmet,attributes:[{\"id\": \"armor\", \"name\": \"diamond_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 6}, {\"id\": \"max_hp\", \"name\": \"diamond_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 9}]}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_diamond_helmet,attributes:[{\"id\": \"armor\", \"name\": \"diamond_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 6}, {\"id\": \"max_hp\", \"name\": \"diamond_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 9}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

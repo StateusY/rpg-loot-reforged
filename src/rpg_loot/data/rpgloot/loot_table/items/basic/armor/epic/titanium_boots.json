@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[{\"name\": \"titanium_boots\", \"source\": \"feet\", \"listen\": \"feet_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:epic_titanium_boots,attributes:[{\"id\": \"armor\", \"name\": \"titanium_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 14}, {\"id\": \"max_hp\", \"name\": \"titanium_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 33}, {\"id\": \"dodge\", \"name\": \"titanium_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 0.04}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[{\"name\": \"titanium_boots\", \"source\": \"feet\", \"listen\": \"feet_swap\", \"command\": \"function rpgloot:items/basic/titanium/armor/swap\"}],id:epic_titanium_boots,attributes:[{\"id\": \"armor\", \"name\": \"titanium_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 14}, {\"id\": \"max_hp\", \"name\": \"titanium_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 33}, {\"id\": \"dodge\", \"name\": \"titanium_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 0.04}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

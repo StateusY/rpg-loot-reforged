@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_flint_boots,attributes:[{\"id\": \"armor\", \"name\": \"flint_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 10}, {\"id\": \"max_hp\", \"name\": \"flint_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 27}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_flint_boots,attributes:[{\"id\": \"armor\", \"name\": \"flint_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 10}, {\"id\": \"max_hp\", \"name\": \"flint_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 27}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:armor,events:[],id:rare_diamond_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"diamond_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"diamond_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 18}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:armor,events:[],id:rare_diamond_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"diamond_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 12}, {\"id\": \"max_hp\", \"name\": \"diamond_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 18}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

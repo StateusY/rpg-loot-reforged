@@ -25,7 +25,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:bow,bow:{draw:150,velocity:0,inaccuracy:0},events:[{name:ember, \"source\": \"weapon\", \"listen\": \"use\", \"command\": \"say e\"}],attributes:[{id:ranged_dmg,name:ember,source:weapon,type:add,value:50},{id:fire_dmg,name:ember,source:weapon,type:add,value:50}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:bow,bow:{draw:100,velocity:0,inaccuracy:0},events:[{name:ember_use, \"source\": \"weapon\", \"listen\": \"use\", \"command\": \"function rpgloot:items/ember/using\"},{name:ember_shoot, \"source\": \"weapon\", \"listen\": \"bow_shot\", \"command\": \"function rpgloot:items/ember/shoot\"}],attributes:[{id:ranged_dmg,name:ember,source:weapon,type:add,value:50},{id:fire_dmg,name:ember,source:weapon,type:add,value:50}]}"
             },
             {
               "function": "minecraft:set_enchantments",

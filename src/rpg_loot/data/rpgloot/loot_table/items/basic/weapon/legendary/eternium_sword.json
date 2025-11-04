@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:weapon,events:[],attributes:[{id:physical_dmg,name:eternium_sword,source:weapon,type:add,value:192}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:weapon,events:[],attributes:[{id:physical_dmg,name:eternium_sword,source:weapon,type:add,value:192}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

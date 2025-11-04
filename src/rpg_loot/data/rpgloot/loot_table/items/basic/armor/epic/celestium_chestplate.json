@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_celestium_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"celestium_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"celestium_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 64}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_celestium_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"celestium_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"celestium_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 64}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

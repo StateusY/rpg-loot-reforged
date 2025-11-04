@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_cobalt_boots,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 8}, {\"id\": \"max_hp\", \"name\": \"cobalt_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 15}]}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_cobalt_boots,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 8}, {\"id\": \"max_hp\", \"name\": \"cobalt_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 15}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

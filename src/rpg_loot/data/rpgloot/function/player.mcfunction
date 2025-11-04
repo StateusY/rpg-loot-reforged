@@ -17,3 +17,4 @@ execute if score @s rpgloot.parry_timer matches 1.. run scoreboard players remov
 # Stations
 execute if score @s rpgloot.interact_with_smithing_table matches 1.. run function rpgloot:station/crafter/interact
 
+execute if entity @s[tag=rpgloot.item_queued] run function rpgloot:player/item_parts/fetch_slots

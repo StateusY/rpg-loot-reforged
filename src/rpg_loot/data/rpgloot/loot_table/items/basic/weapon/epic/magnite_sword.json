@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:weapon,events:[],attributes:[{id:physical_dmg,name:magnite_sword,source:weapon,type:add,value:76}]}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:weapon,events:[],attributes:[{id:physical_dmg,name:magnite_sword,source:weapon,type:add,value:76}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

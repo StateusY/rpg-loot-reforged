@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:armor,events:[],id:rare_iron_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"iron_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 8}, {\"id\": \"max_hp\", \"name\": \"iron_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 15}]}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:armor,events:[],id:rare_iron_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"iron_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 8}, {\"id\": \"max_hp\", \"name\": \"iron_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 15}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

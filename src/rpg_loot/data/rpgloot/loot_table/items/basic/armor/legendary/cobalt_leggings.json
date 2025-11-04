@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_cobalt_leggings,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"cobalt_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 60}]}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[],id:legendary_cobalt_leggings,attributes:[{\"id\": \"armor\", \"name\": \"cobalt_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 24}, {\"id\": \"max_hp\", \"name\": \"cobalt_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 60}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
