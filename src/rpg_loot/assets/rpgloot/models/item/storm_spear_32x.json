@@ -1,0 +1,6 @@
+{
+  "parent": "rpgloot:item/32x",
+  "textures": {
+    "layer0": "rpgloot:item/storm_spear_32x"
+  }
+}

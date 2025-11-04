@@ -1,6 +1,6 @@
 {
-  "parent": "rpgloot:item/32x",
+  "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "rpgloot:item/weapons/storm_spear"
+    "layer0": "rpgloot:item/storm_spear"
   }
 }
