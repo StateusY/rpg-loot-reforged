@@ -1,0 +1,1 @@
+function rpgloot:parts/vampiric/follow with entity @s data
