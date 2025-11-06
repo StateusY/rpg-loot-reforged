@@ -1,5 +1,4 @@
 $data modify storage rpgc:registry temp.all set from storage rpgc:registry $(registry)."$(entry)"
-
 data modify storage rpgc:registry temp.filtered set value []
 execute if data storage rpgc:registry temp.all[0] run function rpgc:z_core/registry/list/filter
 

@@ -3,7 +3,7 @@ execute rotated ~ 0 run function rpgloot:items/basic/titanium/armor/particles/ra
 execute rotated ~ 0 run function rpgloot:items/basic/titanium/armor/particles/random
 execute rotated ~ 0 run function rpgloot:items/basic/titanium/armor/particles/random
 
-execute positioned ~ ~ ~ align y run function rpgloot:util/shatter_block
+execute positioned ~ ~ ~ align y run function rpgloot:util/shatter_block {duration:100,shrink:70}
 
 particle small_gust ~ ~1 ~ .5 .5 .5 0 2 normal
 execute unless score @s rpgloot.titanium_timer matches 2.. run return fail

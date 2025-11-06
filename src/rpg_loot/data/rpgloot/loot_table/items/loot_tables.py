@@ -84,7 +84,7 @@ materials = [
         "armor_value": 4,
         "durability": 512,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
-        "weapon_events": '[]',
+        "weapon_events": '[{"name":"iron_sword_hurt","source": "weapon", "listen": "hurt", "command": "function rpgloot:items/basic/iron/sword/hurt"},{"name":"iron_sword_held","source": "weapon", "listen": "held", "command": "function rpgloot:items/basic/iron/sword/held"},{"name":"iron_sword_swap","source": "weapon", "listen": "swap", "command": "function rpgloot:items/basic/iron/sword/swap_off"},{"name":"iron_sword_use","source": "weapon", "listen": "use", "command": "function rpgloot:items/basic/iron/sword/use"}]',
         "bow_events": '[]',
         "armor_events": '[]'
     },
@@ -379,12 +379,29 @@ def generate_sword(material, rarity, item_type):
     tag_string = (
         f'{{rpgc:true,'
         f'rpgloot_tier:{rarity},'
-        f'rpgloot_type:weapon,'
+        f'rpgloot_type:sword,'
         f'events:{weapon_events},'
         f'attributes:[{{id:physical_dmg,name:{material["name"].lower()}_sword,source:weapon,type:add,value:{damage}}}]}}'
     )
+    extra_components = {
+        "minecraft:consumable": {
+            "consume_seconds": 999999,
+            "animation": "none",
+            "on_consume_effects": []
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:attack_speed",
+            "id": "default",
+            "amount": -2.4,
+            "operation": "add_value",
+            "slot": "any"
+          }
+        ]
+    }
 
-    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability)
+    return create_loot_entry(material, rarity, color, item_type, tag_string, "rpgc:weapon", durability, extra_components)
+
 
 
 def generate_bow(material, rarity, item_type):
@@ -427,15 +444,10 @@ def generate_tool(material, rarity, item_type):
     tool_speed = material.get("tool_speed", 1)
     color = rarities[rarity]["color"]
 
-    weapon_events = material.get("weapon_events", "[]")
-    if not isinstance(weapon_events, str):
-        weapon_events = json.dumps(weapon_events)
-
     tag_string = (
         f'{{rpgc:true,'
         f'rpgloot_tier:{rarity},'
         f'rpgloot_type:tool,'
-        f'events:{weapon_events},'
         f'attributes:[{{id:physical_dmg,name:{material["name"].lower()}_{item_type},source:weapon,type:add,value:{damage}}}]}}'
     )
 

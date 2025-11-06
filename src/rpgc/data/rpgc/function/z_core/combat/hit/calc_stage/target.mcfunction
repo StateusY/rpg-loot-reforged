@@ -1,3 +1,5 @@
+
+
 execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",gamemode:["creative","spectator"]}}} run return run function rpgc:z_core/combat/hit/reset
 execute if function rpgc:z_core/combat/hit/calc_stage/check_valid unless score .halt_combat_clear rpgc.temp matches 1 run function rpgc:z_core/combat/hit/reset
 execute if entity @s[type=player] if score @s rpgc.iframes matches 1.. run return run function rpgc:z_core/combat/hit/reset
@@ -7,6 +9,7 @@ execute store result storage rpgc:temp combat.dodge double 0.01 run scoreboard p
 function rpgc:z_core/combat/hit/calc_stage/dodge with storage rpgc:temp combat
 execute if score .dodged rpgc.temp matches 1 run return run function rpgc:z_core/combat/hit/reset
 function rpgc:z_api/event/call {event:hurt}
+
 
 data modify storage rpgc:temp combat.dmg set from storage rpgc:temp combat.all_dmg
 execute store result score .armor rpgc.temp run function rpgc:z_api/attribute/get {id:armor}

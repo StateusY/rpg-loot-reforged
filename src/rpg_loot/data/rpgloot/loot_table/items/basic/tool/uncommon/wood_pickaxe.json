@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:tool,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:physical_dmg,name:wood_pickaxe,source:weapon,type:add,value:3}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:tool,attributes:[{id:physical_dmg,name:wood_pickaxe,source:weapon,type:add,value:3}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

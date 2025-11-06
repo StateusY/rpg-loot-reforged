@@ -10,9 +10,13 @@ scoreboard objectives add rpgloot.died deathCount
 # util
 scoreboard objectives add rpgloot.ttk dummy
 scoreboard objectives add rpgloot.block_shatter dummy
+scoreboard objectives add rpgloot.block_dur dummy
+scoreboard objectives add rpgloot.block_shrink dummy
 # Items
 scoreboard objectives add rpgloot.twinstep_slam_start dummy
 scoreboard objectives add rpgloot.twinstep_slam_end dummy
+scoreboard objectives add rpgloot.twinstep_cooldown dummy
+
 
 scoreboard objectives add rpgloot.storm_spear_charge dummy
 scoreboard objectives add rpgloot.storm_spear_strength dummy

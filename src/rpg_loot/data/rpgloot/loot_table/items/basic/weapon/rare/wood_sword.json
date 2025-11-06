@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:weapon,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:physical_dmg,name:wood_sword,source:weapon,type:add,value:28}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:sword,events:[{\"name\":\"wood_sword\",\"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/wood/sword/hit\"}],attributes:[{id:physical_dmg,name:wood_sword,source:weapon,type:add,value:28}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -83,7 +83,21 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:weapons/wood_sword"
+                "minecraft:item_model": "rpgloot:weapons/wood_sword",
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "on_consume_effects": []
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "default",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "any"
+                  }
+                ]
               }
             }
           ]

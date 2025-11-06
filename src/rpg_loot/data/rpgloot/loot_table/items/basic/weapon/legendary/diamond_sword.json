@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:weapon,events:[],attributes:[{id:physical_dmg,name:diamond_sword,source:weapon,type:add,value:108}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:sword,events:[],attributes:[{id:physical_dmg,name:diamond_sword,source:weapon,type:add,value:108}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -83,7 +83,21 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:weapons/diamond_sword"
+                "minecraft:item_model": "rpgloot:weapons/diamond_sword",
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "on_consume_effects": []
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "default",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "any"
+                  }
+                ]
               }
             }
           ]
