@@ -12,6 +12,7 @@ execute if score @s rpgloot.mythril_mined matches 1.. run scoreboard players res
 
 # Items
 execute if entity @s[tag=rpgloot.titanium_ran] run tag @s remove rpgloot.titanium_ran
+execute if entity @s[tag=rpgloot.magnite_ran] run tag @s remove rpgloot.magnite_ran
 execute if score @s rpgloot.parry_timer matches 1.. run scoreboard players remove @s rpgloot.parry_timer 1
 execute if score @s rpgloot.twinstep_cooldown matches 1.. run scoreboard players remove @s rpgloot.twinstep_cooldown 1
 # Stations

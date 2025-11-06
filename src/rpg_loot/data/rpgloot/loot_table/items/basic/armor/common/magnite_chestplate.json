@@ -53,12 +53,12 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_magnite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"magnite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"magnite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 19}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[{\"name\": \"magnite_chestplate\", \"source\": \"chest\", \"listen\": \"chest_swap\", \"command\": \"function rpgloot:items/basic/magnite/armor/swap\"}],id:common_magnite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"magnite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"magnite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 19}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:armor": 1
+                "rpgloot:backend/items/magnite": 1
               }
             },
             {

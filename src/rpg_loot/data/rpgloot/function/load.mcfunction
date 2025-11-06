@@ -34,6 +34,9 @@ scoreboard objectives add rpgloot.titanium_timer dummy
 scoreboard objectives add rpgloot.titanium_charge dummy
 scoreboard objectives add rpgloot.titanium_bow dummy
 
+scoreboard objectives add rpgloot.magnite_charge dummy
+scoreboard objectives add rpgloot.magnite_count dummy
+
 
 scoreboard objectives add rpgloot.mythril_mined minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add rpgloot.magnite_mined minecraft.mined:minecraft.deepslate_lapis_ore

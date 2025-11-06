@@ -1,0 +1,65 @@
+{
+  "description": "",
+  "supported_items": "minecraft:structure_void",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "rpgloot:backend/items/magnite"
+                      }
+                    ]
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "rpgloot:backend/items/magnite"
+                      }
+                    ]
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "rpgloot:backend/items/magnite"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "rpgloot:items/basic/magnite/armor/tick"
+        }
+      }
+    ]
+  }
+}

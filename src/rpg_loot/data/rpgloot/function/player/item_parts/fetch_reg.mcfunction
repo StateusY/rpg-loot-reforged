@@ -5,7 +5,6 @@ data modify storage rpgloot:temp dupe.name set from storage rpgc:registry temp.r
 data modify storage rpgloot:temp dupe.slot set from storage rpgloot:temp parts.item.Slot
 
 execute store result score .dupe rpgloot.temp run function rpgloot:player/item_parts/check_dupe with storage rpgloot:temp dupe
-execute if score .dupe rpgloot.temp matches 1 run say dupe detected
 execute if score .dupe rpgloot.temp matches 1 run return run function rpgloot:player/item_parts/fetch_reg with storage rpgloot:temp parts.item.components.minecraft:custom_data
 
 data modify storage rpgloot:temp parts.modifiers set from storage rpgc:registry temp.result.properties.modifiers

@@ -53,12 +53,12 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_magnite_boots,attributes:[{\"id\": \"armor\", \"name\": \"magnite_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"magnite_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 19}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[{\"name\": \"magnite_boots\", \"source\": \"feet\", \"listen\": \"feet_swap\", \"command\": \"function rpgloot:items/basic/magnite/armor/swap\"}],id:uncommon_magnite_boots,attributes:[{\"id\": \"armor\", \"name\": \"magnite_boots_armor\", \"source\": \"feet\", \"type\": \"add\", \"value\": 9}, {\"id\": \"max_hp\", \"name\": \"magnite_boots_hp\", \"source\": \"feet\", \"type\": \"add\", \"value\": 19}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:armor": 1
+                "rpgloot:backend/items/magnite": 1
               }
             },
             {

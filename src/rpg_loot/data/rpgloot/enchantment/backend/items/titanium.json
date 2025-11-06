@@ -24,15 +24,6 @@
             "entity": "this",
             "predicate": {
               "equipment": {
-                "head": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "rpgloot:backend/items/titanium"
-                      }
-                    ]
-                  }
-                },
                 "chest": {
                   "predicates": {
                     "minecraft:enchantments": [
