@@ -1,3 +1,4 @@
+execute unless score @s rpgloot.twinstep_cooldown matches 1.. run scoreboard players set @s[tag=rpgloot.twinstep_dash1_end] rpgloot.twinstep_cooldown 200
 attribute @s safe_fall_distance modifier remove rpgloot.twinstep
 tag @s remove rpgloot.twinstep_modified
 tag @s remove rpgloot.twinstep_dash1

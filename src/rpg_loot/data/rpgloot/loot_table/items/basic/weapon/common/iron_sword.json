@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:weapon,events:[],attributes:[{id:physical_dmg,name:iron_sword,source:weapon,type:add,value:10}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:sword,events:[{\"name\":\"iron_sword_hurt\",\"source\": \"weapon\", \"listen\": \"hurt\", \"command\": \"function rpgloot:items/basic/iron/sword/hurt\"},{\"name\":\"iron_sword_held\",\"source\": \"weapon\", \"listen\": \"held\", \"command\": \"function rpgloot:items/basic/iron/sword/held\"},{\"name\":\"iron_sword_swap\",\"source\": \"weapon\", \"listen\": \"swap\", \"command\": \"function rpgloot:items/basic/iron/sword/swap_off\"},{\"name\":\"iron_sword_use\",\"source\": \"weapon\", \"listen\": \"use\", \"command\": \"function rpgloot:items/basic/iron/sword/use\"}],attributes:[{id:physical_dmg,name:iron_sword,source:weapon,type:add,value:10}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -83,7 +83,21 @@
                   ]
                 ],
                 "minecraft:tooltip_style": "rpgloot:rpgloot",
-                "minecraft:item_model": "rpgloot:weapons/iron_sword"
+                "minecraft:item_model": "rpgloot:weapons/iron_sword",
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "on_consume_effects": []
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "default",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "any"
+                  }
+                ]
               }
             }
           ]

@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:tool,events:[],attributes:[{id:physical_dmg,name:eternium_pickaxe,source:weapon,type:add,value:32}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:tool,attributes:[{id:physical_dmg,name:eternium_pickaxe,source:weapon,type:add,value:32}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

@@ -1,4 +1,4 @@
-
+scoreboard players set @s rpgloot.twinstep_cooldown 200
 tag @s add rpgloot.twinstep_dash2
 playsound minecraft:entity.breeze.wind_burst player @a ~ ~ ~ 0.25 2
 scoreboard players set $strength player_motion.api.launch 10000

@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:tool,events:[],attributes:[{id:physical_dmg,name:silver_shovel,source:weapon,type:add,value:4}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:tool,attributes:[{id:physical_dmg,name:silver_shovel,source:weapon,type:add,value:4}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

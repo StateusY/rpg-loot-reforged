@@ -1,5 +1,5 @@
 execute store result storage rpgloot:temp shatter.x int 3 run random value -30..30
-execute store result storage rpgloot:temp shatter.y int 0.3 run random value -30..30
+execute store result storage rpgloot:temp shatter.y int 2 run random value -10..10
 function rpgloot:util/block_shatter/rotate with storage rpgloot:temp shatter
 execute on vehicle at @s run loot replace entity @s weapon.offhand mine ~ ~-1 ~ minecraft:diamond_pickaxe[enchantments={silk_touch:1}]
 execute on vehicle run tag @s add rpgloot.block_shatter_current
