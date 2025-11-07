@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[{\"name\": \"magnite_chestplate\", \"source\": \"chest\", \"listen\": \"chest_swap\", \"command\": \"function rpgloot:items/basic/magnite/armor/swap\"}],id:legendary_magnite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"magnite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 27}, {\"id\": \"max_hp\", \"name\": \"magnite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 57}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:legendary,rpgloot_type:armor,events:[{\"name\": \"magnite_chestplate\", \"source\": \"chest\", \"listen\": \"chest_swap\", \"command\": \"function rpgloot:items/basic/magnite/armor/swap\"}, {\"name\": \"magnite_hit\", \"source\": \"chest\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/magnite/armor/hit\"}],id:legendary_magnite_chestplate,attributes:[{\"id\": \"armor\", \"name\": \"magnite_chestplate_armor\", \"source\": \"chest\", \"type\": \"add\", \"value\": 27}, {\"id\": \"max_hp\", \"name\": \"magnite_chestplate_hp\", \"source\": \"chest\", \"type\": \"add\", \"value\": 57}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

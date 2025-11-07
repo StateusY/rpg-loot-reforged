@@ -53,12 +53,12 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[],id:epic_magnite_helmet,attributes:[{\"id\": \"armor\", \"name\": \"magnite_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"magnite_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 38}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:armor,events:[{\"name\": \"magnite_helmet\", \"source\": \"head\", \"listen\": \"head_swap\", \"command\": \"function rpgloot:items/basic/magnite/armor/swap\"}, {\"name\": \"magnite_hit\", \"source\": \"head\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/magnite/armor/hit\"}],id:epic_magnite_helmet,attributes:[{\"id\": \"armor\", \"name\": \"magnite_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 18}, {\"id\": \"max_hp\", \"name\": \"magnite_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 38}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "rpgc:armor": 1
+                "rpgloot:backend/items/magnite": 1
               }
             },
             {

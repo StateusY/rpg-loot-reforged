@@ -18,43 +18,151 @@
   "effects": {
     "minecraft:tick": [
       {
-        "requirements": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "chest": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "rpgloot:backend/items/titanium"
-                      }
-                    ]
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "legs": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "feet": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
                   }
-                },
-                "legs": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "rpgloot:backend/items/titanium"
-                      }
-                    ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "legs": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "feet": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
                   }
-                },
-                "feet": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "rpgloot:backend/items/titanium"
-                      }
-                    ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "head": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "feet": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "legs": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
+                  },
+                  "head": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/titanium"
+                        }
+                      ]
+                    }
                   }
                 }
               }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "rpgloot:items/basic/titanium/armor/tick"

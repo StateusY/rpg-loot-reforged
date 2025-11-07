@@ -18,43 +18,151 @@
   "effects": {
     "minecraft:tick": [
       {
-        "requirements": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "chest": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "rpgloot:backend/items/magnite"
-                      }
-                    ]
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "legs": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "feet": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
                   }
-                },
-                "legs": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "rpgloot:backend/items/magnite"
-                      }
-                    ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "legs": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "feet": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
                   }
-                },
-                "feet": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "rpgloot:backend/items/magnite"
-                      }
-                    ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "head": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "feet": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "legs": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
+                  },
+                  "head": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "rpgloot:backend/items/magnite"
+                        }
+                      ]
+                    }
                   }
                 }
               }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "rpgloot:items/basic/magnite/armor/tick"
