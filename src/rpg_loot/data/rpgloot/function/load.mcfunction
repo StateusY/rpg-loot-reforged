@@ -29,6 +29,8 @@ scoreboard objectives add rpgloot.splinter_timer dummy
 
 scoreboard objectives add rpgloot.parry_timer dummy
 
+scoreboard objectives add rpgloot.silver_impact_spike_timer dummy
+
 scoreboard objectives add rpgloot.titanium_image dummy
 scoreboard objectives add rpgloot.titanium_timer dummy
 scoreboard objectives add rpgloot.titanium_charge dummy
