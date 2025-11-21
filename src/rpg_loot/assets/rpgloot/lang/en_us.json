@@ -36,6 +36,8 @@
     "rpgloot.item_type.uncommon": "Uncommon",
     "rpgloot.item_type.rare": "Rare",
     "rpgloot.item_type.epic": "Epic",
-    "rpgloot.item_type.legendary": "Legendary"
+    "rpgloot.item_type.legendary": "Legendary",
+
+    "rpgloot.item_name_replace.stone_bow": "Sling"
 
 }
