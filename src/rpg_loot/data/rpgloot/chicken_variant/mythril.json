@@ -1,0 +1,13 @@
+{
+  "model": "normal",
+  "asset_id": "rpgloot:entity/mythril_chicken",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_nether"
+      },
+      "priority": 1
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:chicken/variant": "minecraft:temperate"
+                    }
+                  }
+                }
+              ],
+              "name": "minecraft:egg"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:chicken/variant": "minecraft:warm"
+                    }
+                  }
+                }
+              ],
+              "name": "minecraft:brown_egg"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:chicken/variant": "minecraft:cold"
+                    }
+                  }
+                }
+              ],
+              "name": "minecraft:blue_egg"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:egg",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:chicken/variant": "rpgloot:mythril"
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_model": "rpgloot:materials/mythril_egg",
+                    "minecraft:lore": [
+                      [
+                        {
+                          "text": "0 ",
+                          "color": "white",
+                          "font": "rpgloot:icon",
+                          "italic": false
+                        },
+                        {
+                          "translate": "rpgloot.tooltip",
+                          "color": "white",
+                          "font": "rpgloot:tooltip",
+                          "italic": false
+                        }
+                      ]
+                    ],
+                    "minecraft:tooltip_style": "rpgloot:rpgloot",
+                    "minecraft:custom_data": {
+                      "rpgloot": {
+                        "ingredient": {
+                          "type": "mythril_egg"
+                        }
+                      },
+                      "smithed": {
+                        "ignore": {
+                          "functionality": true,
+                          "crafting": true
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "text": "Mythril Egg",
+                    "italic": false
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_data",
+                  "tag": {
+                    "rpgloot": {
+                      "material": "mythril_egg"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/chicken_lay"
+}
