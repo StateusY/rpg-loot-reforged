@@ -1,3 +1,20 @@
+# Global parts
+function rpgloot:player/item_parts/register_part {type:"sword",weight:[50,75,50,25,10,5],name:"Charmed",properties:{events:[],modifiers:[{id:"minecraft:luck",value:10,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"sword",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"sword",weight:[5,15,25,75,75,50],name:"Glimmering",properties:{events:[],modifiers:[{id:"minecraft:luck",value:50,type:"add_value"}],attributes:[]}}
+
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[50,75,50,25,10,5],name:"Charmed",properties:{events:[],modifiers:[{id:"minecraft:luck",value:10,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[5,15,25,75,75,50],name:"Glimmering",properties:{events:[],modifiers:[{id:"minecraft:luck",value:50,type:"add_value"}],attributes:[]}}
+
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[50,75,50,25,10,5],name:"Charmed",properties:{events:[],modifiers:[{id:"minecraft:luck",value:10,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[5,15,25,75,75,50],name:"Glimmering",properties:{events:[],modifiers:[{id:"minecraft:luck",value:50,type:"add_value"}],attributes:[]}}
+
+function rpgloot:player/item_parts/register_part {type:"tool",weight:[50,75,50,25,10,5],name:"Charmed",properties:{events:[],modifiers:[{id:"minecraft:luck",value:10,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"tool",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"tool",weight:[5,15,25,75,75,50],name:"Glimmering",properties:{events:[],modifiers:[{id:"minecraft:luck",value:50,type:"add_value"}],attributes:[]}}
+
 # sword stuffs
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[6,5,4,3,2,1],name:"Lengthy",properties:{events:[],modifiers:[{id:"minecraft:entity_interaction_range",value:.25,type:"add_multiplied_total"}],attributes:[]}}
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[6,5,4,3,2,1],name:"Heavy",properties:{events:[],modifiers:[{id:"minecraft:attack_speed",value:-.10,type:"add_multiplied_total"}],attributes:[{id:dmg_mult,name:heavy,source:modifier,type:mul,value:.05}]}}

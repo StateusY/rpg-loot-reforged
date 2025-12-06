@@ -1,4 +1,4 @@
-$say $(slot)
+#$say $(slot)
 $data modify storage rpgloot:temp parts.item set from entity @s Inventory[{Slot:$(slot)b}]
 
 

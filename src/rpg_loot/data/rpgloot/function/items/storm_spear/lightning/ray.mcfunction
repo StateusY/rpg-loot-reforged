@@ -8,4 +8,4 @@ execute store result storage rpgloot:temp lightning.y double 0.4 run random valu
 function rpgloot:items/storm_spear/lightning/offset with storage rpgloot:temp lightning
 execute positioned ~ ~ ~ run tp @s ~ ~ ~
 playsound minecraft:entity.firework_rocket.twinkle player @a ~ ~ ~ 0.01 2
-execute if predicate {condition:"minecraft:random_chance",chance:0.25} run function rpgloot:items/storm_spear/lightning/spawn_step
+execute if predicate {condition:"minecraft:random_chance",chance:0.27} run function rpgloot:items/storm_spear/lightning/spawn_step
