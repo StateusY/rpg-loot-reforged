@@ -1,3 +1,4 @@
+# sword stuffs
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[6,5,4,3,2,1],name:"Lengthy",properties:{events:[],modifiers:[{id:"minecraft:entity_interaction_range",value:.25,type:"add_multiplied_total"}],attributes:[]}}
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[6,5,4,3,2,1],name:"Heavy",properties:{events:[],modifiers:[{id:"minecraft:attack_speed",value:-.10,type:"add_multiplied_total"}],attributes:[{id:dmg_mult,name:heavy,source:modifier,type:mul,value:.05}]}}
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[6,5,4,3,2,1],name:"Swift",properties:{events:[],modifiers:[{id:"minecraft:attack_speed",value:.25,type:"add_multiplied_total"}],attributes:[]}}
@@ -6,3 +7,12 @@ function rpgloot:player/item_parts/register_part {type:"sword",weight:[5,15,25,5
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[10,25,50,100,75,50],name:"Infernal",properties:{events:[{"name":"infernal","source": "part", "listen": "hit", "command": "function rpgloot:parts/infernal/hit"}],modifiers:[],attributes:[]}}
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[25,50,100,50,25,15],name:"Blunt",properties:{events:[{"name":"blunt","source": "part", "listen": "hit", "command": "function rpgloot:parts/blunt/hit"}],modifiers:[],attributes:[]}}
 function rpgloot:player/item_parts/register_part {type:"sword",weight:[1,5,15,25,75,50],name:"Vampiric",properties:{events:[{"name":"vampiric","source": "part", "listen": "hit", "command": "function rpgloot:parts/vampiric/hit"}],modifiers:[],attributes:[]}}
+# bow stuff
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[1,5,15,25,175,50],name:"Anvilish",properties:{events:[{"name":"anvilish","source": "part", "listen": "bow_hit", "command": "function rpgloot:parts/anvilish/hit"}],modifiers:[],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[1,5,15,25,75,50],name:"Transmogratory",properties:{events:[{"name":"transmogratory","source": "part", "listen": "hit", "command": "function rpgloot:parts/transmogratory/hit"}],modifiers:[],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[1,5,15,25,75,50],name:"Warping",properties:{events:[{"name":"warping","source": "part", "listen": "hit", "command": "function rpgloot:parts/warping/hit"}],modifiers:[],attributes:[]}}
+# armor stuff
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[1,5,15,25,75,50],name:"Durable",properties:{events:[{"name":"durable","source": "part", "listen": "hit", "command": "function rpgloot:parts/durable/hit"}],modifiers:[],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[1,5,15,25,75,50],name:"Fleeting",properties:{events:[{"name":"fleeting","source": "part", "listen": "hit", "command": "function rpgloot:parts/fleeting/hit"}],modifiers:[],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[1,5,15,25,75,50],name:"Quickened",properties:{events:[{"name":"quickened","source": "part", "listen": "hit", "command": "function rpgloot:parts/quickened/hit"}],modifiers:[],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[1,5,15,25,75,50],name:"Vengeful",properties:{events:[{"name":"vengeful","source": "part", "listen": "hit", "command": "function rpgloot:parts/vengeful/hit"}],modifiers:[],attributes:[]}}
