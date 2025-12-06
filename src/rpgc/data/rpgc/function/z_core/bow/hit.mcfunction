@@ -5,6 +5,5 @@ execute store result score .crit_stage rpgc.temp run data get entity @s data.cri
 # data modify storage rpgc:temp bow_hit.target set value "@n[nbt={HurtTime:10s}]"
 # function rpgc:z_api/damage with storage rpgc:temp bow_hit
 function rpgc:z_core/bow/hit_ with entity @s data
-function rpgc:z_api/event/call {event:bow_hit}
 data remove storage rpgc:temp bow_hit
 kill @s

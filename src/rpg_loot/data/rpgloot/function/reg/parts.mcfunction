@@ -7,9 +7,9 @@ function rpgloot:player/item_parts/register_part {type:"bow",weight:[50,75,50,25
 function rpgloot:player/item_parts/register_part {type:"bow",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[]}}
 function rpgloot:player/item_parts/register_part {type:"bow",weight:[5,15,25,75,75,50],name:"Glimmering",properties:{events:[],modifiers:[{id:"minecraft:luck",value:50,type:"add_value"}],attributes:[]}}
 
-function rpgloot:player/item_parts/register_part {type:"armor",weight:[50,75,50,25,10,5],name:"Charmed",properties:{events:[],modifiers:[{id:"minecraft:luck",value:10,type:"add_value"}],attributes:[]}}
-function rpgloot:player/item_parts/register_part {type:"armor",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[]}}
-function rpgloot:player/item_parts/register_part {type:"armor",weight:[5,15,25,75,75,50],name:"Glimmering",properties:{events:[],modifiers:[{id:"minecraft:luck",value:50,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[50,75,50,25,10,5],name:"Charmed",properties:{events:[],modifiers:[{id:"minecraft:luck",value:2.5,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:6.25,type:"add_value"}],attributes:[]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[5,15,25,75,75,50],name:"Glimmering",properties:{events:[],modifiers:[{id:"minecraft:luck",value:12.5,type:"add_value"}],attributes:[]}}
 
 function rpgloot:player/item_parts/register_part {type:"tool",weight:[50,75,50,25,10,5],name:"Charmed",properties:{events:[],modifiers:[{id:"minecraft:luck",value:10,type:"add_value"}],attributes:[]}}
 function rpgloot:player/item_parts/register_part {type:"tool",weight:[25,50,75,50,25,10],name:"Lucky",properties:{events:[],modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[]}}

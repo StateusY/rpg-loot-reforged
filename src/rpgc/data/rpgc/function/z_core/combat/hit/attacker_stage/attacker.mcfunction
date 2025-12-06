@@ -1,6 +1,6 @@
 
 execute unless score .no_attacker rpgc.temp matches 1 run tag @s add rpgc.current_attacker
-
+execute if score .rpgc_bow rpgc.temp matches 1 run function rpgc:z_api/event/call {event:bow_hit}
 function rpgc:z_api/event/call {event:hit}
 #get the dmg mult *can be increased by crits*
 execute store result score .dmg_mult rpgc.temp run function rpgc:z_api/attribute/get {id:dmg_mult}
