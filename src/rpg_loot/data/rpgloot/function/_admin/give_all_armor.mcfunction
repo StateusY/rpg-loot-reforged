@@ -192,10 +192,6 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/silver_bo
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/silver_chestplate
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/silver_helmet
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/silver_leggings
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/stone_boots
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/stone_chestplate
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/stone_helmet
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/stone_leggings
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/titanium_boots
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/titanium_chestplate
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/epic/titanium_helmet
@@ -245,10 +241,6 @@ execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/silv
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/silver_chestplate
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/silver_helmet
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/silver_leggings
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/stone_boots
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/stone_chestplate
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/stone_helmet
-execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/stone_leggings
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/titanium_boots
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/titanium_chestplate
 execute at @s run loot spawn ~ ~ ~ loot rpgloot:items/basic/armor/legendary/titanium_helmet

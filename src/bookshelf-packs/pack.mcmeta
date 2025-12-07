@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 88,
+    "description": "Bookshelf module for retrieving and checking the hitboxes of blocks and entities."
+  }
+}
