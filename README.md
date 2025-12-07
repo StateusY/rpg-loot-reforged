@@ -4,15 +4,8 @@
 
 In essence, RPG Loot Reforged is a rework of Michael9r9r's rpgloot datapack. It is incompatable with most datapacks as it changes world gen, combat, and much more.
 
-So, the main branch is a fork of [LostPuppet's](https://github.com/LostPuppet) rework on Michael9r9r's rpgloot datapack that I made usable (kinda) and exists on [Modrinth](https://modrinth.com/datapack/rpg-loot-reforged).
-
-However, the version-5 branch is the rework that is currently under way, so the README has now been changed to reflect version-5 as can be seen here.
-
-Some quick terms:
-
-"rpgloot" is the content side of the datapack. Think cool weapons, custom mobs, etc.
-
-"rpgc" is the core functionality of the datapack. This part is responsible for the custom health bars, damage types, and new weapon/armor attributes
+Currently, a fork of version-4 exists for 1.21.4 on [Modrinth](https://modrinth.com/datapack/rpg-loot-reforged).
+Version-5 is currently in early development - this is the current rework by [Stateus](https://github.com/StateusY), [LostPuppet](https://github.com/LostPuppet), and [DawnKiro](https://github.com/DawnKiro).
 
 ### Credits
 
@@ -22,3 +15,5 @@ The fantastic player motion library makes some of this stuff possible (following
 - Credit to [@BigPapi13](https://github.com/BigPapi13/Delta) for making the original library this is inspired by. This project aims to succeed it.
 - Credit to nedraw from the minecraft commands discord for the ender crystal methodology & implementation this is now based on.
 - Credit to [@SuperSwordTW](https://github.com/SuperSwordTW) for helping make significant math performance & stability improvements.
+
+[Bookshelf](mcbookshelf.dev) is a highly accessible multi-purpose Minecraft library datapack.
