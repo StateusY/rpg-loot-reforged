@@ -1,0 +1,1 @@
+$function rpgc:z_api/damage {damage:[{type:"venom",value:$(apply)}],target:"@s"}

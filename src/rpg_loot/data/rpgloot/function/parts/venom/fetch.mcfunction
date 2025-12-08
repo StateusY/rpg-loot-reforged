@@ -1,0 +1,2 @@
+$execute store result storage rpgloot:temp venom.dmg double $(mult) run function rpgc:z_api/attribute/get {id:"physical_dmg"}
+execute store result storage rpgloot:temp venom.dmg double 0.01 run data get storage rpgloot:temp venom.dmg

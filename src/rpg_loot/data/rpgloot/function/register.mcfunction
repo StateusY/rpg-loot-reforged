@@ -8,4 +8,5 @@ data modify storage rpgc:registry part set value {}
 
 
 # Register content
+function rpgloot:reg/damage
 function rpgloot:reg/parts

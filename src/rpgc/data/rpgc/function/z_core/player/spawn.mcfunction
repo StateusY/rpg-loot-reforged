@@ -1,3 +1,4 @@
+execute store result score @s rpgc.max_hp run function rpgc:z_api/attribute/get {id:"max_hp"}
 scoreboard players operation @s rpgc.hp = @s rpgc.max_hp
 scoreboard players operation @s rpgc.hp /= #2 constant
 function rpgc:z_core/player/updates/config with storage rpgc:config
