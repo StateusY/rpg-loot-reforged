@@ -59,6 +59,7 @@
       ]
     },
     {
+      "item": "minecraft:stick",
       "type": "bitmap",
       "file": "minecraft:item/stick.png",
       "height": 16,
@@ -68,6 +69,7 @@
       ]
     },
     {
+      "item": "minecraft:blaze_rod",
       "type": "bitmap",
       "file": "minecraft:item/blaze_rod.png",
       "height": 16,
@@ -77,6 +79,7 @@
       ]
     },
     {
+      "item": "minecraft:string",
       "type": "bitmap",
       "file": "minecraft:item/string.png",
       "height": 16,
@@ -86,6 +89,7 @@
       ]
     },
     {
+      "item": "minecraft:leather",
       "type": "bitmap",
       "file": "minecraft:item/leather.png",
       "height": 16,
@@ -95,6 +99,7 @@
       ]
     },
     {
+      "item": "#minecraft:stone_crafting_materials",
       "type": "bitmap",
       "file": "minecraft:block/cobblestone.png",
       "height": 12,
@@ -104,6 +109,7 @@
       ]
     },
     {
+      "item": "minecraft:flint",
       "type": "bitmap",
       "file": "minecraft:item/flint.png",
       "height": 16,

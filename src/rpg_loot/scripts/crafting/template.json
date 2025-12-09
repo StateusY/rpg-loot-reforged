@@ -1,14 +1,13 @@
 {
   "type": "minecraft:multi_action",
-  "title": "MATERIALTYPE",
-  "body": [
-  ],
+  "title": "(NAME)",
+  "body": [],
   "inputs": [],
   "columns": 5,
   "actions": [
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_0)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -17,26 +16,26 @@
           "text": " 16x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(MATERIAL)",
           "font": "rpgloot:item"
         },
         {
           "text": " 2x "
         },
         {
-          "text": "\ueaab",
+          "text": "(STICK)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_0)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_1)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -45,26 +44,26 @@
           "text": " 20x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(MATERIAL)",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "(STICK)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_1)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_2)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -73,26 +72,26 @@
           "text": " 24x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(MATERIAL)",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "(STICK)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_2)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -101,26 +100,26 @@
           "text": " 8x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(MATERIAL)",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "(STICK)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_3)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_4)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -129,26 +128,26 @@
           "text": " 14x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(MATERIAL)",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "(STICK)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_4)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_5)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -157,26 +156,26 @@
           "text": " 20x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(MATERIAL)",
           "font": "rpgloot:item"
         },
         {
           "text": " 16x "
         },
         {
-          "text": "\ueaac",
+          "text": "(STRING)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_5)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_6)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -185,19 +184,19 @@
           "text": "10x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(ARMOR)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_6)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_7)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -206,19 +205,19 @@
           "text": "16x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(ARMOR)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_7)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_8)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -227,19 +226,19 @@
           "text": "14x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(ARMOR)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_8)"
       }
     },
     {
       "label": {
-        "text": "ITEMICON",
+        "text": "(ITEM_9)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -248,20 +247,21 @@
           "text": "8x "
         },
         {
-          "text": "MATERIALICON",
+          "text": "(ARMOR)",
           "font": "rpgloot:item"
         }
       ],
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger rpgloot.crafter set CRAFTINGNUMBER"
+        "command": "trigger rpgloot.crafter set (CRAFTING_9)"
       }
     }
   ],
   "exit_action": {
     "label": {
-      "text": "BACK"},
+      "text": "BACK"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "rpgloot:crafting/equipment/menu"
