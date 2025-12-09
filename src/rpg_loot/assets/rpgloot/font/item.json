@@ -11,6 +11,43 @@
       }
     },
     {
+      "comment": "======================================= SCRAP =======================================",
+      "type": "bitmap",
+      "file": "rpgloot:item/materials/uncommon_scrap.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ueeea"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/materials/rare_scrap.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ueeea"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/materials/epic_scrap.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ueeea"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/materials/legendary_scrap.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\ueeea"
+      ]
+    },
+    {
       "comment": "=== MATERIALS SECTION - Raw materials, ingots, and gems (using letter codes: ueaaa-uefff) ===",
       "comment": "--- Basic Materials ---",
       "type": "bitmap",

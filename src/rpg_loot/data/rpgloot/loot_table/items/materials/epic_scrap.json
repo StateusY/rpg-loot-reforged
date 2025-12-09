@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "rpgloot:materials/epic_scrap",
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "rpgloot:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "rpgloot.tooltip",
+                      "color": "white",
+                      "font": "rpgloot:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:tooltip_style": "rpgloot:rpgloot",
+                "minecraft:custom_data": {
+                  "rpgloot": {
+                    "ingredient": {
+                      "type": "epic_scrap"
+                    }
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{rpgc:true}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Epic Scrap",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

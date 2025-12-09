@@ -7,6 +7,5 @@ data remove entity @s equipment.mainhand
 function rpgc:z_core/mob/spawning/step with storage rpgc:temp mob
 function rpgc:z_core/mob/properties/apply with storage rpgc:temp properties
 data remove storage rpgc:registry temp
-
 tag @s add rpgc
 

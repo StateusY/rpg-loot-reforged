@@ -98,7 +98,7 @@ materials = [
         "hp_value":7,
         "armor_value": 5,
         "durability": 768,
-        "bow": '{draw:10,velocity:4,inaccuracy:1}',
+        "bow": '{draw:30,velocity:12,inaccuracy:1}',
         "weapon_events": '[]',
         "bow_events": '[{"name": "silver_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/silver/bow/impact"},{"name": "silver_bow", "source": "weapon", "listen": "bow_hit", "command": "function rpgloot:items/basic/silver/bow/hit"}]',
         "armor_events": '[]'

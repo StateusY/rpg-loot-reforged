@@ -1,0 +1,1 @@
+$data merge entity @s {interpolation_duration:$(time)}

@@ -1,3 +1,5 @@
+scoreboard players remove @s rpgloot.titanium_charge 3
+
 scoreboard players add @s rpgloot.titanium_timer 1
 execute rotated ~ 0 run function rpgloot:items/basic/titanium/armor/particles/random
 execute rotated ~ 0 run function rpgloot:items/basic/titanium/armor/particles/random
