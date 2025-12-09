@@ -1,0 +1,4 @@
+$execute positioned ~$(xoffset) ~$(yoffset) ~$(xoffset) as $(selector) if entity @s[dx=$(x),dy=$(y),dz=$(x)] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=$(x),dy=$(y),dz=$(x)] positioned ~.99 ~.99 ~.99 run $(cmd)
+$execute if score .hitbox rpgc.temp matches 1 run summon block_display ~$(xoffset) ~$(yoffset) ~$(xoffset) {Passengers:[{id:"minecraft:armor_stand",Small:1b,Marker:1b,Invisible:1b,Tags:["rpgc.hitbox","rpgc.hitbox_current"],equipment:{mainhand:{id:"minecraft:stick",count:1,components:{"minecraft:item_model":"minecraft:air","minecraft:enchantments":{"rpgc:ttk":1}}}}}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[$(x)f,$(y)f,$(x)f]},block_state:{Name:"minecraft:red_stained_glass"}}
+scoreboard players add @n[type=armor_stand,tag=rpgc.hitbox_current] rpgc.ttk 100
+tag @n[tag=rpgc.hitbox_current] remove rpgc.hitbox_current

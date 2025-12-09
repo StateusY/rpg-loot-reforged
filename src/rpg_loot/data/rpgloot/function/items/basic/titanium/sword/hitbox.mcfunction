@@ -1,0 +1,1 @@
+$function rpgc:z_api/hitbox {selector:"@e[type=#rpgc:all,tag=!rpgloot.titanium_slash_current]",x:$(hitbox),y:2,cmd:"function rpgc:z_api/damage {damage:[{type:'physical',value:1.265}],target:'@s'}"}

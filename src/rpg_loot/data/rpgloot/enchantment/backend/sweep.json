@@ -12,15 +12,13 @@
     "per_level_above_first": 0
   },
   "anvil_cost": 0,
-  "slots": [
-    "any"
-  ],
+  "slots": ["any"],
   "effects": {
     "minecraft:tick": [
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "rpgloot:util/ttk"
+          "function": "rpgloot:effects/sweep/tick"
         }
       }
     ]

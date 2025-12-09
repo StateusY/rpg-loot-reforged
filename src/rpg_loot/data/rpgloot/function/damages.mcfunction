@@ -1,1 +1,0 @@
-function rpgc:z_api/register_damage {prefix:"💧",type:bleed,color:'#BA1313'}

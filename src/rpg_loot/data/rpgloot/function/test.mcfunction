@@ -1,1 +1,6 @@
-give @p wooden_pickaxe[tool={default_mining_speed:1,damage_per_block:1,rules:[{speed:0.1,correct_for_drops:false,blocks:"#rpgloot:tools/wood"},{speed:3,correct_for_drops:true,blocks:"#mineable/pickaxe"}]}] 1
+summon marker ~ ~ ~ {Tags:["rpgloot.test"]}
+rotate @n[type=marker,tag=rpgloot.test] ~ ~
+rotate @s facing entity @n[type=husk] eyes
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",looking_at:{type:"#rpgc:all"}}}} run say looking
+execute rotated as @n[type=marker,tag=rpgloot.test] run rotate @s ~ ~
+kill @n[type=marker,tag=rpgloot.test]

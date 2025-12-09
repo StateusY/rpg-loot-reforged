@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:sword,events:[{\"name\":\"iron_sword_hurt\",\"source\": \"weapon\", \"listen\": \"hurt\", \"command\": \"function rpgloot:items/basic/iron/sword/hurt\"},{\"name\":\"iron_sword_held\",\"source\": \"weapon\", \"listen\": \"held\", \"command\": \"function rpgloot:items/basic/iron/sword/held\"},{\"name\":\"iron_sword_swap\",\"source\": \"weapon\", \"listen\": \"swap\", \"command\": \"function rpgloot:items/basic/iron/sword/swap_off\"},{\"name\":\"iron_sword_use\",\"source\": \"weapon\", \"listen\": \"use\", \"command\": \"function rpgloot:items/basic/iron/sword/use\"}],attributes:[{id:physical_dmg,name:iron_sword,source:weapon,type:add,value:50}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:epic,rpgloot_type:sword,events:[{\"name\":\"iron_sword_hurt\",\"source\": \"weapon\", \"listen\": \"hurt\", \"command\": \"function rpgloot:items/basic/iron/sword/hurt\"},{\"name\":\"iron_sword_held\",\"source\": \"weapon\", \"listen\": \"held\", \"command\": \"function rpgloot:items/basic/iron/sword/held\"},{\"name\":\"iron_sword_swap\",\"source\": \"weapon\", \"listen\": \"swap_off\", \"command\": \"function rpgloot:items/basic/iron/sword/swap_off\"},{\"name\":\"iron_sword_use\",\"source\": \"weapon\", \"listen\": \"use\", \"command\": \"function rpgloot:items/basic/iron/sword/use\"}],attributes:[{id:physical_dmg,name:iron_sword,source:weapon,type:add,value:50}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

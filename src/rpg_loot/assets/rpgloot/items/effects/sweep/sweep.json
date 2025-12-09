@@ -7,62 +7,62 @@
         "threshold": 0,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_0"
+          "model": "rpgloot:item/effects/sweep/0"
         }
       },
       {
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_1"
+          "model": "rpgloot:item/effects/sweep/1"
         }
       },
       {
         "threshold": 2,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_2"
+          "model": "rpgloot:item/effects/sweep/2"
         }
       },
       {
         "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_3"
+          "model": "rpgloot:item/effects/sweep/3"
         }
       },
       {
         "threshold": 4,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_4"
+          "model": "rpgloot:item/effects/sweep/4"
         }
       },
       {
         "threshold": 5,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_5"
+          "model": "rpgloot:item/effects/sweep/5"
         }
       },
       {
         "threshold": 6,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_6"
+          "model": "rpgloot:item/effects/sweep/6"
         }
       },
       {
         "threshold": 7,
         "model": {
           "type": "minecraft:model",
-          "model": "rpgloot:item/effects/sweep_7"
+          "model": "rpgloot:item/effects/sweep/7"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "rpgloot:item/effects/sweep_0"
+      "model": "rpgloot:item/effects/sweep/0"
     }
   },
   "hand_animation_on_swap": false

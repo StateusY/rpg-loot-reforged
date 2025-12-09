@@ -19,6 +19,9 @@ scoreboard objectives add rpgc.stop_using dummy
 # Delay for slot swap (MC jank workaround)
 scoreboard objectives add rpgc.queue_swap dummy
 
+# Time to kill
+scoreboard objectives add rpgc.ttk dummy
+
 ## ───[ Player Stats ]──────────────────────────────────
 
 # Regeneration

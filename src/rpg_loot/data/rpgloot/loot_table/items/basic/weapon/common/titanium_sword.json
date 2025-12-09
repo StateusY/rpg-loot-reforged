@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:sword,events:[],attributes:[{id:physical_dmg,name:titanium_sword,source:weapon,type:add,value:22}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:sword,events:[{\"name\":\"titanium_sword_swap\",\"source\": \"weapon\", \"listen\": \"swap_off\", \"command\": \"function rpgloot:items/basic/titanium/sword/swap\"},{\"name\":\"titanium_sword_use\",\"source\": \"weapon\", \"listen\": \"use\", \"command\": \"function rpgloot:items/basic/titanium/sword/use\"}],attributes:[{id:physical_dmg,name:titanium_sword,source:weapon,type:add,value:22}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

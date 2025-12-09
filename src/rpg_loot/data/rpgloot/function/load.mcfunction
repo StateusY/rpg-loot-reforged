@@ -12,6 +12,11 @@ scoreboard objectives add rpgloot.ttk dummy
 scoreboard objectives add rpgloot.block_shatter dummy
 scoreboard objectives add rpgloot.block_dur dummy
 scoreboard objectives add rpgloot.block_shrink dummy
+
+# effects
+scoreboard objectives add rpgloot.effect0 dummy
+scoreboard objectives add rpgloot.effect1 dummy
+scoreboard objectives add rpgloot.effect2 dummy
 # Items
 scoreboard objectives add rpgloot.twinstep_slam_start dummy
 scoreboard objectives add rpgloot.twinstep_slam_end dummy

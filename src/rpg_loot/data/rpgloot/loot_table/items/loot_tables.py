@@ -84,7 +84,7 @@ materials = [
         "armor_value": 4,
         "durability": 512,
         "bow": '{draw:10,velocity:4,inaccuracy:1}',
-        "weapon_events": '[{"name":"iron_sword_hurt","source": "weapon", "listen": "hurt", "command": "function rpgloot:items/basic/iron/sword/hurt"},{"name":"iron_sword_held","source": "weapon", "listen": "held", "command": "function rpgloot:items/basic/iron/sword/held"},{"name":"iron_sword_swap","source": "weapon", "listen": "swap", "command": "function rpgloot:items/basic/iron/sword/swap_off"},{"name":"iron_sword_use","source": "weapon", "listen": "use", "command": "function rpgloot:items/basic/iron/sword/use"}]',
+        "weapon_events": '[{"name":"iron_sword_hurt","source": "weapon", "listen": "hurt", "command": "function rpgloot:items/basic/iron/sword/hurt"},{"name":"iron_sword_held","source": "weapon", "listen": "held", "command": "function rpgloot:items/basic/iron/sword/held"},{"name":"iron_sword_swap","source": "weapon", "listen": "swap_off", "command": "function rpgloot:items/basic/iron/sword/swap_off"},{"name":"iron_sword_use","source": "weapon", "listen": "use", "command": "function rpgloot:items/basic/iron/sword/use"}]',
         "bow_events": '[]',
         "armor_events": '[]'
     },
@@ -129,7 +129,7 @@ materials = [
         "armor_value": 7,
         "durability": 2048,
         "bow": '{draw:30,velocity:6,inaccuracy:1}',
-        "weapon_events": '[]',
+        "weapon_events": '[{"name":"titanium_sword_swap","source": "weapon", "listen": "swap_off", "command": "function rpgloot:items/basic/titanium/sword/swap"},{"name":"titanium_sword_use","source": "weapon", "listen": "use", "command": "function rpgloot:items/basic/titanium/sword/use"}]',
         "bow_events": '[{"name": "titanium_bow", "source": "weapon", "listen": "flight", "command": "function rpgloot:items/basic/titanium/bow/flight"}]',
         "armor_events": '[]',
         "helmet_events":'[{"name": "titanium_helmet", "source": "head", "listen": "head_swap", "command": "function rpgloot:items/basic/titanium/armor/swap"}]',
