@@ -1,46 +1,24 @@
 {
   "type": "minecraft:multi_action",
   "title": "Copper",
-  "body": [
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "Copper armor and weapons are ",
-          "shadow_color": 0
-        },
-        {
-          "text": "conductive",
-          "color": "#3ef5f8",
-          "shadow_color": 0,
-          "hover_event": {
-            "action": "show_text",
-            "value": [
-              {
-                "text": "Build up ",
-                "shadow_color": 0
-              },
-              {
-                "text": "charge ",
-                "color": "#cef9ff",
-                "shadow_color": 0
-              },
-              {
-                "text": "by attacking with weapons or taking damage while wearing armor ",
-                "shadow_color": 0
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ],
+  "body": [],
   "inputs": [],
   "columns": 5,
+  "exit_action": {
+    "label": {
+      "text": "BACK"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "rpgloot:crafting/equipment/menu"
+    }
+  },
+  "pause": false,
+  "after_action": "none",
   "actions": [
     {
       "label": {
-        "text": "\ue021",
+        "text": "\ue015",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -49,14 +27,14 @@
           "text": " 16x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 2x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -68,7 +46,7 @@
     },
     {
       "label": {
-        "text": "\ue022",
+        "text": "\ue016",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -77,14 +55,14 @@
           "text": " 20x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -96,7 +74,7 @@
     },
     {
       "label": {
-        "text": "\ue023",
+        "text": "\ue017",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -105,14 +83,14 @@
           "text": " 24x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -124,7 +102,7 @@
     },
     {
       "label": {
-        "text": "\ue024",
+        "text": "(ITEM)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -133,14 +111,14 @@
           "text": " 8x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -152,7 +130,7 @@
     },
     {
       "label": {
-        "text": "\ue025",
+        "text": "\ue019",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -161,14 +139,14 @@
           "text": " 14x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -180,7 +158,7 @@
     },
     {
       "label": {
-        "text": "\ue026",
+        "text": "\ue01a",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -189,14 +167,14 @@
           "text": " 20x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 16x "
         },
         {
-          "text": "\ueaac",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -208,7 +186,7 @@
     },
     {
       "label": {
-        "text": "\ue027",
+        "text": "\ue01b",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -217,7 +195,7 @@
           "text": "10x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -229,7 +207,7 @@
     },
     {
       "label": {
-        "text": "\ue028",
+        "text": "\ue01c",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -238,7 +216,7 @@
           "text": "16x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -250,7 +228,7 @@
     },
     {
       "label": {
-        "text": "\ue029",
+        "text": "\ue01d",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -259,7 +237,7 @@
           "text": "14x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -271,7 +249,7 @@
     },
     {
       "label": {
-        "text": "\ue030",
+        "text": "\ue01e",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -280,7 +258,7 @@
           "text": "8x "
         },
         {
-          "text": "\ueabb",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -290,16 +268,5 @@
         "command": "trigger rpgloot.crafter set 1030"
       }
     }
-  ],
-  "exit_action": {
-    "label": {
-      "text": "Back"
-    },
-    "action": {
-      "type": "minecraft:show_dialog",
-      "dialog": "rpgloot:crafting/equipment/menu"
-    }
-  },
-  "pause": false,
-  "after_action": "none"
+  ]
 }

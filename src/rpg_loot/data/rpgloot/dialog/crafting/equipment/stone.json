@@ -1,91 +1,40 @@
 {
   "type": "minecraft:multi_action",
   "title": "Stone & Flint",
-  "body": [
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "Stone weapons are slugish and ",
-          "shadow_color": 0
-        },
-        {
-          "text": "daze",
-          "color": "#968c56",
-          "shadow_color": 0,
-          "hover_event": {
-            "action": "show_text",
-            "value": [
-              {
-                "text": "Dazed enemies are ",
-                "shadow_color": 0
-              },
-              {
-                "text": "slowed ",
-                "color": "#727272",
-                "shadow_color": 0
-              },
-              {
-                "text": "and ",
-                "shadow_color": 0
-              },
-              {
-                "text": "weakened ",
-                "color": "#727272",
-                "shadow_color": 0
-              }
-            ]
-          }
-        },
-        {
-          "text": " enemies",
-          "shadow_color": 0
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "Flint scale armor does something idk ",
-          "shadow_color": 0
-        },
-        {
-          "text": "???",
-          "color": "#c7c7c7",
-          "shadow_color": 0,
-          "hover_event": {
-            "action": "show_text",
-            "value": {
-              "text": "Does something"
-            }
-          }
-        }
-      ]
-    }
-  ],
+  "body": [],
   "inputs": [],
   "columns": 5,
+  "exit_action": {
+    "label": {
+      "text": "BACK"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "rpgloot:crafting/equipment/menu"
+    }
+  },
+  "pause": false,
+  "after_action": "none",
   "actions": [
     {
       "label": {
-        "text": "\ue011",
+        "text": "\ue00b",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "2x "
+          "text": " 16x "
         },
         {
-          "text": "\ueaae",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
-          "text": " 1x "
+          "text": " 2x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -97,23 +46,23 @@
     },
     {
       "label": {
-        "text": "\ue012_",
+        "text": "\ue00c",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "3x "
+          "text": " 20x "
         },
         {
-          "text": "\ueaae",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -125,23 +74,23 @@
     },
     {
       "label": {
-        "text": "\ue013",
+        "text": "\ue00d",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
-          "text": "3x "
+       {
+          "text": " 24x "
         },
         {
-          "text": "\ueaae",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -153,23 +102,23 @@
     },
     {
       "label": {
-        "text": "\ue014",
+        "text": "(ITEM)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "1x "
+          "text": " 8x "
         },
         {
-          "text": "\ueaae",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -181,23 +130,23 @@
     },
     {
       "label": {
-        "text": "\ue015",
+        "text": "\ue00f",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
-          "text": "2x "
+       {
+          "text": " 14x "
         },
         {
-          "text": "\ueaae",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -209,23 +158,23 @@
     },
     {
       "label": {
-        "text": "\ue016",
+        "text": "\ue010",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
-          "text": "3x "
+       {
+          "text": " 20x "
         },
         {
-          "text": "\ueaae",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
-          "text": "3x "
+          "text": " 16x "
         },
         {
-          "text": "\ueaac",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -237,16 +186,16 @@
     },
     {
       "label": {
-        "text": "\ue017--",
+        "text": "\ue011",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "5x "
+          "text": "10x "
         },
         {
-          "text": "\ueaaf",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -258,16 +207,16 @@
     },
     {
       "label": {
-        "text": "\ue018",
+        "text": "\ue012",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "8x "
+          "text": "16x "
         },
         {
-          "text": "\ueaaf",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -279,16 +228,16 @@
     },
     {
       "label": {
-        "text": "\ue019--",
+        "text": "\ue013",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "7x "
+          "text": "14x "
         },
         {
-          "text": "\ueaaf",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -300,16 +249,16 @@
     },
     {
       "label": {
-        "text": "\ue020",
+        "text": "\ue014",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "4x "
+          "text": "8x "
         },
         {
-          "text": "\ueaaf",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -319,16 +268,5 @@
         "command": "trigger rpgloot.crafter set 1020"
       }
     }
-  ],
-  "exit_action": {
-    "label": {
-      "text": "Back"
-    },
-    "action": {
-      "type": "minecraft:show_dialog",
-      "dialog": "rpgloot:crafting/equipment/menu"
-    }
-  },
-  "pause": false,
-  "after_action": "none"
+  ]
 }

@@ -1,0 +1,994 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/wood_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/wood_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/wood_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/wood_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/wood_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/wood_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/leather_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/leather_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/leather_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/leather_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue00a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/stone_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue00b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/stone_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue00c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/stone_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue00d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/stone_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue00e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/stone_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue00f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/stone_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/flint_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/copper_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/copper_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/copper_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/copper_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/copper_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/copper_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue01a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/copper_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue01b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/copper_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue01c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/copper_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue01d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/copper_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue01e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/iron_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue01f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/iron_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/iron_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/iron_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/iron_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/iron_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/iron_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue025"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/iron_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/iron_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/iron_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue028"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/silver_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue029"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/silver_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue02a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/silver_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue02b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/silver_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue02c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/silver_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue02d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/silver_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue02e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/silver_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue02f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/silver_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/silver_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/silver_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/diamond_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue033"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/diamond_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/diamond_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/diamond_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/diamond_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/diamond_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue038"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/diamond_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/diamond_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue03a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/diamond_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue03b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/diamond_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue03c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/titanium_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue03d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/titanium_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue03e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/titanium_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue03f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/titanium_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/titanium_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/titanium_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/titanium_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue043"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/titanium_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue044"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/titanium_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue045"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/titanium_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue046"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/cobalt_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue047"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/cobalt_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue048"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/cobalt_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue049"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/cobalt_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue04a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/cobalt_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue04b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/cobalt_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue04c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/cobalt_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue04d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/cobalt_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue04e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/cobalt_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue04f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/cobalt_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue050"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/magnite_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue051"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/magnite_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue052"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/magnite_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue053"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/magnite_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue054"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/magnite_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue055"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/magnite_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue056"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/magnite_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue057"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/magnite_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue058"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/magnite_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue059"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/magnite_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue05a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/netherite_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue05b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/netherite_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue05c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/netherite_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue05d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/netherite_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue05e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/netherite_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue05f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/netherite_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue060"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/netherite_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue061"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/netherite_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue062"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/netherite_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue063"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/netherite_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue064"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/mythril_sword.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue065"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/mythril_axe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue066"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/mythril_pickaxe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue067"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/mythril_shovel.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue068"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/tools/mythril_hoe.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue069"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/weapons/mythril_bow.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue06a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/mythril_helmet.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue06b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/mythril_chestplate.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue06c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/mythril_leggings.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue06d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rpgloot:item/armor/mythril_boots.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": [
+        "\\ue06e"
+      ]
+    }
+  ]
+}

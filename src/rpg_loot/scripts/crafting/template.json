@@ -4,6 +4,17 @@
   "body": [],
   "inputs": [],
   "columns": 5,
+  "exit_action": {
+    "label": {
+      "text": "BACK"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "rpgloot:crafting/equipment/menu"
+    }
+  },
+  "pause": false,
+  "after_action": "none",
   "actions": [
     {
       "label": {
@@ -257,16 +268,5 @@
         "command": "trigger rpgloot.crafter set (CRAFTING_9)"
       }
     }
-  ],
-  "exit_action": {
-    "label": {
-      "text": "BACK"
-    },
-    "action": {
-      "type": "minecraft:show_dialog",
-      "dialog": "rpgloot:crafting/equipment/menu"
-    }
-  },
-  "pause": false,
-  "after_action": "none"
+  ]
 }
