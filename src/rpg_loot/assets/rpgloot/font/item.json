@@ -26,7 +26,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\ueeea"
+        "\ueeeb"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\ueeea"
+        "\ueeec"
       ]
     },
     {
@@ -44,7 +44,7 @@
       "height": 16,
       "ascent": 11,
       "chars": [
-        "\ueeea"
+        "\ueeed"
       ]
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "comment": "--- Silver Tier ---",
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_silver'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_silver'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/raw_silver.png",
       "height": 16,
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'silver_ingot'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'silver_ingot'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/silver_ingot.png",
       "height": 16,
@@ -194,7 +194,7 @@
     },
     {
       "comment": "--- Titanium Tier ---",
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_titanium'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_titanium'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/raw_titanium.png",
       "height": 16,
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'titanium_ingot'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'titanium_ingot'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/titanium_ingot.png",
       "height": 16,
@@ -215,7 +215,7 @@
     },
     {
       "comment": "--- Cobalt Tier ---",
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_cobalt'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_cobalt'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/raw_cobalt.png",
       "height": 16,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'cobalt_ingot'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'cobalt_ingot'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/cobalt_ingot.png",
       "height": 16,
@@ -236,7 +236,7 @@
     },
     {
       "comment": "--- Magnite Tier ---",
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_magnite'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'raw_magnite'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/raw_magnite.png",
       "height": 16,
@@ -247,7 +247,7 @@
     },
     {
       "type": "bitmap",
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'magnite_ingot'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'magnite_ingot'}}}]",
       "file": "rpgloot:item/materials/magnite_ingot.png",
       "height": 16,
       "ascent": 11,
@@ -278,7 +278,7 @@
     },
     {
       "comment": "--- Mythril Tier ---",
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'mythril_gem'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'mythril_gem'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/mythril_gem.png",
       "height": 16,
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "item": "minecraft:minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'mythril_scale'}}}]",
+      "item": "minecraft:poisonous_potato[minecraft:custom_data~{'rpgloot':{'ingredient':{'type':'mythril_scale'}}}]",
       "type": "bitmap",
       "file": "rpgloot:item/materials/mythril_scale.png",
       "height": 16,
