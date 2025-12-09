@@ -1,11 +1,12 @@
 {
   "type": "minecraft:multi_action",
+  "title": "Netherite",
   "body": [],
   "inputs": [],
   "columns": 5,
   "exit_action": {
     "label": {
-      "text": "Back"
+      "text": "BACK"
     },
     "action": {
       "type": "minecraft:show_dialog",
@@ -14,11 +15,10 @@
   },
   "pause": false,
   "after_action": "none",
-  "title": "Netherite",
   "actions": [
     {
       "label": {
-        "text": "\ue091",
+        "text": "\ue05b",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -27,14 +27,14 @@
           "text": " 16x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 2x "
         },
         {
-          "text": "\ueaa1",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -46,7 +46,7 @@
     },
     {
       "label": {
-        "text": "\ue092",
+        "text": "\ue05c",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -55,14 +55,14 @@
           "text": " 20x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaa1",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -74,23 +74,23 @@
     },
     {
       "label": {
-        "text": "\ue093",
+        "text": "\ue05d",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
+       {
           "text": " 24x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaa1",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -102,7 +102,7 @@
     },
     {
       "label": {
-        "text": "\ue094",
+        "text": "(ITEM)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -111,14 +111,14 @@
           "text": " 8x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaa1",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -130,23 +130,23 @@
     },
     {
       "label": {
-        "text": "\ue095",
+        "text": "\ue05f",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
+       {
           "text": " 14x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 4x "
         },
         {
-          "text": "\ueaa1",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -158,23 +158,23 @@
     },
     {
       "label": {
-        "text": "\ue096",
+        "text": "\ue060",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
+       {
           "text": " 20x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         },
         {
           "text": " 16x "
         },
         {
-          "text": "\ueaac",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -186,7 +186,7 @@
     },
     {
       "label": {
-        "text": "\ue097",
+        "text": "\ue061",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -195,7 +195,7 @@
           "text": "10x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -207,7 +207,7 @@
     },
     {
       "label": {
-        "text": "\ue098",
+        "text": "\ue062",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -216,7 +216,7 @@
           "text": "16x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -228,7 +228,7 @@
     },
     {
       "label": {
-        "text": "\ue099",
+        "text": "\ue063",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -237,7 +237,7 @@
           "text": "14x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -249,7 +249,7 @@
     },
     {
       "label": {
-        "text": "\ue100",
+        "text": "\ue064",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
@@ -258,7 +258,7 @@
           "text": "8x "
         },
         {
-          "text": "\ueb2b",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],

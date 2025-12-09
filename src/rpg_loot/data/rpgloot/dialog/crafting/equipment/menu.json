@@ -28,7 +28,6 @@
     "rpgloot:crafting/equipment/magnite",
     "rpgloot:crafting/equipment/netherite",
     "rpgloot:crafting/equipment/mythril"
-
   ],
   "pause": false,
   "after_action": "none"

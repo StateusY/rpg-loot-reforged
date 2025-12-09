@@ -1,93 +1,20 @@
 {
   "type": "minecraft:multi_action",
   "title": "Wood & Leather",
-  "body": [
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "Wooden weapons leaves ",
-          "shadow_color": 0
-        },
-        {
-          "text": "splinters",
-          "color": "#6e5702",
-          "shadow_color": 0,
-          "hover_event": {
-            "action": "show_text",
-            "value": [
-              {
-                "text": "Splinters cause a stacking ",
-                "shadow_color": 0
-              },
-              {
-                "text": "bleed ",
-                "color": "#BA1313",
-                "shadow_color": 0
-              },
-              {
-                "text": "status effect",
-                "shadow_color": 0
-              }
-            ]
-          }
-        },
-        {
-          "text": " In the target",
-          "shadow_color": 0
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "Leather armor is ",
-          "shadow_color": 0
-        },
-        {
-          "text": "light",
-          "color": "#c7c7c7",
-          "shadow_color": 0,
-          "hover_event": {
-            "action": "show_text",
-            "value": {
-              "text": "Boosts movement speed"
-            }
-          }
-        },
-        {
-          "text": " and protects from the ",
-          "shadow_color": 0
-        },
-        {
-          "text": "cold",
-          "color": "aqua",
-          "shadow_color": 0,
-          "hover_event": {
-            "action": "show_text",
-            "value": [
-              {
-                "text": "Adds 5% ",
-                "shadow_color": 0
-              },
-              {
-                "text": "❄",
-                "color": "aqua",
-                "shadow_color": 0
-              },
-              {
-                "text": " resistance per armor",
-                "shadow_color": 0
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ],
+  "body": [],
   "inputs": [],
   "columns": 5,
+  "exit_action": {
+    "label": {
+      "text": "BACK"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "rpgloot:crafting/equipment/menu"
+    }
+  },
+  "pause": false,
+  "after_action": "none",
   "actions": [
     {
       "label": {
@@ -97,17 +24,17 @@
       },
       "tooltip": [
         {
-          "text": "2x "
+          "text": " 16x "
         },
         {
-          "text": "\ueaaa",
+          "text": "undefined",
           "font": "rpgloot:item"
         },
         {
-          "text": " 1x "
+          "text": " 2x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -119,23 +46,23 @@
     },
     {
       "label": {
-        "text": "\ue002_",
+        "text": "\ue002",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "3x "
+          "text": " 20x "
         },
         {
-          "text": "\ueaaa",
+          "text": "undefined",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -152,18 +79,18 @@
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
-          "text": "3x "
+       {
+          "text": " 24x "
         },
         {
-          "text": "\ueaaa",
+          "text": "undefined",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -175,23 +102,23 @@
     },
     {
       "label": {
-        "text": "\ue004",
+        "text": "(ITEM)",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "1x "
+          "text": " 8x "
         },
         {
-          "text": "\ueaaa",
+          "text": "undefined",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -208,18 +135,18 @@
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
-          "text": "2x "
+       {
+          "text": " 14x "
         },
         {
-          "text": "\ueaaa",
+          "text": "undefined",
           "font": "rpgloot:item"
         },
         {
-          "text": " 2x "
+          "text": " 4x "
         },
         {
-          "text": "\ueaab",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -236,18 +163,18 @@
         "font": "rpgloot:item"
       },
       "tooltip": [
-        {
-          "text": "3x "
+       {
+          "text": " 20x "
         },
         {
-          "text": "\ueaab",
+          "text": "undefined",
           "font": "rpgloot:item"
         },
         {
-          "text": "3x "
+          "text": " 16x "
         },
         {
-          "text": "\ueaac",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -259,16 +186,16 @@
     },
     {
       "label": {
-        "text": "\ue007--",
+        "text": "\ue007",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "5x "
+          "text": "10x "
         },
         {
-          "text": "\ueaad",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -286,10 +213,10 @@
       },
       "tooltip": [
         {
-          "text": "8x "
+          "text": "16x "
         },
         {
-          "text": "\ueaad",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -301,16 +228,16 @@
     },
     {
       "label": {
-        "text": "\ue009--",
+        "text": "\ue009",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "7x "
+          "text": "14x "
         },
         {
-          "text": "\ueaad",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -322,16 +249,16 @@
     },
     {
       "label": {
-        "text": "\ue010",
+        "text": "\ue00a",
         "shadow_color": 0,
         "font": "rpgloot:item"
       },
       "tooltip": [
         {
-          "text": "4x "
+          "text": "8x "
         },
         {
-          "text": "\ueaad",
+          "text": "",
           "font": "rpgloot:item"
         }
       ],
@@ -341,16 +268,5 @@
         "command": "trigger rpgloot.crafter set 1010"
       }
     }
-  ],
-  "exit_action": {
-    "label": {
-      "text": "Back"
-    },
-    "action": {
-      "type": "minecraft:show_dialog",
-      "dialog": "rpgloot:crafting/equipment/menu"
-    }
-  },
-  "pause": false,
-  "after_action": "none"
+  ]
 }
