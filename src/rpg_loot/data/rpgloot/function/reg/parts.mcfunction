@@ -33,10 +33,10 @@ function rpgloot:player/item_parts/register_part {type:"bow",weight:[50,75,50,25
 function rpgloot:player/item_parts/register_part {type:"bow",weight:[25,50,75,50,25,10],name:"lucky",properties:{modifiers:[{id:"minecraft:luck",value:25,type:"add_value"}],attributes:[{id:crit_chance,name:lucky,source:modifier,type:add,value:.1}]}}
 function rpgloot:player/item_parts/register_part {type:"bow",weight:[5,15,25,75,75,50],name:"glimmering",properties:{modifiers:[{id:"minecraft:luck",value:50,type:"add_value"}]}}
 # common
-function rpgloot:player/item_parts/register_part {type:"bow",weight:[100,75,50,25,5,0],name:"rapid",properties:{modifiers:[{id:draw_speed,name:rapid,source:modifier,type:add,value:.1}]}}
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[100,75,50,25,5,0],name:"rapid",properties:{attributes:[{id:draw_speed,name:rapid,source:modifier,type:add,value:.1}]}}
 # uncommon
-function rpgloot:player/item_parts/register_part {type:"bow",weight:[50,100,75,50,25,15],name:"percise",properties:{modifiers:[{id:velocity,name:percise,source:modifier,type:add,value:.1},{id:crit_chance,name:percise,source:modifier,type:add,value:.1}]}}
-function rpgloot:player/item_parts/register_part {type:"bow",weight:[50,100,75,50,25,15],name:"keen",properties:{modifiers:[{id:crit_chance,name:keen,source:modifier,type:add,value:.1},{id:crit_dmg,name:keen,source:modifier,type:add,value:.1}]}}
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[50,100,75,50,25,15],name:"precise",properties:{attributes:[{id:velocity,name:precise,source:modifier,type:add,value:.1},{id:crit_chance,name:percise,source:modifier,type:add,value:.1}]}}
+function rpgloot:player/item_parts/register_part {type:"bow",weight:[50,100,75,50,25,15],name:"keen",properties:{attributes:[{id:crit_chance,name:keen,source:modifier,type:add,value:.1},{id:crit_dmg,name:keen,source:modifier,type:add,value:.1}]}}
 # rare
 function rpgloot:player/item_parts/register_part {type:"bow",weight:[25,50,100,75,50,25],name:"anvilish",properties:{events:[{"name":"anvilish","source": "part", "listen": "bow_hit", "command": "function rpgloot:parts/anvilish/hit"}]}}
 #function rpgloot:player/item_parts/register_part {type:"bow",weight:[25,50,100,75,50,25],name:"Split Shot",properties:{events:[{"name":"split_shot","source": "part", "listen": "bow_shot", "command": "function rpgloot:parts/split_shot/shot"}],modifiers:[{id:ranged_dmg,name:sharp,source:modifier,type:mul,value:-0.4}]}}
@@ -52,9 +52,9 @@ function rpgloot:player/item_parts/register_part {type:"armor",weight:[50,75,50,
 function rpgloot:player/item_parts/register_part {type:"armor",weight:[25,50,75,50,25,10],name:"lucky",properties:{modifiers:[{id:"minecraft:luck",value:6.25,type:"add_value"}],attributes:[{id:crit_chance,name:lucky,source:modifier,type:add,value:.1}]}}
 function rpgloot:player/item_parts/register_part {type:"armor",weight:[5,15,25,75,75,50],name:"glimmering",properties:{modifiers:[{id:"minecraft:luck",value:12.5,type:"add_value"}]}}
 # common
-function rpgloot:player/item_parts/register_part {type:"armor",weight:[100,75,50,25,5,0],name:"durable",properties:{modifiers:[{id:armor,name:durable,source:modifier,type:add,value:.05}]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[100,75,50,25,5,0],name:"durable",properties:{attributes:[{id:armor,name:durable,source:modifier,type:add,value:.05}]}}
 # uncommon
-function rpgloot:player/item_parts/register_part {type:"armor",weight:[50,100,75,50,25,15],name:"healthy",properties:{modifiers:[{id:max_hp,name:healthy,source:modifier,type:add,value:.05}]}}
+function rpgloot:player/item_parts/register_part {type:"armor",weight:[50,100,75,50,25,15],name:"healthy",properties:{attributes:[{id:max_hp,name:healthy,source:modifier,type:add,value:.05}]}}
 function rpgloot:player/item_parts/register_part {type:"armor",weight:[50,100,75,50,25,15],name:"fleeting",properties:{modifiers:[{id:"minecraft:movement_speed",value:.075,type:"add_multiplied_total"}]}}
 # rare
 # epic

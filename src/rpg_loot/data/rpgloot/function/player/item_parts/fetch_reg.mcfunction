@@ -1,5 +1,5 @@
 scoreboard players reset .dupe
-
+say rolled
 $function rpgc:z_core/registry/list/get {registry:"part",entry:"$(rpgloot_tier)_$(rpgloot_type)"}
 
 data modify storage rpgloot:temp dupe.name set from storage rpgc:registry temp.result.name
@@ -24,5 +24,4 @@ function rpgloot:player/item_parts/translate with storage rpgc:registry temp.res
 #data modify storage rpgloot:temp parts.item.components.minecraft:custom_name.extra insert 1 from storage rpgc:registry temp.result.name
 data modify storage rpgloot:temp parts.item.components.minecraft:custom_name.extra insert 1 value " "
 data modify storage rpgloot:temp parts.item.components.minecraft:custom_data.rpgloot_modified set value true
-say should modify
 function rpgloot:player/item_parts/modify_item with storage rpgloot:temp parts.item
