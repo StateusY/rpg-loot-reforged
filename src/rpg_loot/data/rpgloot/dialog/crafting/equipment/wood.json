@@ -6,7 +6,7 @@
   "columns": 5,
   "exit_action": {
     "label": {
-      "text": "BACK"
+      "text": "Back"
     },
     "action": {
       "type": "minecraft:show_dialog",
@@ -20,7 +20,7 @@
       "label": {
         "text": "\ue001",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
         {
@@ -48,7 +48,7 @@
       "label": {
         "text": "\ue002",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
         {
@@ -76,7 +76,7 @@
       "label": {
         "text": "\ue003",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
        {
@@ -104,7 +104,7 @@
       "label": {
         "text": "(ITEM)",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
         {
@@ -132,7 +132,7 @@
       "label": {
         "text": "\ue005",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
        {
@@ -160,7 +160,7 @@
       "label": {
         "text": "\ue006",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
        {
@@ -188,7 +188,7 @@
       "label": {
         "text": "\ue007",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
         {
@@ -209,7 +209,7 @@
       "label": {
         "text": "\ue008",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
         {
@@ -230,7 +230,7 @@
       "label": {
         "text": "\ue009",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
         {
@@ -251,7 +251,7 @@
       "label": {
         "text": "\ue00a",
         "shadow_color": 0,
-        "font": "rpgloot:item"
+        "font": "rpgloot:generated/equipment"
       },
       "tooltip": [
         {
