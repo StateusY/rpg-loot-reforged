@@ -1,0 +1,2 @@
+#data modify storage rpgloot:temp parts.item.components.minecraft:custom_name.extra insert 1 from storage rpgc:registry temp.result.name
+$data modify storage rpgloot:temp parts.item.components.minecraft:custom_name.extra insert 1 value {translate:"rpgloot.part.$(name)"}

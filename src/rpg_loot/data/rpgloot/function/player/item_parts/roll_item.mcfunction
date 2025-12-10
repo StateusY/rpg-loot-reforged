@@ -5,6 +5,8 @@ $data modify storage rpgloot:temp parts.item set from entity @s Inventory[{Slot:
 function rpgloot:player/item_parts/fetch_reg with storage rpgloot:temp parts.item.components.minecraft:custom_data
 function rpgloot:player/item_parts/fetch_reg with storage rpgloot:temp parts.item.components.minecraft:custom_data
 function rpgloot:player/item_parts/fetch_reg with storage rpgloot:temp parts.item.components.minecraft:custom_data
+
+
 data remove storage rpgc:registry temp
 #recurse 
 data remove storage rpgloot:temp current

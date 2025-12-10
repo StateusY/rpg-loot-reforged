@@ -1,4 +1,4 @@
-gamerule doImmediateRespawn true
+gamerule immediate_respawn true
 
 # /reload message
 tellraw @a [{"text": "0 ","color": "white","font": "rpgc:icon","italic": false},{"translate":"rpgc.tooltip","font":"rpgc:tooltip","color":"white","italic":false},{text:" ","font":"minecraft:default"},{"translate":rpgc.loaded,"font":"minecraft:default"}]
@@ -110,3 +110,5 @@ function #rpgc:register
 function rpgc:z_core/1second
 function rpgc:z_core/5tick
 execute unless data storage rpgc:config init run function rpgc:z_core/misc/config/init
+
+give @s poisonous_potato[use_effects={can_sprint:true,speed_multiplier:1}]

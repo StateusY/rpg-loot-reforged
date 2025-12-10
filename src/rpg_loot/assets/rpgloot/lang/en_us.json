@@ -38,7 +38,43 @@
     "rpgloot.item_type.epic": "Epic",
     "rpgloot.item_type.legendary": "Legendary",
 
-    "rpgloot.item_name_replace.stone_bow": "Sling"
+    "rpgloot.item_name_replace.stone_bow": "Sling",
+    
+    "rpgloot.part.charmed": "Charmed",
+    "rpgloot.part.lucky": "Lucky",
+    "rpgloot.part.glimmering": "Glimmering",
+    
+    "rpgloot.part.sharp": "Sharp",
+    "rpgloot.part.balanced": "Balanced",
+    "rpgloot.part.steady": "Steady",
+    "rpgloot.part.heavy": "Heavy",
+    "rpgloot.part.swift": "Swift",
+    "rpgloot.part.keen": "Keen",
+    "rpgloot.part.lengthy": "Lengthy",
+    "rpgloot.part.blunt": "Blunt",
+    "rpgloot.part.vigorous": "Vigorous",
+    "rpgloot.part.venomous": "Venomous",
+    "rpgloot.part.cleaving": "Cleaving",
+    "rpgloot.part.infernal": "Infernal",
+    "rpgloot.part.vampiric": "Vampiric",
+    "rpgloot.part.perfected": "Perfected",
+
+    "rpgloot.part.rapid": "Rapid",
+    "rpgloot.part.precise": "Precise",
+    "rpgloot.part.anvilish": "Anvilish",
+    "rpgloot.part.split_shot": "Split Shot",
+    "rpgloot.part.transmogratory": "Transmogratory",
+    "rpgloot.part.warping": "Warping",
+    
+    "rpgloot.part.durable": "Durable",
+    "rpgloot.part.healthy": "Healthy",
+    "rpgloot.part.fleeting": "Fleeting",
+    "rpgloot.part.quickened": "Quickened",
+    "rpgloot.part.vengeful": "Vengeful",
+    "rpgloot.part.graced": "Graced"
+
+
+
 
 
 }

@@ -397,6 +397,10 @@ def generate_sword(material, rarity, item_type):
             "animation": "none",
             "on_consume_effects": []
         },
+        "minecraft:use_effects": {
+            "can_sprint": True,
+            "speed_multiplier":1,
+        },
         "minecraft:attribute_modifiers": [
           {
             "type": "minecraft:attack_speed",

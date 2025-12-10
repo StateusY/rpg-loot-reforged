@@ -89,6 +89,10 @@
                   "animation": "none",
                   "on_consume_effects": []
                 },
+                "minecraft:use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 1
+                },
                 "minecraft:attribute_modifiers": [
                   {
                     "type": "minecraft:attack_speed",
