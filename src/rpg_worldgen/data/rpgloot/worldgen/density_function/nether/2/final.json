@@ -2,8 +2,8 @@
   "type": "minecraft:add",
   "argument1": -0.9,
   "argument2": {
-    "type": "minecraft:abs",
-    "argument": "rpgloot:nether/2/height"
+    "type": "minecraft:mul",
+    "argument1": "rpgloot:nether/2/height",
+    "argument2": -1
   }
 }
-

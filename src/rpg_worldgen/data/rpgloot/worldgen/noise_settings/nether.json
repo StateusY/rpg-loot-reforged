@@ -13,7 +13,7 @@
   "legacy_random_source": false,
   "noise": {
     "height": 384,
-    "min_y": -256,
+    "min_y": 0,
     "size_horizontal": 1,
     "size_vertical": 2
   },
@@ -35,7 +35,7 @@
     "vein_toggle": 0
   },
   "ore_veins_enabled": false,
-  "sea_level": -1024,
+  "sea_level": 16,
   "spawn_target": [],
   "surface_rule": {
     "type": "minecraft:sequence",
