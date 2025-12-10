@@ -126,7 +126,7 @@ for (id in materials) {
 
 	let index = 0;
 	for (equipment in equipments) {
-		let char = String.fromCharCode(equipmentIndex);
+		let char = "\\u" + equipmentIndex.toString(16);
 		dialog = dialog
 			.replaceAll("(ITEM_" + index + ")", char)
 			.replaceAll("(CRAFTING_" + index + ")", craftingIndex);
@@ -151,4 +151,4 @@ for (id in materials) {
 	fs.writeFileSync("./../../data/rpgloot/dialog/crafting/equipment/" + id + ".json", dialog);
 }
 
-fs.writeFileSync("./../../assets/rpgloot/font/generated/equipment.json", JSON.stringify(equipmentFont, null, 2));
+fs.writeFileSync("./../../assets/rpgloot/font/generated/equipment.json", JSON.stringify(equipmentFont, null, 2).replaceAll("\\\\", "\\"));
