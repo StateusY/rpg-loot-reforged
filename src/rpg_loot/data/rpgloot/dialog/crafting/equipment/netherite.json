@@ -18,7 +18,7 @@
   "actions": [
     {
       "label": {
-        "text": "\ue05b",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -46,7 +46,7 @@
     },
     {
       "label": {
-        "text": "\ue05c",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -74,7 +74,7 @@
     },
     {
       "label": {
-        "text": "\ue05d",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -130,7 +130,7 @@
     },
     {
       "label": {
-        "text": "\ue05f",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -158,7 +158,7 @@
     },
     {
       "label": {
-        "text": "\ue060",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -186,7 +186,7 @@
     },
     {
       "label": {
-        "text": "\ue061",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -207,7 +207,7 @@
     },
     {
       "label": {
-        "text": "\ue062",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -228,7 +228,7 @@
     },
     {
       "label": {
-        "text": "\ue063",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },
@@ -249,7 +249,7 @@
     },
     {
       "label": {
-        "text": "\ue064",
+        "text": "",
         "shadow_color": 0,
         "font": "rpgloot:generated/equipment"
       },

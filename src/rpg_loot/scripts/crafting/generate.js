@@ -126,7 +126,7 @@ for (id in materials) {
 
 	let index = 0;
 	for (equipment in equipments) {
-		let char = "\\u" + equipmentIndex.toString(16);
+		let char = String.fromCharCode(equipmentIndex);
 		dialog = dialog
 			.replaceAll("(ITEM_" + index + ")", char)
 			.replaceAll("(CRAFTING_" + index + ")", craftingIndex);
