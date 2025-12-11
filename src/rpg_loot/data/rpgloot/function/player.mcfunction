@@ -15,6 +15,7 @@ execute if entity @s[tag=rpgloot.titanium_ran] run tag @s remove rpgloot.titaniu
 execute if entity @s[tag=rpgloot.magnite_ran] run tag @s remove rpgloot.magnite_ran
 execute if score @s rpgloot.parry_timer matches 1.. run scoreboard players remove @s rpgloot.parry_timer 1
 execute if score @s rpgloot.twinstep_cooldown matches 1.. run scoreboard players remove @s rpgloot.twinstep_cooldown 1
+execute if score @s rpgloot.silver_frostbite matches 1.. run scoreboard players operation @s rpgloot.silver_frostbite -= @s rpgloot.silver_frostbite_decay
 # Stations
 execute if score @s rpgloot.interact_with_smithing_table matches 1.. run function rpgloot:station/crafter/interact
 

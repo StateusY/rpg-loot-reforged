@@ -1,16 +1,3 @@
-import json
-import shutil
-from pathlib import Path
-
-# Base output folder relative to script location
-LOG_FILE = Path(__file__).parent / "log.txt"
-
-def log_debug(msg):
-    with open(LOG_FILE, "a") as f:
-        f.write(msg + "\n")
-
-BASE_DIR = Path(__file__).parent
-OUTPUT_DIR = BASE_DIR / "basic"
 
 materials = [
     {
@@ -26,15 +13,15 @@ materials = [
         "bow_events": '[{"name": "wood_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/wood/bow/impact"}]',
     },
     {
-    "name": "Leather",
-    "translate": "rpgloot.material.leather",
-    "type": "armor_only",
-    "hp_value": 2,
-    "armor_value": 1,
-    "durability": 64,
-    "armor_events": '[]',
-    "extra_components": {
-        "minecraft:dyed_color": -6265536
+        "name": "Leather",
+        "translate": "rpgloot.material.leather",
+        "type": "armor_only",
+        "hp_value": 2,
+        "armor_value": 1,
+        "durability": 64,
+        "armor_events": '[]',
+        "extra_components": {
+            "minecraft:dyed_color": -6265536
     }
     },
     {
@@ -92,6 +79,7 @@ materials = [
         "name": "Silver",
         "translate": "rpgloot.material.silver",
         "type": "both",
+        "attack_speed": 1.15,
         "damage_value": 14,
         "bow_value": 6,
         "tool_speed": 4,
@@ -99,9 +87,20 @@ materials = [
         "armor_value": 5,
         "durability": 768,
         "bow": '{draw:30,velocity:12,inaccuracy:1}',
-        "weapon_events": '[]',
+        "components_sword":{
+            "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "id": "silver_spear",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+        },
+        "weapon_events": '[{"name": "silver_sword", "source": "weapon", "listen": "hit", "command": "function rpgloot:items/basic/silver/sword/hit"},{"name": "silver_sword_use", "source": "weapon", "listen": "use", "command": "function rpgloot:items/basic/silver/sword/use"}]',
         "bow_events": '[{"name": "silver_bow", "source": "weapon", "listen": "bow_impact", "command": "function rpgloot:items/basic/silver/bow/impact"},{"name": "silver_bow", "source": "weapon", "listen": "bow_hit", "command": "function rpgloot:items/basic/silver/bow/hit"}]',
-        "armor_events": '[]'
+        "armor_events": '[{"name": "silver_armor", "source": "armor", "listen": "hit", "command": "function rpgloot:items/basic/silver/armor/hit"}]'
     },
     {
         "name": "Diamond",
@@ -123,6 +122,7 @@ materials = [
         "translate": "rpgloot.material.titanium",
         "type": "both",
         "damage_value": 22,
+        "attack_speed":1.6,
         "bow_value": 10,
         "tool_speed": 6,
         "hp_value":11,
@@ -243,6 +243,20 @@ materials = [
     }
 ]
 
+
+import json
+import shutil
+from pathlib import Path
+
+# Base output folder relative to script location
+LOG_FILE = Path(__file__).parent / "log.txt"
+
+def log_debug(msg):
+    with open(LOG_FILE, "a") as f:
+        f.write(msg + "\n")
+
+BASE_DIR = Path(__file__).parent
+OUTPUT_DIR = BASE_DIR / "basic"
 
 # === RARITIES ===
 rarity_base = {
@@ -374,6 +388,7 @@ def generate_loot_table(material, rarity, item_type):
 # === ITEM GENERATORS ===
 def generate_sword(material, rarity, item_type):
     base = material.get("damage_value", 0)
+    speed = material.get("attack_speed",1.6)
     mult = rarity_multiplier(base, rarity, "damage")
     damage = base * mult
     durability = int(material.get("durability", 1) * mult)
@@ -405,7 +420,7 @@ def generate_sword(material, rarity, item_type):
           {
             "type": "minecraft:attack_speed",
             "id": "default",
-            "amount": -2.4,
+            "amount": (speed - 4),
             "operation": "add_value",
             "slot": "any"
           }
@@ -562,6 +577,25 @@ def generate_armor(material, rarity, item_type):
     return create_loot_entry(material, rarity, color, item_type, tag_string, enchants, durability, extra_components)
 
 
+# === DEEP MERGE FOR COMPONENT DICTIONARIES (RESTORED) ===
+def merge_components(base, override):
+	for key, value in override.items():
+
+		# deep-merge dicts
+		if key in base and isinstance(base[key], dict) and isinstance(value, dict):
+			merge_components(base[key], value)
+
+		# append lists instead of overwriting
+		elif key in base and isinstance(base[key], list) and isinstance(value, list):
+			base[key].extend(value)
+
+		# primitive or new key → overwrite
+		else:
+			base[key] = value
+
+	return base
+
+
 # === LOOT ENTRY CREATION ===
 def create_loot_entry(material, rarity, color, item_type, tag_string, enchantment_type, durability, extra_components=None):
     item_name = get_vanilla_placeholder(material["name"], item_type)
@@ -606,12 +640,19 @@ def create_loot_entry(material, rarity, color, item_type, tag_string, enchantmen
         model_path = f"rpgloot:armor/{material['name'].lower()}_{item_type}"
     components["minecraft:item_model"] = model_path
 
-    # Merge extra components
-        # Merge extra components from the generator (e.g., equippable/tool) and material definition
+    # === MERGE: MATERIAL GLOBAL EXTRA COMPONENTS ===
     if "extra_components" in material:
-        components.update(material["extra_components"])
+        merge_components(components, material["extra_components"])
+
+    # === MERGE: EXTRA COMPONENTS FROM ITEM GENERATOR ===
     if extra_components:
-        components.update(extra_components)
+        merge_components(components, extra_components)
+
+    # === MERGE: PER-ITEM-TYPE COMPONENT OVERRIDES (e.g., components_sword) ===
+    type_key = f"components_{item_type}"
+    if type_key in material:
+        merge_components(components, material[type_key])
+
 
 
     # --- Enchantments ---

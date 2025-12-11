@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[],id:uncommon_silver_leggings,attributes:[{\"id\": \"armor\", \"name\": \"silver_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 5}, {\"id\": \"max_hp\", \"name\": \"silver_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 14}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:uncommon,rpgloot_type:armor,events:[{\"name\": \"silver_armor\", \"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/silver/armor/hit\"}],id:uncommon_silver_leggings,attributes:[{\"id\": \"armor\", \"name\": \"silver_leggings_armor\", \"source\": \"legs\", \"type\": \"add\", \"value\": 5}, {\"id\": \"max_hp\", \"name\": \"silver_leggings_hp\", \"source\": \"legs\", \"type\": \"add\", \"value\": 14}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

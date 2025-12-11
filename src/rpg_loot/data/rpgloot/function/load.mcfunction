@@ -41,6 +41,9 @@ scoreboard objectives add rpgloot.titanium_timer dummy
 scoreboard objectives add rpgloot.titanium_charge dummy
 scoreboard objectives add rpgloot.titanium_bow dummy
 
+scoreboard objectives add rpgloot.silver_frostbite dummy
+scoreboard objectives add rpgloot.silver_frostbite_decay dummy
+scoreboard objectives add rpgloot.silver_max_frostbite dummy
 # Parts
 scoreboard objectives add rpgloot.venom_dmg dummy
 scoreboard objectives add rpgloot.venom_dur dummy

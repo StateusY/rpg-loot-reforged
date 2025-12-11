@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[],id:common_silver_helmet,attributes:[{\"id\": \"armor\", \"name\": \"silver_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 5}, {\"id\": \"max_hp\", \"name\": \"silver_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 7}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:common,rpgloot_type:armor,events:[{\"name\": \"silver_armor\", \"source\": \"armor\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/silver/armor/hit\"}],id:common_silver_helmet,attributes:[{\"id\": \"armor\", \"name\": \"silver_helmet_armor\", \"source\": \"head\", \"type\": \"add\", \"value\": 5}, {\"id\": \"max_hp\", \"name\": \"silver_helmet_hp\", \"source\": \"head\", \"type\": \"add\", \"value\": 7}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",

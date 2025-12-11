@@ -53,7 +53,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:sword,events:[],attributes:[{id:physical_dmg,name:silver_sword,source:weapon,type:add,value:42}],rpgloot_modified:false}"
+              "tag": "{rpgc:true,rpgloot_tier:rare,rpgloot_type:sword,events:[{\"name\": \"silver_sword\", \"source\": \"weapon\", \"listen\": \"hit\", \"command\": \"function rpgloot:items/basic/silver/sword/hit\"},{\"name\": \"silver_sword_use\", \"source\": \"weapon\", \"listen\": \"use\", \"command\": \"function rpgloot:items/basic/silver/sword/use\"}],attributes:[{id:physical_dmg,name:silver_sword,source:weapon,type:add,value:42}],rpgloot_modified:false}"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -97,9 +97,16 @@
                   {
                     "type": "minecraft:attack_speed",
                     "id": "default",
-                    "amount": -2.4,
+                    "amount": -2.85,
                     "operation": "add_value",
                     "slot": "any"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "id": "silver_spear",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
                   }
                 ]
               }
