@@ -1,4 +1,3 @@
-
 execute unless function rpgc:z_core/require_entity run return fail
 
 $function rpgc:z_api/info {message:"Removed modifiers from $(source)"}
