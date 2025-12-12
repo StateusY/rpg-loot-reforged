@@ -109,9 +109,8 @@ itemFont.providers.forEach((provider) => {
 	}
 });
 
-// DECREMENT BOTH OF THESE BY ONE LATER!!!
-let craftingIndex = 1001;
-let equipmentIndex = 57345;
+let craftingIndex = 1000;
+let equipmentIndex = 57344;
 
 for (id in materials) {
 	let material = materials[id];

@@ -1,3 +1,7 @@
+execute store result storage rpgc:temp numbers.int int 1 run data get storage rpgc:temp numbers.value
+execute store result score fract rpgc.temp run data get storage rpgc:temp numbers.value 100
+scoreboard players operation fract rpgc.temp %= #100 constant
+execute store result storage rpgc:temp numbers.fract int 1 run scoreboard players get fract rpgc.temp
 
 execute store result storage rpgc:temp numbers.x double 0.01 run random value -20..20
 execute store result storage rpgc:temp numbers.y double 0.01 run random value 10..20

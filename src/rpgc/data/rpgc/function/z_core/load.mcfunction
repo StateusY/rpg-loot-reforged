@@ -113,5 +113,3 @@ function #rpgc:register
 function rpgc:z_core/1second
 function rpgc:z_core/5tick
 execute unless data storage rpgc:config init run function rpgc:z_core/misc/config/init
-
-give @s poisonous_potato[use_effects={can_sprint:true,speed_multiplier:1}]
