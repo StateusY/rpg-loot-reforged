@@ -2,8 +2,6 @@
 tellraw @a [{"text": "0 ","color": "white","font": "rpgloot:icon","italic": false},{"translate":"rpgloot.tooltip","font":"rpgloot:tooltip","color":"white","italic":false},{text:" ","font":"minecraft:default"},{"translate":rpgloot.loaded,"font":"minecraft:default"}]
 
 
-
-function rpgloot:damages
 scoreboard objectives add rpgloot.temp dummy
 scoreboard objectives add rpgloot.died deathCount
 
@@ -44,6 +42,8 @@ scoreboard objectives add rpgloot.titanium_bow dummy
 scoreboard objectives add rpgloot.silver_frostbite dummy
 scoreboard objectives add rpgloot.silver_frostbite_decay dummy
 scoreboard objectives add rpgloot.silver_max_frostbite dummy
+scoreboard objectives add rpgloot.silver_spike_casting dummy
+scoreboard objectives add rpgloot.silver_spike_amount dummy
 # Parts
 scoreboard objectives add rpgloot.venom_dmg dummy
 scoreboard objectives add rpgloot.venom_dur dummy

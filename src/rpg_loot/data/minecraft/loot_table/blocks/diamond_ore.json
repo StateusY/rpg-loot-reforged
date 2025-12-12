@@ -6,12 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
+          "name": "minecraft:stone_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "!minecraft:consumable": {},
+                "!minecraft:tool":{},
                 "minecraft:item_model": "rpgloot:materials/raw_silver"
               }
             },

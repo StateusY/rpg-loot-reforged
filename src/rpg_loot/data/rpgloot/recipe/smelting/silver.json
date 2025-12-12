@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "minecraft:stone_pickaxe",
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "minecraft:item_model": "rpgloot:materials/silver_ingot",
+            "minecraft:lore": [
+                {
+                    "color": "white",
+                    "extra": [
+                        {
+                            "color": "white",
+                            "italic": false,
+                            "translate": "rpgloot.tooltip",
+                            "font": "rpgloot:tooltip"
+                        }
+                    ],
+                    "text": "0 ",
+                    "italic": false,
+                    "font": "rpgloot:icon"
+                }
+            ],
+            "!minecraft:consumable": {},
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                ]
+            },
+            "minecraft:custom_name": {
+                "text": "Silver Ingot",
+                "italic": false
+            },
+            "minecraft:custom_data": {
+                "rpgloot": {
+                    "ingredient": {
+                        "type": "silver_ingot"
+                    }
+                },
+                "smithed": {
+                    "ignore": {
+                        "crafting": true,
+                        "functionality": true
+                    }
+                },
+                "rpgc": true
+            },
+            "minecraft:tooltip_style": "rpgloot:rpgloot"
+        }
+    }
+}

@@ -10,6 +10,5 @@ function rpgc:z_core/attribute/apply_modifiers
 function rpgc:z_core/attribute/cleanup_modifier
 
 function rpgc:z_core/attribute/cleanup_temp
-
 $function rpgc:z_core/attribute/on_update with storage rpgc:registry attribute.$(id)
 

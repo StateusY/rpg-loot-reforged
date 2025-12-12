@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~$(y) ~$(z) facing entity @s eyes positioned ^ ^ ^-2 run particle snowflake ~ ~ ~ ^ ^ ^3000000 0.0000001 0

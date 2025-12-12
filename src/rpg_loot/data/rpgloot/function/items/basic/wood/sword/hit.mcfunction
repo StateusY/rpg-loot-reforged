@@ -7,5 +7,5 @@ scoreboard players operation .splinter_dmg rpgloot.temp *= .splinter_mult rpgloo
 #tellraw @a {"score":{"name":".splinter_dmg","objective":"rpgloot.temp"}}
 scoreboard players operation .splinter_dmg rpgloot.temp /= #100 constant
 #tellraw @a {"score":{"name":".splinter_dmg","objective":"rpgloot.temp"}}
-scoreboard players operation .splinter_dmg rpgloot.temp *= #5 constant
+scoreboard players operation .splinter_dmg rpgloot.temp *= #10 constant
 execute as @e[type=#rpgc:all,tag=rpgc.current_victim] run function rpgloot:items/basic/wood/apply_splinter

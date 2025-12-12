@@ -1,6 +1,6 @@
 tag @s add rpgloot.titanium_slash_current
-execute store result storage rpgloot:temp titanium.damage double 0.0005 run function rpgc:z_api/fetch_damage/get
-
+execute store result storage rpgloot:temp titanium.damage double 0.0015 run function rpgc:z_api/fetch_damage/get
+playsound minecraft:item.trident.riptide_2 player @a ~ ~ ~ 0.25 2
 execute store result storage rpgloot:temp titanium.speed double 0.1 run attribute @s movement_speed get 120
 execute store result storage rpgloot:temp titanium.hitbox double 0.1 run attribute @s movement_speed get 200
 execute store result storage rpgloot:temp titanium.x double 0.1 run random value -10..10

@@ -91,6 +91,7 @@ scoreboard players set #10 constant 10
 scoreboard players set #20 constant 20
 scoreboard players set #25 constant 25
 scoreboard players set #30 constant 30
+scoreboard players set #50 constant 50
 scoreboard players set #75 constant 75
 scoreboard players set #90 constant 90
 scoreboard players set #99 constant 99

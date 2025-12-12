@@ -1,0 +1,1 @@
+function rpgloot:items/basic/silver/sword/move with entity @s data

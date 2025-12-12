@@ -1,8 +1,6 @@
 {
   "values": [
-    "#load:_private/load",
-    "rpgloot:load",
-    "rpgloot:tick_2"
+    "#load:_private/load"
   ]
 }
 

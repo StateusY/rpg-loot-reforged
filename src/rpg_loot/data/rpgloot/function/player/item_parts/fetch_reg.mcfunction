@@ -1,5 +1,5 @@
 scoreboard players reset .dupe
-say rolled
+
 $function rpgc:z_core/registry/list/get {registry:"part",entry:"$(rpgloot_tier)_$(rpgloot_type)"}
 
 data modify storage rpgloot:temp dupe.name set from storage rpgc:registry temp.result.name
