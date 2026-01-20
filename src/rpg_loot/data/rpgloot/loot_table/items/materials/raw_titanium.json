@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
+          "name": "minecraft:golden_axe",
           "functions": [
             {
               "function": "minecraft:set_components",

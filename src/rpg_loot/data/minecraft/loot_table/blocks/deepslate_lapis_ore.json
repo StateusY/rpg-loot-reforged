@@ -6,29 +6,31 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
+          "name": "minecraft:golden_shovel",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_model": "rpgloot:materials/raw_cobalt",
+                "!minecraft:max_damage": {},
                 "!minecraft:consumable": {},
-                "minecraft:item_model": "minecraft:netherite_scrap"
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Magnite Clump",
-                "color": "#454545",
-                "italic": false
+                "!minecraft:tool":{}
               }
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "rpgloot": {
-                  "material": "magnite_clump"
+                  "material": "raw_cobalt"
                 }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Raw Cobalt",
+                "italic": false
               }
             }
           ]

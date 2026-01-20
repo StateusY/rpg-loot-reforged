@@ -4,7 +4,7 @@
   "result": {
     "id": "minecraft:poisonous_potato",
     "components": {
-      "minecraft:item_model": "rpgloot:materials/silver_ingot",
+      "minecraft:item_model": "rpgloot:materials/cobalt_ingot",
       "minecraft:lore": [
         {
           "color": "white",
@@ -28,13 +28,13 @@
         ]
       },
       "minecraft:custom_name": {
-        "text": "Silver Ingot",
+        "text": "Cobalt Ingot",
         "italic": false
       },
       "minecraft:custom_data": {
         "rpgloot": {
           "ingredient": {
-            "type": "silver_ingot"
+            "type": "cobalt_ingot"
           }
         },
         "smithed": {

@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": "minecraft:golden_pickaxe",
+  "ingredient": "minecraft:golden_axe",
   "result": {
     "id": "minecraft:poisonous_potato",
     "components": {
-      "minecraft:item_model": "rpgloot:materials/silver_ingot",
+      "minecraft:item_model": "rpgloot:materials/titanium_ingot",
       "minecraft:lore": [
         {
           "color": "white",
@@ -28,13 +28,13 @@
         ]
       },
       "minecraft:custom_name": {
-        "text": "Silver Ingot",
+        "text": "Titanium Ingot",
         "italic": false
       },
       "minecraft:custom_data": {
         "rpgloot": {
           "ingredient": {
-            "type": "silver_ingot"
+            "type": "titanium_ingot"
           }
         },
         "smithed": {
@@ -48,5 +48,5 @@
       "minecraft:tooltip_style": "rpgloot:rpgloot"
     }
   },
-  "cookingtime": 250
+  "cookingtime": 400
 }

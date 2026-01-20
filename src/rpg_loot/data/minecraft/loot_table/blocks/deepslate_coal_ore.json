@@ -2,51 +2,40 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "functions": [
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ],
-              "name": "minecraft:diamond_ore"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_model": "rpgloot:materials/raw_magnite",
+                "!minecraft:max_damage": {},
+                "!minecraft:consumable": {},
+                "!minecraft:tool":{}
+              }
             },
             {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops",
-                  "function": "minecraft:apply_bonus"
-                },
-                {
-                  "function": "minecraft:explosion_decay"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "rpgloot": {
+                  "material": "raw_magnite"
                 }
-              ],
-              "name": "minecraft:diamond"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Raw Magnite",
+                "italic": false
+              }
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/diamond_ore"
+  ]
 }
