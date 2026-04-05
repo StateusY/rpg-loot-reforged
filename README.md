@@ -1,5 +1,8 @@
 # rpg-loot-reforged
 
+## HEY! THESENATE WAS SO KIND AS TO MANUALLY UPDATE THE OLD PACK - IF YOU WANT TO USE THAT, JOIN THE [RPGLOOT DISCORD](discord.gg/VUcDYj3UGv) AND THE FILE WILL BE THERE!
+
+
 ## IMPORTANT: THE DATAPACK IS CURRENTLY UNDERGOING ANOTHER REWRITE (*again lol*) - THIS IS CURRENTLY ONLY FOR 1.21.10+
 
 In essence, RPG Loot Reforged is a rework of Michael9r9r's rpgloot datapack. It is incompatable with most datapacks as it changes world gen, combat, and much more.
